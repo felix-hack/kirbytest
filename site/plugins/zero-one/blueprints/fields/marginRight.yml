@@ -1,0 +1,10 @@
+label: zero.fields.marginRight
+type: select
+placeholder: "{{ t('zero.reusables.none') }}"
+options:
+  " uk-margin-right": "{{ t('zero.fields.marginRight.right') }}"
+  " uk-margin-small-right": "{{ t('zero.fields.marginRight.small.right') }}"
+  " uk-margin-medium-right": "{{ t('zero.fields.marginRight.medium.right') }}"
+  " uk-margin-large-right": "{{ t('zero.fields.marginRight.large.right') }}"
+  " uk-margin-xlarge-right": "{{ t('zero.fields.marginRight.xlarge.right') }}"
+width: 1/3

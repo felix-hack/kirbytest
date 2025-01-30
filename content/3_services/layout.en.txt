@@ -1,0 +1,236 @@
+Title: Services
+
+----
+
+Layout: [{"attrs":{"gridwidth":"uk-container","tabletwidth":"","mobilewidth":"","columnsverticalalign":"","columnshorizontalalign":"","containerexpand":"","columngap":"","columnsdivider":"false","gridmasonry":"false","gridparallax":"false","sectiontoggle":"true","sectionsize":" uk-section-large","sectioncolor":" uk-section-primary","sectionremovepadding":"","backgroundstyle":"color","backgroundimage":[],"mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","sectiontextcolor":" uk-light","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","backgroundparalax":"","shapedividertoggle":"false","shapedivider":"","shapedividerposition":"","shapedividercolor":"#ffffff","customshapedivider":"","shapedividerheight":"150px","preservecolor":"false","sectionclass":"","sectionid":"","hidden":"","visible":"","animationswitch":"true","animationtype":"uk-animation-slide-bottom-small","animationdelay":""},"columns":[{"blocks":[{"content":{"level":"h2","text":"We are on a mission to help small businesses <br>succeed big time.","headingsize":"","headingstyle":"","headingcolor":"","textalign":" uk-text-center@m","textaligntablet":" uk-text-center@s","textalignmobile":" uk-text-center","texttransform":"","textwrapping":""},"id":"79bc31e1-7987-4f4c-bd63-7c41a0229c0c","isHidden":false,"type":"heading"}],"id":"4eb63d6d-0e66-4214-902f-ebf69f0adaa8","width":"1/1"}],"id":"7e645c90-a353-4415-b6bf-1f15cd65c592"},{"attrs":{"gridwidth":"uk-container","tabletwidth":"uk-width-1-2@s ","mobilewidth":"","columnsverticalalign":" uk-flex-middle","columnshorizontalalign":"","containerexpand":"","columngap":" uk-grid-large","columnsdivider":"false","gridmasonry":"false","gridparallax":"false","sectiontoggle":"true","sectionsize":" uk-section-large","sectioncolor":" uk-section-default","sectionremovepadding":"","backgroundstyle":"color","backgroundimage":[],"mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","sectiontextcolor":" uk-light","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","backgroundparalax":"","shapedividertoggle":"false","shapedivider":"","shapedividerposition":"","shapedividercolor":"#ffffff","customshapedivider":"","shapedividerheight":"150px","preservecolor":"false","sectionclass":"","sectionid":"","hidden":"","visible":"","animationswitch":"false","animationtype":"","animationdelay":""},"columns":[{"blocks":[{"content":{"columnwidth":"","tabletwidth":"","mobilewidth":"","columnheight":"","columnminheight":"","columnmaxheight":"","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","columnstyle":"none","columncardsize":"","columncardhover":"false","columncardcolor":" uk-card-default","columntile":"","columnbackground":"","columntextcolor":" uk-light","backgroundstyle":"color","backgroundimage":[],"backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","backgroundparalax":"","mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","columnpadding":"","itemfirst":"","itemlast":"","borderrounded":"false","columnshadow":"","columnclass":"","columnid":"","hidden":"","visible":"","animationswitch":"true","animationtype":"uk-animation-slide-bottom-small","animationdelay":""},"id":"cc89e1ba-e92b-4888-a002-f2232135b099","isHidden":false,"type":"z-column"},{"content":{"level":"h2","text":"Business Transformation","headingsize":" uk-h1","headingstyle":"uk-heading-bullet","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"8faf4e28-1819-4d86-ac19-6f47605a1294","isHidden":false,"type":"heading"},{"content":{"text":"<p>Geeza arse it’s your round grub sloshed burke, my good sir chancer he legged it he lost his bottle pear shaped bugger all mate.</p><p>Cras chinwag brown bread Eaton cracking goal so I said a load of old tosh baking cakes, geeza arse it’s your round grub sloshed burke, my good sir chancer he legged it he lost his bottle pear shaped bugger all mate.</p><h3>Consulting &amp; Reports</h3><p>What does work, however, is the ability to present the company as being professional.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"fc304d37-0ca7-496f-ba2c-45e3ee6fe439","isHidden":false,"type":"text"},{"content":{"text":"<ul><li>Brainstorming</li><li>Project Planning</li><li>Competitors Analysis</li></ul>","liststyle":" uk-list-hyphen","listcolor":"","listsize":" uk-list-collapse","listdivider":"","column":""},"id":"6d2db749-7ae1-4787-8078-71eb2129c44e","isHidden":false,"type":"list"},{"content":{"text":"Learn more","buttonicon":"","linktype":"internal","link":"","internalpage":["page://lTNMGAqqkq23L87k"],"anchor":"","filelink":[],"emaillink":"","phonelink":"","target":"false","buttonstyle":" uk-button-primary","buttonsize":"","margintop":" uk-margin-top"},"id":"9bc3170c-cc68-4bac-b8e1-9ea3e64944ab","isHidden":false,"type":"button"}],"id":"e96e6248-dc1e-40a9-98d2-cabbf9eed6c3","width":"1/2"},{"blocks":[{"content":{"columnwidth":"","tabletwidth":"","mobilewidth":"","columnheight":"","columnminheight":"","columnmaxheight":"","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","columnstyle":"none","columncardsize":"","columncardhover":"false","columncardcolor":" uk-card-default","columntile":"","columnbackground":"","columntextcolor":" uk-light","backgroundstyle":"color","backgroundimage":[],"backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","backgroundparalax":"","mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","columnpadding":"","itemfirst":"","itemlast":"","borderrounded":"false","columnshadow":"","columnclass":"","columnid":"","hidden":"","visible":"","animationswitch":"true","animationtype":"uk-animation-scale-down","animationdelay":400},"id":"d810b235-7836-4d10-88f9-97156f951256","isHidden":false,"type":"z-column"},{"content":{"location":"kirby","image":["file://ACu2PC3MP8H58o3l"],"src":"","ratio":"","alt":"Business transformation","resizewidth":"","caption":"","captionclass":"false","width":"","widthmobile":"","align":"","float":"","borderradius":"","shadow":"","linkoption":"","link":"","newtab":"false"},"id":"a8e9fbbb-8dd5-4e2c-b830-51628a583915","isHidden":false,"type":"image"}],"id":"003548df-1fc7-4a8d-87a4-98e312b5cefc","width":"1/2"}],"id":"3ac70b38-8439-4acb-acdf-fe0f2044c941"},{"attrs":{"gridwidth":"uk-container","tabletwidth":"uk-width-1-2@s ","mobilewidth":"","columnsverticalalign":" uk-flex-middle","columnshorizontalalign":"","containerexpand":"","columngap":" uk-grid-large","columnsdivider":"false","gridmasonry":"false","gridparallax":"false","sectiontoggle":"true","sectionsize":" uk-section-large","sectioncolor":" uk-section-default","sectionremovepadding":" uk-padding-remove-top","backgroundstyle":"color","backgroundimage":[],"mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","sectiontextcolor":" uk-light","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","backgroundparalax":"","shapedividertoggle":"false","shapedivider":"","shapedividerposition":"","shapedividercolor":"#ffffff","customshapedivider":"","shapedividerheight":"150px","preservecolor":"false","sectionclass":"","sectionid":"","hidden":"","visible":"","animationswitch":"false","animationtype":"","animationdelay":""},"columns":[{"blocks":[{"content":{"columnwidth":"","tabletwidth":"","mobilewidth":"","columnheight":"","columnminheight":"","columnmaxheight":"","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","columnstyle":"none","columncardsize":"","columncardhover":"false","columncardcolor":" uk-card-default","columntile":"","columnbackground":"","columntextcolor":" uk-light","backgroundstyle":"color","backgroundimage":[],"backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","backgroundparalax":"","mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","columnpadding":"","itemfirst":"","itemlast":"","borderrounded":"false","columnshadow":"","columnclass":"","columnid":"","hidden":"","visible":"","animationswitch":"true","animationtype":"uk-animation-slide-bottom-small","animationdelay":""},"id":"6f06382e-2cb2-4d29-bbd6-7fbbef7f684d","isHidden":false,"type":"z-column"},{"content":{"level":"h2","text":"Learning Innovation","headingsize":" uk-h1","headingstyle":"uk-heading-bullet","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"62cefe65-6bd5-4620-a642-6771bf59f140","isHidden":false,"type":"heading"},{"content":{"text":"<p>Geeza arse it’s your round grub sloshed burke, my good sir chancer he legged it he lost his bottle pear shaped bugger all mate.</p><p>Cras chinwag brown bread Eaton cracking goal so I said a load of old tosh baking cakes, geeza arse it’s your round grub sloshed burke, my good sir chancer he legged it he lost his bottle pear shaped bugger all mate.</p><h3>Estimated Time</h3><p>What does work, however, is the ability to present the company as being professional.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"3cc65918-ed96-4a67-bfe7-9b579ade9619","isHidden":false,"type":"text"},{"content":{"text":"<ul><li>Brainstorming</li><li>Project Planning</li><li>Competitors Analysis</li></ul>","liststyle":" uk-list-hyphen","listcolor":"","listsize":" uk-list-collapse","listdivider":"","column":""},"id":"0e8075f0-ffc3-4aaf-a410-10e86504b2c0","isHidden":false,"type":"list"},{"content":{"text":"Learn more","buttonicon":"","linktype":"internal","link":"","internalpage":["page://mvZf9w2nARdmBxoo"],"anchor":"","filelink":[],"emaillink":"","phonelink":"","target":"false","buttonstyle":" uk-button-secondary","buttonsize":"","margintop":" uk-margin-top"},"id":"0b467d69-a47c-4747-ba5b-322a985b93b8","isHidden":false,"type":"button"}],"id":"0224da53-ce69-4484-a3fd-e95a28dd13bd","width":"1/2"},{"blocks":[{"content":{"columnwidth":"","tabletwidth":"","mobilewidth":"","columnheight":"","columnminheight":"","columnmaxheight":"","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","columnstyle":"none","columncardsize":"","columncardhover":"false","columncardcolor":" uk-card-default","columntile":"","columnbackground":"","columntextcolor":" uk-light","backgroundstyle":"color","backgroundimage":[],"backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","backgroundparalax":"","mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","columnpadding":"","itemfirst":" uk-flex-first@s","itemlast":"","borderrounded":"false","columnshadow":"","columnclass":"","columnid":"","hidden":"","visible":"","animationswitch":"true","animationtype":"uk-animation-scale-down","animationdelay":400},"id":"17b4ee85-f642-4c2e-9ef7-16acbf31ad18","isHidden":false,"type":"z-column"},{"content":{"location":"kirby","image":["file://rRVLvOmGTP2vZ8sU"],"src":"","ratio":"","alt":"Learning Innovation","resizewidth":"","caption":"","captionclass":"false","width":"","widthmobile":"","align":"","float":"","borderradius":"","shadow":"","linkoption":"","link":"","newtab":"false"},"id":"00037e23-9cc8-4290-9f5b-db91bf6ea634","isHidden":false,"type":"image"}],"id":"b08d68df-deca-4e47-9052-de2c7fa70726","width":"1/2"}],"id":"b051bd9e-43dc-487f-b3d9-5eed09e2ec2e"},{"attrs":{"gridwidth":"uk-container","tabletwidth":"uk-width-1-2@s ","mobilewidth":"","columnsverticalalign":" uk-flex-middle","columnshorizontalalign":"","containerexpand":"","columngap":" uk-grid-large","columnsdivider":"false","gridmasonry":"false","gridparallax":"false","sectiontoggle":"true","sectionsize":" uk-section-large","sectioncolor":" uk-section-default","sectionremovepadding":" uk-padding-remove-top","backgroundstyle":"color","backgroundimage":[],"mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","sectiontextcolor":" uk-light","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","backgroundparalax":"","shapedividertoggle":"false","shapedivider":"","shapedividerposition":"","shapedividercolor":"#ffffff","customshapedivider":"","shapedividerheight":"150px","preservecolor":"false","sectionclass":"","sectionid":"","hidden":"","visible":"","animationswitch":"false","animationtype":"","animationdelay":""},"columns":[{"blocks":[{"content":{"columnwidth":"","tabletwidth":"","mobilewidth":"","columnheight":"","columnminheight":"","columnmaxheight":"","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","columnstyle":"none","columncardsize":"","columncardhover":"false","columncardcolor":" uk-card-default","columntile":"","columnbackground":"","columntextcolor":" uk-light","backgroundstyle":"color","backgroundimage":[],"backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","backgroundparalax":"","mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","columnpadding":"","itemfirst":"","itemlast":"","borderrounded":"false","columnshadow":"","columnclass":"","columnid":"","hidden":"","visible":"","animationswitch":"true","animationtype":"uk-animation-slide-bottom-small","animationdelay":""},"id":"11a88277-70fa-4333-bdf6-68a1ff1daa85","isHidden":false,"type":"z-column"},{"content":{"level":"h2","text":"Digital Experience","headingsize":" uk-h1","headingstyle":"uk-heading-bullet","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"a6851dfc-6acc-4109-b77f-bbaf6d3ee2a0","isHidden":false,"type":"heading"},{"content":{"text":"<p>Geeza arse it’s your round grub sloshed burke, my good sir chancer he legged it he lost his bottle pear shaped bugger all mate.</p><p>Cras chinwag brown bread Eaton cracking goal so I said a load of old tosh baking cakes, geeza arse it’s your round grub sloshed burke, my good sir chancer he legged it he lost his bottle pear shaped bugger all mate.</p><h3>Get Requirement</h3><p>What does work, however, is the ability to present the company as being professional.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"26ef739a-4c4a-45bb-a764-1a6a1700c593","isHidden":false,"type":"text"},{"content":{"text":"<ul><li>Brainstorming</li><li>Project Planning</li><li>Competitors Analysis</li></ul>","liststyle":" uk-list-hyphen","listcolor":"","listsize":" uk-list-collapse","listdivider":"","column":""},"id":"ed3ad4ac-743a-41a8-97a1-444588349758","isHidden":false,"type":"list"},{"content":{"text":"Learn more","buttonicon":"","linktype":"internal","link":"","internalpage":["page://d7fM58QJSpuyVFLT"],"anchor":"","filelink":[],"emaillink":"","phonelink":"","target":"false","buttonstyle":" uk-button-primary","buttonsize":"","margintop":" uk-margin-top"},"id":"6ea1c5f5-18de-41f6-ae54-57798d2690ea","isHidden":false,"type":"button"}],"id":"b5a37bb8-ee50-4a1b-8fca-330af4158772","width":"1/2"},{"blocks":[{"content":{"columnwidth":"","tabletwidth":"","mobilewidth":"","columnheight":"","columnminheight":"","columnmaxheight":"","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","columnstyle":"none","columncardsize":"","columncardhover":"false","columncardcolor":" uk-card-default","columntile":"","columnbackground":"","columntextcolor":" uk-light","backgroundstyle":"color","backgroundimage":[],"backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","backgroundparalax":"","mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","columnpadding":"","itemfirst":"","itemlast":"","borderrounded":"false","columnshadow":"","columnclass":"","columnid":"","hidden":"","visible":"","animationswitch":"true","animationtype":"uk-animation-scale-down","animationdelay":400},"id":"a6eca6f8-ec3d-49ce-97fa-05fd5216053a","isHidden":false,"type":"z-column"},{"content":{"location":"kirby","image":["file://QGlVkhme48eID3vZ"],"src":"","ratio":"","alt":"Digital Experience","resizewidth":"","caption":"","captionclass":"false","width":"","widthmobile":"","align":"","float":"","borderradius":"","shadow":"","linkoption":"","link":"","newtab":"false"},"id":"f578e0ff-adf9-47b7-8545-e6dae7e71280","isHidden":false,"type":"image"}],"id":"772c353e-9bd6-4942-b1b6-815839f61a85","width":"1/2"}],"id":"7c987690-3415-4966-9805-c4eef7fdaf19"},{"attrs":{"gridwidth":"uk-container","tabletwidth":"","mobilewidth":"","columnsverticalalign":"","columnshorizontalalign":"","containerexpand":"","columngap":"","columnsdivider":"false","gridmasonry":"false","gridparallax":"false","sectiontoggle":"true","sectionsize":" uk-section-large","sectioncolor":" uk-section-primary","sectionremovepadding":"","backgroundstyle":"color","backgroundimage":[],"mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","sectiontextcolor":" uk-light","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","backgroundparalax":"","shapedividertoggle":"false","shapedivider":"","shapedividerposition":"","shapedividercolor":"#ffffff","customshapedivider":"","shapedividerheight":"150px","preservecolor":"false","sectionclass":"","sectionid":"","hidden":"","visible":"","animationswitch":"true","animationtype":"uk-animation-slide-bottom-small","animationdelay":""},"columns":[{"blocks":[{"content":{"columnwidth":"","tabletwidth":"","mobilewidth":"","columnheight":"","columnminheight":"","columnmaxheight":"","textalign":" uk-text-center@m","textaligntablet":" uk-text-center@s","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","columnstyle":"none","columncardsize":"","columncardhover":"false","columncardcolor":" uk-card-default","columntile":"","columnbackground":"","columntextcolor":" uk-light","backgroundstyle":"color","backgroundimage":[],"backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","backgroundparalax":"","mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","columnpadding":"","itemfirst":"","itemlast":"","borderrounded":"false","columnshadow":"","columnclass":"","columnid":"","hidden":"","visible":"","animationswitch":"false","animationtype":"","animationdelay":""},"id":"789f00ec-ac88-4996-87c1-f08150cb94a0","isHidden":false,"type":"z-column"},{"content":{"level":"h3","text":"Get in touch","headingsize":" uk-h4","headingstyle":"","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"04d75a65-ed94-4270-8cff-2911266cc53b","isHidden":false,"type":"heading"},{"content":{"level":"h4","text":"Call Now:","headingsize":" uk-h1","headingstyle":"","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"18c169d7-2ed4-4fc9-bf3f-37c5f53ff693","isHidden":false,"type":"heading"},{"content":{"level":"h5","text":"(1)2345-2345-54","headingsize":" uk-heading-small","headingstyle":"","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"85fbfb70-1901-4b8c-965b-a4ba631c07c7","isHidden":false,"type":"heading"}],"id":"cc08c745-d81f-4268-9dea-aff4b65b2f68","width":"1/1"}],"id":"1dd0cc30-d58c-47f6-b59e-489740ec8cc8"}]
+
+----
+
+Headersection: true
+
+----
+
+Alttitle: Our services
+
+----
+
+Intro:
+
+Never ever think of giving up. 
+Winners never quit and quitters never win. Take all negative words out of your dictionary.
+
+----
+
+Pageheadersize: 
+
+----
+
+Pagetitlesize: 
+
+----
+
+Headerbackgroundtoggle: true
+
+----
+
+Header: - file://aNaLENqyKnh9vzMW
+
+----
+
+Headerimageposition: uk-background-center-center
+
+----
+
+Headerimagesize: uk-background-cover
+
+----
+
+Headerimagerepeat: no-repeat
+
+----
+
+Headertextcolor: uk-light
+
+----
+
+Headeroverlaycolor: rgba(0, 0, 0, 0.3)
+
+----
+
+Backgroundparalax: 
+
+----
+
+Shapedividertoggle: false
+
+----
+
+Shapedivider: 
+
+----
+
+Shapedividerposition: 
+
+----
+
+Shapedividercolor: #ffffff
+
+----
+
+Customshapedivider: 
+
+----
+
+Shapedividerheight: 150px
+
+----
+
+Overridelogo: false
+
+----
+
+Logo: 
+
+----
+
+Logoinverted: 
+
+----
+
+Logomobile: 
+
+----
+
+Logomobileinverted: 
+
+----
+
+Logoheight: 
+
+----
+
+Mobilelogoheight: 
+
+----
+
+Logolinktype: 
+
+----
+
+Link: 
+
+----
+
+Internalpage: 
+
+----
+
+Anchor: 
+
+----
+
+Target: false
+
+----
+
+Hidenavbar: false
+
+----
+
+Disallowsubmenu: false
+
+----
+
+Newtab: false
+
+----
+
+Menuitemicon: 
+
+----
+
+Megamenu: false
+
+----
+
+Megamenuwidth: 
+
+----
+
+Megamenuitemwidth: 
+
+----
+
+Megamenubackground: false
+
+----
+
+Megamenubackgroundimage: 
+
+----
+
+Megamenubackgroundimageposition: uk-background-center-center
+
+----
+
+Megamenubackgroundimagesize: uk-background-cover
+
+----
+
+Megamenubackgroundimagerepeat: no-repeat
+
+----
+
+Megamenubackgroundoverlaycolor: rgba(0,0,0,0.3)
+
+----
+
+Megamenubackgroundgradientoverlay: false
+
+----
+
+Megamenubackgroundgradienttransition: 
+
+----
+
+Megamenubackgroundoverlaycolor2: rgba(0,0,0,0.3)
+
+----
+
+Transparentnavbar: transparent
+
+----
+
+Navbarinverse: true
+
+----
+
+Hidefooter: false
+
+----
+
+Sitemap: true
+
+----
+
+Metafile: - file://aNaLENqyKnh9vzMW
+
+----
+
+Metatitle: 
+
+----
+
+Removesitetitle: false
+
+----
+
+Metadescription: 
+
+----
+
+Customcss: 
+
+----
+
+Uuid: nHbUzFZtETBMG4Dm

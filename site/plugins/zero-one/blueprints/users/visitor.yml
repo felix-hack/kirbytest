@@ -1,0 +1,13 @@
+title: zero.user.visitor
+permissions:
+  access:
+    panel: false
+    site: false
+    update: false
+    system: false
+    languages: false
+  pages:
+    delete: false
+  users: false
+  user:
+    changeRole: false

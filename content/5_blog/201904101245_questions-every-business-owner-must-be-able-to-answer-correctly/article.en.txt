@@ -1,0 +1,49 @@
+Title: Questions every business owner must be able to answer correctly
+
+----
+
+Date: 2019-04-10 12:45:00
+
+----
+
+Author: 
+
+----
+
+Desc: Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once. We have a saboteur aboard. We know you’re dealing in stolen ore.
+
+----
+
+Text: [{"content":{"text":"<p>The game’s not big enough unless it scares you a little. Wait a minute – you’ve been declared dead. You can’t give <strong>orders around</strong> here. I’ll alert the crew. What? We’re not at all alike! Flair is what marks the difference between artistry and mere competence.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"d565cb74-27a7-40b4-9aca-43f3f0f7632d","isHidden":false,"type":"text"},{"content":{"text":"<p>The game’s not big enough unless it scares you a little. Wait a minute – you’ve been declared dead. You can’t give <strong>orders around</strong> here. I’ll alert the crew. What? We’re not at all alike! Flair is what marks the difference between artistry and mere competence.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"830f9117-b78b-4f31-b2b0-f90fa53550bd","isHidden":false,"type":"text"},{"content":{"text":"<p>Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once. We have a saboteur aboard. We know you’re <a href=\"#\" rel=\"noopener noreferrer nofollow\">dealing in stolen</a> ore.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"02c2f47e-1a0f-4045-8069-5f7b39c4fcc6","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://Mjhxe0K4yL0SM6lv"],"src":"","ratio":"","alt":"","resizewidth":"","caption":"","captionclass":"false","width":"","widthmobile":"","align":"","float":"","borderradius":"uk-border-rounded","shadow":" uk-box-shadow-medium","linkoption":"","link":"","newtab":"false"},"id":"80bba04a-ca5a-4046-bda7-11e801dff3b8","isHidden":false,"type":"image"},{"content":{"level":"h3","text":"Lorem Ipsum dolor","headingsize":"","headingstyle":"","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"ddd2f0ac-3da3-4aa7-8da8-314fabaa29fc","isHidden":false,"type":"heading"},{"content":{"text":"<p>The game’s not big enough unless it scares you a little. Wait a minute – you’ve been declared dead. You can’t give <strong>orders around</strong> here. I’ll alert the crew.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"72635321-83c4-470f-9b9a-5913778d7eca","isHidden":false,"type":"text"},{"content":{"text":"<ul><li><strong>Aliquam</strong> erat volutpat eleifend mi</li><li>Lacinia scelerisque lacinia quis</li><li>Consectetuer <em>adipiscing</em> elit et ultrices</li><li>Magnis dis parturient montes</li></ul>","liststyle":"","listcolor":"","listsize":"","listdivider":"","column":""},"id":"cc82abfc-ddfc-47ed-8d58-cda208509024","isHidden":false,"type":"list"},{"content":{"text":"<p>This should be interesting. and attack the Romulans. Your head is not an artifact! When has justice ever been as simple as a rule book?</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"99117ca3-b1ad-4377-870b-33b5bfce4aa6","isHidden":false,"type":"text"}]
+
+----
+
+Cover: - file://Mjhxe0K4yL0SM6lv
+
+----
+
+Transparentnavbar: transparent
+
+----
+
+Navbarinverse: true
+
+----
+
+Related: 
+
+----
+
+Category: direction
+
+----
+
+Tags: goals, strategy
+
+----
+
+Featured: no
+
+----
+
+Uuid: 1OgBiUzRNct536YH

@@ -1,0 +1,104 @@
+name: zero.blocks.z.products.search
+icon: cart
+
+preview: products
+
+tabs:
+  # content tab
+  content:
+    label: zero.blocks.z.products.search.content
+    fields:
+      searchInfo:
+        label: zero.blocks.z.products.search.searchInfo
+        type: info
+        text: zero.blocks.z.products.search.searchInfo.text
+      searchStyle:
+        label: zero.blocks.z.products.search.searchStyle
+        type: select
+        placeholder: "{{ t('zero.reusables.default') }}"
+        options: 
+          " uk-search-navbar": "{{ t('zero.reusables.medium') }}"
+          " uk-search-large": "{{ t('zero.reusables.large') }}"
+          " uk-search-default": "{{ t('zero.blocks.z.products.search.searchStyle.default') }}"
+        width: 1/3
+      searchPlaceholder:
+        label: zero.blocks.z.products.search.searchPlaceholder
+        type: text
+        placeholder: Search products
+        width: 2/3
+      searchAlign:
+        label: zero.blocks.z.products.search.searchAlign
+        type: select
+        placeholder: "{{ t('zero.reusables.left') }}"
+        options: 
+          " uk-flex-center": "{{ t('zero.reusables.center') }}"
+          " uk-flex-right": "{{ t('zero.reusables.right') }}"
+        width: 1/3
+
+  # settings tab
+  settings:
+    label: zero.blocks.z.products.search.settings
+    icon: cog
+    fields:
+      # block advanced heading
+      blockAdvancedHeadline:
+        label: zero.blocks.z.products.search.blockAdvancedHeadline
+        type: headline
+        numbered: false
+      # block title
+      title:
+        label: zero.blocks.z.products.search.title
+        type: text
+        placeholder: "{{ t('zero.blocks.settings.title.placeholder') }}"
+        width: 1/3
+      # block class
+      blockClass:
+        label: zero.blocks.z.products.search.blockClass
+        type: text
+        placeholder: my-custom-class
+        before: '.'
+        width: 1/3
+      # block id
+      blockID:
+        label: zero.blocks.z.products.search.blockID
+        type: text
+        placeholder: my-custom-id
+        before: '#'
+        width: 1/3
+      marginVertical:
+        extends: fields/marginVertical
+      marginLeft:
+        extends: fields/marginLeft
+      marginRight:
+        extends: fields/marginRight
+      marginInfo:
+        label: zero.blocks.z.products.search.marginInfo
+        type: info
+        text: zero.blocks.z.card.marginInfo.text
+      
+      # animation headline
+      animationHeadline:
+        label: Animation
+        type: headline
+        help: zero.blocks.z.products.search.animationHeadline.help
+        numbered: false
+      animationNote:
+        label: Important note
+        type: info
+        text: zero.blocks.z.products.search.animationNote.text
+      # animation switch
+      animationSwitch:
+        label: Animation
+        type: toggle
+        width: 1/3
+      animationType:
+        extends: fields/animationType
+        when:
+          animationSwitch: true
+      animationDelay:
+        extends: fields/animationDelay
+        when:
+          animationSwitch: true
+
+      settingsBottomGap:
+        type: gap

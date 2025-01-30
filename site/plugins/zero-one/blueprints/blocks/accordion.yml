@@ -1,0 +1,17 @@
+name: zero.blocks.accordion
+icon: bars
+fields:
+  accordion:
+    label: zero.blocks.accordion.accordion
+    type: structure
+    fields:
+      question:
+        label: zero.blocks.accordion.question
+        type: writer
+        inline: true
+        marks: false
+        placeholder: "{{ t('zero.blocks.accordion.question.placeholder') }}"
+      answer:
+        label: zero.blocks.accordion.answer
+        marks: true
+        type: writer

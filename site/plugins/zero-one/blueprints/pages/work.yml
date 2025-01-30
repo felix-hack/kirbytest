@@ -1,0 +1,134 @@
+title: zero.page.work
+icon: wand
+
+tabs:
+
+  # content tab
+  content:
+    label: zero.page.work.content
+    icon: grid
+    columns:
+      # main
+      - width: 1/2
+        sections:
+          # listed projects
+          listed:
+            extends: sections/projects
+            headline: zero.page.work.listed
+            status: published
+            layout: cardlets
+          
+
+      # sidebar
+      - width: 1/2
+        sections:
+          # draft projects
+          draft:
+            extends: sections/projects
+            headline: zero.page.work.draft
+            status: draft
+
+  # settings tab
+  settings:
+    label: zero.page.work.settings
+    icon: wand
+    columns:
+      # main
+      - width: 2/3
+        sections:
+          # content
+          content:
+            type: fields
+            fields:
+              optionsHeadline:
+                label: zero.page.work.optionsHeadline
+                type: headline
+              perpage:
+                label: zero.page.work.optionsHeadline.perpage
+                type: number
+                min: 1
+                max: 10
+                default: 6
+                help: zero.page.work.optionsHeadline.help
+                width: 1/3
+              projectsStyle:
+                label: zero.page.work.projectsStyle
+                type: select
+                default: grid3
+                help: zero.page.work.projectsStyle.help
+                options:
+                  stacked: "{{ t('zero.page.work.projectsStyle.stacked') }}"
+                  grid: "{{ t('zero.page.work.projectsStyle.grid') }}"
+                  grid3: "{{ t('zero.page.work.projectsStyle.grid3') }}"
+                  grid4: "{{ t('zero.page.work.projectsStyle.grid4') }}"
+                width: 1/3
+              gridGap:
+                label: zero.page.work.gridGap
+                type: select
+                placeholder: "{{ t('zero.reusables.default') }}"
+                options:
+                  "uk-grid-small": "{{ t('zero.reusables.small') }}"
+                  "uk-grid-medium": "{{ t('zero.reusables.medium') }}"
+                  "uk-grid-large": "{{ t('zero.reusables.large') }}"
+                  "uk-grid-collapse": "{{ t('zero.page.work.gridGap.collapse') }}"
+                width: 1/3
+              pageWidth:
+                label: zero.page.work.pageWidth
+                type: select
+                placeholder: "{{ t('zero.reusables.large') }}"
+                columns: 3
+                options:
+                  small: "{{ t('zero.reusables.small') }}"
+                  xsmall: "{{ t('zero.reusables.xsmall') }}"
+                  xlarge: "{{ t('zero.reusables.xlarge') }}"
+                width: 1/3
+              projectsMasonry:
+                label: zero.page.work.projectsMasonry
+                type: toggle
+                help: zero.page.work.projectsMasonry.help
+                width: 1/3
+              projectsTextColor:
+                extends: fields/sectionTextColor
+              coverInfo:
+                label: zero.page.work.coverInfo
+                type: info
+                text: zero.page.work.coverInfo.text
+
+          # layout builder headline
+          layoutBuilderHeadline:
+            type: fields
+            fields:
+              linelayoutBuilder:
+                type: line
+              layoutBuilderHeadline:
+                label: zero.page.work.layoutBuilderHeadline
+                type: headline
+                help: zero.page.work.layoutBuilderHeadline.help
+              layoutBuilderPosition:
+                label: zero.page.work.layoutBuilderPosition
+                type: toggle
+                text:
+                  - "{{ t('zero.page.work.layoutBuilderPosition.before') }}"
+                  - "{{ t('zero.page.work.layoutBuilderPosition.after') }}"
+                width: 1/3
+
+          # Layout Builder sections
+          layoutBuilder:
+            extends: sections/layout-builder
+
+      - width: 1/3
+        sections:
+          # Files
+          workFiles:
+            headline: zero.page.work.metaFiles
+            type: files
+
+  # header tab
+  header: tabs/page-options
+
+  # seo tab
+  seo: tabs/seo
+
+  # advanced tab
+  advanced: tabs/page-advanced
+  

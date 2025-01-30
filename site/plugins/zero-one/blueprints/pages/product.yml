@@ -1,0 +1,506 @@
+title: zero.page.product
+icon: tag
+
+status:
+  draft:
+    label: zero.page.product.draft
+    text: zero.page.product.draft.text
+  unlisted:
+    label: zero.page.product.unlisted
+    text: zero.page.product.unlisted.text
+  listed:
+    label: zero.page.product.listed
+    text: zero.page.product.listed.text
+
+tabs:
+  # content tab
+  content:
+    label: zero.page.product.content
+    icon: text
+    columns:
+      - width: 2/3
+        sections:
+          # product data
+          data:
+            type: fields
+            fields:
+              productPrice:
+                label: zero.page.product.productPrice
+                type: headline
+              productType:
+                label: zero.page.product.productType
+                type: select
+                placeholder: "{{ t('zero.page.product.productType.placeholder') }}"
+                options:
+                  custom: "{{ t('zero.reusables.custom') }}"
+                  snipcart: Snipcart
+                width: 1/4
+              snipcartInfo:
+                label: zero.page.product.snipcartInfo
+                type: info
+                text: zero.page.product.snipcartInfo.text
+                width: 3/4
+                when:
+                  productType: snipcart
+              # Snipcart price
+              snipcartPrice:
+                label: zero.page.product.snipcartPrice
+                type: number
+                step: .01
+                min: 0
+                default: 0.00
+                before: '{{site.defaultCurrencysymbol}}'
+                translate: false
+                required: true
+                help: zero.page.product.snipcartPrice.help
+                width: 1/3
+                when:
+                  productType: snipcart
+              snipcartDiscountprice:
+                label: zero.page.product.snipcartDiscountprice
+                type: number
+                step: .01
+                min: 0
+                translate: false
+                placeholder: 0.00
+                before: '{{site.defaultCurrencysymbol}}'
+                help: zero.page.product.snipcartDiscountprice.help
+                width: 1/3
+                when:
+                  productType: snipcart
+              snipcartProductid:
+                label: zero.page.product.snipcartProductid
+                type: slug
+                maxlength: 25
+                minlenght: 3
+                width: 1/3
+                help: zero.page.product.snipcartProductid.help
+                when:
+                  productType: snipcart
+              snipcartMaxquantity:
+                label: zero.page.product.snipcartMaxquantity
+                type: number
+                min: 1
+                translate: false
+                width: 1/3
+                when:
+                  productType: snipcart
+              snipcartMinquantity:
+                label: zero.page.product.snipcartMinquantity
+                type: number
+                min: 1
+                default: 1
+                required: true
+                translate: false
+                width: 1/3
+                when:
+                  productType: snipcart
+              snipcartTaxable:
+                label: zero.page.product.snipcartTaxable
+                type: toggle
+                help: zero.page.product.snipcartTaxable.help
+                width: 1/3
+                when:
+                  productType: snipcart
+              lineVariable:
+                type: line
+                when:
+                  productType: snipcart
+              productVariations:
+                label: zero.page.product.productVariations
+                type: structure
+                max: 4
+                empty: zero.page.product.productVariations.empty
+                help: zero.page.product.productVariations.help
+                columns:
+                  variationName:
+                    width: 2/3
+                  variationType: 
+                    width: 1/3
+                fields:
+                  variationType:
+                    label: zero.page.product.variationType
+                    type: select
+                    options:
+                      options: "{{ t('zero.page.product.variationType.options') }}"
+                      checkbox: "{{ t('zero.page.product.variationType.checkbox') }}"
+                      text: "{{ t('zero.page.product.variationType.text') }}"
+                      textarea: "{{ t('zero.page.product.variationType.textarea') }}"
+                      readonly: "{{ t('zero.page.product.variationType.readonly') }}"
+                    required: true
+                    width: 1/3
+                  variationName:
+                    label: zero.page.product.variationName
+                    type: text
+                    required: true
+                    width: 1/3
+                  variationLayout:
+                    label: zero.page.product.variationLayout
+                    type: select
+                    placeholder: "{{ t('zero.page.product.variationLayout.stacked') }}"
+                    options:
+                      horizontal: "{{ t('zero.page.product.variationLayout.horizontal') }}"
+                    width: 1/3
+                    when:
+                      variationType: options
+                  checkboxPrice:
+                    label: zero.page.product.checkboxPrice
+                    type: number
+                    step: .01
+                    min: 0
+                    translate: false
+                    placeholder: 0.00
+                    before: '{{site.defaultCurrencysymbol}}'
+                    help: zero.page.product.checkboxPrice.help
+                    width: 1/3
+                    when:
+                      variationType: checkbox
+                  variationText:
+                    label: zero.page.product.variationText
+                    type: info
+                    text: zero.page.product.variationText.text
+                    when:
+                      variationType: text
+                  variationTextarea:
+                    label: zero.page.product.variationTextarea
+                    type: info
+                    text: zero.page.product.variationTextarea.text
+                    when:
+                      variationType: textarea
+                  variationReadonly:
+                    label: zero.page.product.variationReadonly
+                    type: text
+                    when:
+                      variationType: readonly
+                  variationReadonlyinfo:
+                    label: zero.page.product.variationReadonlyinfo
+                    type: info
+                    text: zero.page.product.variationReadonlyinfo.text
+                    when:
+                      variationType: readonly
+                  variationOptions:
+                    label: zero.page.product.variationOptions
+                    type: structure
+                    empty: zero.page.product.variationOptions.empty
+                    columns:
+                      optionName:
+                        width: 1/2
+                      additionalPrice:
+                        width: 1/2
+                        align: right
+                    fields:
+                      optionName:
+                        label: zero.page.product.optionName
+                        type: text
+                        width: 1/2
+                      additionalPrice:
+                        label: zero.page.product.additionalPrice
+                        type: number
+                        step: .01
+                        min: 0
+                        translate: false
+                        placeholder: 0.00
+                        before: '{{site.defaultCurrencysymbol}}'
+                        help: zero.page.product.additionalPrice.help
+                        width: 1/2
+                    when:
+                      variationType: options
+                when:
+                  productType: snipcart
+              lineDigital:
+                type: line
+                when:
+                  productType: snipcart
+              snipcartProductguid:
+                label: zero.page.product.snipcartProductguid
+                type: text
+                help: zero.page.product.snipcartProductguid.help
+                width: 1/4
+                when:
+                  productType: snipcart
+              snipcartDigitalinfo:
+                label: zero.page.product.snipcartDigitalinfo
+                type: info
+                text: zero.page.product.snipcartDigitalinfo.text
+                width: 3/4
+                when:
+                  productType: snipcart
+              # Custom price
+              gapCustomprice:
+                type: gap
+                width: 3/4
+                when:
+                  productType: custom
+              customPrice:
+                label: zero.page.product.customPrice
+                type: number
+                step: .01
+                min: 0
+                translate: false
+                placeholder: 0.00
+                before: '{{site.defaultCurrencysymbol}}'
+                help: zero.page.product.customPrice.help
+                width: 1/3
+                when:
+                  productType: custom
+              customDiscountprice:
+                label: zero.page.product.customDiscountprice
+                type: number
+                step: .01
+                min: 0
+                translate: false
+                placeholder: 0.00
+                before: '{{site.defaultCurrencysymbol}}'
+                help: zero.page.product.customDiscountprice.help
+                width: 1/3
+                when:
+                  productType: custom
+              customFree:
+                label: zero.page.product.customFree
+                type: toggle
+                help: zero.page.product.customFree.help
+                width: 1/3
+                when:
+                  productType: custom
+              lineCustomprice:
+                type: line
+                when:
+                  productType: custom
+              customLinkexternal:
+                label: zero.page.product.customLinkexternal
+                type: url
+                width: 1/2
+                when:
+                  productType: custom
+              customLinkinternal:
+                label: zero.page.product.customLinkinternal
+                type: pages
+                multiple: false
+                help: zero.page.product.customLinkinternal.help
+                width: 1/2
+                when:
+                  productType: custom
+              customButtontext:
+                label: zero.page.product.customButtontext
+                type: text
+                placeholder: Purchase product
+                width: 2/3
+                when:
+                  productType: custom
+              customNewtab:
+                label: zero.page.product.customNewtab
+                type: toggle
+                width: 1/3
+                when:
+                  productType: custom
+              lineOutOfstock:
+                type: line
+              outofstock:
+                label: zero.page.product.outofstock
+                type: toggle
+                width: 1/4
+              outofstockInfo:
+                label: zero.page.product.outofstockInfo
+                type: info
+                text: zero.page.product.outofstockInfo.text
+                width: 3/4
+
+          # intro text
+          introText:
+            type: fields
+            fields:
+              productContent:
+                label: zero.page.product.productContent
+                type: headline
+              productShort:
+                label: zero.page.product.productShort
+                type: text
+                maxlength: 100
+              productIntro: 
+                label: zero.page.product.productIntro
+                type: textarea
+                help: zero.page.product.productIntro.help
+              # product description headline
+              productDescriptionHeadline:
+                label: zero.page.product.productDescriptionHeadline
+                type: headline
+              # select builder type
+              selectBuilder:
+                type: toggles
+                label: zero.page.product.selectBuilder
+                default: content-blocks
+                options:
+                  - value: content-blocks
+                    text: "{{ t('zero.page.product.selectBuildercontent.blocks') }}"
+                    icon: layers
+                  - value: layout-builder
+                    text: "{{ t('zero.page.product.selectBuildercontent.builder') }}"
+                    icon: grid
+          # product description
+          productDescription:
+            type: fields
+            fields:
+              productDescription:
+                extends: fields/blockEditor
+                label: zero.page.product.productDescription
+                help: zero.page.product.productDescription.help
+            when:
+              selectBuilder: content-blocks
+
+          # Layout Builder sections
+          layoutBuilder:
+            extends: sections/layout-builder
+            when:
+              selectBuilder: layout-builder
+
+          # additional
+          additional:
+            type: fields
+            fields:
+              additionalInfo:
+                label: zero.page.product.additionalInfo
+                type: headline
+              shippingToggle:
+                label: zero.page.product.shippingToggle
+                type: toggle
+                width: 1/3
+              shippingInfo:
+                label: zero.page.product.shippingInfo
+                type: info
+                text: zero.page.product.shippingInfo.text
+                when: 
+                  shippingToggle: true
+              productWeight:
+                label: zero.page.product.productWeight
+                type: number
+                after: gr.
+                validate: integer
+                translate: false
+                width: 1/4
+                help: zero.page.product.productWeight.help
+                when: 
+                  shippingToggle: true
+              productLength:
+                label: zero.page.product.productLength
+                type: number
+                after: cm
+                validate: integer
+                translate: false
+                width: 1/4
+                help: zero.page.product.productLength.help
+                when: 
+                  shippingToggle: true
+              productHeight:
+                label: zero.page.product.productHeight
+                type: number
+                after: cm
+                validate: integer
+                translate: false
+                width: 1/4
+                help: zero.page.product.productHeight.help
+                when: 
+                  shippingToggle: true
+              productWidth:
+                label: zero.page.product.productWidth
+                type: number
+                after: cm
+                validate: integer
+                translate: false
+                width: 1/4
+                help: zero.page.product.productWidth.help
+                when: 
+                  shippingToggle: true
+              additionalInformation:
+                label: zero.page.product.additionalInformation
+                type: structure
+                fields:
+                  attribute:
+                    label: zero.page.product.additionalInformation.attribute
+                    type: text
+                    width: 1/2
+                  value:
+                    label: zero.page.product.additionalInformation.value
+                    type: text
+                    width: 1/2
+
+          # custom tab
+          customTab:
+            type: fields
+            fields:
+              customTab:
+                label: zero.page.product.customTab
+                type: headline
+              customTabs:
+                label: zero.page.product.customTabs
+                type: structure
+                fields:
+                  tabName:
+                    label: zero.page.product.tabName
+                    type: text
+                  tabContent:
+                    label: zero.page.product.tabContent
+                    extends: fields/blockEditor
+
+      - width: 1/3
+        sections:
+          # product images
+          coverimg:
+            type: fields
+            fields:
+              productImages:
+                label: zero.page.product.productImages
+                type: headline
+              cover:
+                label: zero.page.product.productImages.cover
+                extends: fields/image
+                multiple: false
+                layout: cards
+                size: full
+                help: zero.page.product.productImages.cover.help
+                image:
+                  cover: true
+              gallery:
+                label: zero.page.product.productImages.gallery
+                extends: fields/image
+                help: zero.page.product.productImages.gallery.help
+
+          # product meta
+          productMeta:
+            type: fields
+            fields:
+              productMetaheadline:
+                label: zero.page.product.productMetaheadline
+                type: headline
+              category:
+                label: zero.page.product.productMetaheadline.category
+                type: select
+                max: 1
+                options: query
+                query: page.parent.categories.split
+                help: zero.page.product.productMetaheadline.help
+              tags: true
+                help: zero.page.product.productMetaheadline.tags
+              featured:
+                label: zero.page.product.featured
+                type: toggle
+                help: zero.page.product.featured.help
+              new:
+                label: zero.page.product.new
+                type: toggle
+                help: zero.page.product.new.help
+
+          relatedpages:
+            type: fields
+            fields:
+              related:
+                label: zero.page.product.related
+                type: pages
+                status: listed
+                query: page.siblings(false)
+                limit: 10
+                max: 5
+                empty: zero.page.product.related.empty
+                help: zero.page.product.related.help
+
+  # seo tab
+  seo: tabs/seo

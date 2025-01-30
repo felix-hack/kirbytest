@@ -1,0 +1,453 @@
+label: zero.site.labels.label
+icon: tag
+fields:
+
+  info:
+    type: info
+    text: zero.site.labels.label.info
+
+  labelBlog:
+    label: zero.site.labels.labelBlog
+    type: headline
+  # Read More
+  labelReadMore:
+    label: zero.site.labels.labelReadMore
+    type: text
+    width: 1/4
+  # Published on
+  labelPublished:
+    label: zero.site.labels.labelPublished
+    type: text
+    width: 1/4
+  labelCategoryTitle:
+    label: zero.site.labels.labelCategoryTitle
+    default: "Category:"
+    help: zero.site.labels.labelCategoryTitle.help
+    type: text
+    width: 1/4
+  labelTagTitle:
+    label: zero.site.labels.labelTagTitle
+    default: "Tag:"
+    help: zero.site.labels.labelTagTitle.help
+    type: text
+    width: 1/4
+  labelArchivesTitle:
+    label: zero.site.labels.labelArchivesTitle
+    default: "Archives:"
+    type: text
+    width: 1/4
+  labelArchiveText:
+    label: zero.site.labels.labelArchiveText
+    type: text
+    width: 1/4
+  labelArchiveName:
+    label: zero.site.labels.labelArchiveName
+    type: text
+    width: 1/4
+  # Back to blog
+  labelBacktoblog:
+    label: zero.site.labels.labelBacktoblog
+    type: text
+    help: zero.site.labels.labelBacktoblog.help
+    width: 1/4
+
+  labelAside:
+    label: zero.site.labels.labelAside
+    type: headline
+  # Profile
+  labelProfile:
+    label: zero.site.labels.labelProfile
+    type: text
+    width: 1/4
+  # Categories
+  labelCategories:
+    label: zero.site.labels.labelCategories
+    type: text
+    width: 1/4
+  # Archive
+  labelArchive:
+    label: zero.site.labels.labelArchive
+    type: text
+    width: 1/4
+  # Tags
+  labelTags:
+    label: zero.site.labels.labelTags
+    type: text
+    width: 1/4
+  # Social Media
+  labelStayconnected:
+    label: zero.site.labels.labelStayconnected
+    type: text
+    width: 1/4
+
+  labelArticle:
+    label: zero.site.labels.labelArticle
+    type: headline
+  # Share Article
+  labelShareArticle:
+    label: zero.site.labels.labelShareArticle
+    type: text
+    width: 1/4
+  # Related Article
+  labelRelatedArticle:
+    label: zero.site.labels.labelRelatedArticle
+    type: text
+    width: 1/4
+  # Next Article
+  labelNext:
+    label: zero.site.labels.labelNext
+    type: text
+    width: 1/4
+  # Prev Article
+  labelPrev:
+    label: zero.site.labels.labelPrev
+    type: text
+    width: 1/4
+  # Tagged
+  labelTagged:
+    label: zero.site.labels.labelTagged
+    type: text
+    width: 1/4
+  # Latest posts
+  labelLatestPosts:
+    label: zero.site.labels.labelLatestPosts
+    type: text
+    width: 1/4
+  # Posted in
+  labelPostedIn:
+    label: zero.site.labels.labelPostedIn
+    type: text
+    width: 1/4
+  # Written by
+  labelWrittenBy:
+    label: zero.site.labels.labelWrittenBy
+    type: text
+    width: 1/4
+  # on
+  labelWrittenOn:
+    label: zero.site.labels.labelWrittenOn
+    type: text
+    width: 1/4
+  # co-authors
+  labelCoauthors:
+    label: zero.site.labels.labelCoauthors
+    type: text
+    placeholder: "Co-authors"
+    width: 1/4
+  # comment
+  labelCommentsHeading:
+    label: zero.site.labels.labelCommentsHeading
+    type: text
+    help: zero.site.labels.labelCommentsHeading.help
+    width: 1/4
+
+  labelWork:
+    label: zero.site.labels.labelWork
+    type: headline
+  # button
+  labelProjectButton:
+    label: zero.site.labels.labelProjectButton
+    type: text
+    width: 1/4
+  # Newer
+  labelNewer:
+    label: zero.site.labels.labelNewer
+    type: text
+    width: 1/4
+  # Older
+  labelOlder:
+    label: zero.site.labels.labelOlder
+    type: text
+    width: 1/4
+
+  labelProject:
+    label: zero.site.labels.labelProject
+    type: headline
+  # Next Project
+  labelNextProject:
+    label: zero.site.labels.labelNextProject
+    type: text
+    width: 1/4
+  # Prev Project
+  labelPrevProject:
+    label: zero.site.labels.labelPrevProject
+    type: text
+    width: 1/4
+
+  labelSearch:
+    label: zero.site.labels.labelSearch
+    type: headline
+  # Search text
+  labelSearchText:
+    label: zero.site.labels.labelSearchText
+    type: text
+    width: 1/2
+  # Search note
+  labelSearchNote:
+    label: zero.site.labels.labelSearchNote
+    type: text
+    width: 1/4
+  # Search placeholder
+  labelSearchPlaceholder:
+    label: zero.site.labels.labelSearchPlaceholder
+    type: text
+    width: 1/4
+  # Search no results
+  labelSearchNoResults:
+    label: zero.site.labels.labelSearchNoResults
+    type: text
+    width: 1/4
+
+  # Language
+  labelLanguage:
+    label: zero.site.labels.labelLanguage
+    type: headline
+  # Language select text
+  labelLanguageTitle:
+    label: zero.site.labels.labelLanguageTitle
+    type: text
+    width: 1/2
+  labelLanguageFooter:
+    label: zero.site.labels.labelLanguageFooter
+    type: text
+    width: 1/2
+
+  labelContact:
+    label: zero.site.labels.labelContact
+    type: headline
+  # Email
+  labelEmail:
+    label: zero.site.labels.labelEmail
+    type: text
+    width: 1/4
+  # Name
+  labelName:
+    label: zero.site.labels.labelName
+    type: text
+    width: 1/4
+  # Message
+  labelMessage:
+    label: zero.site.labels.labelMessage
+    type: text
+    width: 1/4
+  # Submit
+  labelSubmit:
+    label: zero.site.labels.labelSubmit
+    type: text
+    width: 1/4
+  # Alerts
+  labelAlertName:
+    label: zero.site.labels.labelAlertName
+    type: text
+    help: zero.site.labels.labelAlertName.help
+    width: 1/3
+  labelAlertEmail:
+    label: zero.site.labels.labelAlertEmail
+    type: text
+    help: zero.site.labels.labelAlertEmail.help
+    width: 1/3
+  labelAlertMessage:
+    label: zero.site.labels.labelAlertMessage
+    type: text
+    help: zero.site.labels.labelAlertMessage.help
+    width: 1/3
+  # From error
+  labelFormError:
+    label: zero.site.labels.labelFormError
+    type: text
+    help: zero.site.labels.labelFormError.help
+    width: 1/2
+  # From success
+  labelFormSuccess:
+    label: zero.site.labels.labelFormSuccess
+    type: text
+    help: zero.site.labels.labelFormSuccess.help
+    width: 1/2
+  # Email subject
+  labelEmailSubject:
+    label: zero.site.labels.labelEmailSubject
+    type: text
+    help: zero.site.labels.labelEmailSubject.help
+    width: 1/2
+  # From privacy
+  labelFormPrivacy:
+    label: zero.site.labels.labelFormPrivacy
+    type: writer
+    inline: true
+    help: zero.site.labels.labelFormPrivacy.help
+    width: 1/2
+
+  labelShop:
+    label: zero.site.labels.labelShop
+    type: headline
+  # Learn more button
+  labelStackedbutton:
+    label: zero.site.labels.labelStackedbutton
+    type: text
+    help: zero.site.labels.labelStackedbutton.help
+    width: 1/4
+  # Product category
+  labelShopcategory:
+    label: zero.site.labels.labelShopcategory
+    type: text
+    help: zero.site.labels.labelShopcategory.help
+    width: 1/4
+  # Product tag
+  labelShoptag:
+    label: zero.site.labels.labelShoptag
+    type: text
+    help: zero.site.labels.labelShoptag.help
+    width: 1/4
+  # Back to shop
+  labelBacktoshop:
+    label: zero.site.labels.labelBacktoshop
+    type: text
+    help: zero.site.labels.labelBacktoshop.help
+    width: 1/4
+  # Shop archive text
+  labelShoparchivetext:
+    label: zero.site.labels.labelShoparchivetext
+    type: text
+    help: zero.site.labels.labelShoparchivetext.help
+    width: 1/4
+  # Shop archive name
+  labelShoparchivename:
+    label: zero.site.labels.labelShoparchivename
+    type: text
+    help: zero.site.labels.labelShoparchivename.help
+    width: 1/4
+  # Featured product
+  labelProductfeatured:
+    label: zero.site.labels.labelProductfeatured
+    type: text
+    help: zero.site.labels.labelProductfeatured.help
+    width: 1/4
+  # New product
+  labelProductnew:
+    label: zero.site.labels.labelProductnew
+    type: text
+    help: zero.site.labels.labelProductnew.help
+    width: 1/4
+  # Out of stock product
+  labelProductsold:
+    label: zero.site.labels.labelProductsold
+    type: text
+    help: zero.site.labels.labelProductsold.help
+    width: 1/4
+  # Variable product
+  labelProductoptions:
+    label: zero.site.labels.labelProductoptions
+    type: text
+    help: zero.site.labels.labelProductoptions.help
+    width: 1/4
+
+  labelProduct:
+    label: zero.site.labels.labelProduct
+    type: headline
+  # Add to cart
+  labelAddtocart:
+    label: zero.site.labels.labelAddtocart
+    type: text
+    help: zero.site.labels.labelAddtocart.help
+    width: 1/4
+  # Product ID
+  labelProductid:
+    label: zero.site.labels.labelProductid
+    type: text
+    help: zero.site.labels.labelProductid.help
+    width: 1/4
+  # Product category
+  labelProductcategory:
+    label: zero.site.labels.labelProductcategory
+    type: text
+    help: zero.site.labels.labelProductcategory.help
+    width: 1/4
+  # Product category
+  labelProducttag:
+    label: zero.site.labels.labelProducttag
+    type: text
+    help: zero.site.labels.labelProducttag.help
+    width: 1/4
+  # Product share
+  labelProductshare:
+    label: zero.site.labels.labelProductshare
+    type: text
+    help: zero.site.labels.labelProductshare.help
+    width: 1/4
+  # Product description
+  labelProductdescription:
+    label: zero.site.labels.labelProductdescription
+    type: text
+    help: zero.site.labels.labelProductdescription.help
+    width: 1/4
+  # Additional information
+  labelAdditionalinformation:
+    label: zero.site.labels.labelAdditionalinformation
+    type: text
+    help: zero.site.labels.labelAdditionalinformation.help
+    width: 1/4
+  # Product weight
+  labelProductweight:
+    label: zero.site.labels.labelProductweight
+    type: text
+    help: zero.site.labels.labelProductweight.help
+    width: 1/4
+  # Product lenght
+  labelProductlength:
+    label: zero.site.labels.labelProductlength
+    type: text
+    help: zero.site.labels.labelProductlength.help
+    width: 1/4
+  # Product height
+  labelProductheight:
+    label: zero.site.labels.labelProductheight
+    type: text
+    help: zero.site.labels.labelProductheight.help
+    width: 1/4
+  # Product width
+  labelProductwidth:
+    label: zero.site.labels.labelProductwidth
+    type: text
+    help: zero.site.labels.labelProductwidth.help
+    width: 1/4
+  # Product free
+  labelProductfree:
+    label: zero.site.labels.labelProductfree
+    type: text
+    help: zero.site.labels.labelProductfree.help
+    width: 1/4
+  # Previous product
+  labelProductprevious:
+    label: zero.site.labels.labelProductprevious
+    type: text
+    help: zero.site.labels.labelProductprevious.help
+    width: 1/4
+  # Next product
+  labelProductnext:
+    label: zero.site.labels.labelProductnext
+    type: text
+    help: zero.site.labels.labelProductnext.help
+    width: 1/4
+  # Product related
+  labelProductrelated:
+    label: zero.site.labels.labelProductrelated
+    type: text
+    help: zero.site.labels.labelProductrelated.help
+    width: 1/4
+
+  # Product search
+  labelProductSearch:
+    label: zero.site.labels.labelProductSearch
+    type: headline
+  # Product search title
+  labelProductSearchTitle:
+    label: zero.site.labels.labelProductSearchTitle
+    type: text
+    help: zero.site.labels.labelProductSearchTitle.help
+    width: 1/4
+  # Product search intro
+  labelProductSearchIntro:
+    label: zero.site.labels.labelProductSearchIntro
+    type: text
+    help: zero.site.labels.labelProductSearchIntro.help
+    width: 1/4

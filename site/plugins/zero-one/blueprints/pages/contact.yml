@@ -1,0 +1,157 @@
+title: zero.page.contact
+icon: email
+
+options:
+  duplicate: false
+
+tabs:
+
+  # content tab
+  content:
+    label: zero.page.contact.content
+    icon: text
+    columns:
+      # main
+      - width: 2/3
+        sections:
+          # main content
+          mainContent:
+            type: fields
+            fields:
+              mainContentHeadline:
+                label: zero.page.contact.content.mainContentHeadline
+                type: headline
+                numbered: false
+              editor:
+                extends: fields/blockEditor
+              # form
+              contactForm:
+                label: zero.page.contact.content.contactForm
+                type: toggle
+                default: true
+                help: zero.page.contact.content.contactForm.help
+                width: 1/2
+
+          # additional columns section
+          addonContent:
+            type: fields
+            fields:
+              preFooter:
+                label: zero.page.contact.content.preFooter
+                type: headline
+                numbered: false
+              info:
+                label: Info
+                type: info
+                text: zero.page.contact.content.preFooter.text
+              
+              # columns grid
+              columns:
+                label: zero.page.contact.columns
+                type: structure
+                help: zero.page.contact.columns.help
+                fields:
+                  contactColumn:
+                    label: zero.page.contact.contactColumn
+                    type: textarea
+                    width: 3/4
+                  columnWidth:
+                    label: zero.page.contact.columnWidth
+                    type: select
+                    default: "uk-width-expand@m"
+                    help: zero.page.contact.columnWidth.help
+                    options:
+                      "uk-width-expand@m": "{{ t('zero.page.contact.columnWidth.expand@m') }}"
+                      "uk-width-1-1": 1/1
+                      "uk-width-1-2@m": 1/2
+                      "uk-width-1-3@m": 1/3
+                      "uk-width-2-3@m": 2/3
+                      "uk-width-1-4@m": 1/4
+                      "uk-width-3-4@m": 3/4
+                    width: 1/4
+
+              # section size
+              sectionSize:
+                label: zero.page.contact.sectionSize
+                type: select
+                default: "uk-section-large"
+                options:
+                  "uk-section-xsmall": "{{ t('zero.reusables.xsmall') }}"
+                  "uk-section-small": "{{ t('zero.reusables.small') }}"
+                  "uk-section-large": "{{ t('zero.reusables.large') }}"
+                  "uk-section-xlarge": "{{ t('zero.reusables.xlarge') }}"
+                width: 1/3
+
+              # section color
+              sectionColor:
+                label: zero.page.contact.sectionColor
+                type: select
+                default: "uk-section-default"
+                options:
+                  "uk-section-default": "{{ t('zero.reusables.default') }}"
+                  "uk-section-muted": "{{ t('zero.reusables.muted') }}"
+                  "uk-section-primary": "{{ t('zero.reusables.primary') }}"
+                  "uk-section-secondary": "{{ t('zero.reusables.secondary') }}"
+                width: 1/3
+              # width
+              gridWidth:
+                label: zero.page.contact.gridWidth
+                type: select
+                options:
+                  "uk-container-xsmall": "{{ t('zero.reusables.xsmall') }}"
+                  "uk-container-small": "{{ t('zero.reusables.small') }}"
+                  "uk-container-large": "{{ t('zero.reusables.large') }}"
+                  "uk-container-xlarge": "{{ t('zero.reusables.xlarge') }}"
+                width: 1/3
+              # column stack option
+              columnStack:
+                label: zero.page.contact.columnStack
+                type: select
+                default: tablet
+                help: zero.page.contact.columnStack.help
+                options:
+                  tablet: "{{ t('zero.page.contact.tablet') }}"
+                  mobile: Tablet 1/2
+                width: 1/4
+              # column gap option
+              columnGap:
+                label: zero.page.contact.columnGap
+                type: select
+                help: zero.page.contact.columnGap.help
+                options:
+                  "uk-grid-small": "{{ t('zero.reusables.small') }}"
+                  "uk-grid-medium": "{{ t('zero.reusables.medium') }}"
+                  "uk-grid-large": "{{ t('zero.reusables.large') }}"
+                width: 1/4
+              # divider
+              columnsDivider:
+                label: zero.page.contact.columnsDivider
+                type: toggle
+                default: false
+                help: zero.page.contact.columnsDivider.help
+                width: 1/4
+              # center text
+              centerText:
+                label: zero.page.contact.centerText
+                type: toggle
+                default: false 
+                width: 1/4
+
+      # sidebar
+      - width: 1/3
+        sections:
+          # pages
+          published:
+            extends: sections/page-published
+
+          draft:
+            extends: sections/page-draft
+
+  # header tab
+  header: tabs/page-options
+
+  # seo tab
+  seo: tabs/seo
+
+  # advanced tab
+  advanced: tabs/page-advanced

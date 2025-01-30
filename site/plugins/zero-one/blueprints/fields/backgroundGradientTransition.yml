@@ -1,0 +1,12 @@
+label: zero.fields.backgroundGradientTransition
+type: select
+placeholder: "{{ t('zero.fields.backgroundGradientTransition.placeholder') }}"
+options:
+  "to top": "{{ t('zero.fields.backgroundGradientTransition.top') }}"
+  "to right": "{{ t('zero.fields.backgroundGradientTransition.right') }}"
+  "to left": "{{ t('zero.fields.backgroundGradientTransition.left') }}"
+  "to bottom right": "{{ t('zero.fields.backgroundGradientTransition.bottom.r') }}"
+  "to bottom left": "{{ t('zero.fields.backgroundGradientTransition.bottom.l') }}"
+  "to top right": "{{ t('zero.fields.backgroundGradientTransition.top.right') }}"
+  "to top left": "{{ t('zero.fields.backgroundGradientTransition.top.left') }}"
+width: 1/3

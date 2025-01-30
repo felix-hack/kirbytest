@@ -1,0 +1,7 @@
+label: zero.fields.RemovePadding
+type: select
+options:
+  " uk-padding-remove-top": "{{ t('zero.fields.RemovePadding.remove.top') }}"
+  " uk-padding-remove-bottom": "{{ t('zero.fields.RemovePadding.remove.bottom') }}"
+  " uk-padding-remove-vertical": "{{ t('zero.fields.RemovePadding.remove.vertical') }}"
+width: 1/3

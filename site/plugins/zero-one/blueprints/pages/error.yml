@@ -1,0 +1,44 @@
+title: zero.page.error
+icon: alert
+
+options:
+  duplicate: false
+
+tabs:
+
+  # content tab
+  content:
+    label: zero.page.error.content
+    icon: text
+    columns:
+      # main
+      - width: 2/3
+        sections:
+          # a simple form
+          content:
+            type: fields
+            fields:
+              altTitle:
+                extends: fields/altTitle
+              intro: 
+                label: zero.page.error.intro
+                type: textarea
+              text:
+                extends: fields/blockEditor
+
+      # sidebar
+      - width: 1/3
+        sections:
+          # a list of files
+          files:
+            type: files
+            template: image
+            headline: zero.page.error.headline
+            info: "{{ file.dimensions }}"
+
+
+  # seo tab
+  seo: tabs/seo
+
+  # advanced tab
+  advanced: tabs/page-advanced

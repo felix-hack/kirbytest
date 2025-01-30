@@ -1,0 +1,236 @@
+Title: How we work
+
+----
+
+Layout: [{"attrs":{"gridwidth":"uk-container uk-container-xsmall","tabletwidth":"","mobilewidth":"","columnsverticalalign":"","columnshorizontalalign":"","containerexpand":"","columngap":"","columnsdivider":"false","gridmasonry":"false","gridparallax":"false","sectiontoggle":"true","sectionsize":" uk-section-large","sectioncolor":" uk-section-primary","sectionremovepadding":"","backgroundstyle":"color","backgroundimage":[],"mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","sectiontextcolor":" uk-light","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","backgroundparalax":"","shapedividertoggle":"false","shapedivider":"","shapedividerposition":"","shapedividercolor":"#ffffff","customshapedivider":"","shapedividerheight":"150px","preservecolor":"false","sectionclass":"","sectionid":"","hidden":"","visible":"","animationswitch":"true","animationtype":"uk-animation-slide-bottom-small","animationdelay":""},"columns":[{"blocks":[{"content":{"level":"h2","text":"Our mission is to produce the highest quality work for every client, on every project.","headingsize":"","headingstyle":"","headingcolor":"","textalign":" uk-text-center@m","textaligntablet":" uk-text-center@s","textalignmobile":" uk-text-center","texttransform":"","textwrapping":""},"id":"6e4847b9-8194-43b5-802d-614b8296f40b","isHidden":false,"type":"heading"}],"id":"d08f25f3-8de2-487c-ac50-ebece731bf8a","width":"1/1"}],"id":"c631b065-d4d8-4b69-b71c-f8df3b18bcd9"},{"attrs":{"gridwidth":"uk-container uk-container-small","tabletwidth":"","mobilewidth":"","columnsverticalalign":"","columnshorizontalalign":"","containerexpand":"","columngap":"","columnsdivider":"false","gridmasonry":"false","gridparallax":"false","sectiontoggle":"true","sectionsize":" uk-section-large","sectioncolor":" uk-section-default","sectionremovepadding":" uk-padding-remove-bottom","backgroundstyle":"color","backgroundimage":[],"mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","sectiontextcolor":" uk-light","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","backgroundparalax":"","shapedividertoggle":"false","shapedivider":"","shapedividerposition":"","shapedividercolor":"#ffffff","customshapedivider":"","shapedividerheight":"150px","preservecolor":"false","sectionclass":"","sectionid":"","hidden":"","visible":"","animationswitch":"true","animationtype":"uk-animation-slide-bottom-small","animationdelay":""},"columns":[{"blocks":[{"content":{"level":"h2","text":"Our approach","headingsize":" uk-heading-medium","headingstyle":"uk-heading-line","headingcolor":"","textalign":" uk-text-center@m","textaligntablet":" uk-text-center@s","textalignmobile":" uk-text-center","texttransform":"","textwrapping":""},"id":"006a6526-5f76-48f7-b426-91137f5009f8","isHidden":false,"type":"heading"},{"content":{"text":"<p>We go deep to unlock insight and have the courage to act.</p>","textalign":" uk-text-center@m","textaligntablet":" uk-text-center@s","textalignmobile":" uk-text-center","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"4f518642-d143-45b4-8fda-0ebd62725fd9","isHidden":false,"type":"text"}],"id":"14186121-d457-412e-b42f-b128243075e6","width":"1/1"}],"id":"cdf0bb9d-115d-44f9-921a-b7ad5b77f3d4"},{"attrs":{"gridwidth":"uk-container uk-container-small","tabletwidth":"","mobilewidth":"","columnsverticalalign":"","columnshorizontalalign":"","containerexpand":"","columngap":"","columnsdivider":"false","gridmasonry":"false","gridparallax":"false","sectiontoggle":"true","sectionsize":" uk-section-large","sectioncolor":" uk-section-default","sectionremovepadding":" uk-padding-remove-bottom","backgroundstyle":"color","backgroundimage":[],"mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","sectiontextcolor":" uk-light","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","backgroundparalax":"","shapedividertoggle":"false","shapedivider":"","shapedividerposition":"","shapedividercolor":"#ffffff","customshapedivider":"","shapedividerheight":"150px","preservecolor":"false","sectionclass":"","sectionid":"","hidden":"","visible":"","animationswitch":"true","animationtype":"uk-animation-slide-bottom-small","animationdelay":""},"columns":[{"blocks":[{"content":{"level":"h2","text":"01.","headingsize":" uk-heading-small","headingstyle":"","headingcolor":" uk-text-primary","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"a1938b44-e4b3-48dd-80a9-3a45ee4716d0","isHidden":false,"type":"heading"}],"id":"65345eda-fd81-451a-8079-fb494eabfaaa","width":"1/4"},{"blocks":[{"content":{"level":"h3","text":"Find the problem","headingsize":" uk-h1","headingstyle":"uk-heading-bullet","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"d932f4be-0ad4-4690-990d-bb0ef940ba1e","isHidden":false,"type":"heading"},{"content":{"text":"<p>Whether you are aware of it or not, as a business owner you conduct market research all the time.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"47247967-57d0-4dc8-aaa9-ffe482336ee9","isHidden":false,"type":"text"},{"content":{"accordion":[{"question":"Marketing research","answer":"<p>Research helps you plan the best way to get your product from the manufacturer to the retail shelf. In addition to deciding which retailers should carry your product, you should determine where your inventory will be held.</p>"},{"question":"Listen to your team","answer":"<p>Go to your team, and tell them you want to make a fresh start. Tell them you want them to enjoy their jobs more and get more done.</p>"},{"question":"Analyze the Problem","answer":"<p>In this problem solving step, you will want to figure out what caused the problem, what the problem looks like at this moment, and the urgency of addressing the problem.</p>"}]},"id":"7acd21e1-c700-42e2-9e8f-50d093bbddf0","isHidden":false,"type":"accordion"}],"id":"89ae3098-0702-45d8-890e-de06730b4e4c","width":"3/4"}],"id":"58ae51d0-ca50-4e4e-8eaf-0e0c93cac870"},{"attrs":{"gridwidth":"uk-container uk-container-small","tabletwidth":"","mobilewidth":"","columnsverticalalign":"","columnshorizontalalign":"","containerexpand":"","columngap":"","columnsdivider":"false","gridmasonry":"false","gridparallax":"false","sectiontoggle":"true","sectionsize":" uk-section-large","sectioncolor":" uk-section-default","sectionremovepadding":" uk-padding-remove-bottom","backgroundstyle":"color","backgroundimage":[],"mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","sectiontextcolor":" uk-light","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","backgroundparalax":"","shapedividertoggle":"false","shapedivider":"","shapedividerposition":"","shapedividercolor":"#ffffff","customshapedivider":"","shapedividerheight":"150px","preservecolor":"false","sectionclass":"","sectionid":"","hidden":"","visible":"","animationswitch":"true","animationtype":"uk-animation-slide-bottom-small","animationdelay":""},"columns":[{"blocks":[{"content":{"level":"h2","text":"02.","headingsize":" uk-heading-small","headingstyle":"","headingcolor":" uk-text-primary","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"d3b899bb-dad8-4580-aea8-11f83e0665f3","isHidden":false,"type":"heading"}],"id":"193950ed-e81d-4cef-875e-0b2ff3644b59","width":"1/4"},{"blocks":[{"content":{"level":"h3","text":"Research and analysis","headingsize":" uk-h1","headingstyle":"uk-heading-bullet","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"81969147-5a6c-475e-b0d4-5c97e16c8f34","isHidden":false,"type":"heading"},{"content":{"text":"<p>Which problem do you solve first? It doesn't matter. If you have time and energy, fix the one that will be the biggest boost to your bottom line.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"bf5e2bc9-9830-466c-92f6-7ef18acd27b3","isHidden":false,"type":"text"},{"content":{"accordion":[{"question":"Distribution Research","answer":"<p>Research helps you plan the best way to get your product from the manufacturer to the retail shelf. In addition to deciding which retailers should carry your product, you should determine where your inventory will be held.</p>"},{"question":"Pricing Research","answer":"<p>You need to keep the customer in mind as well as remember that the main goal is to maximize your profits. Consider whether or not customers can be gained through lower prices.</p>"}]},"id":"1e50f92e-2c0b-4f60-9028-84387e4e8196","isHidden":false,"type":"accordion"}],"id":"3c732c74-4e72-451e-9db9-e208ff4d910c","width":"3/4"}],"id":"584b8fc9-9492-4bbc-a471-c447bb3c501a"},{"attrs":{"gridwidth":"uk-container uk-container-small","tabletwidth":"","mobilewidth":"","columnsverticalalign":"","columnshorizontalalign":"","containerexpand":"","columngap":"","columnsdivider":"false","gridmasonry":"false","gridparallax":"false","sectiontoggle":"true","sectionsize":" uk-section-large","sectioncolor":" uk-section-default","sectionremovepadding":"","backgroundstyle":"color","backgroundimage":[],"mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","sectiontextcolor":" uk-light","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","backgroundparalax":"","shapedividertoggle":"false","shapedivider":"","shapedividerposition":"","shapedividercolor":"#ffffff","customshapedivider":"","shapedividerheight":"150px","preservecolor":"false","sectionclass":"","sectionid":"","hidden":"","visible":"","animationswitch":"true","animationtype":"uk-animation-slide-bottom-small","animationdelay":""},"columns":[{"blocks":[{"content":{"level":"h2","text":"03.","headingsize":" uk-heading-small","headingstyle":"","headingcolor":" uk-text-primary","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"6d6aa165-e263-486a-8db2-faff5e20cf82","isHidden":false,"type":"heading"}],"id":"d8948f85-a993-4edf-a6b9-e0ef3ff5aa0b","width":"1/4"},{"blocks":[{"content":{"level":"h3","text":"Applying solutions","headingsize":" uk-h1","headingstyle":"uk-heading-bullet","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"afe13895-4adf-4799-a320-feb68307cf31","isHidden":false,"type":"heading"},{"content":{"text":"<p>Think like a doctor. You wouldn't be happy if your doctor gave you stomach medicine for a heart condition.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"96dc823e-64b1-4930-aa83-b186e84805c8","isHidden":false,"type":"text"},{"content":{"accordion":[{"question":"Project Management","answer":"<p>Huge online community of Project Managers offering over 12000 how-to articles, templates, project plans, and checklists to help you do your job.</p>"},{"question":"Human Capital Management","answer":"<p>Increase business agility. Achieve more, faster, and with less resources. With the following key enablers: the cloud, mobile, social, analytics, the internet of things, and big data, you can transform your business for the future.</p>"},{"question":"Business Process Services","answer":"<p>By leveraging business process services, you can focus on your core business challenges, instead of day-to-day non-core processes.</p>"}]},"id":"8a572170-88a4-4753-8aae-2c8cbb59f106","isHidden":false,"type":"accordion"}],"id":"7fbd84aa-c22e-4bca-80ae-f3fddf0ffb7f","width":"3/4"}],"id":"0a4ebdcc-4165-4f86-90f9-5e5790a8ab49"},{"attrs":{"gridwidth":"uk-container","tabletwidth":"","mobilewidth":"","columnsverticalalign":" uk-flex-middle","columnshorizontalalign":"","containerexpand":"","columngap":"","columnsdivider":"false","gridmasonry":"false","gridparallax":"false","sectiontoggle":"true","sectionsize":" uk-section-large","sectioncolor":" uk-section-primary","sectionremovepadding":"","backgroundstyle":"color","backgroundimage":[],"mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","sectiontextcolor":" uk-light","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","backgroundparalax":"","shapedividertoggle":"false","shapedivider":"","shapedividerposition":"","shapedividercolor":"#ffffff","customshapedivider":"","shapedividerheight":"150px","preservecolor":"false","sectionclass":"","sectionid":"","hidden":"","visible":"","animationswitch":"true","animationtype":"uk-animation-slide-bottom-small","animationdelay":""},"columns":[{"blocks":[{"content":{"level":"h3","text":"Get in touch with us today.","headingsize":" uk-heading-small","headingstyle":"","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"ea160b92-8cf2-49a2-bce5-046ab2c40cdb","isHidden":false,"type":"heading"},{"content":{"text":"Your business can experience new heights."},"id":"c0633c8b-7f27-4f66-b75f-eb0aa56080d9","isHidden":false,"type":"intro"}],"id":"ab6614a8-d5c8-4e28-a28a-561ffa0b2c83","width":"2/3"},{"blocks":[{"content":{"columnwidth":"","tabletwidth":"","mobilewidth":"","columnheight":"","columnminheight":"","columnmaxheight":"","textalign":" uk-text-right@m","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","columnstyle":"none","columncardsize":"","columncardhover":"false","columncardcolor":" uk-card-default","columntile":"","columnbackground":"","columntextcolor":" uk-light","backgroundstyle":"color","backgroundimage":[],"backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","backgroundparalax":"","mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","columnpadding":"","itemfirst":"","itemlast":"","borderrounded":"false","columnshadow":"","columnclass":"","columnid":"","hidden":"","visible":"","animationswitch":"false","animationtype":"","animationdelay":""},"id":"ed7d6c5d-dc9f-4fd4-a0e0-c56da67f69cc","isHidden":false,"type":"z-column"},{"content":{"text":"Free consultation ","buttonicon":"","linktype":"internal","link":"","internalpage":["page://5n8hdBfgACInzl9l"],"anchor":"","filelink":[],"emaillink":"","phonelink":"","target":"false","buttonstyle":" uk-button-default","buttonsize":" uk-button-large","margintop":""},"id":"3c01fc26-6b17-444a-8e70-3179a33c946b","isHidden":false,"type":"button"}],"id":"c811527c-d32e-42b9-b281-0151bcb75f0f","width":"1/3"}],"id":"243890b4-57bb-4be9-8aa1-6d360d7d9c18"}]
+
+----
+
+Headersection: true
+
+----
+
+Alttitle: 
+
+----
+
+Intro:
+
+See how we can help.
+With you every step of the way.
+
+----
+
+Pageheadersize: 
+
+----
+
+Pagetitlesize: 
+
+----
+
+Headerbackgroundtoggle: true
+
+----
+
+Header: - file://pCMRaRT1zHMj02nX
+
+----
+
+Headerimageposition: uk-background-center-center
+
+----
+
+Headerimagesize: uk-background-cover
+
+----
+
+Headerimagerepeat: no-repeat
+
+----
+
+Headertextcolor: uk-light
+
+----
+
+Headeroverlaycolor: rgba(0, 0, 0, 0.3)
+
+----
+
+Backgroundparalax: 
+
+----
+
+Shapedividertoggle: false
+
+----
+
+Shapedivider: 
+
+----
+
+Shapedividerposition: 
+
+----
+
+Shapedividercolor: #ffffff
+
+----
+
+Customshapedivider: 
+
+----
+
+Shapedividerheight: 150px
+
+----
+
+Overridelogo: false
+
+----
+
+Logo: 
+
+----
+
+Logoinverted: 
+
+----
+
+Logomobile: 
+
+----
+
+Logomobileinverted: 
+
+----
+
+Logoheight: 
+
+----
+
+Mobilelogoheight: 
+
+----
+
+Logolinktype: 
+
+----
+
+Link: 
+
+----
+
+Internalpage: 
+
+----
+
+Anchor: 
+
+----
+
+Target: false
+
+----
+
+Hidenavbar: false
+
+----
+
+Disallowsubmenu: false
+
+----
+
+Newtab: false
+
+----
+
+Menuitemicon: 
+
+----
+
+Megamenu: false
+
+----
+
+Megamenuwidth: 
+
+----
+
+Megamenuitemwidth: 
+
+----
+
+Megamenubackground: false
+
+----
+
+Megamenubackgroundimage: 
+
+----
+
+Megamenubackgroundimageposition: uk-background-center-center
+
+----
+
+Megamenubackgroundimagesize: uk-background-cover
+
+----
+
+Megamenubackgroundimagerepeat: no-repeat
+
+----
+
+Megamenubackgroundoverlaycolor: rgba(0,0,0,0.3)
+
+----
+
+Megamenubackgroundgradientoverlay: false
+
+----
+
+Megamenubackgroundgradienttransition: 
+
+----
+
+Megamenubackgroundoverlaycolor2: rgba(0,0,0,0.3)
+
+----
+
+Transparentnavbar: transparent
+
+----
+
+Navbarinverse: true
+
+----
+
+Hidefooter: false
+
+----
+
+Sitemap: true
+
+----
+
+Metafile: - file://pCMRaRT1zHMj02nX
+
+----
+
+Metatitle: 
+
+----
+
+Removesitetitle: false
+
+----
+
+Metadescription: 
+
+----
+
+Customcss: 
+
+----
+
+Uuid: ZXW9UF3JCG9fk8In

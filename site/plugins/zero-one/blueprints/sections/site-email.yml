@@ -1,0 +1,13 @@
+type: fields
+fields:
+  emailOptionsHeadline:
+    label: zero.site.settings.email.emailOptionsHeadline
+    type: headline
+    numbered: false
+    help: zero.site.settings.email.emailOptionsHeadline.help
+  senderIp:
+    label: zero.site.settings.email.senderIp
+    type: toggle
+    translate: false
+    help: zero.site.settings.email.senderIp.help
+    width: 1/3

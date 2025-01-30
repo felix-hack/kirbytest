@@ -1,0 +1,21 @@
+label: zero.fields.animationType
+type: select
+placeholder: "{{ t('zero.fields.animationType.placeholder') }}"
+options:
+  "uk-animation-scale-up": "{{ t('zero.fields.animationType.scale.up') }}"
+  "uk-animation-scale-down": "{{ t('zero.fields.animationType.scale.down') }}"
+  "uk-animation-slide-top-small": "{{ t('zero.fields.animationType.top.small') }}"
+  "uk-animation-slide-bottom-small": "{{ t('zero.fields.animationType.bottom.small') }}"
+  "uk-animation-slide-left-small": "{{ t('zero.fields.animationType.left.small') }}"
+  "uk-animation-slide-right-small": "{{ t('zero.fields.animationType.right.small') }}"
+  "uk-animation-slide-top-medium": "{{ t('zero.fields.animationType.top.medium') }}"
+  "uk-animation-slide-bottom-medium": "{{ t('zero.fields.animationType.bottom.medium') }}"
+  "uk-animation-slide-left-medium": "{{ t('zero.fields.animationType.left.medium') }}"
+  "uk-animation-slide-right-medium": "{{ t('zero.fields.animationType.right.medium') }}"
+  "uk-animation-slide-top": "{{ t('zero.fields.animationType.top') }}"
+  "uk-animation-slide-bottom": "{{ t('zero.fields.animationType.bottom') }}"
+  "uk-animation-slide-left": "{{ t('zero.fields.animationType.left') }}"
+  "uk-animation-slide-right": "{{ t('zero.fields.animationType.right') }}"
+  "uk-animation-kenburns": "{{ t('zero.fields.animationType.kenburns') }}"
+  "uk-animation-shake": "{{ t('zero.fields.animationType.shake') }}"
+width: 1/3

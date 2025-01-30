@@ -1,0 +1,865 @@
+label: zero.site.styling
+icon: palette
+
+sections:
+  stylingIntro:
+    type: fields
+    fields:
+      stylingCompilerHeadline:
+        label: zero.site.styling.stylingCompilerHeadline
+        type: headline
+        numbered: false
+      #Styling info
+      stylingInfo:
+        label: zero.site.styling.stylingInfo
+        type: info
+        text: zero.site.styling.stylingInfo.text
+
+      # Styling switcher
+      stylingSwitcher:
+        label: zero.site.styling.stylingSwitcher
+        type: toggle
+        default: false
+        translate: false
+        help: zero.site.styling.stylingSwitcher.help
+        width: 1/3
+      # Warning
+      inputInfo:
+        label: zero.site.styling.inputInfo
+        type: info
+        theme: negative
+        text: zero.site.styling.inputInfo.text
+        width: 2/3
+        when:
+          stylingSwitcher: true
+  
+  stylingOptions:
+    type: fields
+    when:
+      stylingSwitcher: true
+    fields:
+      # Styles
+      siteStyles:
+        label: zero.site.styling.siteStyles
+        type: headline
+        numbered: true
+      siteShadows:
+        label: zero.site.styling.siteShadows
+        type: toggle
+        default: false
+        translate: false
+        help: zero.site.styling.siteShadows.help
+        width: 1/4
+      siteButtonShadow:
+        label: zero.site.styling.siteButtonShadow
+        type: select
+        placeholder: "{{ t('zero.reusables.inherit') }}"
+        translate: false
+        options:
+          "none": "{{ t('zero.reusables.none') }}"
+          "@global-xsmall-box-shadow": "{{ t('zero.site.styling.shadow.xsmall') }}"
+          "@global-small-box-shadow": "{{ t('zero.site.styling.shadow.small') }}"
+          "@global-medium-box-shadow": "{{ t('zero.site.styling.shadow.medium') }}"
+          "@global-large-box-shadow": "{{ t('zero.site.styling.shadow.large') }}"
+          "@global-xlarge-box-shadow": "{{ t('zero.site.styling.shadow.xlarge') }}"
+        help: zero.site.styling.siteButtonShadow.help
+        width: 1/4
+        when:
+          siteShadows: true
+      siteCardShadow:
+        label: zero.site.styling.siteCardShadow
+        type: select
+        placeholder: "{{ t('zero.reusables.inherit') }}"
+        translate: false
+        options:
+          "none": "{{ t('zero.reusables.none') }}"
+          "@global-xsmall-box-shadow": "{{ t('zero.site.styling.shadow.xsmall') }}"
+          "@global-small-box-shadow": "{{ t('zero.site.styling.shadow.small') }}"
+          "@global-medium-box-shadow": "{{ t('zero.site.styling.shadow.medium') }}"
+          "@global-large-box-shadow": "{{ t('zero.site.styling.shadow.large') }}"
+          "@global-xlarge-box-shadow": "{{ t('zero.site.styling.shadow.xlarge') }}"
+        help: zero.site.styling.siteCardShadow.help
+        width: 1/4
+        when:
+          siteShadows: true
+      siteNavbarShadow:
+        label: zero.site.styling.siteNavbarShadow
+        type: select
+        placeholder: "{{ t('zero.reusables.inherit') }}"
+        translate: false
+        options:
+          "none": "{{ t('zero.reusables.none') }}"
+          "@global-xsmall-box-shadow": "{{ t('zero.site.styling.shadow.xsmall') }}"
+          "@global-small-box-shadow": "{{ t('zero.site.styling.shadow.small') }}"
+          "@global-medium-box-shadow": "{{ t('zero.site.styling.shadow.medium') }}"
+          "@global-large-box-shadow": "{{ t('zero.site.styling.shadow.large') }}"
+          "@global-xlarge-box-shadow": "{{ t('zero.site.styling.shadow.xlarge') }}"
+        help: zero.site.styling.siteNavbarShadow.help
+        width: 1/4
+        when:
+          siteShadows: true
+      siteSmallShadow:
+        label: zero.site.styling.siteSmallShadow
+        type: text
+        translate: false
+        placeholder: "0px 1px 2px 0px rgba(0,0,0,0.05)"
+        help: zero.site.styling.siteSmallShadow.help
+        width: 1/4
+        when:
+          siteShadows: true
+      siteMediumShadow:
+        label: zero.site.styling.siteMediumShadow
+        type: text
+        translate: false
+        placeholder: "0px 1px 2px 0px rgba(0,0,0,0.05)"
+        help: zero.site.styling.siteMediumShadow.help
+        width: 1/4
+        when:
+          siteShadows: true
+      siteLargeShadow:
+        label: zero.site.styling.siteLargeShadow
+        type: text
+        translate: false
+        placeholder: "0px 1px 2px 0px rgba(0,0,0,0.05)"
+        help: zero.site.styling.siteLargeShadow.help
+        width: 1/4
+        when:
+          siteShadows: true
+      siteXLargeShadow:
+        label: zero.site.styling.siteXLargeShadow
+        type: text
+        translate: false
+        placeholder: "0px 1px 2px 0px rgba(0,0,0,0.05)"
+        help: zero.site.styling.siteXLargeShadow.help
+        width: 1/4
+        when:
+          siteShadows: true
+      siteBorderLine:
+        type: line
+      siteBorderRadius:
+        label: zero.site.styling.siteBorderRadius
+        type: toggle
+        default: false
+        translate: false
+        help: zero.site.styling.siteBorderRadius.help
+        width: 1/4
+      gapOne:
+        type: gap
+        width: 1/1
+      # Colors
+      siteColors:
+        label: zero.site.styling.siteColors
+        type: headline
+        numbered: true
+      textColor:
+        label: zero.site.styling.textColor
+        type: colors
+        required: true
+        translate: false
+        width: 1/4
+      textEmphasisColor:
+        label: zero.site.styling.textEmphasisColor
+        type: colors
+        required: true
+        translate: false
+        width: 1/4
+      textMutedColor:
+        label: zero.site.styling.textMutedColor
+        type: colors
+        required: true
+        translate: false
+        width: 1/4
+      textLinkColor:
+        label: zero.site.styling.textLinkColor
+        type: colors
+        required: true
+        translate: false
+        width: 1/4
+      defaultColor:
+        label: zero.site.styling.defaultColor
+        type: colors
+        required: true
+        translate: false
+        width: 1/4
+      mutedColor:
+        label: zero.site.styling.mutedColor
+        type: colors
+        required: true
+        translate: false
+        width: 1/4
+      primaryColor:
+        label: zero.site.styling.primaryColor
+        type: colors
+        required: true
+        translate: false
+        width: 1/4
+      secondaryColor:
+        label: zero.site.styling.secondaryColor
+        type: colors
+        required: true
+        translate: false
+        width: 1/4
+      inverseColor:
+        label: zero.site.styling.inverseColor
+        type: colors
+        required: true
+        translate: false
+        width: 1/4
+      borderColor:
+        label: zero.site.styling.borderColor
+        type: colors
+        required: true
+        translate: false
+        width: 1/4
+      borderWidth:
+        label: zero.site.styling.borderWidth
+        type: number
+        placeholder: 1
+        after: px
+        help: zero.site.styling.borderWidth.help
+        translate: false
+        width: 1/4
+      
+      # Navbar
+      siteNavbar:
+        label: zero.site.styling.siteNavbar
+        type: headline
+        numbered: true
+      siteNavbarHeight:
+        label: zero.site.styling.siteNavbarHeight
+        type: range
+        step: 1
+        min: 30
+        max: 150
+        default: 100
+        help: zero.site.styling.siteNavbarHeight.help
+        required: true
+        translate: false
+        tooltip:
+          after: px
+        width: 1/4
+      siteNavbarStyle:
+        label: zero.site.styling.siteNavbarStyle
+        type: select
+        default: "top"
+        help: zero.site.styling.siteNavbarStyle.help
+        options:
+          "top": "{{ t('zero.site.styling.siteNavbarStyle.top') }}"
+          "bottom": "{{ t('zero.site.styling.siteNavbarStyle.bottom') }}"
+        required: true
+        translate: false
+        width: 1/4
+      siteNavbarBackground:
+        label: zero.site.styling.siteNavbarBackground
+        type: colors
+        translate: false
+        width: 1/4
+      gap1Navbar:
+        type: gap
+        width: 1/4
+      siteDropdownBackground:
+        label: zero.site.styling.siteDropdownBackground
+        type: colors
+        required: true
+        translate: false
+        width: 1/4
+      siteDropdownColor:
+        label: zero.site.styling.siteDropdownColor
+        type: colors
+        required: true
+        translate: false
+        width: 1/4
+      siteDropdownHoverColor:
+        label: zero.site.styling.siteDropdownHoverColor
+        type: colors
+        required: true
+        translate: false
+        width: 1/4
+      gap2Navbar:
+        type: gap
+        width: 1/4
+      siteNavbarFont:
+        label: zero.site.styling.siteNavbarFont
+        type: select
+        placeholder: "{{ t('zero.site.styling.siteNavbarFont.placeholder') }}"
+        options:
+          "@global-primary-font-family": "{{ t('zero.site.styling.siteNavbarFont.primary.font') }}"
+          "@global-secondary-font-family": "{{ t('zero.site.styling.siteNavbarFont.secondary.font') }}"
+        translate: false
+        width: 1/4
+      siteNavbarFontsize:
+        label: zero.site.styling.siteNavbarFontsize
+        type: text
+        placeholder: 15px
+        help: zero.site.styling.siteNavbarFontsize.help
+        translate: false
+        width: 1/4
+      siteNavbarFontWeight:
+        label: zero.site.styling.siteNavbarFontWeight
+        type: select
+        placeholder: "{{ t('zero.reusables.default') }}"
+        options:
+          "100": "100"
+          "200": "200"
+          "300": "300"
+          "400": "400"
+          "500": "500"
+          "600": "600"
+          "700": "700"
+          "800": "800"
+          "900": "900"
+        translate: false
+        width: 1/4
+      siteNavbarTextTransform:
+        label: zero.site.styling.siteNavbarTextTransform
+        type: select
+        placeholder: "{{ t('zero.reusables.inherit') }}"
+        options:
+          uppercase: "{{ t('zero.site.styling.uppercase') }}"
+          lowercase: "{{ t('zero.site.styling.lowercase') }}"
+          capitalize: "{{ t('zero.site.styling.capitalize') }}"
+        translate: false
+        width: 1/4
+
+      # offcanvas
+      siteOffcanvas:
+        label: zero.site.styling.siteOffcanvas
+        type: headline
+        numbered: true
+      siteOffcanvasBackground:
+        label: zero.site.styling.siteOffcanvasBackground
+        type: colors
+        help: zero.site.styling.siteOffcanvasBackground.help
+        translate: false
+        width: 1/4
+      siteOffcanvasColormode:
+        label: zero.site.styling.siteOffcanvasColormode
+        type: toggle
+        text:
+          - "{{ t('zero.site.styling.light') }}"
+          - "{{ t('zero.site.styling.dark') }}"
+        help: zero.site.styling.siteOffcanvasColormode.help
+        translate: false
+        width: 1/4
+      siteOffcanvasMobilesize:
+        label: zero.site.styling.siteOffcanvasMobilesize
+        type: text
+        placeholder: 'example: 300px/100%'
+        help: zero.site.styling.siteOffcanvasMobilesize.help
+        translate: false
+        width: 1/4
+      siteOffcanvasDesktopsize:
+        label: zero.site.styling.siteOffcanvasDesktopsize
+        type: text
+        placeholder: 'example: 400px/50%'
+        help: zero.site.styling.siteOffcanvasDesktopsize.help
+        translate: false
+        width: 1/4
+      siteOffcanvasOverlayBlurred:
+        label: zero.site.styling.siteOffcanvasOverlayBlurred
+        type: toggle
+        translate: false
+        width: 1/4
+
+      # Buttons
+      siteButtons:
+        label: zero.site.styling.siteButtons
+        type: headline
+        numbered: true
+      siteButtonStyle:
+        label: zero.site.styling.siteButtonStyle
+        type: select
+        default: "default"
+        help: zero.site.styling.siteButtonStyle.help
+        options:
+          "default": "{{ t('zero.site.styling.siteButtonStyle.help.default') }}"
+          "creative": "{{ t('zero.site.styling.siteButtonStyle.help.creative') }}"
+        required: true
+        translate: false
+        width: 1/4
+      siteButtonBorder:
+        label: zero.site.styling.siteButtonBorder
+        type: select
+        default: "default"
+        help: zero.site.styling.siteButtonBorder.help
+        options:
+          "default": "{{ t('zero.site.styling.siteButtonBorder.default') }}"
+          "rounded": "{{ t('zero.site.styling.siteButtonBorder.rounded') }}"
+          "round": "{{ t('zero.site.styling.siteButtonBorder.round') }}"
+        required: true
+        translate: false
+        width: 1/4
+      customizeButtons:
+        label: zero.site.styling.customizeButtons
+        type: toggle
+        translate: false
+        width: 1/4
+
+      defaultButtonLine:
+        type: line
+        when:
+          customizeButtons: true
+      defaultButtonBackground:
+        label: zero.site.styling.defaultButtonBackground
+        type: colors
+        translate: false
+        width: 1/4
+        when:
+          customizeButtons: true
+      defaultButtonColor:
+        label: zero.site.styling.defaultButtonColor
+        type: colors
+        translate: false
+        width: 1/4
+        when:
+          customizeButtons: true
+      defaultButtonHoverBackground:
+        label: zero.site.styling.defaultButtonHoverBackground
+        type: colors
+        translate: false
+        width: 1/4
+        when:
+          customizeButtons: true
+      defaultButtonHoverColor:
+        label: zero.site.styling.defaultButtonHoverColor
+        type: colors
+        translate: false
+        width: 1/4
+        when:
+          customizeButtons: true
+      defaultInverseButtonBackground:
+        label: zero.site.styling.defaultInverseButtonBackground
+        type: colors
+        translate: false
+        width: 1/4
+        when:
+          customizeButtons: true
+      defaultInverseButtonColor:
+        label: zero.site.styling.defaultInverseButtonColor
+        type: colors
+        translate: false
+        width: 1/4
+        when:
+          customizeButtons: true
+      defaultInverseButtonHoverBackground:
+        label: zero.site.styling.defaultInverseButtonHoverBackground
+        type: colors
+        translate: false
+        width: 1/4
+        when:
+          customizeButtons: true
+      defaultInverseButtonHoverColor:
+        label: zero.site.styling.defaultInverseButtonHoverColor
+        type: colors
+        translate: false
+        width: 1/4
+        when:
+          customizeButtons: true
+      
+      primaryButtonLine:
+        type: line
+        when:
+          customizeButtons: true
+      primaryButtonBackground:
+        label: zero.site.styling.primaryButtonBackground
+        type: colors
+        translate: false
+        width: 1/4
+        when:
+          customizeButtons: true
+      primaryButtonColor:
+        label: zero.site.styling.primaryButtonColor
+        type: colors
+        translate: false
+        width: 1/4
+        when:
+          customizeButtons: true
+      primaryButtonHoverBackground:
+        label: zero.site.styling.primaryButtonHoverBackground
+        type: colors
+        translate: false
+        width: 1/4
+        when:
+          customizeButtons: true
+      primaryButtonHoverColor:
+        label: zero.site.styling.primaryButtonHoverColor
+        type: colors
+        translate: false
+        width: 1/4
+        when:
+          customizeButtons: true
+      primaryInverseButtonBackground:
+        label: zero.site.styling.primaryInverseButtonBackground
+        type: colors
+        translate: false
+        width: 1/4
+        when:
+          customizeButtons: true
+      primaryInverseButtonColor:
+        label: zero.site.styling.primaryInverseButtonColor
+        type: colors
+        translate: false
+        width: 1/4
+        when:
+          customizeButtons: true
+      primaryInverseButtonHoverBackground:
+        label: zero.site.styling.primaryInverseButtonHoverBack
+        type: colors
+        translate: false
+        width: 1/4
+        when:
+          customizeButtons: true
+      primaryInverseButtonHoverColor:
+        label: zero.site.styling.primaryInverseButtonHoverColor
+        type: colors
+        translate: false
+        width: 1/4
+        when:
+          customizeButtons: true
+
+      secondaryButtonLine:
+        type: line
+        when:
+          customizeButtons: true
+      secondaryButtonBackground:
+        label: zero.site.styling.secondaryButtonBackground
+        type: colors
+        translate: false
+        width: 1/4
+        when:
+          customizeButtons: true
+      secondaryButtonColor:
+        label: zero.site.styling.secondaryButtonColor
+        type: colors
+        translate: false
+        width: 1/4
+        when:
+          customizeButtons: true
+      secondaryButtonHoverBackground:
+        label: zero.site.styling.secondaryButtonHoverBackground
+        type: colors
+        translate: false
+        width: 1/4
+        when:
+          customizeButtons: true
+      secondaryButtonHoverColor:
+        label: zero.site.styling.secondaryButtonHoverColor
+        type: colors
+        translate: false
+        width: 1/4
+        when:
+          customizeButtons: true
+      secondaryInverseButtonBackground:
+        label: zero.site.styling.secondaryInverseButtonBackground
+        type: colors
+        translate: false
+        width: 1/4
+        when:
+          customizeButtons: true
+      secondaryInverseButtonColor:
+        label: zero.site.styling.secondaryInverseButtonColor
+        type: colors
+        translate: false
+        width: 1/4
+        when:
+          customizeButtons: true
+      secondaryInverseButtonHoverBackground:
+        label: zero.site.styling.secondaryInverseButtonHoverBack
+        type: colors
+        translate: false
+        width: 1/4
+        when:
+          customizeButtons: true
+      secondaryInverseButtonHoverColor:
+        label: zero.site.styling.secondaryInverseButtonHoverColor
+        type: colors
+        translate: false
+        width: 1/4
+        when:
+          customizeButtons: true
+      gapButton:
+        type: gap
+
+      # Fonts
+      siteFonts:
+        label: zero.site.styling.siteFonts
+        type: headline
+        numbered: true
+      fontURL:
+        label: zero.site.styling.fontURL
+        type: url
+        placeholder: https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,400;0,700;1,400&family=Poppins:wght@700&display=swap
+        translate: false
+        help: zero.site.styling.fontURL.help
+      textFontFamily:
+        label: zero.site.styling.textFontFamily
+        type: text
+        maxlength: 100
+        placeholder: "'Muli', Arial, sans-serif"
+        help: zero.site.styling.textFontFamily.help
+        icon: paragraph
+        required: true
+        translate: false
+        width: 1/4
+      textFontSize:
+        label: zero.site.styling.textFontSize
+        type: number
+        after: px
+        min: 7
+        max: 30
+        default: 16
+        required: true
+        translate: false
+        width: 1/4
+      textFontWeight:
+        label: zero.site.styling.textFontWeight
+        type: select
+        default: "400"
+        options:
+          "100": "100"
+          "200": "200"
+          "300": "300"
+          "400": "400"
+          "500": "500"
+          "600": "600"
+          "700": "700"
+          "800": "800"
+          "900": "900"
+        required: true
+        translate: false
+        width: 1/4
+      textLineHeight:
+        label: zero.site.styling.textLineHeight
+        type: number
+        min: 1
+        max: 3
+        placeholder: '1.6'
+        translate: false
+        width: 1/4
+      headingFontFamily:
+        label: zero.site.styling.headingFontFamily
+        type: text
+        maxlength: 100
+        placeholder: "'Poppins', sans-serif"
+        help: zero.site.styling.textFontFamily.help
+        icon: title
+        required: true
+        translate: false
+        width: 1/4
+      headingFontWeight:
+        label: zero.site.styling.headingFontWeight
+        type: select
+        default: "700"
+        options:
+          "100": "100"
+          "200": "200"
+          "300": "300"
+          "400": "400"
+          "500": "500"
+          "600": "600"
+          "700": "700"
+          "800": "800"
+          "900": "900"
+        required: true
+        translate: false
+        width: 1/4
+      headingTextTransform:
+        label: zero.site.styling.headingTextTransform
+        type: select
+        default: inherit
+        options:
+          inherit: "{{ t('zero.reusables.inherit') }}"
+          uppercase: "{{ t('zero.site.styling.headingTextTransform.uppercase') }}"
+          lowercase: "{{ t('zero.site.styling.headingTextTransform.lowercase') }}"
+          capitalize: "{{ t('zero.site.styling.headingTextTransform.capitalize') }}"
+        required: true
+        translate: false
+        width: 1/4
+      headingLetterSpacing:
+        label: zero.site.styling.headingLetterSpacing
+        type: number
+        min: -3
+        max: 5
+        placeholder: '1.5'
+        help: zero.site.styling.headingLetterSpacing.help
+        after: "px"
+        translate: false
+        width: 1/4
+      secondaryFontFamily:
+        label: zero.site.styling.secondaryFontFamily
+        type: text
+        maxlength: 100
+        placeholder: "'Times New Roman', Times, serif"
+        default: "'Times New Roman', Times, serif"
+        help: zero.site.styling.textFontFamily.help
+        icon: quote
+        required: true
+        translate: false
+        width: 1/4
+      secondaryFontWeight:
+        label: zero.site.styling.secondaryFontWeight
+        type: select
+        default: "400"
+        options:
+          "100": "100"
+          "200": "200"
+          "300": "300"
+          "400": "400"
+          "500": "500"
+          "600": "600"
+          "700": "700"
+          "800": "800"
+          "900": "900"
+        required: true
+        translate: false
+        width: 1/4
+      secondaryFontStyle:
+        label: zero.site.styling.secondaryFontStyle
+        type: select
+        default: "normal"
+        options:
+          "normal": "{{ t('zero.site.styling.secondaryFontStyle.normal') }}"
+          "italic": "{{ t('zero.site.styling.secondaryFontStyle.italic') }}"
+          "oblique": "{{ t('zero.site.styling.secondaryFontStyle.oblique') }}"
+        required: true
+        translate: false
+        width: 1/4
+      secondaryLetterSpacing:
+        label: zero.site.styling.secondaryLetterSpacing
+        type: number
+        min: -3
+        max: 5
+        placeholder: '1.5'
+        after: "px"
+        help: zero.site.styling.secondaryLetterSpacing.help
+        translate: false
+        width: 1/4
+
+      headingSizeLine:
+        type: line
+      baseH1Size:
+        label: zero.site.styling.baseH1Size
+        type: text
+        icon: h1
+        placeholder: "example: 3rem/48px"
+        help: zero.site.styling.baseH1Size.help
+        translate: false
+        width: 1/4
+      baseH2Size:
+        label: zero.site.styling.baseH2Size
+        type: text
+        icon: h2
+        placeholder: "example: 2rem/32px"
+        help: zero.site.styling.baseH2Size.help
+        translate: false
+        width: 1/4
+      baseH3Size:
+        label: zero.site.styling.baseH3Size
+        type: text
+        icon: h3
+        placeholder: "example: 1.5rem/24px"
+        help: zero.site.styling.baseH3Size.help
+        translate: false
+        width: 1/4
+      baseH4Size:
+        label: zero.site.styling.baseH4Size
+        type: text
+        icon: h4
+        placeholder: "example: 1.25rem/20px"
+        help: zero.site.styling.baseH4Size.help
+        translate: false
+        width: 1/4
+      baseSmallSize:
+        label: zero.site.styling.baseSmallSize
+        type: text
+        icon: draft
+        placeholder: "example: 0.9375rem/15px"
+        help: zero.site.styling.baseSmallSize.help
+        translate: false
+        width: 1/4
+      gapTypography:
+        type: gap
+
+      siteBreakpoints:
+        label: zero.site.styling.siteBreakpoints
+        type: headline
+        help: zero.site.styling.siteBreakpoints.help
+        numbered: true
+      siteBreakpointsInfo:
+       label: zero.site.styling.siteBreakpointsInfo
+       type: info
+       text: |
+        Phone Portrait:   Galaxy (360x640), iPhone 6 (375x667), iPhone 6+ (414x736)
+        Phone Landscape:  Galaxy (640x360), iPhone 6 (667x375), iPhone 6+ (736x414)
+        Tablet Portrait:  iPad (768x1024), Galaxy Tab (800x1280),
+        Tablet Landscape: iPad (1024x768), iPad Pro (1024x1366),
+        Desktop:          Galaxy Tab (1280x800), iPad Pro (1366x1024)
+      siteBreakpointSmall:
+        label: zero.site.styling.siteBreakpointSmall
+        type: text
+        translate: false
+        placeholder: "640"
+        after: px
+        help: zero.site.styling.siteBreakpointSmall.help
+        width: 1/4
+      siteBreakpointMedium:
+        label: zero.site.styling.siteBreakpointMedium
+        type: text
+        translate: false
+        placeholder: "960"
+        after: px
+        help: zero.site.styling.siteBreakpointMedium.help
+        width: 1/4
+      siteBreakpointLarge:
+        label: zero.site.styling.siteBreakpointLarge
+        type: text
+        translate: false
+        placeholder: "1200"
+        after: px
+        help: zero.site.styling.siteBreakpointLarge.help
+        width: 1/4
+      siteBreakpointXLarge:
+        label: zero.site.styling.siteBreakpointXLarge
+        type: text
+        translate: false
+        placeholder: "1600"
+        after: px
+        help: zero.site.styling.siteBreakpointXLarge.help
+        width: 1/4
+      gapBreakpoints:
+        type: gap
+
+  settingsCustomCode:
+    type: fields
+    fields:
+      # Custom code
+      siteCustomCode:
+        label: zero.site.styling.siteCustomCode
+        type: headline
+        numbered: false
+      customCss:
+        label: zero.site.styling.customCss
+        type: code-editor
+        size: medium
+        language: 'css'
+        translate: false
+        help: zero.site.styling.customCss.help
+        width: 1/2
+      headCustomCode:
+        label: zero.site.styling.headCustomCode
+        type: code-editor
+        size: medium
+        help: zero.site.styling.headCustomCode.help
+        width: 1/2
+      bodyCustomCode:
+        label: zero.site.styling.bodyCustomCode
+        type: code-editor
+        size: medium
+        help: zero.site.styling.bodyCustomCode.help
+        width: 1/2
+      footerCustomCode:
+        label: zero.site.styling.footerCustomCode
+        type: code-editor
+        size: medium
+        help: zero.site.styling.footerCustomCode.help
+        width: 1/2

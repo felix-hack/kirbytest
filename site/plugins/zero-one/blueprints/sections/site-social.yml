@@ -1,0 +1,31 @@
+type: fields
+fields:
+  # Social links
+  ontheweb:
+    label: zero.site.settings.social.ontheweb
+    type: headline
+  socialStyle:
+    label: zero.site.settings.social.socialStyle
+    type: radio
+    default: links
+    columns: 2
+    help: zero.site.settings.social.socialStyle.help
+    options:
+      links: "{{ t('zero.site.settings.social.socialStyle.links') }}"
+      icons: "{{ t('zero.site.settings.social.socialStyle.icons') }}"
+  social:
+    label: zero.site.settings.social.social
+    type: structure
+    max: 5
+    help: zero.site.settings.social.social.help
+    fields:
+      platform:
+        label: zero.site.settings.social.social.platform
+        type: text
+        width: 1/2
+      url:
+        label: URL
+        type: url
+        width: 1/2
+  socialGap:
+    type: gap

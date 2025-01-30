@@ -1,0 +1,250 @@
+label: zero.layout.options.section
+fields:
+  sectionHeadline:
+    label: zero.layout.options.section.sectionHeadline
+    type: headline
+    numbered: false
+  sectionToggle:
+    label: zero.layout.options.section.sectionToggle
+    type: toggle
+    default: true
+    width: 1/3
+  sectionInfo:
+    label: zero.layout.options.section.sectionInfo
+    type: info
+    text: zero.layout.options.section.sectionInfo.text
+    width: 2/3
+  # section size
+  sectionSize:
+    extends: fields/sectionSize
+    when:
+      sectionToggle: true
+  # section color
+  sectionColor:
+    label: zero.layout.options.section.sectionColor
+    type: select
+    default: " uk-section-default"
+    options:
+      " uk-section-default": "{{ t('zero.reusables.default') }}"
+      " uk-section-muted": "{{ t('zero.reusables.muted') }}"
+      " uk-section-primary": "{{ t('zero.reusables.primary') }}"
+      " uk-section-secondary": "{{ t('zero.reusables.secondary') }}"
+      custom: "{{ t('zero.reusables.custom') }}"
+    width: 1/3
+    when:
+      sectionToggle: true
+  # section remove padding
+  sectionRemovePadding:
+    extends: fields/sectionRemovePadding
+    when:
+      sectionToggle: true
+  # background style
+  backgroundStyle:
+    label: zero.layout.options.section.backgroundStyle
+    type: toggles
+    default: color
+    options:
+      - value: color
+        text: "{{ t('zero.layout.options.section.backgroundStyle.color') }}"
+        icon: pipette
+      - value: image
+        text: "{{ t('zero.layout.options.section.backgroundStyle.image') }}"
+        icon: file-image
+      - value: video
+        text: "{{ t('zero.layout.options.section.backgroundStyle.video') }}"
+        icon: file-video
+    when:
+      sectionToggle: true
+      sectionColor: custom
+  # image
+  backgroundImage:
+    extends: fields/backgroundImage
+    when:
+      sectionToggle: true
+      sectionColor: custom
+      backgroundStyle: image
+  # video
+  mediaVideoSource:
+    label: zero.layout.options.section.mediaVideoSource
+    type: toggles
+    default: url
+    options:
+      - value: url
+        text: "{{ t('zero.layout.options.section.mediaVideoSource.url') }}"
+        icon: url
+      - value: upload
+        text: "{{ t('zero.layout.options.section.mediaVideoSource.upload') }}"
+        icon: upload
+    when:
+      sectionToggle: true
+      sectionColor: custom
+      backgroundStyle: video
+  mediaVideo:
+    label: zero.layout.options.section.mediaVideo
+    extends: fields/video
+    multiple: false
+    help: zero.layout.options.section.mediaVideo.help
+    when:
+      sectionToggle: true
+      sectionColor: custom
+      backgroundStyle: video
+      mediaVideoSource: upload
+  mediaVideoUrl:
+    label: zero.layout.options.section.mediaVideoUrl
+    type: url
+    placeholder: "https://www.youtube.com/embed/[videocode]"
+    help: zero.layout.options.section.mediaVideoUrl.help
+    when:
+      sectionToggle: true
+      sectionColor: custom
+      backgroundStyle: video
+      mediaVideoSource: url
+  backgroundImagePosition:
+    extends: fields/backgroundImagePosition
+    when:
+      sectionToggle: true
+      sectionColor: custom
+      backgroundStyle: image
+  backgroundImageSize:
+    extends: fields/backgroundImageSize
+    when:
+      sectionToggle: true
+      sectionColor: custom
+      backgroundStyle: image
+  backgroundImageRepeat:
+    extends: fields/backgroundImageRepeat
+    when:
+      sectionToggle: true
+      sectionColor: custom
+      backgroundStyle: image
+  sectionTextColor:
+    extends: fields/sectionTextColor
+    when:
+      sectionToggle: true
+      sectionColor: custom
+  backgroundOverlayColor:
+    extends: fields/backgroundOverlayColor
+    when:
+      sectionToggle: true
+      sectionColor: custom
+  backgroundGradientOverlay:
+    extends: fields/backgroundGradientOverlay
+    when:
+      sectionToggle: true
+      sectionColor: custom
+  backgroundGradientTransition:
+    extends: fields/backgroundGradientTransition
+    when:
+      sectionToggle: true
+      sectionColor: custom
+      backgroundGradientOverlay: true
+  backgroundOverlayColor2:
+    extends: fields/backgroundOverlayColor
+    label: zero.layout.options.section.backgroundOverlayColor2
+    when:
+      sectionToggle: true
+      sectionColor: custom
+      backgroundGradientOverlay: true
+  backgroundParalax:
+    extends: fields/backgroundParalax
+    when:
+      sectionToggle: true
+      sectionColor: custom
+      backgroundStyle: image
+
+  shapeDividerheadline:
+    label: zero.layout.options.section.shapeDividerheadline
+    type: headline
+    numbered: false
+    when:
+      sectionToggle: true
+  shapeDividertoggle:
+    label: zero.layout.options.section.shapeDividertoggle
+    type: toggle
+    width: 1/3
+    when:
+      sectionToggle: true
+  shapeDividerinfo:
+    label: zero.layout.options.section.shapeDividerinfo
+    type: info
+    text: zero.layout.options.section.shapeDividerinfo.text
+    width: 2/3
+    when:
+      sectionToggle: true
+  shapeDivider:
+    label: zero.layout.options.section.shapeDivider
+    type: select
+    placeholder: "{{ t('zero.page.options.curve') }}"
+    options:
+      fan: "{{ t('zero.page.options.fan') }}"
+      curve-opacity: "{{ t('zero.page.options.curve.opacity') }}"
+      mountains: "{{ t('zero.page.options.mountains') }}"
+      curve-asym: "{{ t('zero.page.options.curve.asym') }}"
+      curve-asym-alt: "{{ t('zero.page.options.curve.asym.alt') }}"
+      tilt: "{{ t('zero.page.options.tilt') }}"
+      tilt-alt: "{{ t('zero.page.options.tilt.alt') }}"
+      triangle: "{{ t('zero.page.options.triangle') }}"
+      waves: "{{ t('zero.page.options.waves') }}"
+      waves-opacity: "{{ t('zero.page.options.waves.opacity') }}"
+      waves-opacity-2: "{{ t('zero.page.options.waves.opacity.2') }}"
+      clouds: "{{ t('zero.page.options.clouds') }}"
+      speech: "{{ t('zero.page.options.speech') }}"
+      custom: "{{ t('zero.page.options.custom') }}"
+    width: 1/3
+    when:
+      sectionToggle: true
+      shapeDividertoggle: true
+  shapeDividerposition:
+    label: zero.layout.options.section.shapeDividerposition
+    type: select
+    placeholder: "{{ t('zero.page.options.shapeDividerposition.bottom') }}"
+    options:
+      top: "{{ t('zero.page.options.shapeDividerposition.top') }}"
+      both: "{{ t('zero.page.options.shapeDividerposition.both') }}"
+    width: 1/3
+    when:
+      sectionToggle: true
+      shapeDividertoggle: true
+  shapeDividercolor:
+    label: zero.layout.options.section.shapeDividercolor
+    type: colors
+    default: '#ffffff'
+    width: 1/3
+    when:
+      sectionToggle: true
+      shapeDividertoggle: true
+  customShapedivider:
+    label: zero.layout.options.section.customShapedivider
+    type: code-editor
+    help: zero.page.options.customShapedivider.help
+    when:
+      sectionToggle: true
+      shapeDividertoggle: true
+      shapeDivider: custom
+  shapeDividerheight:
+    label: zero.layout.options.section.shapeDividerheight
+    type: text
+    default: 150px
+    placeholder: 150px
+    help: zero.layout.options.section.shapeDividerheight.help
+    width: 2/3
+    when:
+      sectionToggle: true
+      shapeDividertoggle: true
+
+  preserveColorHeadline:
+    label: zero.layout.options.section.preserveColorHeadline
+    type: headline
+    numbered: false
+    help: zero.layout.options.section.preserveColorHead.help
+    when:
+      sectionToggle: true
+  preserveColor:
+    label: zero.layout.options.section.preserveColor
+    type: toggle
+    width: 1/3
+    when:
+      sectionToggle: true
+
+  sectionBottomgap:
+    type: gap

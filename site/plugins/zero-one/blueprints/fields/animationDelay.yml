@@ -1,0 +1,8 @@
+label: zero.fields.animationDelay
+type: number
+after: "ms"
+placeholder: 200
+help: zero.fields.animationDelay.help
+min: 0
+max: 5000
+width: 1/3

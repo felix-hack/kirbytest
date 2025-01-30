@@ -1,0 +1,240 @@
+name: zero.blocks.z.content.slider
+icon: layers
+
+preview: zcontentslider
+
+tabs:
+  # content tab
+  content:
+    label: zero.blocks.z.content.slider.content
+    fields:
+      # slider
+      sliderContent:
+        label: zero.blocks.z.content.slider.sliderContent
+        type: structure
+        columns:
+          slideName:
+            width: 1/2
+          slideContent:
+            width: 1/4
+          slideTile:
+            width: 1/4
+        fields:
+          slideName:
+            label: zero.blocks.z.content.slider.slideName
+            type: text
+            default: Slide
+          slideContent:
+            label: zero.blocks.z.content.slider.slideContent
+            extends: fields/blockEditor
+          # column tile
+          slideTile:
+            label: zero.blocks.z.content.slider.slideTile
+            type: toggle
+            default: false
+            width: 1/3
+          # tile size
+          slideTileSize:
+            label: zero.blocks.z.content.slider.slideTileSize
+            type: select
+            placeholder: "{{ t('zero.reusables.default') }}"
+            options: 
+              " uk-padding-small": "{{ t('zero.reusables.small') }}"
+              " uk-padding": "{{ t('zero.reusables.medium') }}"
+              " uk-padding-large": "{{ t('zero.reusables.large') }}"
+            width: 1/3
+            when:
+              slideTile: true
+          # border radius
+          slideTileBorderRadius:
+            label: zero.blocks.z.content.slider.slideTileBorderRadius
+            type: toggle
+            default: false
+            width: 1/3
+            when:
+              slideTile: true
+          # tile color
+          slideTileColor:
+            label: zero.blocks.z.content.slider.slideTileColor
+            type: select
+            default: " uk-card-default"
+            placeholder: "{{ t('zero.reusables.none') }}"
+            options:
+              " uk-tile-default": "{{ t('zero.reusables.default') }}"
+              " uk-tile-muted": "{{ t('zero.reusables.muted') }}"
+              " uk-tile-primary": "{{ t('zero.reusables.primary') }}"
+              " uk-tile-secondary": "{{ t('zero.reusables.secondary') }}"
+            width: 1/3
+            when:
+              slideTile: true
+
+  # slider options
+  sliderOptions:
+    label: zero.blocks.z.content.slider.sliderOptions
+    fields:
+      # slider options heading
+      silderOptionsHeadline:
+        label: zero.blocks.z.content.slider.silderOptionsHeadline
+        type: headline
+        numbered: false
+      # autoplay
+      autoplay:
+        label: zero.blocks.z.content.slider.autoplay
+        type: toggle
+        width: 1/3
+      # infinite scrolling
+      finite:
+        label: zero.blocks.z.content.slider.finite
+        type: toggle
+        width: 1/3
+      # slide sets
+      slideSets:
+        label: zero.blocks.z.content.slider.slideSets
+        type: toggle
+        width: 1/3
+      # slider items heading
+      silderItemsHeadline:
+        label: zero.blocks.z.content.slider.silderItemsHeadline
+        type: headline
+        numbered: false
+      # slider item width
+      sliderItemWidth:
+        label: zero.blocks.z.content.slider.sliderItemWidth
+        type: select
+        placeholder: "{{ t('zero.reusables.fullwidth') }}"
+        default: 2-3
+        options:
+          " uk-width-1-2@s": 1/2
+          " uk-width-1-3@s": 1/3
+          " uk-width-2-3@s": 2/3
+          " uk-width-1-4@s": 1/4
+          " uk-width-3-4@s": 3/4
+        width: 1/3
+      # center items
+      centerItems:
+        label: zero.blocks.z.content.slider.centerItems
+        type: toggle
+        width: 1/3
+      # verticaly align items
+      verticalAlign:
+        label: zero.blocks.z.content.slider.verticalAlign
+        type: select
+        placeholder: "{{ t('zero.blocks.z.content.slider.verticalAlign.top') }}"
+        options:
+          " uk-flex-middle": "{{ t('zero.blocks.z.content.slider.verticalAlign.middle') }}"
+          " uk-flex-bottom": "{{ t('zero.blocks.z.content.slider.verticalAlign.bottom') }}"
+          " uk-grid-match": "{{ t('zero.blocks.z.content.slider.verticalAlign.match') }}"
+          " uk-flex-stretch": "{{ t('zero.blocks.z.content.slider.verticalAlign.stretch') }}"
+        width: 1/3
+      # slider item gap
+      sliderItemsGap:
+        label: zero.blocks.z.content.slider.sliderItemsGap
+        type: select
+        placeholder: "{{ t('zero.reusables.default') }}"
+        options:
+          " uk-grid-small": "{{ t('zero.reusables.small') }}"
+          " uk-grid-medium": "{{ t('zero.reusables.medium') }}"
+          " uk-grid-large": "{{ t('zero.reusables.large') }}"
+          " uk-grid-collapse": "{{ t('zero.blocks.z.content.slider.sliderItemsGap.collapse') }}"
+        width: 1/3
+      # slider navigation heading
+      silderNavigationHeadline:
+        label: zero.blocks.z.content.slider.silderNavigationHead
+        type: headline
+        numbered: false
+      # navigation arrows
+      navigationArrows:
+        label: zero.blocks.z.content.slider.navigationArrows
+        type: select
+        placeholder: "{{ t('zero.reusables.none') }}"
+        default: out
+        options:
+          inside: "{{ t('zero.blocks.z.content.slider.navigationArrows.inside') }}"
+          out: "{{ t('zero.blocks.z.content.slider.navigationArrows.out') }}"
+        width: 1/3
+      # navigation arrows color
+      navigationArrowsColor:
+        label: zero.blocks.z.content.slider.navigationArrowsColor
+        type: select
+        placeholder: "{{ t('zero.reusables.inherit') }}"
+        options:
+          "uk-light": "{{ t('zero.reusables.light') }}"
+          "uk-dark": "{{ t('zero.reusables.dark') }}"
+        width: 1/3
+      # slide sets
+      navigationBullets:
+        label: zero.blocks.z.content.slider.navigationBullets
+        type: toggle
+        default: true
+        width: 1/3
+      
+      sliderOptionsGap:
+        type: gap
+
+  # settings tab
+  settings:
+    label: zero.blocks.z.content.slider.settings
+    icon: cog
+    fields:
+      # block advanced heading
+      blockAdvancedHeadline:
+        label: zero.blocks.z.content.slider.blockAdvancedHeadline
+        type: headline
+        numbered: false
+      # block title
+      title:
+        label: zero.blocks.z.content.slider.title
+        type: text
+        placeholder: "{{ t('zero.blocks.settings.title.placeholder') }}"
+        width: 1/3
+      # block class
+      blockClass:
+        label: zero.blocks.z.content.slider.blockClass
+        type: text
+        placeholder: my-custom-class
+        before: '.'
+        width: 1/3
+      # block id
+      blockID:
+        label: zero.blocks.z.content.slider.blockID
+        type: text
+        placeholder: my-custom-id
+        before: '#'
+        width: 1/3
+      marginVertical:
+        extends: fields/marginVertical
+      marginLeft:
+        extends: fields/marginLeft
+      marginRight:
+        extends: fields/marginRight
+      marginInfo:
+        label: zero.blocks.z.content.slider.marginInfo
+        type: info
+        text: zero.blocks.z.card.marginInfo.text
+
+      # animation headline
+      animationHeadline:
+        label: zero.blocks.z.card.animationHeadline
+        type: headline
+        help: zero.blocks.z.content.slider.animationHeadline.help
+        numbered: false
+      animationNote:
+        label: zero.blocks.z.content.slider.animationNote
+        type: info
+        text: zero.blocks.z.content.slider.animationNote.text
+      # animation switch
+      animationSwitch:
+        label: zero.blocks.z.card.animationHeadline
+        type: toggle
+        width: 1/3
+      animationType:
+        extends: fields/animationType
+        when:
+          animationSwitch: true
+      animationDelay:
+        extends: fields/animationDelay
+        when:
+          animationSwitch: true
+
+      settingsBottomGap:
+        type: gap

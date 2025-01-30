@@ -1,0 +1,172 @@
+label: zero.site.seo
+icon: search
+columns:
+  - width: 2/3
+    sections:
+      meta:
+        type: fields
+        fields:
+          # Meta title
+          metaHeadline:
+            label: zero.site.seo.metaHeadline
+            type: headline
+          metaInfo:
+            label: zero.site.seo.metaInfo
+            type: info
+            text: zero.site.seo.metaInfo.text
+          # Meta Image
+          metaFile:
+            label: zero.site.seo.metaFile
+            multiple: false
+            extends: fields/image
+            help: zero.site.seo.metaFile.help
+          # Meta Title
+          metaTitle:
+            label: zero.site.seo.metaTitle
+            type: text
+            maxlength: 70
+            help: zero.site.seo.metaTitle.help
+          # Meta Description
+          metaDescription:
+            label: zero.site.seo.metaDescription
+            type: textarea
+            size: small
+            maxlength: 160
+            buttons: false
+            help: zero.site.seo.metaDescription.help
+
+      robots:
+        type: fields
+        fields:
+          # robots
+          robotsHeadline:
+            label: zero.site.seo.robotsHeadline
+            type: headline
+          robotsInfo:
+            label: zero.site.seo.robotsInfo
+            type: info
+            theme: positive
+            text: zero.site.seo.robotsInfo.text
+          robotsImportantInfo:
+            label: zero.site.seo.robotsImportantInfo
+            type: info
+            theme: negative
+            text: zero.site.seo.robotsImportantInfo.text
+              
+      sitemap:
+        type: fields
+        fields:
+          # sitemap
+          sitemapHeadline:
+            label: zero.site.seo.sitemapHeadline
+            type: headline
+          sitemapInfo:
+            label: zero.site.seo.sitemapInfo
+            type: info
+            theme: positive
+            text: zero.site.seo.sitemapInfo.text
+          sitemapExclude:
+            label: zero.site.seo.sitemapExclude
+            type: info
+            text: zero.site.seo.sitemapExclude.text
+
+      structuredData:
+        type: fields
+        fields:
+          # structured data
+          schemaHeadline:
+            label: zero.site.seo.schemaHeadline
+            type: headline
+          schemaInfo:
+            label: zero.site.seo.schemaInfo
+            type: info
+            text: zero.site.seo.schemaInfo.text
+
+          useSchema:
+            label: zero.site.seo.useSchema
+            type: toggle
+            width: 1/3
+          companyType:
+            label: zero.site.seo.companyType
+            type: toggle
+            help: zero.site.seo.companyType.help
+            text:
+              - "{{ t('zero.site.seo.companyType.text') }}"
+              - "{{ t('zero.site.seo.companyType.text1') }}"
+            width: 1/3
+            when:
+              useSchema: true
+          schemaTypeGap:
+            type: gap
+            width: 1/3
+            when:
+              useSchema: true
+          companyName:
+            label: zero.site.seo.companyName
+            type: text
+            help: zero.site.seo.companyName.help
+            width: 1/3
+            when:
+              useSchema: true
+          companyEmail:
+            label: zero.site.seo.companyEmail
+            type: text
+            placeholder: email(at)domain.com
+            width: 1/3
+            when:
+              useSchema: true
+          companyPhone:
+            label: zero.site.seo.companyPhone
+            type: text
+            placeholder: ( 33 1) 42 68 53 00
+            width: 1/3
+            when:
+              useSchema: true
+          companyAddress:
+            label: zero.site.seo.companyAddress
+            type: toggle
+            width: 1/3
+            when:
+              useSchema: true
+          companyAddressInfo:
+            label: zero.site.seo.companyAddressInfo
+            type: info
+            text: zero.site.seo.companyAddressInfo.text
+            width: 2/3
+            when:
+              useSchema: true
+              companyAddress: true
+          companyLocality:
+            label: zero.site.seo.companyLocality
+            placeholder: Paris, France
+            type: text
+            help: zero.site.seo.companyLocality.help
+            width: 1/3
+            when:
+              useSchema: true
+              companyAddress: true
+          companyPostal:
+            label: zero.site.seo.companyPostal
+            type: text
+            width: 1/3
+            when:
+              useSchema: true
+              companyAddress: true
+          companyStreet:
+            label: zero.site.seo.companyStreet
+            type: text
+            placeholder: Street name 10
+            width: 1/3
+            when:
+              useSchema: true
+              companyAddress: true
+
+  - width: 1/3
+    sections:
+      # Files
+      metaFiles:
+        headline: zero.site.seo.metaFiles.headline
+        type: files
+        info: "{{ file.dimensions }} {{ file.niceSize }}"
+        search: true
+        help: zero.site.seo.metaFiles.headline.help

@@ -1,0 +1,30 @@
+type: fields
+fields:
+  projectsHeadline:
+    label: zero.site.settings.projects.projectsHeadline
+    type: headline
+  coverWidth:
+    label: zero.site.settings.projects.coverWidth
+    type: number
+    placeholder: 600
+    default: 600
+    after: 'px'
+    help: zero.site.settings.projects.coverWidth.help
+    width: 1/3
+  coverHeight:
+    label: zero.site.settings.projects.coverHeight
+    type: number
+    placeholder: 800
+    default: 800
+    after: 'px'
+    help: zero.site.settings.projects.coverHeight.help
+    width: 1/3
+  coverRatio:
+    label: Ratio
+    type: toggle
+    text: 
+      - "Fixed"
+      - "Freestyle"
+    width: 1/3
+  projectsGap:
+    type: gap

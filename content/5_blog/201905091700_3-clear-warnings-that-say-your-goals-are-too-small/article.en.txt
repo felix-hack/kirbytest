@@ -1,0 +1,49 @@
+Title: 3 Clear Warnings That Say Your Goals Are Too Small
+
+----
+
+Date: 2019-05-09 17:00:00
+
+----
+
+Author: 
+
+----
+
+Desc: We finished our first sensor sweep of the neutral zone. You did exactly what you had to do. You considered all your options, you tried every alternative.
+
+----
+
+Text: [{"content":{"text":"<p>Could someone survive inside a transporter buffer for 75 years? Fate. It protects fools, little children, and ships named “Enterprise.”</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"8d222778-2aa5-49f2-9e7c-facaa0c21b24","isHidden":false,"type":"text"},{"content":{"text":"<p>Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once. We have a saboteur aboard. We know you’re dealing in stolen ore. But I wanna talk about the assassination attempt on <a href=\"#\" rel=\"noopener noreferrer nofollow\">Lieutenant Worf</a>. Could someone survive inside a transporter buffer for 75 years? Fate. It protects fools, little children, and ships named “Enterprise.”</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"db1a83c9-3cbe-4806-b857-6cb69ad290d3","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"The beauty of life","headingsize":"","headingstyle":"","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"19af96d6-5261-4899-ba05-08b0339f1836","isHidden":false,"type":"heading"},{"content":{"text":"<p>The Orbit invites comparisons. Described as congealed intestines, a melted roller coaster, a loop of string arrested in mid-fall, it seems we cannot talk about it without talking about other things. Instead of evaluation, we end up with similes. This tendency to describe what the structure is like betrays a sense of unease over what it is. The tower is, of course, strikingly redundant—an inept attempt to satisfy the vague sense that something is missing, another useless thingy to add to Stratford’s menagerie of future relics. But its uselessness is to the point: Boris Johnson and Anish Kapoor have said that the tower is ‘mythic,’ which both acknowledges its unreality and reveals that they want more than they know how to get.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"7e33bbc2-80e6-4d0e-ac2c-ba135b4c7628","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://zLU1ou7MUcUQ21mN"],"src":"","ratio":"","alt":"","resizewidth":"","caption":"","captionclass":"false","width":"","widthmobile":"","align":"","float":"","borderradius":"uk-border-rounded","shadow":" uk-box-shadow-medium","linkoption":"","link":"","newtab":"false"},"id":"b74db976-f8d4-48e9-9679-0573079b1101","isHidden":false,"type":"image"},{"content":{"text":"<p>If this picture of things begins to unnerve rather than inspire, we might start to hedge our bets, we might start to feel adrift and crave the certainty of a centre, the magic of a tower. Once the word ‘global’ starts to lose its meaning, the passing of the games may leave us feeling bereft.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"b2ddc7f2-12c2-40b5-a551-d990e6493981","isHidden":false,"type":"text"},{"content":{"text":"<p>I’m afraid I still don’t understand, sir. Flair is what marks the difference between artistry and mere competence. Computer, belay that order. Yesterday I did not know how to eat gagh. Mr. Worf, you sound like a man who’s <a href=\"#\" rel=\"noopener noreferrer nofollow\">asking his friend</a> if he can start dating his sister. Not if I weaken first. What? We’re not at all alike! I’ll be sure to note that in my log.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"62e130cc-948e-47b8-9125-62c7acbfa783","isHidden":false,"type":"text"},{"content":{"text":"There is a way out of every box, a solution to every puzzle, it’s just a matter of finding it.","citation":"John Doe"},"id":"facb1f5a-b1bf-4c22-90bb-5b4ca00ce3dc","isHidden":false,"type":"quote"},{"content":{"text":"<p>What’s a knock-out like you doing in a computer-generated gin joint like this? But the probability of making a six is no greater than that of <a href=\"#\" rel=\"noopener noreferrer nofollow\">rolling a seven</a>. I guess it’s better to be lucky than good. Yesterday I did not know how to eat gagh.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"68c40a3f-fed0-4efe-97a6-7d2d53916b03","isHidden":false,"type":"text"},{"content":{"text":"<ul><li><strong>Aliquam</strong> erat volutpat eleifend mi</li><li>Lacinia scelerisque lacinia quis</li><li>Consectetuer <em>adipiscing</em> elit et ultrices</li><li>Magnis dis parturient montes</li></ul>","liststyle":"","listcolor":"","listsize":"","listdivider":"","column":""},"id":"69a51a7f-8377-4443-ac1f-7c1ae9787c2c","isHidden":false,"type":"list"},{"content":{"text":"<p>What’s a knock-out like you doing in a computer-generated gin joint like this? Wouldn’t that bring about chaos? What? We’re not at all alike! Some days you get the bear, and some days the bear gets you. I’d like to think that I haven’t changed those things, sir.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"546181e9-2675-4110-92df-8fbf66a20d1a","isHidden":false,"type":"text"},{"content":{"text":"Frustratingly, nothing is known about the author of this highly entertaining compendium. His portrait (which appears only in the second edition) is supplied, but he offers no biographical information about himself."},"id":"5093d326-70f9-4df5-9d77-6c8732406df6","isHidden":false,"type":"info"},{"content":{"level":"h3","text":"Triumph of creation","headingsize":"","headingstyle":"","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"951f2837-fbd5-4d03-8a10-d45a286b566a","isHidden":false,"type":"heading"},{"content":{"text":"<p>The second part treats fireworks “for tryumph and recreation.” Its title-page is illustrated with a woodcut depicting a “green man’ wielding a fire club. With obscure and mythical origins, green men dressed in foliage and garlands traditionally led processions of fireworkers from medieval times. The customary greeting amongst the firework fraternity is still “stay green.”</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"eb3b7e61-6660-4786-9484-f66df43fe77d","isHidden":false,"type":"text"},{"content":{"text":"<ol><li><strong>Aliquam</strong> erat volutpat eleifend mi</li><li>Lacinia scelerisque lacinia quis</li><li>Consectetuer <em>adipiscing</em> elit et ultrices</li><li>Magnis dis parturient montes</li></ol>","liststyle":"","listcolor":"","listsize":"","listdivider":"","column":""},"id":"5c884951-b442-47c3-8386-42bcc76af412","isHidden":false,"type":"list"},{"content":{"text":"<p>There was a time when I could read the whole of <em>Usenet</em>—not just because I was a student looking for an excuse to avoid my assignments, but because <em>Usenet</em> was once tractable, readable by a single determined person. Today, I can’t even keep up with a single high-traffic message-board. I can’t read all my emails. I can’t read every item posted to every site I like. I certainly can’t plough through the entire edit-history of every <em>Wikipedia</em> entry I read. I’ve come to grips with this—with acquiring information on a probabilistic basis, instead of the old, deterministic, cover-to-cover approach I learned in the offline world.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"0530c8a8-f779-4692-98f3-17e06fe2d909","isHidden":false,"type":"text"}]
+
+----
+
+Cover: - file://zLU1ou7MUcUQ21mN
+
+----
+
+Transparentnavbar: transparent
+
+----
+
+Navbarinverse: true
+
+----
+
+Related: 
+
+----
+
+Category: entrepreneur
+
+----
+
+Tags: goals, business, strategy
+
+----
+
+Featured: no
+
+----
+
+Uuid: BBm2mFWqwSaIq64A

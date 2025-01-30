@@ -1,0 +1,238 @@
+type: fields
+fields:
+  # Header
+  headerOptions:
+    label: zero.site.settings.header.headerOptions
+    type: headline
+  # header align
+  headerAlign:
+    label: zero.site.settings.header.headerAlign
+    type: select
+    default: center
+    columns: 2
+    help: zero.site.settings.header.headerAlign.help
+    options:
+      center: "{{ t('zero.reusables.center') }}"
+      left: "{{ t('zero.reusables.left') }}"
+    width: 1/3
+  # header width
+  headerWidth:
+    label: zero.site.settings.header.headerWidth
+    type: select
+    default: default
+    help: zero.site.settings.header.headerWidth.help
+    options:
+      default: "{{ t('zero.reusables.default') }}"
+      large: "{{ t('zero.reusables.large') }}"
+      expand: "{{ t('zero.reusables.expand') }}"
+    width: 1/3
+    when:
+      headerAlign: left
+  # section size
+  pageHeaderSize:
+    label: zero.site.settings.header.pageHeaderSize
+    type: select
+    placeholder: "{{ t('zero.reusables.default') }}"
+    default: "uk-section-large"
+    options:
+      "uk-section-xsmall": "{{ t('zero.reusables.xsmall') }}"
+      "uk-section-small": "{{ t('zero.reusables.small') }}"
+      "uk-section-large": "{{ t('zero.reusables.large') }}"
+      "uk-section-xlarge": "{{ t('zero.reusables.xlarge') }}"
+    width: 1/3
+
+  pageTitleColor:
+    label: zero.site.settings.header.pageTitleColor
+    type: select
+    default: muted
+    placeholder: "{{ t('zero.reusables.default') }}"
+    help: zero.site.settings.header.pageTitleColor.help
+    options:
+      muted: "{{ t('zero.reusables.muted') }}"
+      primary: "{{ t('zero.reusables.primary') }}"
+    width: 1/3
+  
+  pageTitleSize:
+    label: zero.site.settings.header.pageTitleSize
+    type: select
+    default: large
+    placeholder: "{{ t('zero.reusables.default') }}"
+    help: zero.site.settings.header.pageTitleSize.help
+    options:
+      medium: "{{ t('zero.reusables.medium') }}"
+      large: "{{ t('zero.reusables.large') }}"
+      xlarge: "{{ t('zero.reusables.xlarge') }}"
+    width: 1/3
+
+  breadcrumbs:
+    label: zero.site.settings.header.breadcrumbs
+    type: toggle
+    help: zero.site.settings.header.breadcrumbs.help
+    width: 1/3
+  # header image
+  headerImage:
+    label: zero.site.settings.header.headerImage
+    type: toggle
+    default: false
+    width: 1/3
+  backgroundImageHeading:
+    extends: fields/backgroundImageHeading
+    when:
+      headerImage: true
+  header:
+    label: zero.site.settings.header.header
+    extends: fields/image
+    multiple: false
+    help: zero.site.settings.header.header.help
+    width: 2/3
+    when:
+      headerImage: true
+  headerImagePosition:
+    label: zero.site.settings.headerImagePosition
+    type: select
+    default: "uk-background-center-center"
+    options:
+      "uk-background-top-left": "{{ t('zero.site.settings.headerImagePosition.top.left') }}"
+      "uk-background-top-center": "{{ t('zero.site.settings.headerImagePosition.top.center') }}"
+      "uk-background-top-right": "{{ t('zero.site.settings.headerImagePosition.top.right') }}"
+      "uk-background-center-left": "{{ t('zero.site.settings.headerImagePosition.center.left') }}"
+      "uk-background-center-center": "{{ t('zero.site.settings.headerImagePosition.center.center') }}"
+      "uk-background-center-right": "{{ t('zero.site.settings.headerImagePosition.center.right') }}"
+      "uk-background-bottom-left": "{{ t('zero.site.settings.headerImagePosition.bottom.left') }}"
+      "uk-background-bottom-center": "{{ t('zero.site.settings.headerImagePosition.bottom.center') }}"
+      "uk-background-bottom-right": "{{ t('zero.site.settings.headerImagePosition.bottom.right') }}"
+    width: 1/3
+    when:
+      headerImage: true
+  headerImageSize:
+    label: zero.site.settings.header.headerImageSize
+    type: select
+    default: "uk-background-cover"
+    options:
+      "uk-background-cover": "{{ t('zero.site.settings.header.headerImageSize.cover') }}"
+      "uk-background-contain": "{{ t('zero.site.settings.header.headerImageSize.contain') }}"
+    width: 1/3
+    when:
+      headerImage: true
+  headerImageRepeat:
+    label: zero.site.settings.header.headerImageRepeat
+    type: select
+    default: "no-repeat"
+    options:
+      "no-repeat": "{{ t('zero.site.settings.header.headerImageRepeat.no.repeat') }}"
+      "repeat": "{{ t('zero.site.settings.header.headerImageRepeat.repeat') }}"
+      "repeat-x": "{{ t('zero.site.settings.header.headerImageRepeat.repeat.x') }}"
+      "repeat-y": "{{ t('zero.site.settings.header.headerImageRepeat.repeat.y') }}"
+    width: 1/3
+    when:
+      headerImage: true
+  headerTextColor:
+    label: zero.site.settings.header.headerTextColor
+    type: select
+    default: "uk-light"
+    options:
+      "uk-light": "{{ t('zero.reusables.light') }}"
+      "uk-dark": "{{ t('zero.reusables.dark') }}"
+    width: 1/3
+    when:
+      headerImage: true
+  headerOverlayColor:
+    label: zero.site.settings.header.headerOverlayColor
+    type: colors
+    alpha: true
+    default: 'rgba(0,0,0,0.3)'
+    width: 1/3
+    when:
+      headerImage: true
+  backgroundParalax:
+    label: zero.site.settings.header.backgroundParalax
+    type: select
+    width: 1/3
+    options:
+      paralaxY: "{{ t('zero.site.settings.header.backgroundParalax.paralaxY') }}"
+      paralaxX: "{{ t('zero.site.settings.header.backgroundParalax.paralaxX') }}"
+    when:
+      headerImage: true
+
+  shapeDividerheadline:
+    label: zero.site.settings.header.shapeDividerheadline
+    type: headline
+    numbered: false
+    when:
+      headerImage: true
+  shapeDividertoggle:
+    label: zero.site.settings.header.shapeDividertoggle
+    type: toggle
+    width: 1/3
+    when:
+      headerImage: true
+  shapeDividerinfo:
+    label: zero.site.settings.header.shapeDividerinfo
+    type: info
+    text: zero.site.settings.header.shapeDividerinfo.text
+    width: 2/3
+    when:
+      headerImage: true
+  shapeDivider:
+    label: zero.site.settings.header.shapeDivider
+    type: select
+    placeholder: "{{ t('zero.site.settings.header.shapeDivider.curve') }}"
+    options:
+      fan: "{{ t('zero.site.settings.header.shapeDivider.fan') }}"
+      curve-opacity: "{{ t('zero.site.settings.header.shapeDivider.curve.opacity') }}"
+      mountains: "{{ t('zero.site.settings.header.shapeDivider.mountains') }}"
+      curve-asym: "{{ t('zero.site.settings.header.shapeDivider.curve.asym') }}"
+      curve-asym-alt: "{{ t('zero.site.settings.header.shapeDivider.curve.asym.alt') }}"
+      tilt: "{{ t('zero.site.settings.header.shapeDivider.tilt') }}"
+      tilt-alt: "{{ t('zero.site.settings.header.shapeDivider.tilt.alt') }}"
+      triangle: "{{ t('zero.site.settings.header.shapeDivider.triangle') }}"
+      waves: "{{ t('zero.site.settings.header.shapeDivider.waves') }}"
+      waves-opacity: "{{ t('zero.site.settings.header.shapeDivider.waves.opacity') }}"
+      waves-opacity-2: "{{ t('zero.site.settings.header.shapeDivider.waves.opacity-2') }}"
+      clouds: "{{ t('zero.site.settings.header.shapeDivider.clouds') }}"
+      speech: "{{ t('zero.site.settings.header.shapeDivider.speech') }}"
+      custom: "{{ t('zero.site.settings.header.shapeDivider.custom') }}"
+    width: 1/3
+    when:
+      headerImage: true
+      shapeDividertoggle: true
+  shapeDividerposition:
+    label: zero.site.settings.header.shapeDividerposition
+    type: select
+    placeholder: "{{ t('zero.site.settings.header.shapeDividerposition.bottom') }}"
+    options:
+      top: "{{ t('zero.site.settings.header.shapeDividerposition.top') }}"
+      both: "{{ t('zero.site.settings.header.shapeDividerposition.both') }}"
+    width: 1/3
+    when:
+      headerImage: true
+      shapeDividertoggle: true
+  shapeDividercolor:
+    label: zero.site.settings.header.shapeDividercolor
+    type: colors
+    default: '#ffffff'
+    width: 1/3
+    when:
+      headerImage: true
+      shapeDividertoggle: true
+  customShapedivider:
+    label: zero.site.settings.header.customShapedivider
+    type: code-editor
+    help: zero.site.settings.header.customShapedivider.help
+    when:
+      headerImage: true
+      shapeDividertoggle: true
+      shapeDivider: custom
+  shapeDividerheight:
+    label: zero.site.settings.header.shapeDividerheight
+    type: text
+    default: 150px
+    placeholder: 150px
+    help: zero.site.settings.header.shapeDividerheight.help
+    width: 2/3
+    when:
+      headerImage: true
+      shapeDividertoggle: true
+  
+  headerGap:
+    type: gap

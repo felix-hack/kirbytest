@@ -1,0 +1,46 @@
+title: zero.page.search
+icon: search
+
+options:
+  delete: false
+  changeSlug: false
+  status: false
+  duplicate: false
+
+tabs:
+
+  # content tab
+  content:
+    label: zero.page.search.content
+    icon: text
+    columns:
+      # main
+      - width: 2/3
+        sections:
+
+          # a simple form
+          content:
+            type: fields
+            fields:
+              altTitle:
+                extends: fields/altTitle
+              intro: 
+                label: zero.page.search.intro
+                type: textarea
+
+      # sidebar
+      - width: 1/3
+        sections:
+
+          # a list of files
+          files:
+            type: files
+            headline: zero.page.search.files
+
+
+  # seo tab
+  seo: tabs/seo
+
+  # advanced tab
+  advanced: tabs/page-advanced
+  

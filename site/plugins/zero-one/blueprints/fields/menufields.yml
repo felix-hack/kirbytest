@@ -1,0 +1,45 @@
+type: group
+fields:
+  linkType:
+    label: zero.fields.menufields.linkType
+    type: toggles
+    default: page
+    options: 
+      - value: page
+        text: "{{ t('zero.fields.menufields.linkType.page') }}"
+        icon: layers
+      - value: external
+        text: "{{ t('zero.fields.menufields.linkType.external') }}"
+        icon: url
+    width: 2/3
+  newTab:
+    label: zero.fields.menufields.newTab
+    type: toggle
+    width: 1/3
+  icon:
+    extends: fields/icons
+    label: zero.fields.menufields.icon
+    placeholder: "{{ t('zero.reusables.none') }}"
+    width: 1/3
+  linkTitle:
+    type: text
+    label: zero.fields.menufields.linkTitle
+    width: 2/3
+  pageLink:
+    label: zero.fields.menufields.pageLink
+    type: pages
+    multiple: false
+    width: 1/2
+    when:
+      linkType: page
+  externalLink:
+    type: url
+    label: zero.fields.menufields.externalLink
+    width: 1/2
+    when:
+      linkType: external
+  anchor:
+    type: slug
+    label: zero.fields.menufields.anchor
+    before: '#'
+    width: 1/4

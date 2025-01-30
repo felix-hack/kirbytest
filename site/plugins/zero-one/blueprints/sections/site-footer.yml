@@ -1,0 +1,253 @@
+type: fields
+fields:
+  # footer style
+  footerStyle:
+    label: zero.site.settings.footer.footerStyle
+    type: select
+    placeholder: "{{ t('zero.reusables.none') }}"
+    help: zero.site.settings.footer.footerStyle.help
+    options:
+      columns: "{{ t('zero.site.settings.footer.footerStyle.columns') }}"
+      compact: "{{ t('zero.site.settings.footer.footerStyle.compact') }}"
+    width: 1/3
+  # footer background
+  footerColor:
+    label: zero.site.settings.footer.footerColor
+    type: select
+    default: default
+    placeholder: "{{ t('zero.reusables.none') }}"
+    options:
+      default: "{{ t('zero.reusables.default') }}"
+      muted: "{{ t('zero.reusables.muted') }}"
+      primary: "{{ t('zero.reusables.primary') }}"
+      secondary: "{{ t('zero.reusables.secondary') }}"
+      image: "{{ t('zero.site.settings.footer.footerColor.image') }}"
+    width: 1/3
+  footerWidth:
+    label: zero.site.settings.footer.footerWidth
+    type: select
+    placeholder: "{{ t('zero.reusables.default') }}"
+    options:
+      "uk-container-xlarge": "{{ t('zero.reusables.large') }}"
+      "uk-container-expand": "{{ t('zero.reusables.expand') }}"
+    width: 1/3
+    when:
+      footerStyle: columns
+  # footer columns
+  footerColumns:
+    label: zero.site.settings.footer.footerColumns
+    type: structure
+    columns: 
+      columnTitle: 
+        width: 1/2
+      columnWidth: 
+        width: 1/4
+      columnContent:
+        width: 1/4
+    help: zero.site.settings.footer.footerColumns.help
+    fields:
+      columnWidth:
+        label: zero.site.settings.footer.footerColumns.columnWidth
+        type: select
+        default: "uk-width-expand@m"
+        options:
+          "uk-width-expand@m": "{{ t('zero.reusables.expand') }}"
+          "uk-width-1-1": 1/1
+          "uk-width-1-2@m": 1/2
+          "uk-width-1-3@m": 1/3
+          "uk-width-2-3@m": 2/3
+          "uk-width-1-4@m": 1/4
+          "uk-width-3-4@m": 3/4
+          "uk-width-1-5@m": 1/5
+          "uk-width-2-5@m": 2/5
+          "uk-width-3-5@m": 3/5
+          "uk-width-4-5@m": 4/5
+          "uk-width-1-6@m": 1/6
+          "uk-width-5-6@m": 5/6
+          "uk-width-auto@m": Auto
+        width: 1/3
+      columnClass:
+        label: zero.site.settings.footer.footerColumns.columnClass
+        type: text
+        placeholder: my-custom-class
+        width: 1/3
+      columnTitle:
+        label: zero.site.settings.footer.footerColumns.columnTitle
+        type: text
+        placeholder: "{{ t('zero.site.settings.footer.footerColumns.placeholder') }}"
+        default: Column
+        width: 1/3
+      # column content
+      columnContent:
+        label: zero.site.settings.footer.columnContent
+        type: radio
+        columns: 3
+        default: markdown
+        help: zero.site.settings.footer.columnContent.help
+        options:
+          editor: "{{ t('zero.site.settings.footer.columnContent.editor') }}"
+          markdown: Kirbytext
+          html: HTML
+      # editor
+      columnEditor:
+        extends: fields/blockEditor
+        when:
+          columnContent: editor
+      # markdown
+      footerColumn:
+        label: zero.site.settings.footer.markdown.footerColumn
+        type: textarea
+        when:
+          columnContent: markdown
+      # html
+      columnHTML:
+        label: zero.site.settings.footer.html.columnHTML
+        type: textarea
+        buttons: false
+        font: monospace
+        size: medium
+        when:
+          columnContent: html
+      # column card
+      columnCard:
+        label: zero.site.settings.footer.columnCard
+        type: toggle
+        default: false
+        width: 1/3
+      # card size
+      columnCardSize:
+        label: zero.site.settings.footer.columnCardSize
+        type: select
+        placeholder: Default
+        options: 
+          " uk-card-small": "{{ t('zero.reusables.small') }}"
+          " uk-card-large": "{{ t('zero.reusables.large') }}"
+        width: 1/3
+        when:
+          columnCard: true
+      # card hover
+      columnCardHover:
+        label: zero.site.settings.footer.columnCardHover
+        type: toggle
+        default: false
+        width: 1/3
+        when:
+          columnCard: true
+      # card color
+      columnCardColor:
+        label: zero.site.settings.footer.columnCardColor
+        type: select
+        default: " uk-card-default"
+        placeholder: "{{ t('zero.reusables.none') }}"
+        options:
+          " uk-card-default": "{{ t('zero.reusables.default') }}"
+          " uk-card-primary": "{{ t('zero.reusables.primary') }}"
+          " uk-card-secondary": "{{ t('zero.reusables.secondary') }}"
+        width: 1/3
+        when:
+          columnCard: true
+    when: 
+      footerStyle: columns
+  # footer compact
+  footerCompactText:
+    extends: fields/blockEditor
+    help: zero.site.settings.footer.footerCompactText.help
+    when: 
+      footerStyle: compact
+
+  # footer image
+  backgroundImage:
+    label: zero.site.settings.footer.backgroundImage
+    extends: fields/backgroundImage
+    when:
+      footerColor: image
+  backgroundImagePosition:
+    label: zero.site.settings.footer.backgroundImagePosition
+    type: select
+    default: "uk-background-center-center"
+    options:
+      "uk-background-top-left": "{{ t('zero.site.settings.footer.top.left') }}"
+      "uk-background-top-center": "{{ t('zero.site.settings.footer.top.center') }}"
+      "uk-background-top-right": "{{ t('zero.site.settings.footer.top.right') }}"
+      "uk-background-center-left": "{{ t('zero.site.settings.footer.center.left') }}"
+      "uk-background-center-center": "{{ t('zero.site.settings.footer.center.center') }}"
+      "uk-background-center-right": "{{ t('zero.site.settings.footer.center.right') }}"
+      "uk-background-bottom-left": "{{ t('zero.site.settings.footer.bottom.left') }}"
+      "uk-background-bottom-center": "{{ t('zero.site.settings.footer.bottom.center') }}"
+      "uk-background-bottom-right": "{{ t('zero.site.settings.footer.bottom.right') }}"
+    width: 1/3
+    when:
+      footerColor: image
+  backgroundImageSize:
+    label: zero.site.settings.footer.backgroundImageSize
+    type: select
+    default: "uk-background-cover"
+    options:
+      "uk-background-cover": "{{ t('zero.site.settings.footer.backgroundImageSize.cover') }}"
+      "uk-background-contain": "{{ t('zero.site.settings.footer.backgroundImageSize.contain') }}"
+    width: 1/3
+    when:
+      footerColor: image
+  backgroundImageRepeat:
+    label: zero.site.settings.footer.backgroundImageRepeat
+    type: select
+    default: "no-repeat"
+    options:
+      "no-repeat": "{{ t('zero.site.settings.footer.backgroundImageRepeat.no-repeat') }}"
+      "repeat": "{{ t('zero.site.settings.footer.backgroundImageRepeat.repeat') }}"
+      "repeat-x": "{{ t('zero.site.settings.footer.backgroundImageRepeat.repeat-x') }}"
+      "repeat-y": "{{ t('zero.site.settings.footer.backgroundImageRepeat.repeat-y') }}"
+    width: 1/3
+    when:
+      footerColor: image
+  footerTextColor:
+    label: zero.site.settings.footer.footerTextColor
+    type: select
+    default: "uk-light"
+    options:
+      "uk-light": "{{ t('zero.reusables.light') }}"
+      "uk-dark": "{{ t('zero.reusables.dark') }}"
+    width: 1/3
+    when:
+      footerColor: image
+  backgroundOverlayColor:
+    extends: fields/backgroundOverlayColor
+    when:
+      footerColor: image
+  # footer copyright
+  copyrightLine:
+    type: line
+  subfooterToggle:
+    label: zero.site.settings.footer.subfooterToggle
+    type: toggle
+    text:
+      - "{{ t('zero.site.settings.footer.subfooterToggle.hide') }}"
+      - "{{ t('zero.site.settings.footer.subfooterToggle.show') }}"
+    width: 1/3
+  copyright:
+    label: zero.site.settings.footer.copyright
+    type:  text
+    help: zero.site.settings.footer.copyright.help
+    width: 2/3
+    when:
+      subfooterToggle: true
+  # footer animate
+  footerAnimateline:
+    type: line
+  animateFooter:
+    label: zero.site.settings.footer.animateFooter
+    type: toggle
+    translate: false
+    width: 1/3
+  animateElement:
+    label: zero.site.settings.footer.animateElement
+    type: select
+    placeholder: "{{ t('zero.site.settings.footer.animateElement.placeholder') }}"
+    options:
+      divs: "{{ t('zero.site.settings.footer.animateElement.divs') }}"
+    width: 1/3
+    when:
+      animateFooter: true
+      footerStyle: columns
+  footerGap:
+    type: gap

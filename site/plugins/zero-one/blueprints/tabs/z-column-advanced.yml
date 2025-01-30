@@ -1,0 +1,75 @@
+label: zero.block.z.column.advanced
+icon: edit
+fields:
+  # column advanced heading
+  columnAdvancedHeadline:
+    label: zero.block.z.column.advanced.columnAdvancedHeadline
+    type: headline
+    numbered: false
+    help: zero.block.z.column.advanced.columnAdvancedHeadline.help
+  # column class
+  columnClass:
+    label: zero.block.z.column.advanced.columnClass
+    type: text
+    placeholder: my-custom-class
+    before: '.'
+    width: 1/3
+  # column id
+  columnID:
+    label: zero.block.z.column.advanced.columnID
+    type: text
+    placeholder: my-custom-id
+    before: '#'
+    width: 1/3
+  
+  # visibility
+  visibilityHeadline:
+    label: zero.block.z.column.advanced.visibilityHeadline
+    type: headline
+    numbered: false
+  # hidden
+  hidden:
+    label: zero.block.z.column.advanced.hidden
+    type: select
+    placeholder: "{{ t('zero.reusables.inherit') }}"
+    options: 
+      " uk-hidden": "{{ t('zero.block.z.column.advanced.hidden.uk.hidden') }}"
+      " uk-hidden@s": "{{ t('zero.block.z.column.advanced.hidden.uk.hidden@s') }}"
+      " uk-hidden@m": "{{ t('zero.block.z.column.advanced.hidden.uk.hidden@m') }}"
+    width: 1/3
+  # visible
+  visible:
+    label: zero.block.z.column.advanced.visible
+    type: select
+    placeholder: "{{ t('zero.reusables.inherit') }}"
+    options: 
+      " uk-visible@s": "{{ t('zero.block.z.column.advanced.visible.uk.visible@s') }}"
+      " uk-visible@m": "{{ t('zero.block.z.column.advanced.visible.uk.visible@m') }}"
+    width: 1/3
+
+  # animation headline
+  animationHeadline:
+    label: zero.block.z.column.advanced.animationHeadline
+    type: headline
+    help: zero.block.z.column.advanced.animationHeadline.help
+    numbered: false
+  animationNote:
+    label: zero.block.z.column.advanced.animationNote
+    type: info
+    text: zero.block.z.column.advanced.animationNote.text
+  # animation switch
+  animationSwitch:
+    label: zero.block.z.column.advanced.animationSwitch
+    type: toggle
+    width: 1/3
+  animationType:
+    extends: fields/animationType
+    when:
+      animationSwitch: true
+  animationDelay:
+    extends: fields/animationDelay
+    when:
+      animationSwitch: true
+
+  advancedBottomGap:
+    type: gap

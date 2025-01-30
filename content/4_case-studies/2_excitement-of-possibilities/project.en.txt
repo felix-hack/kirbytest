@@ -1,0 +1,244 @@
+Title: Excitement of Possibilities
+
+----
+
+Projectinfo:
+
+- 
+  projectcolumn: '**Client:** Poleton Inc.'
+- 
+  projectcolumn: '**Completed:** July 2019'
+- 
+  projectcolumn: '**Timeframe:** 6 Months'
+
+----
+
+Tagslabel: Tag:
+
+----
+
+Tags: technology
+
+----
+
+Layout: [{"attrs":{"gridwidth":"uk-container","tabletwidth":"uk-width-1-2@s ","mobilewidth":"","columnsverticalalign":"","columnshorizontalalign":"","containerexpand":"","columngap":" uk-grid-large","columnsdivider":"false","gridmasonry":"false","gridparallax":"false","sectiontoggle":"true","sectionsize":" uk-section-large","sectioncolor":" uk-section-default","sectionremovepadding":"","backgroundstyle":"color","backgroundimage":[],"mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","sectiontextcolor":" uk-light","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","backgroundparalax":"","shapedividertoggle":"false","shapedivider":"","shapedividerposition":"","shapedividercolor":"#ffffff","customshapedivider":"","shapedividerheight":"150px","preservecolor":"false","sectionclass":"","sectionid":"","hidden":"","visible":"","animationswitch":"true","animationtype":"uk-animation-slide-bottom-small","animationdelay":""},"columns":[{"blocks":[{"content":{"level":"h2","text":"The good writers touch life often. The mediocre ones run a quick hand over her. The bad ones rape her and leave her for the flies.","headingsize":"","headingstyle":"","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"91ceba0f-d6ab-446e-9061-0a203fc943b4","isHidden":false,"type":"heading"}],"id":"f6807ba7-094d-46d5-92c5-d7543ba57d30","width":"2/3"},{"blocks":[{"content":{"level":"h3","text":"Our Services","headingsize":"","headingstyle":"","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"9edcf625-2e3a-4193-9535-9c37be8790ed","isHidden":false,"type":"heading"},{"content":{"text":"<ul><li>Brand Consulting</li><li>Marketing Management</li><li>Customer Insight</li></ul>","liststyle":"","listcolor":"","listsize":" uk-list-collapse","listdivider":"","column":""},"id":"36d7204e-0597-40c0-b169-25c5aac56fec","isHidden":false,"type":"list"}],"id":"91bc84f0-a74b-4824-b3e5-89b618a7b2da","width":"1/3"}],"id":"9910ffcc-9f85-4dab-aedb-a0483eb20fc7"},{"attrs":{"gridwidth":"uk-container","tabletwidth":"","mobilewidth":"","columnsverticalalign":"","columnshorizontalalign":"","containerexpand":"","columngap":"","columnsdivider":"false","gridmasonry":"false","gridparallax":"false","sectiontoggle":"true","sectionsize":"","sectioncolor":" uk-section-default","sectionremovepadding":" uk-padding-remove-top","backgroundstyle":"color","backgroundimage":[],"mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","sectiontextcolor":" uk-light","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","backgroundparalax":"","shapedividertoggle":"false","shapedivider":"","shapedividerposition":"","shapedividercolor":"#ffffff","customshapedivider":"","shapedividerheight":"150px","preservecolor":"false","sectionclass":"","sectionid":"","hidden":"","visible":"","animationswitch":"false","animationtype":"","animationdelay":""},"columns":[{"blocks":[{"content":{"columnwidth":"","tabletwidth":"","mobilewidth":"","columnheight":"","columnminheight":"","columnmaxheight":"","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","columnstyle":"none","columncardsize":"","columncardhover":"false","columncardcolor":" uk-card-default","columntile":"","columnbackground":"","columntextcolor":" uk-light","backgroundstyle":"color","backgroundimage":[],"backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","backgroundparalax":"","mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","columnpadding":"","itemfirst":"","itemlast":"","borderrounded":"false","columnshadow":"","columnclass":"","columnid":"","hidden":"","visible":"","animationswitch":"true","animationtype":"uk-animation-slide-bottom-small","animationdelay":""},"id":"aa5b3cdb-1d74-4092-b086-bbe96092569c","isHidden":false,"type":"z-column"},{"content":{"level":"h3","text":"+ 245 %","headingsize":" uk-h2","headingstyle":"","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"644f5470-944f-4112-802d-57d7e302c840","isHidden":false,"type":"heading"},{"content":{"text":"<p>Avg. Time on Page</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"6c25eb01-bc9e-45a2-aa4d-b7199f861895","isHidden":false,"type":"text"}],"id":"968444a0-27c5-42ad-907c-8c5c03a6484e","width":"1/4"},{"blocks":[{"content":{"columnwidth":"","tabletwidth":"","mobilewidth":"","columnheight":"","columnminheight":"","columnmaxheight":"","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","columnstyle":"none","columncardsize":"","columncardhover":"false","columncardcolor":" uk-card-default","columntile":"","columnbackground":"","columntextcolor":" uk-light","backgroundstyle":"color","backgroundimage":[],"backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","backgroundparalax":"","mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","columnpadding":"","itemfirst":"","itemlast":"","borderrounded":"false","columnshadow":"","columnclass":"","columnid":"","hidden":"","visible":"","animationswitch":"true","animationtype":"uk-animation-slide-bottom-small","animationdelay":400},"id":"50860c29-c560-4312-9488-ac486a86f150","isHidden":false,"type":"z-column"},{"content":{"level":"h3","text":"+ 467 %","headingsize":" uk-h2","headingstyle":"","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"172e3062-3bca-4c21-84a3-17dbadbc6b08","isHidden":false,"type":"heading"},{"content":{"text":"<p>Avg. Session Duration</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"663bdc6d-afa3-4cfd-8d6b-001e62877500","isHidden":false,"type":"text"}],"id":"aec3f2af-b607-4221-87af-e2ec1a7c22e4","width":"1/4"},{"blocks":[{"content":{"columnwidth":"","tabletwidth":"","mobilewidth":"","columnheight":"","columnminheight":"","columnmaxheight":"","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","columnstyle":"none","columncardsize":"","columncardhover":"false","columncardcolor":" uk-card-default","columntile":"","columnbackground":"","columntextcolor":" uk-light","backgroundstyle":"color","backgroundimage":[],"backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","backgroundparalax":"","mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","columnpadding":"","itemfirst":"","itemlast":"","borderrounded":"false","columnshadow":"","columnclass":"","columnid":"","hidden":"","visible":"","animationswitch":"true","animationtype":"uk-animation-slide-bottom-small","animationdelay":600},"id":"e57478ad-d160-404d-8262-8542bebaa51b","isHidden":false,"type":"z-column"},{"content":{"level":"h3","text":"- 45 %","headingsize":" uk-h2","headingstyle":"","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"66863463-64fe-4b13-afee-c993e43b8a7c","isHidden":false,"type":"heading"},{"content":{"text":"<p>Bounce Rate</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"f1dfdb26-9deb-4ad3-8c48-12a094b218b9","isHidden":false,"type":"text"}],"id":"f73e1cd9-07e8-489c-9405-7b1168386a7d","width":"1/4"},{"blocks":[{"content":{"columnwidth":"","tabletwidth":"","mobilewidth":"","columnheight":"","columnminheight":"","columnmaxheight":"","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","columnstyle":"none","columncardsize":"","columncardhover":"false","columncardcolor":" uk-card-default","columntile":"","columnbackground":"","columntextcolor":" uk-light","backgroundstyle":"color","backgroundimage":[],"backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","backgroundparalax":"","mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","columnpadding":"","itemfirst":"","itemlast":"","borderrounded":"false","columnshadow":"","columnclass":"","columnid":"","hidden":"","visible":"","animationswitch":"true","animationtype":"uk-animation-slide-bottom-small","animationdelay":600},"id":"f399bb1f-df7a-48c8-b439-1b53b2c49917","isHidden":false,"type":"z-column"},{"content":{"level":"h3","text":"- 56 %","headingsize":" uk-h2","headingstyle":"","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"a5b21411-9b2b-42f2-be56-2ee9254ac447","isHidden":false,"type":"heading"},{"content":{"text":"<p>Avg. Page Load Time</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"1ffb3976-492b-4d18-ac74-49a89790719f","isHidden":false,"type":"text"}],"id":"ed9d8033-a05f-4148-ae46-f6466c004c57","width":"1/4"}],"id":"df62f64b-db0f-494e-8579-77b6d34e965a"},{"attrs":{"gridwidth":"uk-container","tabletwidth":"","mobilewidth":"","columnsverticalalign":"","columnshorizontalalign":"","containerexpand":"","columngap":"","columnsdivider":"false","gridmasonry":"false","gridparallax":"false","sectiontoggle":"true","sectionsize":"","sectioncolor":" uk-section-default","sectionremovepadding":" uk-padding-remove-top","backgroundstyle":"color","backgroundimage":[],"mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","sectiontextcolor":" uk-light","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","backgroundparalax":"","shapedividertoggle":"false","shapedivider":"","shapedividerposition":"","shapedividercolor":"#ffffff","customshapedivider":"","shapedividerheight":"150px","preservecolor":"false","sectionclass":"","sectionid":"","hidden":"","visible":"","animationswitch":"true","animationtype":"uk-animation-slide-bottom-small","animationdelay":""},"columns":[{"blocks":[{"content":{"slider":["file://43GaodUCJdrwOoVS","file://AxJe7wUVwkAIkmeF","file://vIZRZ2V06b8tCdqW","file://0l2KDx0gl240tCND"],"imagewidth":"","imageheight":"","slideritemwidth":" uk-width-2-3@s","slideritemsgap":"","centeritems":"false","autoplay":"true","finite":"false","slidesets":"false","navigationarrows":"out","navigationbullets":"true","title":"","blockclass":"","blockid":"","marginvertical":"","marginleft":"","marginright":"","animationswitch":"false","animationtype":"","animationdelay":""},"id":"919404f3-a1af-4aa2-b876-70e530897cb7","isHidden":false,"type":"z-image-slider"}],"id":"343418af-194f-44b7-a105-e38178c6e03c","width":"1/1"}],"id":"ee5727f8-d5db-4c4e-8eb8-ff6e4fcb558b"},{"attrs":{"gridwidth":"uk-container","tabletwidth":"","mobilewidth":"","columnsverticalalign":"","columnshorizontalalign":"","containerexpand":"","columngap":"","columnsdivider":"false","gridmasonry":"false","gridparallax":"false","sectiontoggle":"true","sectionsize":"","sectioncolor":" uk-section-default","sectionremovepadding":" uk-padding-remove-top","backgroundstyle":"color","backgroundimage":[],"mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","sectiontextcolor":" uk-light","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","backgroundparalax":"","shapedividertoggle":"false","shapedivider":"","shapedividerposition":"","shapedividercolor":"#ffffff","customshapedivider":"","shapedividerheight":"150px","preservecolor":"false","sectionclass":"","sectionid":"","hidden":"","visible":"","animationswitch":"true","animationtype":"uk-animation-slide-bottom-small","animationdelay":""},"columns":[{"blocks":[{"content":{"level":"h3","text":"<em>The moment you doubt whether you can fly, you cease forever to be able to do it.</em>","headingsize":" uk-h2","headingstyle":"","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"1679f312-8d3c-4f43-a96e-467330cc14bd","isHidden":false,"type":"heading"}],"id":"98ce9b9b-38c4-4441-aa8a-55af528df62e","width":"1/2"},{"blocks":[{"content":{"text":"<p>Looking back, I guess I used to play-act all the time. For one thing, it meant I could live in a more interesting world than the one around me.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"f288def6-8630-4ae0-89a0-c4bc58350072","isHidden":false,"type":"text"},{"content":{"text":"“We needed an upgrade, and we quickly began searching for a digital partner that could help us build a more functional, user-friendly site.”","citation":"— Jack Parrish, Davidson Homes"},"id":"50ca58c1-1156-4c89-b945-e0befa28b57e","isHidden":false,"type":"quote"}],"id":"52b8e2d2-2c60-4d99-aff6-b8433bc90b98","width":"1/2"}],"id":"ce64c380-1cc4-4d04-b583-87c998f91022"},{"attrs":{"gridwidth":"uk-container","tabletwidth":"","mobilewidth":"","columnsverticalalign":"","columnshorizontalalign":"","containerexpand":"","columngap":"","columnsdivider":"false","gridmasonry":"false","gridparallax":"false","sectiontoggle":"true","sectionsize":"","sectioncolor":" uk-section-default","sectionremovepadding":"","backgroundstyle":"color","backgroundimage":[],"mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","sectiontextcolor":" uk-light","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","backgroundparalax":"","shapedividertoggle":"false","shapedivider":"","shapedividerposition":"","shapedividercolor":"#ffffff","customshapedivider":"","shapedividerheight":"150px","preservecolor":"false","sectionclass":"","sectionid":"","hidden":"","visible":"","animationswitch":"false","animationtype":"uk-animation-slide-bottom-small","animationdelay":""},"columns":[{"blocks":[{"content":{"columnwidth":"","tabletwidth":"","mobilewidth":"","columnheight":"","columnminheight":"","columnmaxheight":"","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","columnstyle":"none","columncardsize":"","columncardhover":"false","columncardcolor":" uk-card-default","columntile":"","columnbackground":"","columntextcolor":" uk-light","backgroundstyle":"color","backgroundimage":[],"backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","backgroundparalax":"","mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","columnpadding":"","itemfirst":"","itemlast":"","borderrounded":"false","columnshadow":"","columnclass":"","columnid":"","hidden":"","visible":"","animationswitch":"true","animationtype":"uk-animation-scale-down","animationdelay":""},"id":"852f5f29-4faf-4357-85a1-0a0a921305e9","isHidden":false,"type":"z-column"},{"content":{"location":"kirby","image":["file://gPYO89RkeUIMdct4"],"src":"","ratio":"","alt":"","resizewidth":"","caption":"","captionclass":"false","width":"","widthmobile":"","align":"","float":"","borderradius":"uk-border-rounded","shadow":" uk-box-shadow-large","linkoption":"","link":"","newtab":"false"},"id":"f5694cb3-59d6-4ea0-926d-3888fcd591da","isHidden":false,"type":"image"}],"id":"e49ef3fa-2005-4ef0-9338-8834d91bb45b","width":"1/1"}],"id":"f136008c-18ba-4174-9ddf-08cd981817cf"},{"attrs":{"gridwidth":"uk-container uk-container-small","tabletwidth":"","mobilewidth":"","columnsverticalalign":"","columnshorizontalalign":"","containerexpand":"","columngap":"","columnsdivider":"false","gridmasonry":"false","gridparallax":"false","sectiontoggle":"true","sectionsize":" uk-section-large","sectioncolor":" uk-section-default","sectionremovepadding":" uk-padding-remove-top","backgroundstyle":"color","backgroundimage":[],"mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","sectiontextcolor":" uk-light","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","backgroundparalax":"","shapedividertoggle":"false","shapedivider":"","shapedividerposition":"","shapedividercolor":"#ffffff","customshapedivider":"","shapedividerheight":"150px","preservecolor":"false","sectionclass":"","sectionid":"","hidden":"","visible":"","animationswitch":"false","animationtype":"","animationdelay":""},"columns":[{"blocks":[{"content":{"columnwidth":"","tabletwidth":"","mobilewidth":"","columnheight":"","columnminheight":"","columnmaxheight":"","textalign":" uk-text-center@m","textaligntablet":" uk-text-center@s","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","columnstyle":"none","columncardsize":"","columncardhover":"false","columncardcolor":" uk-card-default","columntile":"","columnbackground":"","columntextcolor":" uk-light","backgroundstyle":"color","backgroundimage":[],"backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","backgroundparalax":"","mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","columnpadding":"","itemfirst":"","itemlast":"","borderrounded":"false","columnshadow":"","columnclass":"","columnid":"","hidden":"","visible":"","animationswitch":"false","animationtype":"","animationdelay":""},"id":"8d64546b-f124-4a36-b9e4-b4c40ab8638f","isHidden":false,"type":"z-column"},{"content":{"text":"<h2>Increased profits</h2><p>Cras chinwag brown bread Eaton cracking goal so I said a load of old tosh baking cakes, geeza arse it’s your round grub sloshed burke, my good sir chancer he legged it he lost his bottle pear shaped bugger all mate. The creators of the theme are happy with the response and have vowed to create further themes exploring the same concepts.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"b9bccb2e-35f1-4140-ab47-13cea95872a9","isHidden":false,"type":"text"},{"content":{"text":"Your future today","buttonicon":"","linktype":"url","link":"https://www.thezero.club/demo/one/buy","internalpage":[],"anchor":"","filelink":[],"emaillink":"","phonelink":"","target":"true","buttonstyle":" uk-button-secondary","buttonsize":" uk-button-large","margintop":" uk-margin-top"},"id":"0bc3c78f-36b1-4711-bcdc-c66c6143d6e0","isHidden":false,"type":"button"}],"id":"7c05449c-bfe9-4c06-bc78-430b969ad50c","width":"1/1"}],"id":"d85fefaa-1983-4c70-98d1-62d939b11c78"}]
+
+----
+
+Cover: - file://3U4pZqifT34hq0iF
+
+----
+
+Headersection: true
+
+----
+
+Alttitle: 
+
+----
+
+Intro: Value around and represent the ownership of property. This enables developers to create markets of debts or promises.
+
+----
+
+Pageheadersize: uk-section-large
+
+----
+
+Pagetitlesize: 
+
+----
+
+Headerbackgroundtoggle: true
+
+----
+
+Header: - file://3U4pZqifT34hq0iF
+
+----
+
+Headerimageposition: uk-background-center-center
+
+----
+
+Headerimagesize: uk-background-cover
+
+----
+
+Headerimagerepeat: no-repeat
+
+----
+
+Headertextcolor: uk-light
+
+----
+
+Headeroverlaycolor: #00000066
+
+----
+
+Backgroundparalax: paralaxY
+
+----
+
+Shapedividertoggle: false
+
+----
+
+Shapedivider: 
+
+----
+
+Shapedividerposition: 
+
+----
+
+Customshapedivider: 
+
+----
+
+Shapedividerheight: 
+
+----
+
+Overridelogo: false
+
+----
+
+Logo: 
+
+----
+
+Logoinverted: 
+
+----
+
+Logomobile: 
+
+----
+
+Logomobileinverted: 
+
+----
+
+Logoheight: 
+
+----
+
+Mobilelogoheight: 
+
+----
+
+Logolinktype: 
+
+----
+
+Link: 
+
+----
+
+Internalpage: 
+
+----
+
+Anchor: 
+
+----
+
+Target: false
+
+----
+
+Hidenavbar: false
+
+----
+
+Disallowsubmenu: false
+
+----
+
+Newtab: false
+
+----
+
+Menuitemicon: 
+
+----
+
+Megamenu: false
+
+----
+
+Megamenuwidth: 
+
+----
+
+Megamenuitemwidth: 
+
+----
+
+Megamenubackground: false
+
+----
+
+Megamenubackgroundimage: 
+
+----
+
+Megamenubackgroundimageposition: 
+
+----
+
+Megamenubackgroundimagesize: 
+
+----
+
+Megamenubackgroundimagerepeat: 
+
+----
+
+Megamenubackgroundgradientoverlay: false
+
+----
+
+Megamenubackgroundgradienttransition: 
+
+----
+
+Transparentnavbar: transparent
+
+----
+
+Navbarinverse: true
+
+----
+
+Hidefooter: false
+
+----
+
+Sitemap: true
+
+----
+
+Metafile: 
+
+----
+
+Metatitle: 
+
+----
+
+Removesitetitle: false
+
+----
+
+Metadescription: 
+
+----
+
+Customcss: 
+
+----
+
+Uuid: EzxuZMbiBHDDq6hK

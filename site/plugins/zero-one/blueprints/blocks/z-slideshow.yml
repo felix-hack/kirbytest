@@ -1,0 +1,225 @@
+name: Slideshow
+icon: images
+
+preview: zimageslider
+
+tabs:
+  # content tab
+  content:
+    label: zero.blocks.z.slideshow.content
+    icon: edit
+    fields:
+      # slideshow
+      slideshow:
+        label: zero.blocks.z.slideshow.slideshow
+        type: structure
+        columns: 
+          slideName:
+            width: 1/4
+          slideImage: 
+            width: 1/4
+          contentBlocks:
+            width: 1/4
+          slideContentPosition:
+            width: 1/4
+        max: 10
+        help: zero.blocks.z.slideshow.slideshow.help
+        fields:
+          # slide name
+          slideName:
+            label: zero.blocks.z.slideshow.slideName
+            type: text
+            default: Slide
+          # slide image
+          slideImage:
+            label: zero.blocks.z.slideshow.slideImage
+            extends: fields/image
+            multiple: false
+          # content blocks
+          contentBlocks:
+            extends: fields/blockEditor
+          # content position
+          slideContentPosition:
+            label: zero.blocks.z.slideshow.slideContentPosition
+            type: select
+            default: " uk-position-bottom-left"
+            options:
+              " uk-position-top-left": "{{ t('zero.blocks.z.slideshow.slideContentPosition.tleft') }}"
+              " uk-position-bottom-left": "{{ t('zero.blocks.z.slideshow.slideContentPosition.bottom') }}"
+              " uk-position-top": "{{ t('zero.blocks.z.slideshow.slideContentPosition.top') }}"
+              " uk-position-left": "{{ t('zero.blocks.z.slideshow.slideContentPosition.left') }}"
+              center: "{{ t('zero.blocks.z.slideshow.slideContentPosition.center') }}"
+              container: "{{ t('zero.blocks.z.slideshow.slideContentPosition.container') }}"
+            width: 1/2
+          slideContentPositionCenter:
+            label: zero.blocks.z.slideshow.slideContentPositionCenter
+            type: select
+            default: " uk-position-center"
+            options:
+              " uk-position-top-center": "{{ t('zero.blocks.z.slideshow.top.center') }}"
+              " uk-position-center-left": "{{ t('zero.blocks.z.slideshow.center.left') }}"
+              " uk-position-bottom-center": "{{ t('zero.blocks.z.slideshow.bottom.center') }}"
+              " uk-position-center": "{{ t('zero.blocks.z.slideshow.center') }}"
+            width: 1/2
+            when:
+              slideContentPosition: center
+          slideContentWidth:
+            label: zero.blocks.z.slideshow.slideContentWidth
+            type: select
+            placeholder: Auto
+            options:
+              " uk-width-1-3@s": 1/3
+              " uk-width-1-2@s": 1/2
+              " uk-width-2-3@s": 2/3
+            width: 1/2
+
+  # settings tab
+  settings:
+    label: zero.blocks.z.slideshow.settings
+    icon: cog
+    fields:
+      title:
+        label: zero.blocks.z.slideshow.title
+        type: text
+        placeholder: "{{ t('zero.blocks.settings.title.placeholder') }}"
+        width: 1/3
+      blockClass:
+        label: zero.blocks.z.slideshow.blockClass
+        type: text
+        placeholder: my-custom-class
+        before: '.'
+        width: 1/3
+      # block id
+      blockID:
+        label: zero.blocks.z.slideshow.blockID
+        type: text
+        placeholder: my-custom-id
+        before: '#'
+        width: 1/3
+      # headline slideshow general
+      slideshowGeneralHeadline:
+        label: zero.blocks.z.slideshow.slideshowGeneralHeadline
+        type: headline
+        numbered: false
+      # content style
+      slideshowStyle:
+        label: zero.blocks.z.slideshow.slideshowStyle
+        type: select
+        default: gradient-cover
+        options:
+          gradient-cover: "{{ t('zero.blocks.z.slideshow.slideshowStyle.cover') }}"
+          " uk-overlay-gradient": "{{ t('zero.blocks.z.slideshow.slideshowStyle.gradient') }}"
+          " uk-overlay-default": "{{ t('zero.reusables.default') }}"
+          " uk-overlay-primary": "{{ t('zero.reusables.primary') }}"
+          " uk-overlay-secondary": "{{ t('zero.reusables.secondary') }}"
+        width: 1/3
+      # inverse text color
+      inverseTextColor:
+        label: zero.blocks.z.slideshow.inverseTextColor
+        type: toggle
+        default: false
+        width: 1/3
+        when:
+          slideshowStyle: gradient-cover
+      # animation
+      slideshowAnimation:
+        label: zero.blocks.z.slideshow.slideshowAnimation
+        type: select
+        default: "fade"
+        options:
+          "fade": "{{ t('zero.blocks.z.slideshow.slideshowAnimation.fade') }}"
+          "slide": "{{ t('zero.blocks.z.slideshow.slideshowAnimation.slide') }}"
+          "scale": "{{ t('zero.blocks.z.slideshow.slideshowAnimation.scale') }}"
+          "pull": "{{ t('zero.blocks.z.slideshow.slideshowAnimation.pull') }}"
+          "push": "{{ t('zero.blocks.z.slideshow.slideshowAnimation.push') }}"
+        width: 1/3
+      slideContentPadding:
+        label: zero.blocks.z.slideshow.slideContentPadding
+        type: select
+        default: " uk-padding-small"
+        options:
+          " uk-padding": "{{ t('zero.reusables.default') }}"
+          " uk-padding-small": "{{ t('zero.reusables.small') }}"
+          " uk-padding-large": "{{ t('zero.reusables.large') }}"
+        width: 1/3
+      slideContentPositionSize:
+        label: zero.blocks.z.slideshow.slideContentPositionSize
+        type: select
+        placeholder: "{{ t('zero.reusables.none') }}"
+        options:
+          " uk-position-small": "{{ t('zero.reusables.small') }}"
+          " uk-position-medium": "{{ t('zero.reusables.medium') }}"
+          " uk-position-large": "{{ t('zero.reusables.large') }}"
+        width: 1/3
+      # kenburns
+      slideshowKenBurns:
+        label: zero.blocks.z.slideshow.slideshowKenBurns
+        type: toggle
+        default: false
+        help: zero.blocks.z.slideshow.slideshowKenBurns.help
+        width: 1/3
+      # autoplay
+      slideshowAutoplay:
+        label: zero.blocks.z.slideshow.slideshowAutoplay
+        type: toggle
+        width: 1/3
+      # headline slideshow size
+      slideshowSizeHeadline:
+        label: zero.blocks.z.slideshow.slideshowSizeHeadline
+        type: headline
+        numbered: false
+      slideshowSize:
+        label: zero.blocks.z.slideshow.slideshowSize
+        type: toggle
+        text:
+          - "{{ t('zero.blocks.z.slideshow.slideshowSize.viewport') }}"
+          - "{{ t('zero.blocks.z.slideshow.slideshowSize.ratio') }}"
+        width: 1/3
+      slideshowMinHeight:
+        label: zero.blocks.z.slideshow.slideshowMinHeight
+        type: number
+        placeholder: 300
+        after: 'px'
+        width: 1/3
+      slideshowMaxHeight:
+        label: zero.blocks.z.slideshow.slideshowMaxHeight
+        type: number
+        placeholder: 600
+        after: 'px'
+        width: 1/3
+      slideshowRatio:
+        label: zero.blocks.z.slideshow.slideshowRatio
+        type: select
+        placeholder: "{{ t('zero.blocks.z.slideshow.slideshowRatio.placeholder') }}"
+        options:
+          "1:1": "1:1"
+          "16:9": "16:9"
+          "10:8": "10:8"
+          "21:9": "21:9"
+          "7:5": "7:5"
+          "4:3": "4:3"
+          "5:3": "5:3"
+          "3:2": "3:2"
+          "3:1": "3:1"
+          "3:4": "3:4"
+          "4:5": "4:5"
+          "5:7": "5:7"
+        width: 1/3
+        when:
+          slideshowSize: true
+      # headline slideshow navigation
+      slideshowNavigationHeadline:
+        label: zero.blocks.z.slideshow.slideshowNavigationHeadline
+        type: headline
+        numbered: false
+      slideshowNavigationType:
+        label: zero.blocks.z.slideshow.slideshowNavigationType
+        type: radio
+        columns: 2
+        default: arrows
+        options:
+          arrows: "{{ t('zero.blocks.z.slideshow.arrows') }}"
+          thumbnails: "{{ t('zero.blocks.z.slideshow.thumbnails') }}"
+        width: 1/2
+      bottomGap:
+        type: gap

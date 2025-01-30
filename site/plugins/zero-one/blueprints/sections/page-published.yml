@@ -1,0 +1,15 @@
+type: pages
+headline: zero.sections.page.published
+status: published
+info: "{{ page.blueprint.title }}"
+empty: zero.sections.page.published.empty
+image:
+  query: false
+  back: black
+templates:
+  - layout
+  - default
+  - link
+  - blog
+  - work
+  - shop

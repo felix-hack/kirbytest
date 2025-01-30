@@ -1,0 +1,13 @@
+Uuid: YAMXVwzwtunPJjKh
+
+----
+
+Template: image
+
+----
+
+Caption: 
+
+----
+
+Sitemap: true

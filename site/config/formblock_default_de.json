@@ -1,0 +1,144 @@
+[
+    {
+      "content": {
+        "formid": "9e6ec13b-4e64-461c-9541-ea7c4d0194e9",
+        "mailview": null,
+        "formfields": [
+          {
+            "content": {
+              "label": "Name",
+              "slug": "name",
+              "autofill": "given-name",
+              "required": true,
+              "required_fail": "",
+              "width": "uk-width-1-2@s",
+              "inputtype": "text",
+              "placeholder": "",
+              "default": "",
+              "validate": [
+                {
+                  "validate": "minLength",
+                  "match": "",
+                  "minlength": 3,
+                  "maxlength": 100,
+                  "min": 0,
+                  "max": 100,
+                  "msg": "Please enter at least three characters"
+                }
+              ]
+            },
+            "id": "604d9630-bac2-4e70-9a3a-503f912b57c6",
+            "isHidden": false,
+            "type": "formfields_01_input"
+          },
+          {
+            "content": {
+              "label": "Email",
+              "slug": "email",
+              "autofill": "email",
+              "required": true,
+              "required_fail": "",
+              "width": "uk-width-1-2@s",
+              "inputtype": "email",
+              "placeholder": "",
+              "default": "",
+              "validate": [
+                {
+                  "validate": "email",
+                  "match": "",
+                  "minlength": "",
+                  "maxlength": "",
+                  "min": "",
+                  "max": "",
+                  "msg": ""
+                }
+              ]
+            },
+            "id": "17e48265-7627-4ebc-91f0-bf4e51ff5c05",
+            "isHidden": false,
+            "type": "formfields_01_input"
+          },
+          {
+            "content": {
+              "label": "Subject",
+              "slug": "subject",
+              "autofill": "honorific-prefix",
+              "required": true,
+              "required_fail": "Please enter the subject",
+              "width": "",
+              "inputtype": "text",
+              "placeholder": "",
+              "default": "",
+              "validate": []
+            },
+            "id": "728c48f6-a847-4727-b4a0-dbaee541df91",
+            "isHidden": false,
+            "type": "formfields_01_input"
+          },
+          {
+            "content": {
+              "label": "Message",
+              "slug": "message",
+              "autofill": "honorific-prefix",
+              "required": false,
+              "required_fail": "",
+              "width": "",
+              "placeholder": "Please enter your message text",
+              "row": 5,
+              "man": 255
+            },
+            "id": "9be30eac-acdb-4a52-b5d3-f5fd0046dd94",
+            "isHidden": false,
+            "type": "formfields_02_textarea"
+          },
+          {
+            "content": {
+              "label": "Privacy",
+              "slug": "privacy",
+              "autofill": "honorific-prefix",
+              "required": true,
+              "required_fail": "You must approve the privacy checkbox before sending",
+              "width": "",
+              "options": [
+                {
+                  "label": "I agree to the privacy policy terms.",
+                  "slug": "privacy-terms",
+                  "selected": false
+                }
+              ],
+              "optionswidth": ""
+            },
+            "id": "aa376dc6-5427-4499-bae2-0def389d1c70",
+            "isHidden": false,
+            "type": "formfields_03_checkbox"
+          }
+        ],
+        "display": "{{name}} ({{email}})",
+        "name": "Simple contact form",
+        "enable_notify": false,
+        "notify_email": "",
+        "notify_subject": "",
+        "notify_body": "{{ summary }}",
+        "enable_confirm": false,
+        "confirm_email": "",
+        "confirm_subject": "",
+        "confirm_body": "",
+        "redirect": false,
+        "success_message": "",
+        "success_url": [],
+        "fatal_message": "",
+        "invalid_message": "",
+        "exists_message": "",
+        "file_maxsize": "",
+        "file_maxnumber": "",
+        "file_fatal": "",
+        "send_button": "Send message",
+        "send_buttonstyle": "",
+        "send_buttonwidth": "",
+        "loading": "Sending ({{percent}})"
+      },
+      "id": "9e6ec13b-4e64-461c-9541-ea7c4d0194e9",
+      "isHidden": false,
+      "type": "form"
+    }
+  ]

@@ -1,0 +1,157 @@
+name: zero.blocks.z.typed.text
+icon: text-left
+
+preview: ztypedtext
+
+tabs:
+  # content tab
+  content:
+    label: zero.blocks.z.typed.text.content
+    fields:
+      typedTexInfo:
+        label: zero.blocks.z.typed.text.typedTexInfo
+        type: info
+        theme: positive
+        text: zero.blocks.z.typed.text.typedTexInfo.text
+      uniqueID:
+        label: zero.blocks.z.typed.text.uniqueID
+        type: slug
+        before: '#'
+        placeholder: unique-element-id
+        required: true
+        width: 1/3
+      uniqueIDInfo:
+        label: Unique ID info
+        type: info
+        text: zero.blocks.z.typed.text.uniqueIDInfo.text
+        width: 2/3
+
+      # typed text strings
+      strings:
+        label: zero.blocks.z.typed.text.strings
+        type: structure
+        fields:
+          string:
+            label: zero.blocks.z.typed.text.strings.string
+            type: writer
+            inline: true
+            marks:
+              - bold
+              - italic
+              - strike
+              - underline
+              - code
+      textSize:
+        label: zero.blocks.z.typed.text.textSize
+        type: select
+        placeholder: "{{ t('zero.blocks.z.typed.text.textSize.placeholder') }}"
+        options:
+          "uk-h1": H1
+          "uk-h2": H2
+          "uk-h3": H3
+          "uk-h4": H4
+          "uk-h5": H5
+          "uk-h6": H6
+          "uk-heading-small": "{{ t('zero.blocks.z.typed.text.textSize.small') }}"
+          "uk-heading-medium": "{{ t('zero.blocks.z.typed.text.textSize.medium') }}"
+          "uk-heading-large": "{{ t('zero.blocks.z.typed.text.textSize.large') }}"
+          "uk-heading-xlarge": "{{ t('zero.blocks.z.typed.text.textSize.xlarge') }}"
+          "uk-heading-2xlarge": "{{ t('zero.blocks.z.typed.text.textSize.2xlarge') }}"
+        width: 1/3
+      loop:
+        label: zero.blocks.z.typed.text.textSize.loop
+        type: toggle
+        default: true
+        width: 1/3
+      shuffle:
+        label: zero.blocks.z.typed.text.textSize.shuffle
+        type: toggle
+        default: false
+        width: 1/3
+
+      bottomContentGap:
+        type: gap
+
+  # settings tab
+  settings:
+    label: zero.blocks.z.typed.text.settings
+    fields:
+      # type text settings
+      ttsettingsHeadline:
+        label: zero.blocks.z.typed.text.ttsettingsHeadline
+        type: headline
+        numbered: false
+      typeSpeed:
+        label: zero.blocks.z.typed.text.typeSpeed
+        type: range
+        step: 5
+        min: 5
+        max: 300
+        default: 75
+        help: zero.blocks.z.typed.text.typeSpeed.help
+        tooltip:
+          after: ms
+        width: 1/2
+      backDelay:
+        label: zero.blocks.z.typed.text.backDelay
+        type: range
+        step: 50
+        min: 50
+        max: 3000
+        default: 900
+        help: zero.blocks.z.typed.text.backDelay.help
+        tooltip:
+          after: ms
+        width: 1/2
+      showCursor:
+        label: zero.blocks.z.typed.text.showCursor
+        type: toggle
+        default: true
+        width: 1/3
+      customCursor:
+        label: zero.blocks.z.typed.text.customCursor
+        type: text
+        placeholder: '|'
+        help: zero.blocks.z.typed.text.customCursor.help
+        width: 1/3
+        when:
+          showCursor: true
+
+      # block advanced heading
+      blockAdvancedHeadline:
+        label: zero.blocks.z.typed.text.blockAdvancedHeadline
+        type: headline
+        numbered: false
+      # block title
+      title:
+        label: zero.blocks.z.typed.text.title
+        type: text
+        placeholder: "{{ t('zero.blocks.settings.title.placeholder') }}"
+        width: 1/3
+      # block class
+      blockClass:
+        label: zero.blocks.z.typed.text.blockClass
+        type: text
+        placeholder: my-custom-class
+        before: '.'
+        width: 1/3
+      # block id
+      blockID:
+        label: zero.blocks.z.typed.text.blockID
+        type: text
+        placeholder: my-custom-id
+        before: '#'
+        width: 1/3
+      marginVertical:
+        extends: fields/marginVertical
+      marginLeft:
+        extends: fields/marginLeft
+      marginRight:
+        extends: fields/marginRight
+      marginInfo:
+        label: zero.blocks.z.typed.text.marginInfo
+        type: info
+        text: zero.blocks.z.card.marginInfo.text
+
+      bottomSettingsGap:
+        type: gap

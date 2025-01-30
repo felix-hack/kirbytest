@@ -1,0 +1,156 @@
+name: zero.blocks.z.pages
+icon: list-bullet
+
+preview: zpages
+
+tabs:
+  # content tab
+  content:
+    label: zero.blocks.z.pages.content
+    icon: edit
+    fields:
+      pages:
+        label: zero.blocks.z.pages.pages
+        type: select
+        options:
+          child: "{{ t('zero.blocks.z.pages.pages.child') }}"
+          sibling: "{{ t('zero.blocks.z.pages.pages.sibling') }}"
+          site: "{{ t('zero.blocks.z.pages.pages.site') }}"
+          custom: "{{ t('zero.blocks.z.pages.pages.custom') }}"
+        width: 1/3
+      info:
+        label: Information
+        type: info
+        text: zero.blocks.z.pages.pages.info.text
+        width: 2/3
+
+      pagesParent:
+        label: zero.blocks.z.pages.pagesParent
+        type: pages
+        empty: zero.blocks.z.pages.pagesParent.empty
+        multiple: false
+        width: 1/3
+        when:
+          pages: custom
+
+      navigationStyle:
+        label: zero.blocks.z.pages.navigationStyle
+        type: select
+        default: list
+        options:
+          list: "{{ t('zero.blocks.z.pages.navigationStyle.list') }}"
+          nav: "{{ t('zero.blocks.z.pages.navigationStyle.nav') }}"
+          subnav: "{{ t('zero.blocks.z.pages.navigationStyle.subnav') }}"
+        width: 1/3
+
+      # list
+      listStyle:
+        label: zero.blocks.z.pages.listStyle
+        type: select
+        placeholder: "{{ t('zero.reusables.none') }}"
+        options:
+          " uk-list-disc": "{{ t('zero.blocks.z.pages.listStyle.disc') }}"
+          " uk-list-circle": "{{ t('zero.blocks.z.pages.listStyle.circle') }}"
+          " uk-list-square": "{{ t('zero.blocks.z.pages.listStyle.square') }}"
+          " uk-list-hyphen": "{{ t('zero.blocks.z.pages.listStyle.hyphen') }}"
+          " uk-list-decimal": "{{ t('zero.blocks.z.pages.listStyle.decimal') }}"
+          " uk-list-checkbox": "{{ t('zero.blocks.z.pages.listStyle.checkbox') }}"
+        width: 1/3
+        when:
+          navigationStyle: list
+      listColor:
+        label: zero.blocks.z.pages.listColor
+        type: select
+        placeholder: "{{ t('zero.reusables.default') }}"
+        options:
+          " uk-list-muted": "{{ t('zero.reusables.muted') }}"
+          " uk-list-emphasis": "{{ t('zero.blocks.z.pages.listColor.emphasis') }}"
+          " uk-list-primary": "{{ t('zero.reusables.primary') }}"
+          " uk-list-secondary": "{{ t('zero.reusables.secondary') }}"
+        width: 1/3
+        when:
+          navigationStyle: list
+      listSize:
+        label: zero.blocks.z.pages.listSize
+        type: select
+        placeholder: "{{ t('zero.reusables.default') }}"
+        options:
+          " uk-list-collapse": "{{ t('zero.blocks.z.pages.listSize.collapse') }}"
+          " uk-list-large": "{{ t('zero.blocks.z.pages.listSize.large') }}"
+        width: 1/3
+        when:
+          navigationStyle: list
+      listDivider:
+        label: zero.blocks.z.pages.listDivider
+        type: select
+        placeholder: "{{ t('zero.reusables.none') }}"
+        options:
+          " uk-list-divider": "{{ t('zero.blocks.z.pages.listDivider.divider') }}"
+          " uk-list-striped": "{{ t('zero.blocks.z.pages.listDivider.striped') }}"
+        width: 1/3
+        when:
+          navigationStyle: list
+      column:
+        label: zero.blocks.z.pages.column
+        type: select
+        options:
+          " uk-column-1-1 uk-column-1-2@s": 1/2
+          " uk-column-1-1 uk-column-1-3@s": 1/3
+          " uk-column-1-1 uk-column-1-2@s uk-column-1-4@m": 1/4
+          " uk-column-1-1 uk-column-1-2@s uk-column-1-5@m": 1/5
+          " uk-column-1-1 uk-column-1-2@s uk-column-1-6@m": 1/6
+        width: 1/3
+        when:
+          navigationStyle: list
+
+      # nav
+      navDefault:
+        label: zero.blocks.z.pages.navDefault
+        type: toggle
+        width: 1/3
+        when:
+          navigationStyle: nav
+      navCenter:
+        label: zero.blocks.z.pages.navCenter
+        type: toggle
+        width: 1/3
+        when:
+          navigationStyle: nav
+
+      # subnav
+      subnavDivider:
+        label: zero.blocks.z.pages.subnavDivider
+        type: toggle
+        width: 1/3
+        when:
+          navigationStyle: subnav
+      subnavPill:
+        label: zero.blocks.z.pages.subnavPill
+        type: toggle
+        width: 1/3
+        when:
+          navigationStyle: subnav
+
+  # settings tab
+  settings:
+    label: zero.blocks.z.pages.slider.settings
+    icon: cog
+    fields:
+      title:
+        label: zero.blocks.z.pages.slider.title
+        type: text
+        placeholder: "{{ t('zero.blocks.settings.title.placeholder') }}"
+        width: 1/3
+      blockClass:
+        label: zero.blocks.z.pages.slider.blockClass
+        type: text
+        placeholder: my-custom-class
+        before: '.'
+        width: 1/3
+      # section id
+      blockID:
+        label: zero.blocks.z.pages.slider.blockID
+        type: text
+        placeholder: my-custom-id
+        before: '#'
+        width: 1/3

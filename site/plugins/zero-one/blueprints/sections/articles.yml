@@ -1,0 +1,9 @@
+type: pages
+headline: zero.sections.article.headline
+info: "{{ page.category }} / {{ page.date.toDate('d.m.Y') }}"
+template: article
+empty: zero.sections.article.headline.empty
+sortBy: date desc
+image:
+  query: page.cover.toFile
+  cover: true

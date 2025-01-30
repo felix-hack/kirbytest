@@ -1,0 +1,6 @@
+label: zero.fields.headerimage
+type:  files
+multiple: false
+query: model.images
+uploads: image
+help: zero.fields.headerimage.help

@@ -1,0 +1,16 @@
+type: pages
+headline: zero.sections.page.draft
+status: draft
+info: "{{ page.blueprint.title }}"
+empty: zero.sections.page.draft.empty
+image:
+  query: false
+  back: black
+help: zero.sections.page.draft.empty.help
+templates:
+  - layout
+  - default
+  - link
+  - blog
+  - work
+  - shop

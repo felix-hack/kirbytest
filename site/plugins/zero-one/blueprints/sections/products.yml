@@ -1,0 +1,8 @@
+type: pages
+headline: zero.sections.products
+template: product
+info: "{{ page.category }}"
+empty: zero.sections.products.empty
+image:
+  query: page.cover.toFile
+  cover: true

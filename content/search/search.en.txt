@@ -1,0 +1,37 @@
+Title: Search
+
+----
+
+Alttitle: 
+
+----
+
+Intro: Press Enter/Return to began your search.
+
+----
+
+Sitemap: false
+
+----
+
+Metafile: 
+
+----
+
+Metatitle: 
+
+----
+
+Removesitetitle: false
+
+----
+
+Metadescription: 
+
+----
+
+Customcss: 
+
+----
+
+Uuid: Zh2r6Ei7VAxMNEAe

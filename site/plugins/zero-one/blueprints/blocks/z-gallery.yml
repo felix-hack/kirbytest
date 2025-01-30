@@ -1,0 +1,59 @@
+name: zero.blocks.z.gallery
+icon: images
+
+preview: zimageslider
+
+tabs:
+  # content tab
+  content:
+    label: zero.blocks.z.gallery.content
+    icon: edit
+    fields:
+      # gallery
+      gallery:
+        extends: fields/image
+        layout: cardlets
+        text: "{{ file.alt.or(file.filename) }}"
+
+  # settings tab
+  settings:
+    label: zero.blocks.z.gallery.settings
+    icon: cog
+    fields:
+      title:
+        label: zero.blocks.z.gallery.title
+        type: text
+        placeholder: "{{ t('zero.blocks.settings.title.placeholder') }}"
+        width: 1/3
+      blockClass:
+        label: zero.blocks.z.gallery.blockClass
+        type: text
+        placeholder: my-custom-class
+        before: '.'
+        width: 1/3
+      # section id
+      blockID:
+        label: zero.blocks.z.gallery.blockID
+        type: text
+        placeholder: my-custom-id
+        before: '#'
+        width: 1/3
+      # gallery grid
+      galleryGrid:
+        label: zero.blocks.z.gallery.galleryGrid
+        type: select
+        default: three
+        options:
+          two: "{{ t('zero.blocks.z.gallery.galleryGrid.two') }}"
+          three: "{{ t('zero.blocks.z.gallery.galleryGrid.three') }}"
+          four: "{{ t('zero.blocks.z.gallery.galleryGrid.four') }}"
+        width: 1/3
+      # gallery thumbnails
+      galleryThumbnails:
+        label: zero.blocks.z.gallery.galleryThumbnails
+        type: select
+        default: cropped
+        options:
+          cropped: "{{ t('zero.blocks.z.gallery.galleryThumbnails.cropped') }}"
+          masonry: "{{ t('zero.blocks.z.gallery.galleryThumbnails.masonry') }}"
+        width: 1/3

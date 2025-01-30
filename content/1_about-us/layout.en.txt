@@ -1,0 +1,233 @@
+Title: About us
+
+----
+
+Layout: [{"attrs":{"gridwidth":"uk-container","tabletwidth":"","mobilewidth":"","columnsverticalalign":"","columnshorizontalalign":"","containerexpand":"","columngap":"","columnsdivider":"false","gridmasonry":"false","gridparallax":"false","sectiontoggle":"true","sectionsize":" uk-section-xlarge","sectioncolor":"custom","sectionremovepadding":"","backgroundstyle":"image","backgroundimage":["file://YK7nJk26Ay9ariej"],"mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","sectiontextcolor":"","backgroundoverlaycolor":"#ffffff80","backgroundgradientoverlay":"true","backgroundgradienttransition":"to bottom right","backgroundoverlaycolor2":"#ffffff00","backgroundparalax":"","shapedividertoggle":"false","shapedivider":"","shapedividerposition":"","shapedividercolor":"#ffffff","customshapedivider":"","shapedividerheight":"150px","preservecolor":"false","sectionclass":"","sectionid":"","hidden":"","visible":"","animationswitch":"true","animationtype":"","animationdelay":""},"columns":[{"blocks":[{"content":{"level":"h1","text":"<em>We will</em><br>help your kingdom<br>grow <em>faster</em>","headingsize":" uk-heading-medium","headingstyle":"","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"e12293a9-91f2-4c5d-ad99-a745178fd1c6","isHidden":false,"type":"heading"},{"content":{"text":"Startup & Small Business consultancy"},"id":"9561ca52-713d-4262-833f-555f1d851999","isHidden":false,"type":"intro"},{"content":{"text":"Let's work together","buttonicon":"","linktype":"internal","link":"","internalpage":["page://5n8hdBfgACInzl9l"],"anchor":"","filelink":[],"emaillink":"","phonelink":"","target":"false","buttonstyle":" uk-button-primary","buttonsize":"","margintop":" uk-margin-top"},"id":"e7d85c33-230d-48a7-adfe-7f97604bcb49","isHidden":false,"type":"button"}],"id":"55322bf8-bf61-4688-9317-ea7c766b3163","width":"1/2"},{"blocks":[],"id":"2663a56b-fe48-42e6-804d-353df7ac3e04","width":"1/2"}],"id":"cc024c62-82b4-4f82-b89d-181e42606de9"},{"attrs":{"gridwidth":"uk-container","tabletwidth":"","mobilewidth":"","columnsverticalalign":"","columnshorizontalalign":"","containerexpand":"","columngap":"","columnsdivider":"false","gridmasonry":"false","gridparallax":"false","sectiontoggle":"true","sectionsize":" uk-section-large","sectioncolor":" uk-section-default","sectionremovepadding":"","backgroundstyle":"color","backgroundimage":[],"mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","sectiontextcolor":" uk-light","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","backgroundparalax":"","shapedividertoggle":"false","shapedivider":"","shapedividerposition":"","shapedividercolor":"#ffffff","customshapedivider":"","shapedividerheight":"150px","preservecolor":"false","sectionclass":"","sectionid":"","hidden":"","visible":"","animationswitch":"true","animationtype":"uk-animation-slide-bottom-small","animationdelay":""},"columns":[{"blocks":[{"content":{"level":"h2","text":"Our expertise","headingsize":" uk-h4","headingstyle":"","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"8510bbee-fc73-4443-b181-1684c06954d9","isHidden":false,"type":"heading"},{"content":{"level":"h3","text":"Future is brighter when you're more prepared","headingsize":" uk-heading-medium","headingstyle":"","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"a5586b00-b39f-4957-bc82-4cd9b8343e62","isHidden":false,"type":"heading"},{"content":{"text":"We bring the breathe of our experience and industry knowledge to help you succeed."},"id":"bcb8d6a7-9a7f-437e-a3fb-39629bfcb69a","isHidden":false,"type":"intro"},{"content":{"text":"Learn more","buttonicon":"","linktype":"internal","link":"","internalpage":["page://nHbUzFZtETBMG4Dm"],"anchor":"","filelink":[],"emaillink":"","phonelink":"","target":"false","buttonstyle":" uk-button-primary","buttonsize":"","margintop":" uk-margin-top"},"id":"f673a099-4776-4f91-b4b5-88c271f40a9a","isHidden":false,"type":"button"}],"id":"766986db-551c-4b05-ba1c-6071f27c4461","width":"1/2"},{"blocks":[{"content":{"subgrid":"[{\"attrs\":{\"columnsverticalalign\":\"\",\"columnshorizontalalign\":\"\",\"columngap\":\"\",\"columnsdivider\":\"false\",\"gridmasonry\":\"false\",\"gridparallax\":\"false\",\"sectionclass\":\"\",\"sectionid\":\"\",\"hidden\":\"\",\"visible\":\"\",\"animationswitch\":\"false\",\"animationtype\":\"\",\"animationdelay\":\"\"},\"columns\":[{\"blocks\":[{\"content\":{\"columnwidth\":\"\",\"tabletwidth\":\"uk-width-1-4@s \",\"mobilewidth\":\"uk-width-1-2 \",\"columnheight\":\"\",\"columnminheight\":\"\",\"columnmaxheight\":\"\",\"textalign\":\"\",\"textaligntablet\":\"\",\"textalignmobile\":\"\",\"textsize\":\"\",\"texttransform\":\"\",\"textwrapping\":\"\",\"columnstyle\":\"none\",\"columncardsize\":\"\",\"columncardhover\":\"false\",\"columncardcolor\":\" uk-card-default\",\"columntile\":\"\",\"columnbackground\":\"\",\"columntextcolor\":\" uk-light\",\"backgroundstyle\":\"color\",\"backgroundimage\":[],\"backgroundimageposition\":\" uk-background-center-center\",\"backgroundimagesize\":\" uk-background-cover\",\"backgroundimagerepeat\":\" no-repeat\",\"backgroundparalax\":\"\",\"mediavideosource\":\"url\",\"mediavideo\":[],\"mediavideourl\":\"\",\"backgroundoverlaycolor\":\"rgba(0,0,0,0.3)\",\"backgroundgradientoverlay\":\"false\",\"backgroundgradienttransition\":\"\",\"backgroundoverlaycolor2\":\"rgba(0,0,0,0.3)\",\"columnpadding\":\"\",\"itemfirst\":\"\",\"itemlast\":\"\",\"borderrounded\":\"false\",\"columnshadow\":\"\",\"columnclass\":\"\",\"columnid\":\"\",\"hidden\":\"\",\"visible\":\"\",\"animationswitch\":\"false\",\"animationtype\":\"\",\"animationdelay\":\"\"},\"id\":\"305609ca-edc1-44b6-b459-9be8e784dafc\",\"isHidden\":false,\"type\":\"z-column\"},{\"content\":{\"location\":\"kirby\",\"image\":[\"file://aZo84K85So1IwPQw\"],\"src\":\"\",\"ratio\":\"\",\"alt\":\"Financing Options icon\",\"resizewidth\":\"\",\"caption\":\"\",\"captionclass\":\"false\",\"width\":\" uk-width-1-2@s\",\"widthmobile\":\"uk-width-1-2\",\"align\":\"\",\"float\":\"\",\"borderradius\":\"\",\"shadow\":\"\",\"linkoption\":\"\",\"link\":\"\",\"newtab\":\"false\"},\"id\":\"c25362ae-33e3-4259-8db3-a2a281b22f32\",\"isHidden\":false,\"type\":\"image\"},{\"content\":{\"level\":\"h4\",\"text\":\"Developing Best Financing Options\",\"headingsize\":\"\",\"headingstyle\":\"\",\"headingcolor\":\"\",\"textalign\":\"\",\"textaligntablet\":\"\",\"textalignmobile\":\"\",\"texttransform\":\"\",\"textwrapping\":\"\"},\"id\":\"64bfa4ab-30ab-4a80-8b7f-f90e70b70419\",\"isHidden\":false,\"type\":\"heading\"}],\"id\":\"7cfb9888-d55b-4e7a-8ddc-f71c30f56b65\",\"width\":\"1/2\"},{\"blocks\":[{\"content\":{\"columnwidth\":\"\",\"tabletwidth\":\"uk-width-1-4@s \",\"mobilewidth\":\"uk-width-1-2 \",\"columnheight\":\"\",\"columnminheight\":\"\",\"columnmaxheight\":\"\",\"textalign\":\"\",\"textaligntablet\":\"\",\"textalignmobile\":\"\",\"textsize\":\"\",\"texttransform\":\"\",\"textwrapping\":\"\",\"columnstyle\":\"none\",\"columncardsize\":\"\",\"columncardhover\":\"false\",\"columncardcolor\":\" uk-card-default\",\"columntile\":\"\",\"columnbackground\":\"\",\"columntextcolor\":\" uk-light\",\"backgroundstyle\":\"color\",\"backgroundimage\":[],\"backgroundimageposition\":\" uk-background-center-center\",\"backgroundimagesize\":\" uk-background-cover\",\"backgroundimagerepeat\":\" no-repeat\",\"backgroundparalax\":\"\",\"mediavideosource\":\"url\",\"mediavideo\":[],\"mediavideourl\":\"\",\"backgroundoverlaycolor\":\"rgba(0,0,0,0.3)\",\"backgroundgradientoverlay\":\"false\",\"backgroundgradienttransition\":\"\",\"backgroundoverlaycolor2\":\"rgba(0,0,0,0.3)\",\"columnpadding\":\"\",\"itemfirst\":\"\",\"itemlast\":\"\",\"borderrounded\":\"false\",\"columnshadow\":\"\",\"columnclass\":\"\",\"columnid\":\"\",\"hidden\":\"\",\"visible\":\"\",\"animationswitch\":\"false\",\"animationtype\":\"\",\"animationdelay\":\"\"},\"id\":\"a259cd5d-0b3d-4f66-b9bd-94ebbf31bd96\",\"isHidden\":false,\"type\":\"z-column\"},{\"content\":{\"location\":\"kirby\",\"image\":[\"file://YAMXVwzwtunPJjKh\"],\"src\":\"\",\"ratio\":\"\",\"alt\":\"Financial Modeling icon\",\"resizewidth\":\"\",\"caption\":\"\",\"captionclass\":\"false\",\"width\":\" uk-width-1-2@s\",\"widthmobile\":\"uk-width-1-2\",\"align\":\"\",\"float\":\"\",\"borderradius\":\"\",\"shadow\":\"\",\"linkoption\":\"\",\"link\":\"\",\"newtab\":\"false\"},\"id\":\"f9a70844-2567-4f3b-8d2d-66241847c1ed\",\"isHidden\":false,\"type\":\"image\"},{\"content\":{\"level\":\"h4\",\"text\":\"Financial Modeling and Analytics\",\"headingsize\":\"\",\"headingstyle\":\"\",\"headingcolor\":\"\",\"textalign\":\"\",\"textaligntablet\":\"\",\"textalignmobile\":\"\",\"texttransform\":\"\",\"textwrapping\":\"\"},\"id\":\"4b9855ce-5cbc-4604-9a7a-7bd1163eda52\",\"isHidden\":false,\"type\":\"heading\"}],\"id\":\"130165ef-94c8-4efa-81ae-8cc02e3749b6\",\"width\":\"1/2\"},{\"blocks\":[{\"content\":{\"columnwidth\":\"\",\"tabletwidth\":\"uk-width-1-4@s \",\"mobilewidth\":\"uk-width-1-2 \",\"columnheight\":\"\",\"columnminheight\":\"\",\"columnmaxheight\":\"\",\"textalign\":\"\",\"textaligntablet\":\"\",\"textalignmobile\":\"\",\"textsize\":\"\",\"texttransform\":\"\",\"textwrapping\":\"\",\"columnstyle\":\"none\",\"columncardsize\":\"\",\"columncardhover\":\"false\",\"columncardcolor\":\" uk-card-default\",\"columntile\":\"\",\"columnbackground\":\"\",\"columntextcolor\":\" uk-light\",\"backgroundstyle\":\"color\",\"backgroundimage\":[],\"backgroundimageposition\":\" uk-background-center-center\",\"backgroundimagesize\":\" uk-background-cover\",\"backgroundimagerepeat\":\" no-repeat\",\"backgroundparalax\":\"\",\"mediavideosource\":\"url\",\"mediavideo\":[],\"mediavideourl\":\"\",\"backgroundoverlaycolor\":\"rgba(0,0,0,0.3)\",\"backgroundgradientoverlay\":\"false\",\"backgroundgradienttransition\":\"\",\"backgroundoverlaycolor2\":\"rgba(0,0,0,0.3)\",\"columnpadding\":\"\",\"itemfirst\":\"\",\"itemlast\":\"\",\"borderrounded\":\"false\",\"columnshadow\":\"\",\"columnclass\":\"\",\"columnid\":\"\",\"hidden\":\"\",\"visible\":\"\",\"animationswitch\":\"false\",\"animationtype\":\"\",\"animationdelay\":\"\"},\"id\":\"31ea7fd4-9881-4c54-8d9f-ce19e09d495c\",\"isHidden\":false,\"type\":\"z-column\"},{\"content\":{\"location\":\"kirby\",\"image\":[\"file://K5ZtXX8Nxdgswx19\"],\"src\":\"\",\"ratio\":\"\",\"alt\":\"Business Planning icon\",\"resizewidth\":\"\",\"caption\":\"\",\"captionclass\":\"false\",\"width\":\" uk-width-1-2@s\",\"widthmobile\":\"uk-width-1-2\",\"align\":\"\",\"float\":\"\",\"borderradius\":\"\",\"shadow\":\"\",\"linkoption\":\"\",\"link\":\"\",\"newtab\":\"false\"},\"id\":\"0a748cec-7e34-464f-8796-8bf1c2755b18\",\"isHidden\":false,\"type\":\"image\"},{\"content\":{\"level\":\"h4\",\"text\":\"Improving Your Business Planning\",\"headingsize\":\"\",\"headingstyle\":\"\",\"headingcolor\":\"\",\"textalign\":\"\",\"textaligntablet\":\"\",\"textalignmobile\":\"\",\"texttransform\":\"\",\"textwrapping\":\"\"},\"id\":\"eeeeec4d-4608-4eed-b9ed-c615f3829f17\",\"isHidden\":false,\"type\":\"heading\"}],\"id\":\"581693c3-48e9-419c-996b-11ea500bde29\",\"width\":\"1/2\"},{\"blocks\":[{\"content\":{\"columnwidth\":\"\",\"tabletwidth\":\"uk-width-1-4@s \",\"mobilewidth\":\"uk-width-1-2 \",\"columnheight\":\"\",\"columnminheight\":\"\",\"columnmaxheight\":\"\",\"textalign\":\"\",\"textaligntablet\":\"\",\"textalignmobile\":\"\",\"textsize\":\"\",\"texttransform\":\"\",\"textwrapping\":\"\",\"columnstyle\":\"none\",\"columncardsize\":\"\",\"columncardhover\":\"false\",\"columncardcolor\":\" uk-card-default\",\"columntile\":\"\",\"columnbackground\":\"\",\"columntextcolor\":\" uk-light\",\"backgroundstyle\":\"color\",\"backgroundimage\":[],\"backgroundimageposition\":\" uk-background-center-center\",\"backgroundimagesize\":\" uk-background-cover\",\"backgroundimagerepeat\":\" no-repeat\",\"backgroundparalax\":\"\",\"mediavideosource\":\"url\",\"mediavideo\":[],\"mediavideourl\":\"\",\"backgroundoverlaycolor\":\"rgba(0,0,0,0.3)\",\"backgroundgradientoverlay\":\"false\",\"backgroundgradienttransition\":\"\",\"backgroundoverlaycolor2\":\"rgba(0,0,0,0.3)\",\"columnpadding\":\"\",\"itemfirst\":\"\",\"itemlast\":\"\",\"borderrounded\":\"false\",\"columnshadow\":\"\",\"columnclass\":\"\",\"columnid\":\"\",\"hidden\":\"\",\"visible\":\"\",\"animationswitch\":\"false\",\"animationtype\":\"\",\"animationdelay\":\"\"},\"id\":\"621103e7-4c08-4b82-a439-d10dc331222b\",\"isHidden\":false,\"type\":\"z-column\"},{\"content\":{\"location\":\"kirby\",\"image\":[\"file://wOLn9XsGB5FDHj1E\"],\"src\":\"\",\"ratio\":\"\",\"alt\":\"Financing Solutions icon\",\"resizewidth\":\"\",\"caption\":\"\",\"captionclass\":\"false\",\"width\":\" uk-width-1-2@s\",\"widthmobile\":\"uk-width-1-2\",\"align\":\"\",\"float\":\"\",\"borderradius\":\"\",\"shadow\":\"\",\"linkoption\":\"\",\"link\":\"\",\"newtab\":\"false\"},\"id\":\"03b981be-623f-45ab-a17d-f79dedfece36\",\"isHidden\":false,\"type\":\"image\"},{\"content\":{\"level\":\"h4\",\"text\":\"Delivering New Financing Solutions\",\"headingsize\":\"\",\"headingstyle\":\"\",\"headingcolor\":\"\",\"textalign\":\"\",\"textaligntablet\":\"\",\"textalignmobile\":\"\",\"texttransform\":\"\",\"textwrapping\":\"\"},\"id\":\"c90ca1a4-7887-41c8-8270-660613a19072\",\"isHidden\":false,\"type\":\"heading\"}],\"id\":\"d7dc7688-de04-43bc-9792-c25aa9fe3a7f\",\"width\":\"1/2\"}],\"id\":\"3e4d213f-951d-41a2-bf0a-5ded568e5920\"}]","title":"","blockclass":""},"id":"9377bdf8-435b-4aff-8e0a-cb4e910b154a","isHidden":false,"type":"subgrid"}],"id":"8f77de00-45ae-47f4-9c02-8fd524087168","width":"1/2"}],"id":"43573986-f3d0-4803-a285-7bb79daa22ce"},{"attrs":{"gridwidth":"","tabletwidth":"","mobilewidth":"","columnsverticalalign":"","columnshorizontalalign":"","containerexpand":"","columngap":"","columnsdivider":"false","gridmasonry":"false","gridparallax":"false","sectiontoggle":"false","sectionsize":"","sectioncolor":" uk-section-default","sectionremovepadding":"","backgroundstyle":"color","backgroundimage":[],"mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","sectiontextcolor":" uk-light","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","backgroundparalax":"","shapedividertoggle":"false","shapedivider":"","shapedividerposition":"","shapedividercolor":"#ffffff","customshapedivider":"","shapedividerheight":"150px","preservecolor":"false","sectionclass":"","sectionid":"","hidden":"","visible":"","animationswitch":"true","animationtype":"uk-animation-scale-down","animationdelay":""},"columns":[{"blocks":[{"content":{"slideshow":[{"slidename":"In uncertain times, it’s important to stay focused on the future","slideimage":["file://pscqRU3ci1olVw0G"],"contentblocks":"[{\"content\":{\"level\":\"h3\",\"text\":\"In uncertain times, it’s important to stay focused on the future\",\"headingsize\":\" uk-heading-medium\",\"headingstyle\":\"\",\"headingcolor\":\"\",\"textalign\":\"\",\"textaligntablet\":\"\",\"textalignmobile\":\"\",\"texttransform\":\"\",\"textwrapping\":\"\"},\"id\":\"bb231e4a-4928-4467-8f30-8cd024a4db2d\",\"isHidden\":false,\"type\":\"heading\"},{\"content\":{\"text\":\"<p>With many types of mortgages and interest rates on the market, it can be confusing to know which one is right for you, so we’ve outlined some of the basic below.</p>\",\"textalign\":\"\",\"textaligntablet\":\"\",\"textalignmobile\":\"\",\"textsize\":\"\",\"texttransform\":\"\",\"textwrapping\":\"\",\"textcolor\":\"\"},\"id\":\"1422eadc-c95c-4ab5-9043-2686d07c3aba\",\"isHidden\":false,\"type\":\"text\"}]","slidecontentposition":" uk-position-bottom-left","slidecontentpositioncenter":" uk-position-center","slidecontentwidth":" uk-width-1-2@s"},{"slidename":"We’re here to inform which tactics need funding and which are drainsom","slideimage":["file://J8DXSMsKet7e7UAM"],"contentblocks":"[{\"content\":{\"level\":\"h3\",\"text\":\"We’re here to inform which tactics need funding and which are drainsom\",\"headingsize\":\" uk-heading-medium\",\"headingstyle\":\"\",\"headingcolor\":\"\",\"textalign\":\"\",\"textaligntablet\":\"\",\"textalignmobile\":\"\",\"texttransform\":\"\",\"textwrapping\":\"\"},\"id\":\"bb231e4a-4928-4467-8f30-8cd024a4db2d\",\"isHidden\":false,\"type\":\"heading\"},{\"content\":{\"text\":\"<p>Proactively envisioned multimedia based expertise and cross-media growth strategies. Seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing. Holistically pontificate installed base portals after maintainable products.</p>\",\"textalign\":\"\",\"textaligntablet\":\"\",\"textalignmobile\":\"\",\"textsize\":\"\",\"texttransform\":\"\",\"textwrapping\":\"\",\"textcolor\":\"\"},\"id\":\"1422eadc-c95c-4ab5-9043-2686d07c3aba\",\"isHidden\":false,\"type\":\"text\"}]","slidecontentposition":" uk-position-bottom-left","slidecontentpositioncenter":" uk-position-center","slidecontentwidth":" uk-width-1-2@s"},{"slidename":"We are a young and creative company and we offer you fresh ideas.","slideimage":["file://i9q9jVZgvUed86zG"],"contentblocks":"[{\"content\":{\"level\":\"h3\",\"text\":\"We are a young and creative company and we offer you fresh ideas.\",\"headingsize\":\" uk-heading-medium\",\"headingstyle\":\"\",\"headingcolor\":\"\",\"textalign\":\"\",\"textaligntablet\":\"\",\"textalignmobile\":\"\",\"texttransform\":\"\",\"textwrapping\":\"\"},\"id\":\"bb231e4a-4928-4467-8f30-8cd024a4db2d\",\"isHidden\":false,\"type\":\"heading\"},{\"content\":{\"text\":\"<p>With many types of mortgages and interest rates on the market, it can be confusing to know which one is right for you, so we’ve outlined some of the basic below.</p>\",\"textalign\":\"\",\"textaligntablet\":\"\",\"textalignmobile\":\"\",\"textsize\":\"\",\"texttransform\":\"\",\"textwrapping\":\"\",\"textcolor\":\"\"},\"id\":\"1422eadc-c95c-4ab5-9043-2686d07c3aba\",\"isHidden\":false,\"type\":\"text\"}]","slidecontentposition":" uk-position-bottom-left","slidecontentpositioncenter":" uk-position-center","slidecontentwidth":" uk-width-1-2@s"}],"title":"","blockclass":"","blockid":"","slideshowstyle":"gradient-cover","inversetextcolor":"false","slideshowanimation":"fade","slidecontentpadding":" uk-padding-small","slidecontentpositionsize":"","slideshowkenburns":"false","slideshowautoplay":"true","slideshowsize":"false","slideshowminheight":"","slideshowmaxheight":"","slideshowratio":"","slideshownavigationtype":"arrows"},"id":"ec5251d3-a0cc-4ef3-944e-0f726e6f7371","isHidden":false,"type":"z-slideshow"}],"id":"dcd28e5a-f3ee-45a4-b5db-efc68a1c466b","width":"1/1"}],"id":"c2ce7cfe-42c6-4077-968b-7677de494fbb"},{"attrs":{"gridwidth":"uk-container","tabletwidth":"uk-width-1-2@s ","mobilewidth":"","columnsverticalalign":" uk-flex-middle","columnshorizontalalign":"","containerexpand":"","columngap":" uk-grid-large","columnsdivider":"false","gridmasonry":"false","gridparallax":"false","sectiontoggle":"true","sectionsize":" uk-section-large","sectioncolor":" uk-section-default","sectionremovepadding":"","backgroundstyle":"color","backgroundimage":[],"mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","sectiontextcolor":" uk-light","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","backgroundparalax":"","shapedividertoggle":"false","shapedivider":"","shapedividerposition":"","shapedividercolor":"#ffffff","customshapedivider":"","shapedividerheight":"150px","preservecolor":"false","sectionclass":"","sectionid":"","hidden":"","visible":"","animationswitch":"false","animationtype":"","animationdelay":""},"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://w1JgLoQSYzDAc6Xx"],"src":"","ratio":"","alt":"Finance consulting illustration","resizewidth":"","caption":"","captionclass":"false","width":"","widthmobile":"","align":"","float":"","borderradius":"","shadow":"","linkoption":"","link":"","newtab":"false"},"id":"7b80af66-d888-45f5-b105-983168f86bb3","isHidden":false,"type":"image"}],"id":"ad9374d7-5a0b-42fb-94ce-993477064183","width":"1/2"},{"blocks":[{"content":{"level":"h2","text":"Finance <em>Consulting</em> for Challenging Times","headingsize":" uk-heading-medium","headingstyle":"","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"433a1d77-3946-457f-acfc-c9284983d317","isHidden":false,"type":"heading"},{"content":{"text":"Capitalizing on the real-world experience of our financial advisors"},"id":"365cc52d-c015-4d5c-9888-cc640084b494","isHidden":false,"type":"intro"},{"content":{"text":"<p>Our team is a diverse network of consultants and industry professionals with a global mindset and a collaborative culture. We work to understand your issues and are driven to ask better questions in the pursuit of making your business work better.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"e7a9e274-eb19-4c18-8bcd-bd85290c8457","isHidden":false,"type":"text"},{"content":{"text":"Case studies","buttonicon":"","linktype":"internal","link":"","internalpage":["page://FtWNzlqEzhuDmFGL"],"anchor":"","filelink":[],"emaillink":"","phonelink":"","target":"false","buttonstyle":" uk-button-primary","buttonsize":"","margintop":" uk-margin-top"},"id":"de62166e-ef8b-4ae9-8786-64e28b870792","isHidden":false,"type":"button"}],"id":"f8036f6a-998d-4229-87ee-f9e84fd7f640","width":"1/2"}],"id":"865ad2d9-3100-4fed-878d-d20f5e11afb8"},{"attrs":{"gridwidth":"uk-container","tabletwidth":"","mobilewidth":"","columnsverticalalign":"","columnshorizontalalign":"","containerexpand":"","columngap":"","columnsdivider":"false","gridmasonry":"false","gridparallax":"false","sectiontoggle":"true","sectionsize":" uk-section-large","sectioncolor":" uk-section-muted","sectionremovepadding":"","backgroundstyle":"color","backgroundimage":[],"mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","sectiontextcolor":" uk-light","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","backgroundparalax":"","shapedividertoggle":"false","shapedivider":"","shapedividerposition":"","shapedividercolor":"#ffffff","customshapedivider":"","shapedividerheight":"150px","preservecolor":"false","sectionclass":"","sectionid":"","hidden":"","visible":"","animationswitch":"false","animationtype":"","animationdelay":""},"columns":[{"blocks":[{"content":{"columnwidth":"","tabletwidth":"","mobilewidth":"","columnheight":"","columnminheight":"","columnmaxheight":"","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","columnstyle":"none","columncardsize":"","columncardhover":"false","columncardcolor":" uk-card-default","columntile":"","columnbackground":"","columntextcolor":" uk-light","backgroundstyle":"color","backgroundimage":[],"backgroundimageposition":" uk-background-center-center","backgroundimagesize":" uk-background-cover","backgroundimagerepeat":" no-repeat","backgroundparalax":"","mediavideosource":"url","mediavideo":[],"mediavideourl":"","backgroundoverlaycolor":"rgba(0,0,0,0.3)","backgroundgradientoverlay":"false","backgroundgradienttransition":"","backgroundoverlaycolor2":"rgba(0,0,0,0.3)","columnpadding":"","itemfirst":"","itemlast":"","borderrounded":"false","columnshadow":"","columnclass":"","columnid":"","hidden":"","visible":"","animationswitch":"true","animationtype":"uk-animation-slide-bottom-small","animationdelay":""},"id":"9017491c-2d31-4c1e-bbfe-41e408ec6943","isHidden":false,"type":"z-column"},{"content":{"level":"h2","text":"Capitalizing on the real-world experience","headingsize":" uk-heading-small","headingstyle":"","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"8c211bec-85c2-42e6-9631-047508d16751","isHidden":false,"type":"heading"},{"content":{"text":"<p>We help you weather today’s uncertainty through our best team.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"f14c3cba-3ff8-4955-b067-d6e3348c5db4","isHidden":false,"type":"text"}],"id":"85f29100-87fb-4e0f-b1d0-d840ef4ac3b9","width":"1/1"},{"blocks":[{"content":{"articlesimage":"true","articlescolor":"primary","articletitlesize":"","articles":[],"maxarticles":"","columnwidth":"uk-child-width-1-4@m","tabletwidth":"uk-child-width-1-2@s ","title":"","blockid":"","blockclass":""},"id":"fd3fb95d-3151-4ee2-9915-1a2e03fa0ae9","isHidden":false,"type":"z-articles"}],"id":"55951729-dc0d-4589-a60e-4d484937afd2","width":"1/1"}],"id":"7be72a6a-05fb-41ba-9056-4b0acb9fb926"}]
+
+----
+
+Headersection: false
+
+----
+
+Alttitle: 
+
+----
+
+Intro: 
+
+----
+
+Pageheadersize: 
+
+----
+
+Pagetitlesize: 
+
+----
+
+Headerbackgroundtoggle: false
+
+----
+
+Header: 
+
+----
+
+Headerimageposition: uk-background-center-center
+
+----
+
+Headerimagesize: uk-background-cover
+
+----
+
+Headerimagerepeat: no-repeat
+
+----
+
+Headertextcolor: uk-light
+
+----
+
+Headeroverlaycolor: rgba(0,0,0,0.2)
+
+----
+
+Backgroundparalax: 
+
+----
+
+Shapedividertoggle: false
+
+----
+
+Shapedivider: 
+
+----
+
+Shapedividerposition: 
+
+----
+
+Shapedividercolor: #ffffff
+
+----
+
+Customshapedivider: 
+
+----
+
+Shapedividerheight: 150px
+
+----
+
+Overridelogo: false
+
+----
+
+Logo: 
+
+----
+
+Logoinverted: 
+
+----
+
+Logomobile: 
+
+----
+
+Logomobileinverted: 
+
+----
+
+Logoheight: 
+
+----
+
+Mobilelogoheight: 
+
+----
+
+Logolinktype: 
+
+----
+
+Link: 
+
+----
+
+Internalpage: 
+
+----
+
+Anchor: 
+
+----
+
+Target: false
+
+----
+
+Hidenavbar: false
+
+----
+
+Disallowsubmenu: false
+
+----
+
+Newtab: false
+
+----
+
+Menuitemicon: 
+
+----
+
+Megamenu: false
+
+----
+
+Megamenuwidth: 
+
+----
+
+Megamenuitemwidth: 
+
+----
+
+Megamenubackground: false
+
+----
+
+Megamenubackgroundimage: 
+
+----
+
+Megamenubackgroundimageposition: uk-background-center-center
+
+----
+
+Megamenubackgroundimagesize: uk-background-cover
+
+----
+
+Megamenubackgroundimagerepeat: no-repeat
+
+----
+
+Megamenubackgroundoverlaycolor: rgba(0,0,0,0.3)
+
+----
+
+Megamenubackgroundgradientoverlay: false
+
+----
+
+Megamenubackgroundgradienttransition: 
+
+----
+
+Megamenubackgroundoverlaycolor2: rgba(0,0,0,0.3)
+
+----
+
+Transparentnavbar: 
+
+----
+
+Navbarinverse: false
+
+----
+
+Hidefooter: false
+
+----
+
+Sitemap: true
+
+----
+
+Metafile: 
+
+----
+
+Metatitle: 
+
+----
+
+Removesitetitle: false
+
+----
+
+Metadescription: 
+
+----
+
+Customcss: 
+
+----
+
+Uuid: e84ErHXmRHyc5wNH

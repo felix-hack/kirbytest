@@ -1,0 +1,9 @@
+label: zero.fields.sectionSize
+type: select
+placeholder: "{{ t('zero.reusables.default') }}"
+options:
+  " uk-section-xsmall": "{{ t('zero.reusables.xsmall') }}"
+  " uk-section-small": "{{ t('zero.reusables.small') }}"
+  " uk-section-large": "{{ t('zero.reusables.large') }}"
+  " uk-section-xlarge": "{{ t('zero.reusables.xlarge') }}"
+width: 1/3

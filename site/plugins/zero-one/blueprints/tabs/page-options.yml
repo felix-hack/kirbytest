@@ -1,0 +1,565 @@
+label: zero.page.options
+icon: settings
+columns:
+  # main
+  - width: 2/3
+    sections:
+      # header
+      header:
+        type: fields
+        fields:
+          # header options
+          headerSettings:
+            label: zero.page.options.headerSettings
+            type: headline
+          headersection:
+            label: zero.page.options.headersection
+            type: toggle
+            default: true
+            help: zero.page.options.headersection.help
+            width: 1/3
+          altTitle:
+            extends: fields/altTitle
+            width: 2/3
+            when:
+              headersection: true
+          intro: 
+            label: zero.page.options.intro
+            type: textarea
+            when:
+              headersection: true
+          # section size
+          pageHeaderSize:
+            label: zero.site.settings.header.pageHeaderSize
+            type: select
+            placeholder: "{{ t('zero.reusables.default') }}"
+            options:
+              "uk-section-xsmall": "{{ t('zero.reusables.xsmall') }}"
+              "uk-section-small": "{{ t('zero.reusables.small') }}"
+              "uk-section-large": "{{ t('zero.reusables.large') }}"
+              "uk-section-xlarge": "{{ t('zero.reusables.xlarge') }}"
+            width: 1/3
+            when:
+              headersection: true
+          pageTitleSize:
+            label: zero.site.settings.header.pageTitleSize
+            type: select
+            placeholder: "{{ t('zero.reusables.default') }}"
+            help: zero.site.settings.header.pageTitleSize.help
+            options:
+              medium: "{{ t('zero.reusables.medium') }}"
+              large: "{{ t('zero.reusables.large') }}"
+              xlarge: "{{ t('zero.reusables.xlarge') }}"
+            width: 1/3
+            when:
+              headersection: true
+          # header image
+          headerBackgroundtoggle:
+            label: zero.page.options.headerBackgroundtoggle
+            type: toggle
+            width: 1/3
+            when:
+              headersection: true
+          headerImageHeading:
+            label: zero.page.options.headerImageHeading
+            type: headline
+            numbered: false
+            when:
+              headersection: true
+              headerBackgroundtoggle: true
+          header:
+            label: zero.page.options.header
+            extends: fields/image
+            multiple: false
+            help: zero.page.options.header.help
+            when:
+              headersection: true
+              headerBackgroundtoggle: true
+          headerImagePosition:
+            label: zero.page.options.headerImagePosition
+            type: select
+            default: "uk-background-center-center"
+            options:
+              "uk-background-top-left": "{{ t('zero.page.options.background.top.left') }}"
+              "uk-background-top-center": "{{ t('zero.page.options.background.top.center') }}"
+              "uk-background-top-right": "{{ t('zero.page.options.background.top.right') }}"
+              "uk-background-center-left": "{{ t('zero.page.options.background.center.left') }}"
+              "uk-background-center-center": "{{ t('zero.page.options.background.center.center') }}"
+              "uk-background-center-right": "{{ t('zero.page.options.background.center.right') }}"
+              "uk-background-bottom-left": "{{ t('zero.page.options.background.bottom.left') }}"
+              "uk-background-bottom-center": "{{ t('zero.page.options.background.bottom.center') }}"
+              "uk-background-bottom-right": "{{ t('zero.page.options.background.bottom.right') }}"
+            width: 1/3
+            when:
+              headersection: true
+              headerBackgroundtoggle: true
+          headerImageSize:
+            label: zero.page.options.headerImageSize
+            type: select
+            default: "uk-background-cover"
+            options:
+              "uk-background-cover": "{{ t('zero.page.options.background.cover') }}"
+              "uk-background-contain": "{{ t('zero.page.options.background.contain') }}"
+            width: 1/3
+            when:
+              headersection: true
+              headerBackgroundtoggle: true
+          headerImageRepeat:
+            label: zero.page.options.headerImageRepeat
+            type: select
+            default: "no-repeat"
+            options:
+              "no-repeat": "{{ t('zero.page.options.ImageRepeat.no.repeat') }}"
+              "repeat": "{{ t('zero.page.options.ImageRepeat.repeat') }}"
+              "repeat-x": "{{ t('zero.page.options.ImageRepeat.repeat.x') }}"
+              "repeat-y": "{{ t('zero.page.options.ImageRepeat.repeat.y') }}"
+            width: 1/3
+            when:
+              headersection: true
+              headerBackgroundtoggle: true
+          headerTextColor:
+            label: zero.page.options.headerTextColor
+            type: select
+            default: "uk-light"
+            options:
+              "uk-light": "{{ t('zero.reusables.light') }}"
+              "uk-dark": "{{ t('zero.reusables.dark') }}"
+            width: 1/3
+            when:
+              headersection: true
+              headerBackgroundtoggle: true
+          headerOverlayColor:
+            label: zero.page.options.headerOverlayColor
+            type: colors
+            alpha: true
+            default: 'rgba(0,0,0,0.2)'
+            width: 1/3
+            when:
+              headersection: true
+              headerBackgroundtoggle: true
+          backgroundParalax:
+            label: zero.page.options.backgroundParalax
+            type: select
+            width: 1/3
+            options:
+              paralaxY: "{{ t('zero.page.options.backgroundParalax.paralaxY') }}"
+              paralaxX: "{{ t('zero.page.options.backgroundParalax.paralaxX') }}"
+            when:
+              headersection: true
+              headerBackgroundtoggle: true
+          # shape divider
+          shapeDividerheadline:
+            label: zero.page.options.shapeDividerheadline
+            type: headline
+            numbered: false
+            when:
+              headersection: true
+              headerBackgroundtoggle: true
+          shapeDividertoggle:
+            label: zero.page.options.shapeDividertoggle
+            type: toggle
+            width: 1/3
+            when:
+              headersection: true
+              headerBackgroundtoggle: true
+          shapeDividerinfo:
+            label: zero.page.options.shapeDividerinfo
+            type: info
+            text: zero.page.options.shapeDividerinfo.text
+            width: 2/3
+            when:
+              headersection: true
+              headerBackgroundtoggle: true
+          shapeDivider:
+            label: zero.page.options.shapeDivider
+            type: select
+            placeholder: "{{ t('zero.page.options.curve') }}"
+            options:
+              fan: "{{ t('zero.page.options.fan') }}"
+              curve-opacity: "{{ t('zero.page.options.curve.opacity') }}"
+              mountains: "{{ t('zero.page.options.mountains') }}"
+              curve-asym: "{{ t('zero.page.options.curve.asym') }}"
+              curve-asym-alt: "{{ t('zero.page.options.curve.asym.alt') }}"
+              tilt: "{{ t('zero.page.options.tilt') }}"
+              tilt-alt: "{{ t('zero.page.options.tilt.alt') }}"
+              triangle: "{{ t('zero.page.options.triangle') }}"
+              waves: "{{ t('zero.page.options.waves') }}"
+              waves-opacity: "{{ t('zero.page.options.waves.opacity') }}"
+              waves-opacity-2: "{{ t('zero.page.options.waves.opacity.2') }}"
+              clouds: "{{ t('zero.page.options.clouds') }}"
+              speech: "{{ t('zero.page.options.speech') }}"
+              custom: "{{ t('zero.page.options.custom') }}"
+            width: 1/3
+            when:
+              headersection: true
+              headerBackgroundtoggle: true
+              shapeDividertoggle: true
+          shapeDividerposition:
+            label: zero.page.options.shapeDividerposition
+            type: select
+            placeholder: "{{ t('zero.page.options.shapeDividerposition.bottom') }}"
+            options:
+              top: "{{ t('zero.page.options.shapeDividerposition.top') }}"
+              both: "{{ t('zero.page.options.shapeDividerposition.both') }}"
+            width: 1/3
+            when:
+              headersection: true
+              headerBackgroundtoggle: true
+              shapeDividertoggle: true
+          shapeDividercolor:
+            label: zero.page.options.shapeDividercolor
+            type: colors
+            default: '#ffffff'
+            width: 1/3
+            when:
+              headersection: true
+              headerBackgroundtoggle: true
+              shapeDividertoggle: true
+          customShapedivider:
+            label: zero.page.options.customShapedivider
+            type: code-editor
+            help: zero.page.options.customShapedivider.help
+            when:
+              headersection: true
+              headerBackgroundtoggle: true
+              shapeDividertoggle: true
+              shapeDivider: custom
+          shapeDividerheight:
+            label: zero.page.options.shapeDividerheight
+            type: text
+            default: 150px
+            placeholder: 150px
+            help: zero.page.options.shapeDividerheight.help
+            width: 2/3
+            when:
+              headersection: true
+              headerBackgroundtoggle: true
+              shapeDividertoggle: true
+          # logo options
+          logoSettings:
+            label: zero.page.options.logoSettings
+            type: headline
+          overrideLogo:
+            label: zero.page.options.logoSettings.overrideLogo
+            type: toggle
+            width: 1/3
+          overrideLogoinfo:
+            label: zero.page.options.logoSettings.overrideLogoinfo
+            type: info
+            text: zero.page.options.logoSettings.overrideLogoinfo.text
+            width: 2/3
+          logo:
+            label: Logo
+            extends: fields/image
+            multiple: false
+            help: zero.site.settings.brand.logo.help
+            width: 1/2
+            when:
+              overrideLogo: true
+          logoInverted:
+            label: zero.site.settings.brand.logo.inverted
+            extends: fields/image
+            multiple: false
+            width: 1/2
+            help: zero.site.settings.brand.logo.inverted.help
+            when:
+              overrideLogo: true
+          logoMobile:
+            label: Logo mobile
+            extends: fields/image
+            multiple: false
+            help: zero.site.settings.brand.logo.mobile.help
+            width: 1/2
+            when:
+              overrideLogo: true
+          logoMobileInverted:
+            label: zero.site.settings.brand.logo.mobile.inverted
+            extends: fields/image
+            multiple: false
+            help: zero.site.settings.brand.logo.mobile.inverted.help
+            width: 1/2
+            when:
+              overrideLogo: true
+          logoHeight:
+            label: zero.site.settings.brand.logo.height
+            type: range
+            step: 1
+            min: 18
+            max: 100
+            default: 21
+            tooltip:
+              after: px
+            width: 1/2
+            when:
+              overrideLogo: true
+          mobileLogoHeight:
+            label: zero.site.settings.brand.logo.mobile.height
+            type: range
+            step: 1
+            min: 18
+            max: 100
+            default: 21
+            tooltip:
+              after: px
+            width: 1/2
+            when:
+              overrideLogo: true
+          overrideLogoLinkinfo:
+            label: zero.page.options.logoSettings.overrideLogoLinkinfo
+            type: info
+            text: zero.page.options.logoSettings.overrideLogoLinkinfo.text
+            when:
+              overrideLogo: true
+          logoLinkType:
+            label: zero.page.options.logoSettings.logoLinkType
+            type: select
+            default: internal
+            columns: 2
+            options:
+              internal: "{{ t('zero.page.options.logoSettings.logoLinkType.internal') }}"
+              url: "{{ t('zero.page.options.logoSettings.logoLinkType.url') }}"
+              anchor: "{{ t('zero.page.options.logoSettings.logoLinkType.anchor') }}"
+            width: 1/4
+            when:
+              overrideLogo: true
+          link:
+            type: url
+            width: 1/2
+            when:
+              overrideLogo: true
+              logoLinkType: url
+          internalPage:
+            label: zero.page.options.logoSettings.logoLinkType.internalPage
+            type: pages
+            multiple: false
+            width: 1/2
+            when:
+              overrideLogo: true
+              logoLinkType: internal
+          anchor: 
+            label: zero.page.options.logoSettings.logoLinkType.anchor
+            type: slug
+            before: #
+            icon: none
+            help: zero.page.options.logoSettings.logoLinkType.anchor.help
+            width: 1/2
+            when:
+              overrideLogo: true
+              logoLinkType: anchor
+          target:
+            label: zero.page.options.logoSettings.logoLinkType.target
+            type: toggle
+            default: false
+            width: 1/4
+            when:
+              overrideLogo: true
+          # navbar options
+          navbarSettings:
+            label: zero.page.options.navbarSettings
+            type: headline
+          hideNavbar:
+            label: zero.page.options.hideNavbar
+            type: toggle
+            width: 1/3
+          hideNavbarinfo:
+            label: zero.page.options.hideNavbarinfo
+            type: info
+            text: zero.page.options.hideNavbarinfo.text
+            width: 2/3
+          # submenu options
+          disallowSubmenu:
+            label: zero.page.options.disallowSubmenu
+            type: toggle
+            width: 1/3
+          disallowSubmenuinfo:
+            label: zero.page.options.disallowSubmenuinfo
+            type: info
+            text: zero.page.options.disallowSubmenuinfo.text
+            width: 2/3
+          # newtab
+          newTab:
+            label: zero.page.options.newTab
+            type: toggle
+            width: 1/3
+          newTabInfo:
+            label: zero.page.options.newTabInfo
+            type: info
+            text: zero.page.options.newTabInfo.text
+            width: 2/3
+          # menu item icon
+          menuItemIcon:
+            extends: fields/icons
+            label: zero.page.options.menuItemIcon
+            placeholder: None
+            width: 1/3
+          menuItemIconInfo:
+            label: zero.page.options.menuItemIconInfo
+            type: info
+            text: zero.page.options.menuItemIconInfo.text
+            width: 2/3
+          # mega menu options
+          lineMegaMenu:
+            type: line
+          megaMenu:
+            label: zero.page.options.megaMenu
+            type: toggle
+            width: 1/3
+          megaMenuInfo:
+            label: zero.page.options.megaMenuInfo
+            type: info
+            text: zero.page.options.megaMenuInfo.text
+            width: 2/3
+          megaMenuWidth:
+            label: zero.page.options.megaMenuWidth
+            type: select
+            placeholder: "{{ t('zero.reusables.inherit') }}"
+            options:
+              - value: '2'
+                text: 2 columns
+              - value: '3'
+                text: 3 columns
+              - value: '4'
+                text: 4 columns
+            width: 1/3
+            when:
+              megaMenu: true
+          megaMenuItemWidth:
+            label: zero.page.options.megaMenuItemWidth
+            type: select
+            placeholder: "{{ t('zero.reusables.inherit') }}"
+            options:
+              - value: '1'
+                text: Full width
+              - value: '2'
+                text: '1/2'
+              - value: '3'
+                text: '1/3'
+              - value: '4'
+                text: '1/4'
+            width: 1/3
+            when:
+              megaMenu: true
+          # mega menu background
+          megaMenuBackground:
+            label: zero.page.options.megaMenuBackground
+            type: toggle
+            width: 1/3
+            when:
+              megaMenu: true
+          # image
+          megaMenuBackgroundImage:
+            extends: fields/backgroundImage
+            when:
+              megaMenu: true
+              megaMenuBackground: true
+          megaMenuBackgroundImagePosition:
+            label: zero.page.options.megaMenuBackgroundImage
+            type: select
+            default: "uk-background-center-center"
+            options:
+              "uk-background-top-left": "{{ t('zero.page.options.background.top.left') }}"
+              "uk-background-top-center": "{{ t('zero.page.options.background.top.center') }}"
+              "uk-background-top-right": "{{ t('zero.page.options.background.top.right') }}"
+              "uk-background-center-left": "{{ t('zero.page.options.background.center.left') }}"
+              "uk-background-center-center": "{{ t('zero.page.options.background.center.center') }}"
+              "uk-background-center-right": "{{ t('zero.page.options.background.center.right') }}"
+              "uk-background-bottom-left": "{{ t('zero.page.options.background.bottom.left') }}"
+              "uk-background-bottom-center": "{{ t('zero.page.options.background.bottom.center') }}"
+              "uk-background-bottom-right": "{{ t('zero.page.options.background.bottom.right') }}"
+            width: 1/3
+            when:
+              megaMenu: true
+              megaMenuBackground: true
+          megaMenuBackgroundImageSize:
+            label: zero.page.options.megaMenuBackgroundImageSize
+            type: select
+            default: "uk-background-cover"
+            options:
+              "uk-background-cover": "{{ t('zero.page.options.background.cover') }}"
+              "uk-background-contain": "{{ t('zero.page.options.background.contain') }}"
+            width: 1/3
+            when:
+              megaMenu: true
+              megaMenuBackground: true
+          megaMenuBackgroundImageRepeat:
+            label: zero.page.options.ImageRepeat
+            type: select
+            default: "no-repeat"
+            options:
+              "no-repeat": "{{ t('zero.page.options.ImageRepeat.no.repeat') }}"
+              "repeat": "{{ t('zero.page.options.ImageRepeat.repeat') }}"
+              "repeat-x": "{{ t('zero.page.options.ImageRepeat.repeat.x') }}"
+              "repeat-y": "{{ t('zero.page.options.ImageRepeat.repeat.y') }}"
+            width: 1/3
+            when:
+              megaMenu: true
+              megaMenuBackground: true
+          megaMenuBackgroundOverlayColor:
+            extends: fields/backgroundOverlayColor
+            when:
+              megaMenu: true
+              megaMenuBackground: true
+          megaMenuBackgroundGradientOverlay:
+            extends: fields/backgroundGradientOverlay
+            when:
+              megaMenu: true
+              megaMenuBackground: true
+          megaMenuBackgroundGradientTransition:
+            extends: fields/backgroundGradientTransition
+            when:
+              megaMenu: true
+              megaMenuBackground: true
+              megaMenuBackgroundGradientOverlay: true
+          megaMenuBackgroundOverlayColor2:
+            extends: fields/backgroundOverlayColor
+            label: zero.page.options.OverlayColor2
+            when:
+              megaMenu: true
+              megaMenuBackground: true
+              megaMenuBackgroundGradientOverlay: true
+
+          lineTransparent:
+            type: line
+          transparentNavbar:
+            label: zero.page.options.transparentNavbar
+            type: select
+            placeholder: "{{ t('zero.page.options.transparentNavbar.placeholder') }}"
+            options:
+              transparent: "{{ t('zero.page.options.transparentNavbar.transparent') }}"
+              non-transparent: "{{ t('zero.page.options.transparentNavbar.nontransparent') }}"
+            help: zero.page.options.transparentNavbar.help
+            width: 1/3
+          navbarInverse:
+            label: zero.page.options.navbarInverse
+            type: toggle
+            width: 1/3
+            when:
+              transparentNavbar: transparent
+          
+          # footer options
+          footerSettings:
+            label: zero.page.options.footerSettings
+            type: headline
+          hideFooter:
+            label: zero.page.options.hideFooter
+            type: toggle
+            width: 1/3
+          hideFooterinfo:
+            label: zero.page.options.hideFooter.info
+            type: info
+            text: zero.page.options.hideFooter.info.text
+            width: 2/3
+
+      # custom settings
+      customsettings:
+        extends: sections/custom-page
+
+  # sidebar
+  - width: 1/3
+    sections:
+      # a list of files
+      files:
+        headline: zero.page.options.files.headline
+        type: files
+        info: "{{ file.dimensions }}"
+        search: true

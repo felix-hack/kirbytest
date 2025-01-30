@@ -1,0 +1,194 @@
+type: fields
+fields:
+  mainMenuBuilderInfo:
+    label: zero.navigation.builder.mainMenuBuilderInfo
+    type: info
+    text: zero.navigation.builder.mainMenuBuilderInfo.text
+  mainMenuBuilder:
+    type: structure
+    label: zero.navigation.builder.mainMenuBuilder
+    columns:
+      icon:
+      linkTitle:
+      pageLink:
+      externalLink:
+      anchor:
+      newTab:
+      hasSubmenu:
+    fields:
+      menufields: fields/menufields
+      hasSubmenu:
+        label: zero.navigation.builder.hasSubmenu
+        type: toggle
+        width: 1/4
+      subMenu:
+        type: structure
+        label: zero.navigation.builder.subMenu
+        columns:
+          icon:
+          linkTitle:
+          pageLink:
+          externalLink:
+          anchor:
+          newTab:
+          hasSubmenu:
+        when:
+          hasSubmenu: true
+        fields:
+          menufields: fields/menufields
+          hasSubmenu:
+            label: zero.navigation.builder.hasSubmenu
+            type: toggle
+            width: 1/4
+          subMenu:
+            type: structure
+            label: zero.navigation.builder.subMenu2
+            columns:
+              icon:
+              linkTitle:
+              pageLink:
+              externalLink:
+              anchor:
+              newTab:
+            when:
+              hasSubmenu: true
+            fields:
+              menufields: fields/menufields
+
+      lineMegaMenu:
+        type: line
+        when:
+          hasSubmenu: true
+      megaMenu:
+        label: zero.navigation.builder.megaMenu
+        type: toggle
+        width: 1/3
+        when:
+          hasSubmenu: true
+      megaMenuInfo:
+        label: zero.navigation.builder.megaMenuInfo
+        type: info
+        text: zero.navigation.builder.megaMenuInfo.text
+        width: 2/3
+        when:
+          hasSubmenu: true
+      megaMenuWidth:
+        label: zero.navigation.builder.megaMenuWidth
+        type: select
+        placeholder: Inherit
+        options:
+          - value: '2'
+            text: 2 columns
+          - value: '3'
+            text: 3 columns
+          - value: '4'
+            text: 4 columns
+        width: 1/3
+        when:
+          hasSubmenu: true
+          megaMenu: true
+      megaMenuItemWidth:
+        label: zero.navigation.builder.megaMenuItemWidth
+        type: select
+        placeholder: Inherit
+        options:
+          - value: '1'
+            text: "{{ t('zero.navigation.builder.fullwidth') }}"
+          - value: '2'
+            text: '1/2'
+          - value: '3'
+            text: '1/3'
+          - value: '4'
+            text: '1/4'
+        width: 1/3
+        when:
+          hasSubmenu: true
+          megaMenu: true
+      # mega menu background
+      megaMenuBackground:
+        label: zero.navigation.builder.megaMenuBackground
+        type: toggle
+        width: 1/3
+        when:
+          hasSubmenu: true
+          megaMenu: true
+      # image
+      megaMenuBackgroundImage:
+        extends: fields/backgroundImage
+        query: site.images
+        when:
+          hasSubmenu: true
+          megaMenu: true
+          megaMenuBackground: true
+      megaMenuBackgroundImagePosition:
+        label: zero.navigation.builder.megaMenuBackgroundImagePosition
+        type: select
+        default: "uk-background-center-center"
+        options:
+          "uk-background-top-left": "{{ t('zero.navigation.builder.top.left') }}"
+          "uk-background-top-center": "{{ t('zero.navigation.builder.top.center') }}"
+          "uk-background-top-right": "{{ t('zero.navigation.builder.top.right') }}"
+          "uk-background-center-left": "{{ t('zero.navigation.builder.center.left') }}"
+          "uk-background-center-center": "{{ t('zero.navigation.builder.center.center') }}"
+          "uk-background-center-right": "{{ t('zero.navigation.builder.center.right') }}"
+          "uk-background-bottom-left": "{{ t('zero.navigation.builder.bottom.left') }}"
+          "uk-background-bottom-center": "{{ t('zero.navigation.builder.bottom.center') }}"
+          "uk-background-bottom-right": "{{ t('zero.navigation.builder.bottom.right') }}"
+        width: 1/3
+        when:
+          hasSubmenu: true
+          megaMenu: true
+          megaMenuBackground: true
+      megaMenuBackgroundImageSize:
+        label: zero.navigation.builder.megaMenuBackgroundImageSize
+        type: select
+        default: "uk-background-cover"
+        options:
+          "uk-background-cover": "{{ t('zero.navigation.builder.bottom.cover') }}"
+          "uk-background-contain": "{{ t('zero.navigation.builder.bottom.contain') }}"
+        width: 1/3
+        when:
+          hasSubmenu: true
+          megaMenu: true
+          megaMenuBackground: true
+      megaMenuBackgroundImageRepeat:
+        label: zero.navigation.builder.megaMenuBackgroundImageRepeat
+        type: select
+        default: "no-repeat"
+        options:
+          "no-repeat": "{{ t('zero.navigation.builder.bottom.no.repeat') }}"
+          "repeat": "{{ t('zero.navigation.builder.bottom.repeat') }}"
+          "repeat-x": "{{ t('zero.navigation.builder.bottom.repeat.x') }}"
+          "repeat-y": "{{ t('zero.navigation.builder.bottom.repeat.y') }}"
+        width: 1/3
+        when:
+          hasSubmenu: true
+          megaMenu: true
+          megaMenuBackground: true
+      megaMenuBackgroundOverlayColor:
+        extends: fields/backgroundOverlayColor
+        when:
+          hasSubmenu: true
+          megaMenu: true
+          megaMenuBackground: true
+      megaMenuBackgroundGradientOverlay:
+        extends: fields/backgroundGradientOverlay
+        when:
+          hasSubmenu: true
+          megaMenu: true
+          megaMenuBackground: true
+      megaMenuBackgroundGradientTransition:
+        extends: fields/backgroundGradientTransition
+        when:
+          hasSubmenu: true
+          megaMenu: true
+          megaMenuBackground: true
+          megaMenuBackgroundGradientOverlay: true
+      megaMenuBackgroundOverlayColor2:
+        extends: fields/backgroundOverlayColor
+        label: zero.navigation.builder.OverlayColor2
+        when:
+          hasSubmenu: true
+          megaMenu: true
+          megaMenuBackground: true
+          megaMenuBackgroundGradientOverlay: true

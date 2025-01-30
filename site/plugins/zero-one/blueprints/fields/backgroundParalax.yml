@@ -1,0 +1,6 @@
+label: zero.fields.backgroundParlax
+type: select
+width: 1/3
+options:
+  paralaxY: "{{ t('zero.fields.backgroundParlax.paralaxY') }}"
+  paralaxX: "{{ t('zero.fields.backgroundParlax.paralaxX') }}"

@@ -1,0 +1,103 @@
+title: zero.page.project
+icon: globe
+
+status:
+  draft:
+    label: zero.page.project.draft
+    text: zero.page.project.draft.text
+  unlisted:
+    label: zero.page.project.unlisted
+    text: zero.page.project.unlisted.text
+  listed:
+    label: zero.page.project.listed
+    text: zero.page.project.listed.text
+
+tabs:
+  # content tab
+  content:
+    label: zero.page.project.content
+    icon: text
+    columns:
+      - width: 2/3
+        sections:
+          # project meta details
+          content:
+            type: fields
+            fields:
+              # Project info
+              projectSettings:
+                label: zero.page.project.projectSettings
+                type: headline
+              projectInfo:
+                label: zero.page.project.projectInfo
+                type: structure
+                help: zero.page.project.projectInfo.help
+                max: 4
+                fields:
+                  projectColumn:
+                    label: zero.page.project.projectColumn
+                    type: textarea
+              # Tags
+              tagsLabel:
+                label: zero.page.project.tagsLabel
+                type: text
+                default: 'Tags:'
+                placeholder: 'Tags:'
+                width: 1/3
+              tags:
+                label: zero.page.project.tagsLabel.tags
+                type: tags
+                width: 2/3
+          # layout builder info
+          layoutBuilderInfo:
+            type: fields
+            fields:
+              layoutBuilderTopLine:
+                type: line
+              layoutBuilderHeadline:
+                label: zero.page.project.layoutBuilderHeadline
+                type: headline
+                help: zero.page.project.layoutBuilderHeadline.help
+              layoutBuilderTip:
+                label: zero.page.layout.layoutBuilderTip
+                type: info
+                text: zero.page.layout.layoutBuilderTip.text
+          # Layout Builder sections
+          layoutBuilder:
+            extends: sections/layout-builder
+
+      - width: 1/3
+        sections:
+          coverimg:
+            type: fields
+            fields:
+              coverHeadline:
+                label: zero.page.project.coverHeadline
+                type: headline
+              cover:
+                label: zero.page.project.coverimg.cover
+                extends: fields/image
+                multiple: false
+                layout: cards
+                size: full
+                image:
+                  cover: true
+                help: zero.page.project.coverimg.cover.help
+          projectFiles:
+            label: zero.page.project.files
+            type: files
+            query: page.files
+            info: "{{ file.dimensions }}"
+            search: true
+            image:
+              cover: true
+
+  # page options tab
+  pageoptions: tabs/page-options
+
+  # seo tab
+  seo: tabs/seo
+
+  # advanced tab
+  advanced: tabs/page-advanced
+  

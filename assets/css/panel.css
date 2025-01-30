@@ -1,0 +1,4 @@
+[data-role="editor"] .k-tab-button[title="Site Settings"], [data-role="editor"] .k-tab-button[title="Seiteneinstellungen"], 
+[data-role="editor"] .k-tab-button[title="Site Styling"], [data-role="editor"] .k-tab-button[title="Beschriftung"] {
+    display: none;
+}

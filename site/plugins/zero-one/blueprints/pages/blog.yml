@@ -1,0 +1,296 @@
+title: zero.page.blog.title
+icon: text
+
+tabs:
+
+  # content tab
+  content:
+    label: zero.page.blog.content
+    icon: text-justify
+    columns:
+      left:
+        width: 1/2
+        sections:
+          listed:
+            extends: sections/articles
+            headline: zero.page.blog.content.headline
+            status: listed
+
+      right:
+        width: 1/2
+        sections:
+
+          blogCategories:
+            type: fields
+            fields:
+              categories:
+                label: zero.page.blog.categories
+                type: tags
+                help: zero.page.blog.categories.help
+
+          drafts:
+            extends: sections/articles
+            headline: zero.page.blog.draft.headline
+            status: draft
+
+          unlisted:
+            extends: sections/articles
+            headline: zero.page.blog.unlisted.headline
+            status: unlisted
+
+  # blog settings tab
+  settingsBlog:
+    label: zero.page.blog.settingsBlog
+    icon: text
+    columns:
+      left:
+        width: 2/3
+        sections:
+          settings:
+            type: fields
+            fields:
+              blogSettingsHeadline:
+                label: zero.page.blog.settingsBlog.blogSettingsHeadline
+                type: headline
+              dateFormatinfo:
+                label: zero.page.blog.settingsBlog.dateFormatinfo
+                type: info
+                text: zero.page.blog.settingsBlog.dateFormatinfo.text
+
+              dateFormat:
+                label: zero.page.blog.settingsBlog.dateFormat
+                type: text
+                default: 'd.m.Y'
+                placeholder: 'd.m.Y'
+                width: 1/4
+                
+              perpage:
+                label: zero.page.blog.settingsBlog.perpage
+                type: number
+                min: 1
+                max: 20
+                default: 10
+                width: 1/4
+              articleTitleSize:
+                label: zero.page.blog.settingsBlog.articleTitleSize
+                type: select
+                placeholder: H2
+                options:
+                  "uk-h1": H1
+                  "uk-h3": H3
+                  "uk-h4": H4
+                  "uk-h5": H5
+                help: zero.page.blog.settingsBlog.articleTitleSize.help
+                width: 1/4
+              listingStyle:
+                label: zero.page.blog.settingsBlog.listingStyle
+                type: select
+                placeholder: "{{ t('zero.page.blog.settingsBlog.listingStyle.grid') }}"
+                options: 
+                  classic: "{{ t('zero.page.blog.settingsBlog.listingStyle.classic') }}"
+                width: 1/4
+              
+              sidebarBlog:
+                label: zero.page.blog.settingsBlog.sidebarBlog
+                type: radio
+                columns: 2
+                help: zero.page.blog.settingsBlog.sidebarBlog.help
+                options:
+                  yes: "{{ t('zero.page.blog.settingsBlog.sidebarBlog.yes') }}"
+                  no: "{{ t('zero.page.blog.settingsBlog.sidebarBlog.no') }}"
+                width: 1/2
+
+              sidebarProfile:
+                label: zero.page.blog.settingsBlog.sidebarProfile
+                extends: fields/blogSettings
+
+              sidebarCategories:
+                label: zero.page.blog.settingsBlog.sidebarCategories
+                extends: fields/blogSettings
+
+              sidebarArchive:
+                label: zero.page.blog.settingsBlog.sidebarArchive
+                extends: fields/blogSettings
+
+              sidebarTags:
+                label: zero.page.blog.settingsBlog.sidebarTags
+                extends: fields/blogSettings
+
+              sidebarSocialmedia:
+                label: zero.page.blog.settingsBlog.sidebarSocialmedia
+                extends: fields/blogSettings
+
+          # layout builder headline
+          layoutBuilderHeadline:
+            type: fields
+            fields:
+              linelayoutBuilder:
+                type: line
+              layoutBuilderHeadline:
+                label: zero.page.blog.layoutBuilderHeadline
+                type: headline
+                help: zero.page.blog.layoutBuilderHeadline.help
+              layoutBuilderPosition:
+                label: zero.page.blog.layoutBuilderPosition
+                type: toggle
+                text:
+                  - "{{ t('zero.page.blog.layoutBuilderPosition.before') }}"
+                  - "{{ t('zero.page.blog.layoutBuilderPosition.after') }}"
+                width: 1/3
+
+          # Layout Builder sections
+          layoutBuilder:
+            extends: sections/layout-builder
+
+      right:
+        width: 1/3
+        sections:
+          settingsProfile:
+            type: fields
+            when:
+              sidebarProfile: true
+            fields:
+              profileTitle:
+                label: zero.page.blog.profileTitle
+                type: headline
+              profileImage:
+                label: zero.page.blog.profileImage
+                extends: fields/image
+                max: 1
+                layout: cards
+                image:
+                  cover: true
+              profileHeading:
+                type: text
+                label: zero.page.blog.profileHeading
+                maxlength: 80
+                help: zero.page.blog.profileHeading.help
+              profileText:
+                type: textarea
+                label: zero.page.blog.profileText
+                maxlength: 250
+                help: zero.page.blog.profileText.help
+
+  # article settings tab
+  settingsArticle:
+    label: zero.page.blog.settingsArticle
+    icon: document
+    columns:
+      left:
+        width: 1/2
+        sections:
+          settingsArticle:
+            type: fields
+            fields:
+              coverWidthArticle:
+                label: zero.page.blog.coverWidthArticle
+                type: radio
+                columns: 3
+                default: large
+                options:
+                  default: "{{ t('zero.reusables.default') }}"
+                  large: "{{ t('zero.reusables.large') }}"
+                  full: "{{ t('zero.reusables.fullwidth') }}"
+              shareSwitch:
+                label: zero.page.blog.shareSwitch
+                type: toggle
+                default: true
+                width: 1/2
+              inverseImageTextColor:
+                label: zero.page.blog.inverseImageTextColor
+                type: toggle
+                default: false
+                width: 1/2
+
+      right:
+        width: 1/2
+        sections:
+          optionsArticle:
+            type: fields
+            fields:
+              sidebarArticle:
+                label: zero.page.blog.sidebarArticle
+                type: radio
+                columns: 2
+                default: no
+                help: zero.page.blog.sidebarArticle.help
+                options:
+                  yes: "{{ t('zero.page.blog.sidebarArticle.yes') }}"
+                  no: "{{ t('zero.page.blog.sidebarArticle.no') }}"
+
+              sidebarArticleLatestPosts:
+                label: zero.page.blog.sidebarArticleLatestPosts
+                extends: fields/articleSettings
+
+              sidebarArticleCategories:
+                label: zero.page.blog.sidebarArticleCategories
+                extends: fields/articleSettings
+
+              sidebarArticleArchive:
+                label: zero.page.blog.sidebarArticleArchive
+                extends: fields/articleSettings
+
+              sidebarArticleTags:
+                label: zero.page.blog.sidebarArticleTags
+                extends: fields/articleSettings
+
+              sidebarArticleSocialmedia:
+                label: zero.page.blog.sidebarArticleSocialmedia
+                extends: fields/articleSettings
+              
+  # comments tab
+  comments:
+    label: zero.page.blog.comments
+    icon: chat
+    columns:
+      left:
+        width: 2/3
+        sections:
+          commentsOption:
+            type: fields
+            fields:
+              commentsOptionSelect:
+                label: zero.page.blog.commentsOptionSelect
+                type: toggles
+                columns: 2
+                default: none
+                options:
+                  - value: none
+                    text: "{{ t('zero.page.blog.commentsOptionSelect.none') }}"
+                    icon: protected
+                  - value: embed
+                    text: "{{ t('zero.page.blog.commentsOptionSelect.embed') }}"
+                    icon: code
+          # Embed comments
+          embedComments:
+            type: fields
+            when: 
+              commentsOptionSelect: embed
+            fields:
+              commentsCode:
+                label: zero.page.blog.commentsCode
+                type: code-editor
+                size: medium
+                help: zero.page.blog.commentsCode.help
+      
+      right:
+        width: 1/3
+        sections:
+          embedCommentsOption:
+            type: fields
+            when:
+              commentsOptionSelect: embed
+            fields:
+              embedCommentsInfo:
+                label: zero.page.blog.comments.embedCommentsInfo
+                type: info
+                text: zero.page.blog.comments.embedCommentsInfo.text
+
+  # header tab
+  header: tabs/page-options
+
+  # seo tab
+  seo: tabs/seo
+  
+  # advanced tab
+  advanced: tabs/page-advanced

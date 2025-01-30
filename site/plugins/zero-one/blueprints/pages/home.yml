@@ -1,0 +1,63 @@
+title: zero.page.home
+icon: home
+options:
+  duplicate: false
+
+tabs:
+
+  # content tab
+  content:
+    label: zero.page.home.content
+    icon: text
+    columns:
+      # main
+      - width: 3/4
+          sections:
+            # layout builder info
+            layoutBuilderInfo:
+              type: fields
+              fields:
+                layoutBuilderTip:
+                  label: zero.page.layout.layoutBuilderTip
+                  type: info
+                  text: zero.page.layout.layoutBuilderTip.text
+            # Layout Builder sections
+            layoutBuilder:
+              extends: sections/layout-builder
+
+      # sidebar
+      - width: 1/4
+        sections:
+          pageOptions:
+            type: fields
+            fields:
+              # navbar transparency
+              transparentNavbar:
+                label: zero.page.home.transparentNavbar
+                type: select
+                placeholder: "{{ t('zero.page.options.transparentNavbar.placeholder') }}"
+                options:
+                  transparent: "{{ t('zero.page.home.transparentNavbar.transparent') }}"
+                  non-transparent: "{{ t('zero.page.home.transparentNavbar.non.transparent') }}"
+                help: zero.page.home.transparentNavbar.help
+                width: 1/3
+              navbarInverse:
+                label: zero.page.home.navbarInverse
+                type: toggle
+                width: 1/3
+                when:
+                  transparentNavbar: transparent
+              # hide navbar
+              hideNavbar:
+                label: zero.page.home.hideNavbar
+                type: toggle
+              # hide footer
+              hideFooter:
+                label: zero.page.home.hideFooter
+                type: toggle
+
+  # seo tab
+  seo: tabs/seo
+
+  # advanced tab
+  advanced: tabs/page-advanced

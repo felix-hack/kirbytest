@@ -1,0 +1,48 @@
+name: HTML
+icon: code
+
+preview: zhtml
+
+tabs:
+  # content tab
+  content:
+    label: zero.blocks.z.html.content
+    fields:
+      htmlInfo:
+        label: zero.blocks.z.html.htmlInfo
+        type: info
+        text: zero.blocks.z.html.htmlInfo.text
+      htmlCode:
+        label: zero.blocks.z.html.htmlCode
+        type: code-editor
+
+  # settings tab
+  settings:
+    label: zero.blocks.z.html.settings
+    icon: cog
+    fields:
+      # block advanced heading
+      blockAdvancedHeadline:
+        label: zero.blocks.z.html.blockAdvancedHeadline
+        type: headline
+        numbered: false
+      # block title
+      title:
+        label: zero.blocks.z.html.title
+        type: text
+        placeholder: "{{ t('zero.blocks.settings.title.placeholder') }}"
+        width: 1/3
+      # block class
+      blockClass:
+        label: zero.blocks.z.html.blockClass
+        type: text
+        placeholder: my-custom-class
+        before: '.'
+        width: 1/3
+      # block id
+      blockID:
+        label: zero.blocks.z.html.blockID
+        type: text
+        placeholder: my-custom-id
+        before: '#'
+        width: 1/3

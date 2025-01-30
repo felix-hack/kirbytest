@@ -1,0 +1,7 @@
+label: zero.fields.backgroundImageSize
+type: select
+default: " uk-background-cover"
+options:
+  " uk-background-cover": "{{ t('zero.fields.backgroundImageSize.cover') }}"
+  " uk-background-contain": "{{ t('zero.fields.backgroundImageSize.contain') }}"
+width: 1/3

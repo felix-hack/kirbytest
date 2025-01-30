@@ -1,0 +1,101 @@
+name: zero.blocks.button
+icon: bolt
+fields:
+  text:
+    label: zero.blocks.button.text
+    type: text
+    width: 2/3
+  buttonIcon:
+    extends: fields/icons
+    label: zero.blocks.button.buttonIcon
+    placeholder: "{{ t('zero.reusables.none') }}"
+    width: 1/3
+  linkType:
+    label: zero.blocks.button.linkType
+    type: select
+    default: internal
+    columns: 2
+    options:
+      internal: "{{ t('zero.blocks.button.linkType.internal') }}"
+      url: URL
+      anchor: "{{ t('zero.blocks.button.linkType.anchor') }}"
+      file: "{{ t('zero.blocks.button.linkType.file') }}"
+      email: "{{ t('zero.blocks.button.emailLink') }}"
+      telephone: "{{ t('zero.blocks.button.linkType.telephone') }}"
+    width: 1/4
+  link:
+    type: url
+    width: 1/2
+    when:
+      linkType: url
+  internalPage:
+    label: zero.blocks.button.internalPage
+    type: pages
+    multiple: false
+    width: 1/2
+    when:
+      linkType: internal
+  anchor: 
+    label: zero.blocks.button.anchor
+    type: slug
+    before: #
+    icon: none
+    help: zero.blocks.button.anchor.help
+    width: 1/2
+    when:
+      linkType: anchor
+  fileLink:
+    label: zero.blocks.button.fileLink
+    type: files
+    multiple: false
+    width: 1/2
+    when:
+      linkType: file
+  emailLink:
+    label: zero.blocks.button.emailLink
+    type: email
+    icon: email
+    width: 1/2
+    when:
+      linkType: email
+  phoneLink:
+    label: zero.blocks.button.phoneLink
+    type: tel
+    icon: phone
+    width: 1/2
+    when:
+      linkType: telephone
+  target:
+    label: zero.blocks.button.target
+    type: toggle
+    default: false
+    width: 1/4
+  buttonStyle:
+    label: zero.blocks.button.buttonStyle
+    type: select
+    default: " uk-button-default"
+    options:
+      " uk-button-default": "{{ t('zero.reusables.default') }}"
+      " uk-button-primary": "{{ t('zero.reusables.primary') }}"
+      " uk-button-secondary": "{{ t('zero.reusables.secondary') }}"
+      " uk-button-text": "{{ t('zero.reusables.text') }}"
+      " uk-button-link": "{{ t('zero.reusables.link') }}"
+      " uk-button-danger": "{{ t('zero.reusables.danger') }}"
+    width: 1/3
+  buttonSize:
+    label: zero.blocks.button.buttonSize
+    type: select
+    placeholder: "{{ t('zero.reusables.default') }}"
+    options: 
+      " uk-button-small": "{{ t('zero.reusables.small') }}"
+      " uk-button-large": "{{ t('zero.reusables.large') }}"
+    width: 1/3
+  marginTop:
+    label: zero.blocks.button.marginTop
+    type: select
+    placeholder: "{{ t('zero.reusables.default') }}"
+    options:
+      " uk-margin-small-top": "{{ t('zero.reusables.small') }}"
+      " uk-margin-top": "{{ t('zero.reusables.medium') }}"
+      " uk-margin-large-top": "{{ t('zero.reusables.large') }}"
+    width: 1/3

@@ -1,0 +1,18 @@
+name: zero.blocks.z.spacer.name
+icon: expand
+
+fields:
+  spacerInfo:
+    label: zero.blocks.z.spacer.spacerInfo
+    type: info
+    text: zero.blocks.z.spacer.spacerInfo.text
+  spacer:
+    label: zero.blocks.z.spacer.spacer
+    type: range
+    default: 5
+    step: 1
+    min: 1
+    max: 1000
+    help: zero.blocks.z.spacer.spacer.help
+    tooltip:
+      after: px

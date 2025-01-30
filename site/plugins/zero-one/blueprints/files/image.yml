@@ -1,0 +1,57 @@
+title: zero.files.image
+
+accept:
+  type: image
+
+create:
+  width: 2560
+  height: 2560
+  resize: true
+
+columns:
+  - width: 1/2
+    sections:
+      content:
+        type: fields
+        fields:
+          caption:
+            label: zero.files.caption
+            type: textarea
+            size: medium
+  - width: 1/2
+    sections:
+      meta:
+        type: fields
+        fields:
+          alt:
+            label: zero.files.alt
+            type: text
+          photographer:
+            label: zero.files.author
+            type: text
+            width: 2/3
+          license:
+            label: zero.files.license
+            type: select
+            width: 1/3
+            options:
+              - Unsplash
+              - CC BY 4.0
+              - CC BY-SA 4.0
+              - CC BY-NC 4.0
+              - CC BY-ND 4.0
+              - RM (Rights Managed)
+              - Editorial Use
+              - RF (Royalty Free)
+              - Public Domain
+          link:
+            label: zero.files.link
+            type: url
+          permalink:
+            label: zero.files.permalink
+            type: info
+            text: "{{ kirby.url('base') }}/@/file/{{ file.content.get('uuid') }}"
+            help: zero.files.permalink.help
+          sitemap:
+            extends: fields/sitemap
+            width: 1/2

@@ -1,0 +1,144 @@
+title: zero.page.shop
+icon: cart
+
+tabs:
+
+  # content tab
+  content:
+    label: zero.page.shop.content
+    icon: tag
+    columns:
+      # main
+      - width: 1/2
+        sections:
+          # listed products
+          listed:
+            extends: sections/products
+            headline: zero.page.shop.listed
+            status: published
+            layout: list
+
+      # sidebar
+      - width: 1/2
+        sections:
+          categoryies:
+            type: fields
+            fields:
+              categories:
+                label: zero.page.shop.categories
+                type: tags
+                help: zero.page.shop.categories.help
+          # draft products
+          draft:
+            extends: sections/products
+            headline: zero.page.shop.draft
+            status: draft
+
+  # settings tab
+  settings:
+    label: zero.page.shop.settings
+    icon: cart
+    columns:
+      # shop settings
+      - width: 1/2
+        sections:
+          # content
+          content:
+            type: fields
+            fields:
+              displayHeadline:
+                label: zero.page.shop.displayHeadline
+                type: headline
+              perpage:
+                label: zero.page.shop.perpage
+                type: number
+                min: 1
+                default: 6
+                help: zero.page.shop.perpage.help
+                width: 1/2
+              productsStyle:
+                label: zero.page.shop.productsStyle
+                type: select
+                default: stacked
+                help: zero.page.shop.productsStyle.help
+                options:
+                  stacked: "{{ t('zero.page.shop.productsStyle.stacked') }}"
+                  grid: "{{ t('zero.page.shop.productsStyle.grid') }}"
+                  grid3: "{{ t('zero.page.shop.productsStyle.grid3') }}"
+                  grid4: "{{ t('zero.page.shop.productsStyle.grid4') }}" 
+                width: 1/2
+
+              pageWidth:
+                label: zero.page.shop.pageWidth
+                type: radio
+                default: large
+                columns: 3
+                options:
+                  large: "{{ t('zero.reusables.large') }}"
+                  small: "{{ t('zero.reusables.small') }}"
+                  xsmall: "{{ t('zero.reusables.xsmall') }}"
+
+        # custom tab
+          customTab:
+            type: fields
+            fields:
+              lineCustomtab:
+                type: line
+              customTab:
+                label: zero.page.shop.customTab
+                type: headline
+              customTabs:
+                label: zero.page.shop.customTabs
+                type: structure
+                help: zero.page.shop.customTabs.help
+                fields:
+                  tabName:
+                    label: zero.page.shop.tabName
+                    type: text
+                  tabContent:
+                    label: zero.page.shop.tabContent
+                    extends: fields/blockEditor
+
+          # layout builder headline
+          layoutBuilderHeadline:
+            type: fields
+            fields:
+              linelayoutBuilder:
+                type: line
+              layoutBuilderHeadline:
+                label: zero.page.shop.layoutBuilderHeadline
+                type: headline
+                help: zero.page.shop.layoutBuilderHeadline.help
+              layoutBuilderPosition:
+                label: zero.page.shop.layoutBuilderPosition
+                type: toggle
+                text:
+                  - "{{ t('zero.page.shop.layoutBuilderPosition.before') }}"
+                  - "{{ t('zero.page.shop.layoutBuilderPosition.after') }}"
+                width: 1/3
+
+          # Layout Builder sections
+          layoutBuilder:
+            extends: sections/layout-builder
+
+      # snipcart settings
+      - width: 1/2
+        sections:
+          # content
+          snipcart:
+            type: fields
+            fields:
+              snipcartHeadline:
+                label: zero.page.shop.snipcartHeadline
+                type: headline
+                numbered: false
+              snipcartInfo:
+                label: zero.page.shop.snipcartInfo
+                type: info
+                text: zero.page.shop.snipcartInfo.text
+
+  # header tab
+  header: tabs/page-options
+
+  # seo tab
+  seo: tabs/seo

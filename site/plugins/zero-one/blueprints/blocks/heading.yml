@@ -1,0 +1,140 @@
+name: zero.blocks.heading
+icon: title
+wysiwyg: true
+preview: heading
+fields:
+  level:
+    label: field.blocks.heading.level
+    type: select
+    empty: false
+    default: "h2"
+    width: 1/6
+    options:
+      - h1
+      - h2
+      - h3
+      - h4
+      - h5
+      - h6
+  text:
+    label: field.blocks.heading.text
+    type: writer
+    inline: true
+    width: 5/6
+    placeholder: field.blocks.heading.placeholder
+  headingSize:
+    label: zero.blocks.heading.headingSize
+    type: select
+    placeholder: "{{ t('zero.reusables.default') }}"
+    options:
+      " uk-h1": H1
+      " uk-h2": H2
+      " uk-h3": H3
+      " uk-h4": H4
+      " uk-h5": H5
+      " uk-h6": H6
+      " uk-heading-small": "{{ t('zero.blocks.heading.headingSize.small') }}"
+      " uk-heading-medium": "{{ t('zero.blocks.heading.headingSize.medium') }}"
+      " uk-heading-large": "{{ t('zero.blocks.heading.headingSize.large') }}"
+      " uk-heading-xlarge": "{{ t('zero.blocks.heading.headingSize.xlarge') }}"
+      " uk-heading-2xlarge": "{{ t('zero.blocks.heading.headingSize.2xlarge') }}"
+    width: 1/3
+  headingStyle:
+    label: zero.blocks.heading.headingStyle
+    type: select
+    placeholder: "{{ t('zero.reusables.default') }}"
+    width: 1/3
+    options:
+      "uk-heading-divider": "{{ t('zero.blocks.heading.headingStyle.divider') }}"
+      "uk-heading-bullet": "{{ t('zero.blocks.heading.headingStyle.bullet') }}"
+      "uk-heading-line": "{{ t('zero.blocks.heading.headingStyle.line') }}"
+  headingColor:
+    label: zero.blocks.heading.headingColor
+    type: select
+    placeholder: "{{ t('zero.reusables.inherit') }}"
+    options:
+      " uk-text-muted": "{{ t('zero.reusables.muted') }}"
+      " uk-text-emphasis": "{{ t('zero.blocks.heading.headingColor.emphasis') }}"
+      " uk-text-primary": "{{ t('zero.reusables.primary') }}"
+      " uk-text-secondary": "{{ t('zero.reusables.secondary') }}"
+      " uk-text-success": "{{ t('zero.blocks.heading.headingColor.success') }}"
+      " uk-text-warning": "{{ t('zero.blocks.heading.headingColor.warning') }}"
+      " uk-text-danger": "{{ t('zero.reusables.danger') }}"
+    width: 1/3
+  # text align
+  textAlign:
+    label: zero.blocks.heading.textAlign
+    type: toggles
+    labels: false
+    options: 
+      - value: " uk-text-left@m"
+        text: "{{ t('zero.blocks.heading.textAlign.left') }}"
+        icon: text-left
+      - value: " uk-text-right@m"
+        text: "{{ t('zero.blocks.heading.textAlign.right') }}"
+        icon: text-right
+      - value: " uk-text-center@m"
+        text: "{{ t('zero.blocks.heading.textAlign.center') }}"
+        icon: text-center
+      - value: " uk-text-justify@m"
+        text: "{{ t('zero.blocks.heading.textAlign.justify') }}"
+        icon: text-justify
+    width: 1/3
+  # text align tablet
+  textAlignTablet:
+    label: zero.blocks.heading.textAlignTablet
+    type: toggles
+    labels: false
+    options: 
+      - value: " uk-text-left@s"
+        text: "{{ t('zero.blocks.heading.textAlign.left') }}"
+        icon: text-left
+      - value: " uk-text-right@s"
+        text: "{{ t('zero.blocks.heading.textAlign.right') }}"
+        icon: text-right
+      - value: " uk-text-center@s"
+        text: "{{ t('zero.blocks.heading.textAlign.center') }}"
+        icon: text-center
+      - value: " uk-text-justify@s"
+        text: "{{ t('zero.blocks.heading.textAlign.justify') }}"
+        icon: text-justify
+    width: 1/3
+  # text align mobile
+  textAlignMobile:
+    label: zero.blocks.heading.textAlignMobile
+    type: toggles
+    labels: false
+    options: 
+      - value: " uk-text-left"
+        text: "{{ t('zero.blocks.heading.textAlign.left') }}"
+        icon: text-left
+      - value: " uk-text-right"
+        text: "{{ t('zero.blocks.heading.textAlign.right') }}"
+        icon: text-right
+      - value: " uk-text-center"
+        text: "{{ t('zero.blocks.heading.textAlign.center') }}"
+        icon: text-center
+      - value: " uk-text-justify"
+        text: "{{ t('zero.blocks.heading.textAlign.justify') }}"
+        icon: text-justify
+    width: 1/3
+  # text transform
+  textTransform:
+    label: zero.blocks.heading.textTransform
+    type: select
+    placeholder: "{{ t('zero.reusables.inherit') }}"
+    options: 
+      " uk-text-capitalize": "{{ t('zero.blocks.heading.textTransform.capitalize') }}"
+      " uk-text-uppercase": "{{ t('zero.blocks.heading.textTransform.uppercase') }}"
+      " uk-text-lowercase": "{{ t('zero.blocks.heading.textTransform.lowercase') }}"
+    width: 1/3
+  # text wrapping
+  textWrapping:
+    label: zero.blocks.heading.textWrapping
+    type: select
+    placeholder: "{{ t('zero.reusables.inherit') }}"
+    options: 
+      " uk-text-truncate": "{{ t('zero.blocks.heading.textWrapping.truncate') }}"
+      " uk-text-break": "{{ t('zero.blocks.heading.textWrapping.break') }}"
+      " uk-text-nowrap": "{{ t('zero.blocks.heading.textWrapping.nowrap') }}"
+    width: 1/3

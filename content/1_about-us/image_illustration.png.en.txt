@@ -1,0 +1,13 @@
+Uuid: w1JgLoQSYzDAc6Xx
+
+----
+
+Template: image
+
+----
+
+Caption: 
+
+----
+
+Sitemap: true

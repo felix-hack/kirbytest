@@ -1,0 +1,125 @@
+name: zero.blocks.z.description
+icon: text
+
+preview: zdescription
+
+tabs:
+  # content tab
+  content:
+    label: zero.blocks.z.description.content
+    fields:
+      description:
+        label: zero.blocks.z.description.description
+        type: structure
+        fields:
+          title:
+            label: zero.blocks.z.description.title
+            type: writer
+            inline: true
+            marks: true
+          text:
+            label: zero.blocks.z.description.text
+            marks: true
+            inline: true
+            type: writer
+
+      # title size
+      titleSize:
+        label: zero.blocks.z.description.titleSize
+        type: select
+        placeholder: "{{ t('zero.reusables.inherit') }}"
+        options: 
+          "uk-text-small": "{{ t('zero.reusables.small') }}"
+          "uk-text-default": "{{ t('zero.reusables.default') }}"
+          "uk-text-large": "{{ t('zero.reusables.large') }}"
+        width: 1/3
+      # title transform
+      titleTransform:
+        label: zero.blocks.z.description.titleTransform
+        type: select
+        placeholder: "{{ t('zero.reusables.inherit') }}"
+        options: 
+          " uk-text-capitalize": "{{ t('zero.blocks.z.description.titleTransform.capitalize') }}"
+          " uk-text-uppercase": "{{ t('zero.blocks.z.description.titleTransform.uppercase') }}"
+          " uk-text-lowercase": "{{ t('zero.blocks.z.description.titleTransform.lowercase') }}"
+        width: 1/3
+      # text color
+      titleColor:
+        label: zero.blocks.z.description.titleColor
+        type: select
+        placeholder: "{{ t('zero.reusables.inherit') }}"
+        options:
+          " uk-text-muted": "{{ t('zero.reusables.muted') }}"
+          " uk-text-emphasis": "{{ t('zero.blocks.z.description.titleColor.emphasis') }}"
+          " uk-text-primary": "{{ t('zero.reusables.primary') }}"
+          " uk-text-secondary": "{{ t('zero.reusables.secondary') }}"
+          " uk-text-success": "{{ t('zero.blocks.z.description.titleColor.success') }}"
+          " uk-text-warning": "{{ t('zero.blocks.z.description.titleColor.warning') }}"
+          " uk-text-danger": "{{ t('zero.reusables.danger') }}"
+        width: 1/3
+
+      # description size
+      descriptionSize:
+        label: zero.blocks.z.description.descriptionSize
+        type: select
+        placeholder: "{{ t('zero.reusables.inherit') }}"
+        options: 
+          "uk-text-small": "{{ t('zero.reusables.small') }}"
+          "uk-text-default": "{{ t('zero.reusables.default') }}"
+          "uk-text-large": "{{ t('zero.reusables.large') }}"
+        width: 1/3
+      # description transform
+      descriptionTransform:
+        label: zero.blocks.z.description.descriptionTransform
+        type: select
+        placeholder: "{{ t('zero.reusables.inherit') }}"
+        options: 
+          " uk-text-capitalize": "{{ t('zero.blocks.z.description.capitalize') }}"
+          " uk-text-uppercase": "{{ t('zero.blocks.z.description.uppercase') }}"
+          " uk-text-lowercase": "{{ t('zero.blocks.z.description.lowercase') }}"
+        width: 1/3
+      # description color
+      descriptionColor:
+        label: zero.blocks.z.description.descriptionColor
+        type: select
+        placeholder: "{{ t('zero.reusables.inherit') }}"
+        options:
+          " uk-text-muted": "{{ t('zero.reusables.muted') }}"
+          " uk-text-emphasis": "{{ t('zero.blocks.z.description.descriptionColor.emphasis') }}"
+          " uk-text-primary": "{{ t('zero.reusables.primary') }}"
+          " uk-text-secondary": "{{ t('zero.reusables.secondary') }}"
+          " uk-text-success": "{{ t('zero.blocks.z.description.descriptionColor.success') }}"
+          " uk-text-warning": "{{ t('zero.blocks.z.description.descriptionColor.warning') }}"
+          " uk-text-danger": "{{ t('zero.reusables.danger') }}"
+        width: 1/3
+    
+  # settings tab
+  settings:
+    label: zero.blocks.z.description.settings
+    icon: cog
+    fields:
+      # block advanced heading
+      blockAdvancedHeadline:
+        label: zero.blocks.z.description.blockAdvancedHeadline
+        type: headline
+        numbered: false
+      # block title
+      title:
+        label: zero.blocks.z.description.title
+        type: text
+        placeholder: "{{ t('zero.blocks.settings.title.placeholder') }}"
+        width: 1/3
+      # block class
+      blockClass:
+        label: zero.blocks.z.description.blockClass
+        type: text
+        placeholder: my-custom-class
+        before: '.'
+        width: 1/3
+      # block id
+      blockID:
+        label: zero.blocks.z.description.blockID
+        type: text
+        placeholder: my-custom-id
+        before: '#'
+        width: 1/3

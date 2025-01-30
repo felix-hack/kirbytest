@@ -1,0 +1,1165 @@
+Title: The Zero One Consulting
+
+----
+
+Mainmenubuilder: 
+
+----
+
+Author: Zero
+
+----
+
+Twitteruser: @YourZeroBase
+
+----
+
+Email: support@thezero.club
+
+----
+
+Favicon: - file://yFVOHUsKucuzMXTE
+
+----
+
+Logo: - file://OISNSauQFJPRRgpf
+
+----
+
+Logoinverted: - file://yC6AKPxEZ2cEAPRy
+
+----
+
+Logomobile: 
+
+----
+
+Logomobileinverted: 
+
+----
+
+Logoheight: 63
+
+----
+
+Mobilelogoheight: 32
+
+----
+
+Navbarwidth: large
+
+----
+
+Menuposition: right
+
+----
+
+Sticky: 
+
+----
+
+Languagenav: false
+
+----
+
+Languagenavstyle: false
+
+----
+
+Languagenavmobile: false
+
+----
+
+Rightnav: button
+
+----
+
+Menubuttonobject:
+
+link: page://5n8hdBfgACInzl9l
+buttontext: Get in touch
+target: 'false'
+buttonstyle: ""
+class: ""
+
+----
+
+Searchicon: true
+
+----
+
+Searchiconmobile: false
+
+----
+
+Searchproducts: false
+
+----
+
+Additionalicontoggle: false
+
+----
+
+Additionaliconobject: 
+
+----
+
+Moreicon:
+
+(image: zero-one-light.svg alt: Creative Zero class: uk-width-small)
+
+### We are the future
+
+There are darknesses in life and there are lights, and you are one of the lights, the light of all lights. 
+
+123 Beogradska Street,
+Belgrade, Serbia
+
+(email: support@thezero.club text: support@thezero.club)
+(tel: +3811234567 text: +381 123-45-67)
+
+Connect with us on (link: https://www.facebook.com/yourzerobase/ text: facebook target: _blank),
+(link: https://twitter.com/YourZeroBase text: twitter target: _blank) or (link: https://www.instagram.com/thezero_club/ text: instagram target: _blank)
+
+----
+
+Mobilenav: true
+
+----
+
+Mobilenavanimation: push
+
+----
+
+Mobilemenuinfotext: 
+
+----
+
+Topbar: false
+
+----
+
+Topbartablet: 
+
+----
+
+Topbarmobile: 
+
+----
+
+Topbarleft: 
+
+----
+
+Topbarcenter: 
+
+----
+
+Topbarright: 
+
+----
+
+Transparentnavbar: false
+
+----
+
+Navbarinverse: false
+
+----
+
+Headeralign: center
+
+----
+
+Headerwidth: default
+
+----
+
+Pageheadersize: 
+
+----
+
+Pagetitlecolor: 
+
+----
+
+Pagetitlesize: medium
+
+----
+
+Breadcrumbs: true
+
+----
+
+Headerimage: false
+
+----
+
+Header: 
+
+----
+
+Headerimageposition: 
+
+----
+
+Headerimagesize: 
+
+----
+
+Headerimagerepeat: 
+
+----
+
+Headertextcolor: 
+
+----
+
+Backgroundparalax: 
+
+----
+
+Shapedividertoggle: false
+
+----
+
+Shapedivider: 
+
+----
+
+Shapedividerposition: 
+
+----
+
+Customshapedivider: 
+
+----
+
+Shapedividerheight: 
+
+----
+
+Coverwidth: 
+
+----
+
+Coverheight: 
+
+----
+
+Coverratio: false
+
+----
+
+Defaultcurrency: EUR
+
+----
+
+Defaultcurrencysymbol: €
+
+----
+
+Currencysymbolposition: false
+
+----
+
+Thousandseparator: .
+
+----
+
+Decimalseparator: ,
+
+----
+
+Snipcartswitch: false
+
+----
+
+Hidecart: false
+
+----
+
+Hidetotal: false
+
+----
+
+Snipcartapi: 
+
+----
+
+Snipcarttax: false
+
+----
+
+Productimageratio: 
+
+----
+
+Socialstyle: icons
+
+----
+
+Social:
+
+- 
+  platform: Facebook
+  url: https://www.facebook.com/yourzerobase/
+- 
+  platform: Twitter
+  url: https://twitter.com/YourZeroBase
+- 
+  platform: Instagram
+  url: https://www.instagram.com/thezero_club/
+
+----
+
+Footerbuilder: content-builder
+
+----
+
+Footerstyle: columns
+
+----
+
+Footercolor: secondary
+
+----
+
+Footerwidth: 
+
+----
+
+Footercolumns:
+
+- 
+  columnwidth: uk-width-1-4@m
+  columnclass: ""
+  columntitle: Logo
+  columncontent: markdown
+  columneditor: ""
+  footercolumn: |
+    (image: consulting-logo-inverse.svg class: uk-width-2-3)
+    
+    We bring the years, global experience, and stamina to guide our clients through new and often disruptive realities.
+  columnhtml: ""
+  columncard: 'false'
+  columncardsize: ""
+  columncardhover: 'false'
+  columncardcolor: ""
+- 
+  columnwidth: uk-width-1-4@m
+  columnclass: ""
+  columntitle: Features
+  columncontent: markdown
+  columneditor: ""
+  footercolumn: |
+    #### Features
+    
+    (link: https://www.thezero.club/demo/one/features/for-developers text: For developers. target: _blank)
+    (link: https://www.thezero.club/demo/one/features/for-content-editors text: For content editors. target: _blank)
+    (link: https://www.thezero.club/demo/one/features/for-seo-sem-masters text: For SEO/SEM masters. target: _blank)
+    (link: https://www.thezero.club/demo/one/layout-builder text: Powerful Layout Builder. target: _blank)
+  columnhtml: ""
+  columncard: 'false'
+  columncardsize: ""
+  columncardhover: 'false'
+  columncardcolor: ""
+- 
+  columnwidth: uk-width-1-4@m
+  columnclass: ""
+  columntitle: Theme info
+  columncontent: markdown
+  columneditor: ""
+  footercolumn: |
+    #### Theme info
+    
+    (link: https://www.one.thezero.club/credits text: Credits target: _blank)
+    (link: https://www.one.thezero.club/support text: Support target: _blank)
+    (link: https://www.one.thezero.club/changelog text: Changelog target: _blank)
+    (link: https://www.one.thezero.club/terms-and-guidelines text: Terms & Guidelines target: _blank)
+  columnhtml: ""
+  columncard: 'false'
+  columncardsize: ""
+  columncardhover: 'false'
+  columncardcolor: ""
+- 
+  columnwidth: uk-width-1-4@m
+  columnclass: ""
+  columntitle: Address
+  columncontent: markdown
+  columneditor: ""
+  footercolumn: |
+    #### Address
+    
+    support@theconsulting.com
+    123 Fifth Floor, West 17th Street,
+    New York, NY 10011
+  columnhtml: ""
+  columncard: 'false'
+  columncardsize: ""
+  columncardhover: 'false'
+  columncardcolor: ""
+- 
+  columnwidth: uk-width-1-2@m
+  columnclass: ""
+  columntitle: Company future
+  columncontent: editor
+  columneditor: '[{"content":{"text":"<h3>Your company’s future with us, guaranteed success.</h3>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"c2fcc9ac-ebe9-4b3b-95d1-05be28caa5d1","isHidden":false,"type":"text"}]'
+  footercolumn: ""
+  columnhtml: ""
+  columncard: 'false'
+  columncardsize: ""
+  columncardhover: 'false'
+  columncardcolor: ' uk-card-default'
+- 
+  columnwidth: uk-width-1-2@m
+  columnclass: ""
+  columntitle: Continents
+  columncontent: editor
+  columneditor: '[{"content":{"text":"<p>Europe | North America | Africa | Asia</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"7b7098e6-9dc0-4d70-a491-8a09d46d4edb","isHidden":false,"type":"text"}]'
+  footercolumn: ""
+  columnhtml: ""
+  columncard: 'false'
+  columncardsize: ""
+  columncardhover: 'false'
+  columncardcolor: ' uk-card-default'
+
+----
+
+Footercompacttext: [{"content":{"level":"h2","text":"Let’s create something together","headingsize":"","headingstyle":"","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"3e7837b2-2a5c-41f3-b6fa-9738789f2621","isHidden":false,"type":"heading"},{"content":{"text":"<p>If you have a website idea in mind or you need some advice about product design, feel free to <strong><a href=\"mailto:support@thezero.club\" rel=\"noopener noreferrer nofollow\">contact me</a></strong>. Currently my time books quickly, so the sooner you write, the better it is for both of us.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"b44fe1ec-de94-4ae8-8ccb-5dccb3d75e5c","isHidden":false,"type":"text"}]
+
+----
+
+Backgroundimage: 
+
+----
+
+Backgroundimageposition: 
+
+----
+
+Backgroundimagesize: 
+
+----
+
+Backgroundimagerepeat: 
+
+----
+
+Footertextcolor: 
+
+----
+
+Subfootertoggle: true
+
+----
+
+Copyright: Powered by <a href="https://getkirby.com/" target="_blank">Kirby</a>.
+
+----
+
+Animatefooter: true
+
+----
+
+Animateelement: 
+
+----
+
+Layout: 
+
+----
+
+Mediaindex: false
+
+----
+
+Cachebusting: true
+
+----
+
+Typedtext: false
+
+----
+
+Syntaxhighlighting: false
+
+----
+
+Totopbutton: false
+
+----
+
+Totopbuttontext: 
+
+----
+
+Totopbuttonicon: 
+
+----
+
+Totopbuttonstyle: 
+
+----
+
+Pagetransitions: true
+
+----
+
+Enablecookieconsent: false
+
+----
+
+Cookieconsenttype: 
+
+----
+
+Cookieconsenttext: 
+
+----
+
+Cookieconsentbutton: 
+
+----
+
+Senderip: false
+
+----
+
+Metafile: - file://HomSlsOLuow4FIMj
+
+----
+
+Metatitle: The Zero One Kirby CMS starter theme | Consulting demo
+
+----
+
+Metadescription: Meet Zero One. Your new Kirby CMS starter theme. Built with developers in mind. Made for perfectionists. Top class coding. The theme for professionals.
+
+----
+
+Useschema: false
+
+----
+
+Companytype: false
+
+----
+
+Companyname: 
+
+----
+
+Companyemail: 
+
+----
+
+Companyphone: 
+
+----
+
+Companyaddress: false
+
+----
+
+Companylocality: 
+
+----
+
+Companypostal: 
+
+----
+
+Companystreet: 
+
+----
+
+Labelreadmore: Read more..
+
+----
+
+Labelpublished: Published on
+
+----
+
+Labelcategorytitle: Category:
+
+----
+
+Labeltagtitle: Tag:
+
+----
+
+Labelarchivestitle: Archives:
+
+----
+
+Labelarchivetext: List of articles in
+
+----
+
+Labelarchivename: archive.
+
+----
+
+Labelbacktoblog: Back to blog
+
+----
+
+Labelprofile: Profile
+
+----
+
+Labelcategories: Categories
+
+----
+
+Labelarchive: Archives
+
+----
+
+Labeltags: Tags
+
+----
+
+Labelstayconnected: Stay connected
+
+----
+
+Labelsharearticle: Share
+
+----
+
+Labelrelatedarticle: You might also like
+
+----
+
+Labelnext: Next article
+
+----
+
+Labelprev: Previous article
+
+----
+
+Labeltagged: Tagged
+
+----
+
+Labellatestposts: Latest Posts
+
+----
+
+Labelpostedin: Posted in
+
+----
+
+Labelwrittenby: Written by
+
+----
+
+Labelwrittenon: on
+
+----
+
+Labelcoauthors: Co-authors:
+
+----
+
+Labelcommentsheading: Tell us what you think
+
+----
+
+Labelprojectbutton: Discover
+
+----
+
+Labelnewer: newer projects ›
+
+----
+
+Labelolder: ‹ older projects
+
+----
+
+Labelnextproject: Next project
+
+----
+
+Labelprevproject: Previous project
+
+----
+
+Labelsearchtext: Press Enter/Return to began your search.
+
+----
+
+Labelsearchnote: You searched for
+
+----
+
+Labelsearchplaceholder: Search...
+
+----
+
+Labelsearchnoresults: No results.
+
+----
+
+Labellanguagetitle: Choose website language
+
+----
+
+Labellanguagefooter: English is the main website language.
+
+----
+
+Labelemail: Email
+
+----
+
+Labelname: Name
+
+----
+
+Labelmessage: Message
+
+----
+
+Labelsubmit: Submit
+
+----
+
+Labelalertname: Please enter a valid name
+
+----
+
+Labelalertemail: Please enter a valid email address
+
+----
+
+Labelalertmessage: Please enter a text between 3 and 3000 characters
+
+----
+
+Labelformerror: The form could not be sent
+
+----
+
+Labelformsuccess: Your message has been sent, thank you. We will get back to you soon!
+
+----
+
+Labelemailsubject: sent you a message from your contact form
+
+----
+
+Labelformprivacy: I agree to the privacy policy
+
+----
+
+Labelstackedbutton: Learn more
+
+----
+
+Labelshopcategory: Category:
+
+----
+
+Labelshoptag: Tag:
+
+----
+
+Labelbacktoshop: Back to shop
+
+----
+
+Labelshoparchivetext: List of products in
+
+----
+
+Labelshoparchivename: archives.
+
+----
+
+Labelproductfeatured: Featured
+
+----
+
+Labelproductnew: New
+
+----
+
+Labelproductsold: Out of stock
+
+----
+
+Labelproductoptions: Select options
+
+----
+
+Labeladdtocart: Add to cart
+
+----
+
+Labelproductid: Product ID:
+
+----
+
+Labelproductcategory: Category:
+
+----
+
+Labelproducttag: Tags:
+
+----
+
+Labelproductshare: Share:
+
+----
+
+Labelproductdescription: Product description
+
+----
+
+Labeladditionalinformation: Additional information
+
+----
+
+Labelproductweight: Weight
+
+----
+
+Labelproductlength: Length
+
+----
+
+Labelproductheight: Height
+
+----
+
+Labelproductwidth: Width
+
+----
+
+Labelproductfree: Free
+
+----
+
+Labelproductprevious: Previous product
+
+----
+
+Labelproductnext: Next product
+
+----
+
+Labelproductrelated: You might also like
+
+----
+
+Labelproductsearchtitle: Products search
+
+----
+
+Labelproductsearchintro: Search through our products
+
+----
+
+Stylingswitcher: true
+
+----
+
+Siteshadows: true
+
+----
+
+Sitebuttonshadow: @global-large-box-shadow
+
+----
+
+Sitecardshadow: @global-xlarge-box-shadow
+
+----
+
+Sitenavbarshadow: @global-xlarge-box-shadow
+
+----
+
+Sitesmallshadow: 
+
+----
+
+Sitemediumshadow: 
+
+----
+
+Sitelargeshadow: 
+
+----
+
+Sitexlargeshadow: 
+
+----
+
+Siteborderradius: true
+
+----
+
+Textcolor: #222e41
+
+----
+
+Textemphasiscolor: #000A05
+
+----
+
+Textmutedcolor: #AAAAAA
+
+----
+
+Textlinkcolor: #bf9603
+
+----
+
+Defaultcolor: #ffffff
+
+----
+
+Mutedcolor: #F7F7F5
+
+----
+
+Primarycolor: #bf9603
+
+----
+
+Secondarycolor: #191919
+
+----
+
+Inversecolor: #FFF
+
+----
+
+Bordercolor: #DEDEDE
+
+----
+
+Borderwidth: 
+
+----
+
+Sitenavbarheight: 112
+
+----
+
+Sitenavbarstyle: bottom
+
+----
+
+Sitedropdownbackground: #ffffff
+
+----
+
+Sitedropdowncolor: #333333
+
+----
+
+Sitedropdownhovercolor: #03BD5B
+
+----
+
+Sitenavbarfont: 
+
+----
+
+Sitenavbarfontsize: 
+
+----
+
+Sitenavbarfontweight: 
+
+----
+
+Sitenavbartexttransform: 
+
+----
+
+Siteoffcanvascolormode: false
+
+----
+
+Siteoffcanvasmobilesize: 
+
+----
+
+Siteoffcanvasdesktopsize: 
+
+----
+
+Siteoffcanvasoverlayblurred: false
+
+----
+
+Sitebuttonstyle: creative
+
+----
+
+Sitebuttonborder: rounded
+
+----
+
+Customizebuttons: true
+
+----
+
+Defaultbuttonhoverbackground: #03bd5b
+
+----
+
+Defaultbuttonhovercolor: #ffffff
+
+----
+
+Defaultinversebuttonhoverbackground: #191919
+
+----
+
+Defaultinversebuttonhovercolor: #ffffff
+
+----
+
+Primarybuttonhoverbackground: #191919
+
+----
+
+Primarybuttonhovercolor: #ffffff
+
+----
+
+Primaryinversebuttonhoverbackground: #191919
+
+----
+
+Primaryinversebuttonhovercolor: #ffffff
+
+----
+
+Secondarybuttonhoverbackground: #03bd5b
+
+----
+
+Secondarybuttonhovercolor: #ffffff
+
+----
+
+Secondaryinversebuttonhoverbackground: #03bd5b
+
+----
+
+Secondaryinversebuttonhovercolor: #ffffff
+
+----
+
+Fonturl: https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Rubik:ital,wght@0,400;0,700;1,400&family=Spartan:wght@300&display=swap
+
+----
+
+Textfontfamily: 'Rubik', Arial, sans-serif
+
+----
+
+Textfontsize: 15
+
+----
+
+Textfontweight: 400
+
+----
+
+Textlineheight: 
+
+----
+
+Headingfontfamily: 'DM Serif Display',Times New Roman, serif
+
+----
+
+Headingfontweight: 400
+
+----
+
+Headingtexttransform: inherit
+
+----
+
+Headingletterspacing: 
+
+----
+
+Secondaryfontfamily: 'Spartan', Arial, sans-serif
+
+----
+
+Secondaryfontweight: 300
+
+----
+
+Secondaryfontstyle: normal
+
+----
+
+Secondaryletterspacing: 
+
+----
+
+Baseh1size: 
+
+----
+
+Baseh2size: 
+
+----
+
+Baseh3size: 
+
+----
+
+Baseh4size: 
+
+----
+
+Basesmallsize: 
+
+----
+
+Sitebreakpointsmall: 
+
+----
+
+Sitebreakpointmedium: 
+
+----
+
+Sitebreakpointlarge: 
+
+----
+
+Sitebreakpointxlarge: 
+
+----
+
+Customcss: 
+
+----
+
+Headcustomcode: 
+
+----
+
+Bodycustomcode: 
+
+----
+
+Footercustomcode: 

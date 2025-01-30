@@ -1,0 +1,68 @@
+label: zero.layout.options.advanced
+fields:
+  advancedHeadline:
+    label: zero.layout.options.advanced.advancedHeadline
+    type: headline
+    numbered: false
+  sectionClass:
+    label: zero.layout.options.advanced.sectionClass
+    type: text
+    placeholder: my-custom-class
+    before: '.'
+    width: 1/3
+  # section id
+  sectionID:
+    label: zero.layout.options.advanced.sectionID
+    type: slug
+    placeholder: my-custom-id
+    before: '#'
+    width: 1/3
+  
+  # visibility
+  visibilityHeadline:
+    label: zero.layout.options.advanced.visibilityHeadline
+    type: headline
+    help: zero.layout.options.advanced.visibilityHeadline.help
+    numbered: false
+  # hidden
+  hidden:
+    label: zero.layout.options.advanced.hidden
+    type: select
+    placeholder: "{{ t('zero.reusables.inherit') }}"
+    options: 
+      " uk-hidden": "{{ t('zero.layout.options.advanced.hidden.uk.hidden') }}"
+      " uk-hidden@s": "{{ t('zero.layout.options.advanced.hidden.uk.hidden@s') }}"
+      " uk-hidden@m": "{{ t('zero.layout.options.advanced.hidden.uk.hidden@m') }}"
+    width: 1/3
+  # visible
+  visible:
+    label: zero.layout.options.advanced.visible
+    type: select
+    placeholder: "{{ t('zero.reusables.inherit') }}"
+    options: 
+      " uk-visible@s": "{{ t('zero.layout.options.advanced.uk.visible@s') }}"
+      " uk-visible@m": "{{ t('zero.layout.options.advanced.uk.visible@m') }}"
+    width: 1/3
+
+  # animation headline
+  animationHeadline:
+    label: zero.layout.options.advanced.animationHeadline
+    type: headline
+    help: zero.layout.options.advanced.animationHeadline.help
+    numbered: false
+  # animation switch
+  animationSwitch:
+    label: zero.layout.options.advanced.animationSwitch
+    type: toggle
+    width: 1/3
+  animationType:
+    extends: fields/animationType
+    when:
+      animationSwitch: true
+  animationDelay:
+    extends: fields/animationDelay
+    when:
+      animationSwitch: true
+
+  advancedBottomGap:
+    type: gap

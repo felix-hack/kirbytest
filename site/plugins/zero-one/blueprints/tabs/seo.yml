@@ -1,0 +1,72 @@
+label: zero.page.seo
+icon: search
+columns:
+  - width: 2/3
+    sections:
+      meta:
+        type: fields
+        fields:
+
+          # indexability
+          indexabilityHeadline:
+            label: zero.page.seo.indexabilityHeadline
+            type: headline
+          sitemap:
+            extends: fields/sitemap
+            width: 1/3
+          sitemapInfo:
+            label: zero.page.seo.sitemapInfo
+            type: info
+            text: zero.page.seo.sitemapInfo.text
+            width: 2/3
+
+          # meta headline
+          metaHeadline:
+            label: zero.page.seo.metaHeadline
+            type: headline
+          # Meta Image
+          metaFile:
+            label: zero.page.seo.metaFile
+            extends: fields/image
+            multiple: false
+            help: zero.page.seo.metaFile.help
+          # Meta Title
+          metaTitle:
+            label: zero.page.seo.metaTitle
+            type: text
+            maxlength: 70
+            after: '| {{ site.title }}'
+            help: zero.page.seo.metaTitle.help
+            width: 2/3
+          removeSiteTitle:
+            label: zero.page.seo.removeSiteTitle
+            type: toggle
+            help: zero.page.seo.removeSiteTitle.help
+            width: 1/3
+          # Meta Description
+          metaDescription:
+            label: zero.page.seo.metaDescription
+            type: textarea
+            size: small
+            maxlength: 160
+            buttons: false
+            help: zero.page.seo.metaDescription.help
+
+  - width: 1/3
+    sections:
+      # page permalink
+      permalink:
+        type: fields
+        fields:
+          permalink:
+            label: zero.page.seo.permalink
+            type: info
+            text: "{{ kirby.url('base') }}/@/page/{{ page.content.get('uuid') }}"
+            help: zero.page.seo.permalink.help
+      # Files
+      metaFiles:
+        headline: zero.page.seo.metaFiles
+        type: files
+        info: "{{ file.dimensions }} {{ file.niceSize }}"
+        search: true
+        help: zero.page.seo.metaFiles.help

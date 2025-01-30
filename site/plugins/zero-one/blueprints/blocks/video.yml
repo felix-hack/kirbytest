@@ -1,0 +1,41 @@
+name: field.blocks.video.name
+icon: video
+preview: video
+fields:
+  # video
+  videosource:
+    label: zero.blocks.video.videosource
+    type: radio
+    default: url
+    columns: 2
+    options:
+      url: URL
+      upload: "{{ t('zero.blocks.video.videosource.upload') }}"
+  videofile:
+    label: zero.blocks.video.videofile
+    extends: fields/video
+    multiple: false
+    help: zero.blocks.video.videofile.help
+    when:
+      videoSource: "upload" 
+  url:
+    label: Video URL (iframe)
+    type: url
+    placeholder: https://www.youtube.com/embed/kqMzthn9Trw
+    help: zero.blocks.video.videofile.url.help
+    when:
+      videoSource: "url"
+  caption:
+    label: field.blocks.video.caption
+    type: writer
+    inline: true
+    width: 1/2
+  poster:
+    label: zero.blocks.video.poster
+    type: files
+    multiple: false
+    layout: list
+    help: zero.blocks.video.poster.help
+    image:
+      cover: true
+    width: 1/2

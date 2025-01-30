@@ -1,0 +1,49 @@
+Title: The Biggest Mistake You Can Make When Setting New Goals
+
+----
+
+Date: 2018-07-24 17:25:00
+
+----
+
+Author: 
+
+----
+
+Desc: The game’s not big enough unless it scares you a little. Wait a minute – you’ve been declared dead. You can’t give orders around here. I’ll alert the crew. What? We’re not at all alike! Flair is what marks the difference between artistry and mere competence.
+
+----
+
+Text: [{"content":{"text":"<p>Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once. We have a saboteur aboard. We know you’re <a href=\"#\" rel=\"noopener noreferrer nofollow\">dealing in stolen</a> ore. But I wanna talk about the assassination attempt on Lieutenant Worf. Could someone survive inside a transporter buffer for 75 years? Fate. It protects fools, little children, and ships named “Enterprise.”</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"c2b51978-9a43-4781-ac31-18460444a398","isHidden":false,"type":"text"},{"content":{"text":"There is a way out of every box, a solution to every puzzle; it’s just a matter of finding it.","citation":"Sarah Doe"},"id":"f08471ca-c38d-485e-981a-8a2c8c35a157","isHidden":false,"type":"quote"},{"content":{"text":"<p>Could someone survive inside a transporter buffer for 75 years? Fate. It protects fools, little children, and ships named “Enterprise.”</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"3b48c0c4-0d60-4ee0-8c5b-c17e58e5b7d9","isHidden":false,"type":"text"},{"content":{"level":"h3","text":"Lorem ipsum dolor sit amet","headingsize":"","headingstyle":"","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"ebd6f23f-fcb2-42f2-abc7-0f83a2f9e71f","isHidden":false,"type":"heading"},{"content":{"text":"<p>Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once. We have a saboteur aboard. We know you’re dealing in stolen ore. But I wanna talk about the assassination attempt on <a href=\"#\" rel=\"noopener noreferrer nofollow\">Lieutenant Worf</a>. Could someone survive inside a transporter buffer for 75 years? Fate. It protects fools, little children, and ships named “Enterprise.”</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"dfa20b90-04f9-4912-b33c-2fa33d17ba07","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://sx54Z2W7Mp8u9o9g"],"src":"","ratio":"","alt":"","resizewidth":"","caption":"","captionclass":"false","width":"","widthmobile":"","align":"","float":"","borderradius":"uk-border-rounded","shadow":" uk-box-shadow-medium","linkoption":"","link":"","newtab":"false"},"id":"882bea08-4ef2-426d-9069-533a574925d3","isHidden":false,"type":"image"},{"content":{"text":"<p>What’s a knock-out like you doing in a computer-generated gin joint like this? But the probability of making a six is no greater than that of rolling a seven. I guess it’s better to be lucky than good.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"18b7addb-4b3f-4397-a525-4418d0457b7f","isHidden":false,"type":"text"},{"content":{"text":"<p>Damage report! I’ve had twelve years to think about it. And if I had it to do over again, I would have grabbed the phaser and pointed it at you instead of them. Some days you get the bear, and some days the bear gets you. Ensign Babyface! I’m afraid I still don’t understand, sir. Mr. Crusher, ready a collision course with the Borg ship. Yesterday I did not know how to eat gagh. You’re going to be an interesting companion.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"128ae551-afcb-4d1d-b572-dfb1d957f36b","isHidden":false,"type":"text"},{"content":{"text":"<ul><li>Lorem ipsum dolor sit amet.</li><li>At vero eos et <a href=\"#\" rel=\"noopener noreferrer nofollow\">accusamus et iusto</a> odio.</li><li>Excepteur <em>sint occaecat</em> cupidatat non proident.</li></ul>","liststyle":"","listcolor":"","listsize":"","listdivider":"","column":""},"id":"10b549ba-539a-4190-8eaa-b5f545e78a4a","isHidden":false,"type":"list"},{"content":{"text":"<p>Could someone survive inside a transporter buffer for 75 years? Fate. It protects fools, little children, and ships named “Enterprise.”</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"606b32b8-8f1a-4def-a9c8-ad06627f8bf8","isHidden":false,"type":"text"}]
+
+----
+
+Cover: - file://sx54Z2W7Mp8u9o9g
+
+----
+
+Transparentnavbar: 
+
+----
+
+Navbarinverse: false
+
+----
+
+Related: 
+
+----
+
+Category: productivity
+
+----
+
+Tags: goals, business
+
+----
+
+Featured: no
+
+----
+
+Uuid: CqanMJcdWk0NNY21

@@ -1,0 +1,47 @@
+label: zero.fields.blockEditor
+type: blocks
+fieldsets:
+  text:
+    label: zero.fields.blockEditor.fieldsets.text
+    type: group
+    fieldsets:
+      - text
+      - heading
+      - list
+      - z-typed-text
+      - quote
+      - button
+      - intro
+      - line
+      - z-spacer
+      - accordion
+      - z-description
+      - info
+      - z-table
+      - markdown
+      - code
+      - z-html
+  media:
+    label: zero.fields.blockEditor.fieldsets.media
+    type: group
+    fieldsets: 
+      - image
+      - video
+      - z-audio
+      - gallery-article
+      - z-gallery
+      - z-image-slider
+      - banner
+  dynamic:
+    label: zero.fields.blockEditor.fieldsets.dynamic
+    type: group
+    fieldsets: 
+      - contact-form
+      - form
+      - z-pages
+      - z-articles
+      - z-projects
+      - z-products
+      - z-products-list
+      - z-products-search
+  

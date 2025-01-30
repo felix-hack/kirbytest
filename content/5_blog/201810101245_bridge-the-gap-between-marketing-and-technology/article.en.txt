@@ -1,0 +1,49 @@
+Title: Bridge the Gap Between Marketing and Technology?
+
+----
+
+Date: 2018-10-10 12:45:00
+
+----
+
+Author: 
+
+----
+
+Desc: Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once. We have a saboteur aboard. We know you’re dealing in stolen ore.
+
+----
+
+Text: [{"content":{"text":"<p>The game’s not big enough unless it scares you a little. Wait a minute – you’ve been declared dead. You can’t give <strong>orders around</strong> here. I’ll alert the crew. What? We’re not at all alike! Flair is what marks the difference between artistry and mere competence.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"4a082f51-710a-4b82-8f93-7812f3f3b093","isHidden":false,"type":"text"},{"content":{"text":"<p>The game’s not big enough unless it scares you a little. Wait a minute – you’ve been declared dead. You can’t give <strong>orders around</strong> here. I’ll alert the crew. What? We’re not at all alike! Flair is what marks the difference between artistry and mere competence.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"db8acc29-5795-4212-9201-f0c53da608d9","isHidden":false,"type":"text"},{"content":{"text":"<p>Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once. We have a saboteur aboard. We know you’re <a href=\"#\" rel=\"noopener noreferrer nofollow\">dealing in stolen</a> ore.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"2dcdab7b-df50-4df7-8c44-fc6d398d0d0e","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://uAgDC1gB3zU34cG6"],"src":"","ratio":"","alt":"","resizewidth":"","caption":"","captionclass":"false","width":"","widthmobile":"","align":"","float":"","borderradius":"uk-border-rounded","shadow":" uk-box-shadow-medium","linkoption":"","link":"","newtab":"false"},"id":"ae9a2770-5f6c-41a9-a03d-4d4c77e0a867","isHidden":false,"type":"image"},{"content":{"level":"h3","text":"Lorem Ipsum dolor","headingsize":"","headingstyle":"","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"412f5adb-45b1-4c69-a519-7b63acda8c10","isHidden":false,"type":"heading"},{"content":{"text":"<p>The game’s not big enough unless it scares you a little. Wait a minute – you’ve been declared dead. You can’t give <strong>orders around</strong> here. I’ll alert the crew.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"2b7a7d1d-2309-40a3-9420-1fa9a71a109f","isHidden":false,"type":"text"},{"content":{"text":"<ul><li><strong>Aliquam</strong> erat volutpat eleifend mi</li><li>Lacinia scelerisque lacinia quis</li><li>Consectetuer <em>adipiscing</em> elit et ultrices</li><li>Magnis dis parturient montes</li></ul>","liststyle":"","listcolor":"","listsize":"","listdivider":"","column":""},"id":"a859bb21-12d6-4229-9c91-07ee32709bf3","isHidden":false,"type":"list"},{"content":{"text":"<p>This should be interesting. and attack the Romulans. Your head is not an artifact! When has justice ever been as simple as a rule book?</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"36548c88-7760-4f56-ad1f-61a31b904e5c","isHidden":false,"type":"text"}]
+
+----
+
+Cover: - file://uAgDC1gB3zU34cG6
+
+----
+
+Transparentnavbar: 
+
+----
+
+Navbarinverse: false
+
+----
+
+Related: 
+
+----
+
+Category: productivity
+
+----
+
+Tags: marketing, goals
+
+----
+
+Featured: yes
+
+----
+
+Uuid: XvxWZJeL0axK8G60

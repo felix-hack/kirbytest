@@ -1,0 +1,70 @@
+name: Audio
+icon: file-audio
+preview: audio
+tabs:
+  content:
+    label: zero.blocks.z.audio.content
+    fields:
+      source:
+        label: zero.blocks.z.audio.content.source
+        extends: fields/audio
+        multiple: false
+        width: 1/2
+      poster:
+        label: zero.blocks.z.audio.content.poster
+        extends: fields/image
+        multiple: false
+        width: 1/2
+      title:
+        label: zero.blocks.z.audio.content.title
+        type: text
+        placeholder: "{{ t('zero.blocks.z.audio.content.title') }}"
+        width: 1/2
+      subtitle:
+        label: zero.blocks.z.audio.content.subtitle
+        type: text
+        placeholder: "{{ t('zero.blocks.z.audio.content.subtitle') }}"
+        width: 1/2
+      description:
+        label: zero.blocks.z.audio.content.description
+        type: writer
+        icon: text
+        inline: true
+        placeholder: "{{ t('zero.blocks.z.audio.content.description') }}"
+        marks:
+          - bold
+          - italic
+      controls:
+        label: zero.blocks.z.audio.content.controls
+        type: toggle
+        text: zero.blocks.z.audio.content.controls.help
+        width: 1/2
+        default: true
+      autoplay:
+        type: toggle
+        text: autoplay
+        width: 1/2
+        default: false
+      layout:
+        type: toggle
+        text:
+          - Horizontal
+          - Vertical
+        width: 1/2
+        default: false
+      background:
+        label: zero.blocks.z.audio.background
+        type: select
+        placeholder: "{{ t('zero.reusables.none') }}"
+        options:
+          " uk-card-default": "{{ t('zero.reusables.default') }}"
+          " uk-card-primary": "{{ t('zero.reusables.primary') }}"
+          " uk-card-secondary": "{{ t('zero.reusables.secondary') }}"
+        width: 1/2
+      fallbackText:
+        label: zero.blocks.z.audio.fallbackText
+        type: text
+        placeholder: Your browser does not support the audio element.
+        default: Your browser does not support the <code>audio</code> element.
+
+      

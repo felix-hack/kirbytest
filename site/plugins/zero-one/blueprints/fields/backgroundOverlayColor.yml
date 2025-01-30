@@ -1,0 +1,5 @@
+label: zero.fields.backgroundOverlayColor
+type: colors
+alpha: true
+default: 'rgba(0,0,0,0.3)'
+width: 1/3

@@ -1,0 +1,49 @@
+Title: 10 Ways You Can Start Empowering Your Employees
+
+----
+
+Date: 2018-05-16 17:20:00
+
+----
+
+Author: 
+
+----
+
+Desc: There are two views of the place of “cause and effect” in the world. One believes in direct causality, the other in systemic causality.
+
+----
+
+Text: [{"content":{"text":"<p>The game’s not big enough unless it scares you a little. Wait a minute – you’ve been declared dead. You can’t give <strong>orders around</strong> here. I’ll alert the crew. What? We’re not at all alike! Flair is what marks the difference between artistry and mere competence.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"bff97ff7-9f39-451b-bfb4-bd210d9dc42a","isHidden":false,"type":"text"},{"content":{"text":"<p>What’s a knock-out like you doing in a computer-generated gin joint like this? But the probability of making a six is no greater than that of <a href=\"#\" rel=\"noopener noreferrer nofollow\">rolling a seven</a>. I guess it’s better to be lucky than good. Yesterday I did not know how to eat gagh.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"128242a0-2995-4c8f-b2f7-ac29d6d40d4e","isHidden":false,"type":"text"},{"content":{"text":"<p>Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once. We have a saboteur aboard. We know you’re dealing in stolen ore. But I wanna talk about the assassination attempt on <a href=\"#\" rel=\"noopener noreferrer nofollow\">Lieutenant Worf</a>. Could someone survive inside a transporter buffer for 75 years? Fate. It protects fools, little children, and ships named “Enterprise.”</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"3524c839-45f4-45cb-b878-515194340f78","isHidden":false,"type":"text"},{"content":{"text":"<p>The game’s not big enough unless it scares you a little. Wait a minute – you’ve been declared dead. You can’t give <strong>orders around</strong> here. I’ll alert the crew. What? We’re not at all alike! Flair is what marks the difference between artistry and mere competence.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"ae49979a-9917-43ca-a4c9-1eab846b23a3","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://Gz11ZIk4VBQasnOW"],"src":"","ratio":"","alt":"","resizewidth":"","caption":"","captionclass":"false","width":"","widthmobile":"","align":"","float":"","borderradius":"uk-border-rounded","shadow":" uk-box-shadow-medium","linkoption":"","link":"","newtab":"false"},"id":"1b6886a8-100d-43fe-b74e-972fc8632bbf","isHidden":false,"type":"image"},{"content":{"text":"<p>What’s a knock-out like you doing in a computer-generated gin joint like this? But the probability of making a six is no greater than that of <a href=\"#\" rel=\"noopener noreferrer nofollow\">rolling a seven</a>. I guess it’s better to be lucky than good. Yesterday I did not know how to eat gagh.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"7eb42127-7263-4166-925c-69974e77f881","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Do it right every time","headingsize":"","headingstyle":"","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"84a6638c-0a70-4a09-ba2f-531a8045e621","isHidden":false,"type":"heading"},{"content":{"text":"<p><strong>In most circumstances, direct causality seems the obvious interpretative lens for the past and predictive lens for the future. We are most comfortable when we can draw clear circles around causes and thick lines between them and their consequences.</strong> We admire the “chess players” of society who can draw long chains of clear circles and thick lines; for most of us, the ability to mentally calculate chains of cause and effect is limited to only a few steps.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"e127f84e-f9c7-44bc-b16e-9f8f88452026","isHidden":false,"type":"text"},{"content":{"text":"<ul><li><strong>Aliquam</strong> erat volutpat eleifend mi</li><li>Lacinia scelerisque lacinia quis</li><li>Consectetuer <em>adipiscing</em> elit et ultrices</li><li>Magnis dis parturient montes</li></ul>","liststyle":"","listcolor":"","listsize":"","listdivider":"","column":""},"id":"427ff7e1-c684-410e-95fd-b6b37887e20b","isHidden":false,"type":"list"},{"content":{"text":"<p>But certain systems involve a longer chain of lesser causes and effects that makes a focus on the individual steps unhelpful. <strong>Things like evolution, national economics, global warming, and terrorist motivations all need a systemic view if they are to be properly understood.</strong> A focus on what the individual can prove directly themselves in these cases may well lead to bad choices. These systems are especially difficult for people with “just do it” attitudes, who find it hard to take “on faith” that they should act in a contrarian way because of a larger system which cannot be seen and computed in its entirety.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"eed88b9f-8d01-431d-9bef-94edc07ccb2c","isHidden":false,"type":"text"}]
+
+----
+
+Cover: - file://Gz11ZIk4VBQasnOW
+
+----
+
+Transparentnavbar: 
+
+----
+
+Navbarinverse: false
+
+----
+
+Related: 
+
+----
+
+Category: entrepreneur
+
+----
+
+Tags: employees, business
+
+----
+
+Featured: no
+
+----
+
+Uuid: V5ocIj8OsX60SrkC

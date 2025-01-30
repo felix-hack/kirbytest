@@ -1,0 +1,143 @@
+name: zero.blocks.z.product.list
+icon: cart
+
+preview: products
+
+tabs:
+  # content tab
+  products:
+    label: zero.blocks.z.product.list.products
+    icon: edit
+    fields:
+      # projects headline
+      productsHeadline:
+        label: zero.blocks.z.product.list.productsHeadline
+        type: headline
+        numbered: false
+      # Select products page
+      productsPage:
+        label: zero.blocks.z.product.list.productsPage
+        type: pages
+        query: site.index.filterBy('template', 'in', ['shop'])
+        info: "{{ page.categories }}"
+        subpages: false
+        multiple: false
+        empty: zero.blocks.z.product.list.productsPage.empty
+        help: zero.blocks.z.product.list.productsPage.help
+      # Select products
+      products:
+        label: zero.blocks.z.product.list.products
+        type: pages
+        query: site.index.filterBy('template', 'in', ['product'])
+        info: "{{ page.category }}"
+        subpages: false
+        empty: zero.blocks.z.product.list.products.empty
+        help: zero.blocks.z.product.list.products.help
+      infoProducts:
+        label: Info
+        type: info
+        text: zero.blocks.z.product.list.infoProducts.text
+      # maximum number of products
+      maxProducts:
+        label: zero.blocks.z.product.list.maxProducts
+        type: number
+        placeholder: 3
+        min: 1
+        help: zero.blocks.z.product.list.maxProducts.help
+        width: 1/3
+      # product title size
+      titleSize:
+        label: zero.blocks.z.product.list.titleSize
+        type: select
+        placeholder: H5
+        options:
+          " uk-h1": H1
+          " uk-h2": H2
+          " uk-h3": H3
+          " uk-h4": H4
+          " uk-h6": H6
+        width: 1/3
+      # list style
+      listStyle:
+        label: zero.blocks.z.product.list.listStyle
+        type: select
+        placeholder: "{{ t('zero.reusables.none') }}"
+        options:
+          " uk-list-disc": "{{ t('zero.blocks.z.product.list.listStyle.disc') }}"
+          " uk-list-circle": "{{ t('zero.blocks.z.product.list.listStyle.circle') }}"
+          " uk-list-square": "{{ t('zero.blocks.z.product.list.listStyle.square') }}"
+          " uk-list-decimal": "{{ t('zero.blocks.z.product.list.listStyle.decimal') }}"
+          " uk-list-hyphen": "{{ t('zero.blocks.z.product.list.listStyle.hyphen') }}"
+          " uk-list-checkbox": "{{ t('zero.blocks.z.product.list.listStyle.checkbox') }}"
+        width: 1/3
+      # list color
+      listColor:
+        label: zero.blocks.z.product.list.listColor
+        type: select
+        placeholder: "{{ t('zero.reusables.default') }}"
+        options:
+          " uk-list-muted": "{{ t('zero.reusables.muted') }}"
+          " uk-list-emphasis": "{{ t('zero.reusables.emphasis') }}"
+          " uk-list-primary": "{{ t('zero.reusables.primary') }}"
+          " uk-list-secondary": "{{ t('zero.reusables.secondary') }}"
+        width: 1/3
+      listSize:
+        label: zero.blocks.z.product.list.listSize
+        type: select
+        placeholder: "{{ t('zero.reusables.default') }}"
+        options:
+          " uk-list-collapse": "{{ t('zero.blocks.z.product.list.listSize.collapse') }}"
+          " uk-list-large": "{{ t('zero.blocks.z.product.list.listSize.large') }}"
+        width: 1/3
+      listDivider:
+        label: zero.blocks.z.product.list.listDivider
+        type: select
+        placeholder: "{{ t('zero.reusables.none') }}"
+        options:
+          " uk-list-divider": "{{ t('zero.blocks.z.product.list.listDivider.divider') }}"
+          " uk-list-striped": "{{ t('zero.blocks.z.product.list.listDivider.striped') }}"
+        width: 1/3
+      column:
+        label: zero.blocks.z.product.list.column
+        type: select
+        options:
+          " uk-column-1-1 uk-column-1-2@s": 1/2
+          " uk-column-1-1 uk-column-1-3@s": 1/3
+          " uk-column-1-1 uk-column-1-2@s uk-column-1-4@m": 1/4
+          " uk-column-1-1 uk-column-1-2@s uk-column-1-5@m": 1/5
+          " uk-column-1-1 uk-column-1-2@s uk-column-1-6@m": 1/6
+        width: 1/3
+      
+      endGap:
+        type: gap
+
+  # settings tab
+  settings:
+    label: zero.blocks.z.product.list.settings
+    icon: cog
+    fields:
+      # block advanced heading
+      blockAdvancedHeadline:
+        label: zero.blocks.z.product.list.blockAdvancedHeadline
+        type: headline
+        numbered: false
+      # block title
+      title:
+        label: zero.blocks.z.product.list.title
+        type: text
+        placeholder: "{{ t('zero.blocks.settings.title.placeholder') }}"
+        width: 1/3
+      # block id
+      blockID:
+        label: zero.blocks.z.product.list.blockID
+        type: text
+        placeholder: my-custom-id
+        before: '#'
+        width: 1/3
+      # block class
+      blockClass:
+        label: zero.blocks.z.product.list.blockClass
+        type: text
+        placeholder: my-custom-class
+        before: '.'
+        width: 1/3

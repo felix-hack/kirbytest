@@ -1,0 +1,339 @@
+name: zero.blocks.z.card
+icon: grid-full
+
+preview: zcard
+
+tabs:
+  # content tab
+  content:
+    label: zero.blocks.z.card.content
+    fields:
+      # blocks
+      blocks:
+        extends: fields/blockEditor
+        label: zero.blocks.z.card.blocks
+
+  # card options
+  cardOptions:
+    label: zero.blocks.z.card.cardOptions
+    fields:
+      # card options heading
+      cardOptionsHeadline:
+        label: zero.blocks.z.card.cardOptionsHeadline
+        type: headline
+        numbered: false
+      # card size
+      cardSize:
+        label: zero.blocks.z.card.cardSize
+        type: select
+        placeholder: "{{ t('zero.reusables.default') }}"
+        options: 
+          " uk-card-small": "{{ t('zero.reusables.small') }}"
+          " uk-card-large": "{{ t('zero.reusables.large') }}"
+        width: 1/3
+      # card hover
+      cardHover:
+        label: zero.blocks.z.card.cardSize.cardHover
+        type: toggle
+        default: false
+        width: 1/3
+      # card color
+      cardColor:
+        label: zero.blocks.z.card.cardSize.cardColor
+        type: select
+        default: " uk-card-default"
+        placeholder: "{{ t('zero.reusables.none') }}"
+        options:
+          " uk-card-default": "{{ t('zero.reusables.default') }}"
+          " uk-card-primary": "{{ t('zero.reusables.primary') }}"
+          " uk-card-secondary": "{{ t('zero.reusables.secondary') }}"
+          custom: "{{ t('zero.reusables.custom') }}"
+        width: 1/3
+      # background style
+      backgroundStyle:
+        label: zero.blocks.z.card.backgroundStyle
+        type: toggles
+        default: color
+        options:
+          - value: color
+            text: "{{ t('zero.blocks.z.card.backgroundStyle.color') }}"
+            icon: pipette
+          - value: image
+            text: "{{ t('zero.blocks.z.card.backgroundStyle.image') }}"
+            icon: file-image
+          - value: video
+            text: "{{ t('zero.blocks.z.card.backgroundStyle.video') }}"
+            icon: file-video
+        width: 2/3
+        when:
+          cardColor: custom
+      # column text color
+      textColor:
+        extends: fields/sectionTextColor
+        when:
+          cardColor: custom
+      # image file
+      backgroundImage:
+        extends: fields/backgroundImage
+        when:
+          cardColor: custom
+          backgroundStyle: image
+      backgroundImagePosition:
+        extends: fields/backgroundImagePosition
+        when:
+          cardColor: custom
+          backgroundStyle: image
+      backgroundImageSize:
+        extends: fields/backgroundImageSize
+        when:
+          cardColor: custom
+          backgroundStyle: image
+      backgroundImageRepeat:
+        extends: fields/backgroundImageRepeat
+        when:
+          cardColor: custom
+          backgroundStyle: image
+      backgroundParalax:
+        extends: fields/backgroundParalax
+        when:
+          cardColor: custom
+          backgroundStyle: image
+      # video
+      mediaVideoSource:
+        label: zero.blocks.z.card.mediaVideoSource
+        type: radio
+        default: url
+        columns: 2
+        options:
+          url: URL
+          upload: "{{ t('zero.blocks.z.card.mediaVideoSource.upload') }}"
+        when:
+          cardColor: custom
+          backgroundStyle: video
+      mediaVideo:
+        label: zero.blocks.z.card.mediaVideo
+        extends: fields/video
+        multiple: false
+        help: zero.blocks.z.card.mediaVideo.help
+        when:
+          cardColor: custom
+          backgroundStyle: video
+          mediaVideoSource: upload
+      mediaVideoUrl:
+        label: Video URL (iframe)
+        type: url
+        placeholder: "https://www.youtube.com/embed/[videocode]"
+        help: zero.blocks.z.card.mediaVideoUrl.help
+        when:
+          cardColor: custom
+          backgroundStyle: video
+          mediaVideoSource: url
+      # color one
+      backgroundOverlayColor:
+        extends: fields/backgroundOverlayColor
+        when:
+          cardColor: custom
+      # gradient switch
+      backgroundGradientOverlay:
+        extends: fields/backgroundGradientOverlay
+        when:
+          cardColor: custom
+      # gradient transitions
+      backgroundGradientTransition:
+        extends: fields/backgroundGradientTransition
+        when:
+          cardColor: custom
+          backgroundGradientOverlay: true
+      # color two
+      backgroundOverlayColor2:
+        extends: fields/backgroundOverlayColor
+        label: zero.blocks.z.card.backgroundOverlayColor2
+        when:
+          cardColor: custom
+          backgroundGradientOverlay: true
+
+      # card badge heading
+      cardBadgeHeadline:
+        label: zero.blocks.z.card.cardBadgeHeadline
+        type: headline
+        numbered: false
+      cardBadge:
+        label: zero.blocks.z.card.cardBadge
+        type: text
+        help: zero.blocks.z.card.cardBadge.help
+        width: 1/2
+
+      # bottom gap
+      bottomCardOptionsGap:
+        type: gap
+
+  # card media
+  cardMedia:
+    label: zero.blocks.z.card.cardMedia
+    fields:
+      # card media headline
+      cardMediaHeadline:
+        label: zero.blocks.z.card.cardMediaHeadline
+        type: headline
+        numbered: false
+      cardMediaSwitch:
+        label: zero.blocks.z.card.cardMediaSwitch
+        type: toggle
+        width: 1/3
+      cardMediaPosition:
+        label: zero.blocks.z.card.cardMediaPosition
+        type: select
+        default: top
+        options:
+          top: "{{ t('zero.blocks.z.card.cardMediaPosition.top') }}"
+          bottom: "{{ t('zero.blocks.z.card.cardMediaPosition.bottom') }}"
+        width: 1/3
+        when:
+          cardMediaSwitch: true
+      cardMediaResizeWidth:
+        label: zero.blocks.z.card.cardMediaResizeWidth
+        type: number
+        min: 10
+        max: 2500
+        placeholder: 500
+        after: px
+        width: 1/3
+        when:
+          cardMediaSwitch: true
+      cardImage:
+        label: zero.blocks.z.card.cardImage
+        multiple: false
+        extends: fields/image
+        image:
+          back: black
+        width: 1/2
+        when:
+          cardMediaSwitch: true
+      cardMediaAlt:
+        label: zero.blocks.z.card.cardMediaAlt
+        type: text
+        icon: title
+        help: zero.blocks.z.card.cardMediaAlt.help
+        width: 1/2
+        when:
+          cardMediaSwitch: true
+
+  # card link
+  cardLink:
+    label: zero.blocks.z.card.cardLink
+    fields:
+      # card media headline
+      cardLinkHeadline:
+        label: zero.blocks.z.card.cardLinkHeadline
+        type: headline
+        numbered: false
+      cardLinkInfo:
+        label: zero.blocks.z.card.cardLinkInfo
+        type: info
+        text: zero.blocks.z.card.cardLinkInfo.text
+      cardLinkSwitch:
+        label: zero.blocks.z.card.cardLinkSwitch
+        type: toggle
+        width: 1/3
+      cardLinkType:
+        label: zero.blocks.z.card.cardLinkType
+        type: radio
+        default: page
+        columns: 2
+        default: page
+        options:
+          page: "{{ t('zero.blocks.z.card.cardLinkType.page') }}"
+          custom: "{{ t('zero.blocks.z.card.cardLinkType.custom') }}"
+        width: 2/3
+        when:
+          cardLinkSwitch: true
+      cardLinkInternal:
+        label: zero.blocks.z.card.cardLinkInternal
+        type: pages
+        multiple: false
+        width: 2/3
+        when:
+          cardLinkSwitch: true
+          cardLinkType: page
+      cardLinkUrl:
+        label: zero.blocks.z.card.cardLinkUrl
+        type: url
+        width: 2/3
+        when:
+          cardLinkSwitch: true
+          cardLinkType: custom
+      target:
+        label: zero.blocks.z.card.target
+        type: toggle
+        default: false
+        width: 1/3
+        when:
+          cardLinkSwitch: true
+      
+  # settings tab
+  settings:
+    label: zero.blocks.z.card.settings
+    icon: cog
+    fields:
+      # block advanced heading
+      blockAdvancedHeadline:
+        label: zero.blocks.z.card.blockAdvancedHeadline
+        type: headline
+        numbered: false
+      # block title
+      title:
+        label: zero.blocks.z.card.title
+        type: text
+        placeholder: "{{ t('zero.blocks.settings.title.placeholder') }}"
+        width: 1/3
+      # block class
+      blockClass:
+        label: zero.blocks.z.card.blockClass
+        type: text
+        placeholder: my-custom-class
+        before: '.'
+        width: 1/3
+      # block id
+      blockID:
+        label: zero.blocks.z.card.blockID
+        type: text
+        placeholder: my-custom-id
+        before: '#'
+        width: 1/3
+      marginVertical:
+        extends: fields/marginVertical
+      marginLeft:
+        extends: fields/marginLeft
+      marginRight:
+        extends: fields/marginRight
+      marginInfo:
+        label: zero.blocks.z.card.marginInfo
+        type: info
+        text: zero.blocks.z.card.marginInfo.text
+
+      # animation headline
+      animationHeadline:
+        label: zero.blocks.z.card.animationHeadline
+        type: headline
+        help: zero.blocks.z.card.animationHeadline.help
+        numbered: false
+      animationNote:
+        label: zero.blocks.z.card.animationNote
+        type: info
+        text: zero.blocks.z.card.animationNote.text
+      # animation switch
+      animationSwitch:
+        label: Animation
+        type: toggle
+        width: 1/3
+      animationType:
+        extends: fields/animationType
+        when:
+          animationSwitch: true
+      animationDelay:
+        extends: fields/animationDelay
+        when:
+          animationSwitch: true
+
+      settingsBottomGap:
+        type: gap

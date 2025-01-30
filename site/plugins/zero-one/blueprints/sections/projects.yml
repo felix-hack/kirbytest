@@ -1,0 +1,8 @@
+type: pages
+headline: zero.sections.projects.headline
+info: "{{ page.tags }}"
+template: project
+empty: zero.sections.projects.empty
+image:
+  query: page.cover.toFile
+  cover: true

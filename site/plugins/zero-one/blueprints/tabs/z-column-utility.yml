@@ -1,0 +1,80 @@
+label: zero.block.z.column.utility
+fields:
+  # column padding heading
+  columnPaddingHeadline:
+    label: zero.block.z.column.utility.columnPaddingHeadline
+    type: headline
+    numbered: false
+    help: zero.block.z.column.utility.columnPaddingHeadline.help
+  # padding
+  columnPadding:
+    label: zero.block.z.column.utility.columnPadding
+    type: select
+    placeholder: Inherit
+    options: 
+      " uk-padding-small": "{{ t('zero.block.z.column.utility.columnPadding.small') }}"
+      " uk-padding": "{{ t('zero.block.z.column.utility.columnPadding.padding') }}"
+      " uk-padding-large": "{{ t('zero.block.z.column.utility.columnPadding.large') }}"
+      " uk-padding-remove": "{{ t('zero.block.z.column.utility.columnPadding.remove') }}"
+      " uk-padding-remove-top": "{{ t('zero.block.z.column.utility.columnPadding.remove.top') }}"
+      " uk-padding-remove-bottom": "{{ t('zero.block.z.column.utility.columnPadding.remove.bottom') }}"
+      " uk-padding-remove-left": "{{ t('zero.block.z.column.utility.columnPadding.remove.left') }}"
+      " uk-padding-remove-right": "{{ t('zero.block.z.column.utility.columnPadding.remove.right') }}"
+      " uk-padding-remove-vertical": "{{ t('zero.block.z.column.utility.columnPadding.remove.vertical') }}"
+      " uk-padding-remove-horizontal": "{{ t('zero.block.z.column.utility.columnPadding.horizontal') }}"
+    width: 1/3
+
+  # column order
+  columnOrderHeadline:
+    label: zero.block.z.column.utility.columnOrderHeadline
+    type: headline
+    numbered: false
+    help: zero.block.z.column.utility.columnOrderHeadline.help
+  # item first
+  itemFirst:
+    label: zero.block.z.column.utility.itemFirst
+    type: select
+    placeholder: "{{ t('zero.reusables.inherit') }}"
+    options: 
+      " uk-flex-first": "{{ t('zero.block.z.column.utility.itemFirst.first') }}"
+      " uk-flex-first@s": "{{ t('zero.block.z.column.utility.itemFirst.first@s') }}"
+      " uk-flex-first@m": "{{ t('zero.block.z.column.utility.itemFirst.first@m') }}"
+    width: 1/3
+  # item last
+  itemLast:
+    label: zero.block.z.column.utility.itemLast
+    type: select
+    placeholder: "{{ t('zero.reusables.inherit') }}"
+    options: 
+      " uk-flex-last": "{{ t('zero.block.z.column.utility.itemLast.last') }}"
+      " uk-flex-last@s": "{{ t('zero.block.z.column.utility.itemLast.last@s') }}"
+      " uk-flex-last@m": "{{ t('zero.block.z.column.utility.itemLast.last@m') }}"
+    width: 1/3
+
+  # various
+  columnMiscHeadline:
+    label: zero.block.z.column.utility.columnMiscHeadline
+    type: headline
+    numbered: false
+    help: zero.block.z.column.utility.columnMiscHeadline.help
+  # border radious
+  borderRounded:
+    label: zero.block.z.column.utility.borderRounded
+    type: toggle
+    width: 1/3
+  # shadow
+  columnShadow:
+    label: zero.block.z.column.utility.columnShadow
+    type: select
+    placeholder: inherit
+    options:
+      " uk-box-shadow-small": "{{ t('zero.reusables.small') }}"
+      " uk-box-shadow-medium": "{{ t('zero.reusables.medium') }}"
+      " uk-box-shadow-large": "{{ t('zero.reusables.large') }}"
+      " uk-box-shadow-xlarge": "{{ t('zero.reusables.xlarge') }}"
+    width: 1/3
+
+  utilityBottomGap:
+    type: gap
+
+  

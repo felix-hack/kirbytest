@@ -1,0 +1,50 @@
+type: fields
+fields:
+  siteMiscHeadline:
+    label: zero.site.settings.misc.siteMiscHeadline
+    type: headline
+    numbered: false
+    id: misc
+  # Typed Text
+  typedText:
+    label: zero.site.settings.misc.typedText
+    type: toggle
+    help: zero.site.settings.misc.siteMiscHeadline.help
+  # Syntax Highlighting
+  syntaxHighlighting:
+    label: zero.site.settings.misc.syntaxHighlighting
+    type: toggle
+    help: zero.site.settings.misc.syntaxHighlighting.help
+  # To top button
+  siteTopButtonHeadline:
+    label: zero.site.settings.misc.toTopButton
+    type: headline
+    numbered: false
+  toTopButton:
+    label: zero.site.settings.misc.toTopButton
+    type: toggle
+    help: zero.site.settings.misc.toTopButton.help
+  toTopButtonText:
+    label: zero.site.settings.misc.toTopButtonText
+    type: text
+    width: 1/2
+    when:
+      toTopButton: true
+  toTopButtonIcon:
+    extends: fields/icons
+    label: zero.site.settings.misc.toTopButtonIcon
+    placeholder: None
+    when:
+      toTopButton: true
+  toTopButtonStyle:
+    label: zero.site.settings.misc.toTopButtonStyle
+    type: select
+    options:
+      "uk-button-default": "{{ t('zero.reusables.default') }}"
+      "uk-button-primary": "{{ t('zero.reusables.primary') }}"
+      "uk-button-secondary": "{{ t('zero.reusables.secondary') }}"
+      "uk-button-text": "{{ t('zero.reusables.text') }}"
+      "uk-button-link": "{{ t('zero.reusables.link') }}"
+      "uk-button-danger": "{{ t('zero.reusables.danger') }}"
+    when:
+      toTopButton: true

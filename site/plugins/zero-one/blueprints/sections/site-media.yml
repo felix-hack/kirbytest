@@ -1,0 +1,14 @@
+type: fields
+fields:
+  mediaHeadline:
+    label: zero.site.settings.media.mediaHeadline
+    type: headline
+    numbered: false
+  mediaIndex:
+    label: zero.site.settings.media.mediaIndex
+    type: toggle
+    translate: false
+    text: 
+      - "{{ t('zero.site.settings.media.mediaIndex.pageonly') }}"
+      - "{{ t('zero.site.settings.media.mediaIndex.wholewebsite') }}"
+    help: zero.site.settings.media.mediaIndex.help

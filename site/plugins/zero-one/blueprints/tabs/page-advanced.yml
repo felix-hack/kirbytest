@@ -1,0 +1,22 @@
+label: zero.page.advanced
+icon: cog
+columns:
+
+  left:
+    width: 1/2
+    sections:
+      # custom css
+      customCSS:
+        type: fields
+        fields:
+          headlineCss:
+            label: zero.page.advanced.headlineCss
+            type: headline
+            numbered: false
+          customCss:
+            label: zero.page.advanced.customCss
+            type: code-editor
+            size: medium
+            language: 'css'
+            translate: false
+            help: zero.page.advanced.customCss.help

@@ -1,0 +1,13 @@
+name: zero.blocks.contact.form
+icon: email
+
+fields:
+  info:
+    label: Info
+    type: info
+    text: zero.blocks.contact.form.fields.text
+  warning:
+    label: zero.blocks.contact.form.warning
+    type: info
+    theme: negative
+    text: zero.blocks.contact.form.warning.text

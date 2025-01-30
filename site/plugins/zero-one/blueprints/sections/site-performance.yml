@@ -1,0 +1,12 @@
+type: fields
+fields:
+  performanceHeadline:
+    label: zero.site.settings.performance.performanceHeadline
+    type: headline
+    numbered: false
+  # cachebusting
+  cachebusting:
+    label: zero.site.settings.performance.cachebusting
+    type: toggle
+    translate: false
+    help: zero.site.settings.performance.cachebusting.help

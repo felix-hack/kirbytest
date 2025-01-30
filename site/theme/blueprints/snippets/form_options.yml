@@ -1,0 +1,139 @@
+redirect:
+  type: toggle
+  label: form.block.options.redirect
+  width: 1/3
+  text:
+    - form.block.options.redirect.on
+    - form.block.options.redirect.off
+
+success_message:
+  label: form.block.options.success_text
+  type: text
+  help: form.block.default.help
+  width: 2/3
+  when:
+    redirect: false
+
+success_url:
+  label: form.block.options.success_url
+  type: pages
+  min: 1
+  width: 2/3
+  when:
+    redirect: true
+
+# Custom translate messages
+optionsLine:
+  type: line
+
+translateMessages:
+  label: zero.form.builder.options.translateMessages
+  type: headline
+  help: zero.form.builder.options.translateMessages.help
+
+fatal_message:
+  label: zero.form.builder.options.fatal_message
+  type: writer
+  default: zero.form.builder.options.fatal_message.default
+  width: 1/2
+fatal_messageInfo:
+  label: zero.form.builder.options.fatal_messageInfo
+  type: info
+  text: zero.form.builder.options.fatal_messageInfo.text
+  width: 1/2
+
+invalid_message:
+  label: zero.form.builder.options.invalid_message
+  type: text
+  default: zero.form.builder.options.invalid_message.default
+  width: 1/2
+invalid_messageInfo:
+  label: zero.form.builder.options.invalid_messageInfo
+  type: info
+  text: zero.form.builder.options.invalid_message.default
+  width: 1/2
+
+exists_message:
+  label: zero.form.builder.options.exists_message
+  type: text
+  default: zero.form.builder.options.exists_message.default
+  width: 1/2
+exists_messageInfo:
+  label: zero.form.builder.options.exists_messageInfo
+  type: info
+  text: zero.form.builder.options.exists_message.default
+  width: 1/2
+
+file_maxsize:
+  label: zero.form.builder.options.file_maxsize
+  type: text
+  default: zero.form.builder.options.file_maxsize.default
+  width: 1/2
+file_maxsizeInfo:
+  label: zero.form.builder.options.file_maxsizeInfo
+  type: info
+  text: zero.form.builder.options.file_maxsize.default
+  width: 1/2
+
+file_maxnumber:
+  label: zero.form.builder.options.file_maxnumber
+  type: text
+  default: zero.form.builder.options.file_maxnumber.default
+  width: 1/2
+file_maxnumberInfo:
+  label: zero.form.builder.options.file_maxnumberInfo
+  type: info
+  text: zero.form.builder.options.file_maxnumber.default
+  width: 1/2
+
+file_fatal:
+  label: zero.form.builder.options.file_fatal
+  type: text
+  default: zero.form.builder.options.file_fatal.default
+  width: 1/2
+file_fatalInfo:
+  label: zero.form.builder.options.file_fatalInfo
+  type: info
+  text: zero.form.builder.options.file_fatal.default
+  width: 1/2
+
+send_button:
+  label: zero.form.builder.options.send_button
+  type: text
+  default: zero.form.builder.options.send_button.deafult
+  width: 1/2
+send_buttonInfo:
+  label: zero.form.builder.options.send_buttonInfo
+  type: info
+  text: zero.form.builder.options.send_button.deafult
+  width: 1/2
+send_buttonStyle:
+  label: zero.form.builder.options.send_buttonStyle
+  type: select
+  placeholder: "{{ t('zero.reusables.primary') }}"
+  options:
+    "uk-button-default": "{{ t('zero.reusables.default') }}"
+    "uk-button-secondary": "{{ t('zero.reusables.secondary') }}"
+  width: 1/2
+send_buttonWidth:
+  label: zero.form.builder.options.send_buttonWidth
+  type: select
+  placeholder: "{{ t('zero.reusables.default') }}"
+  options:
+    "uk-width-1-1": "{{ t('zero.form.builder.options.send_buttonWidth.full') }}"
+    "uk-width-1-2": "{{ t('zero.form.builder.options.send_buttonWidth.half') }}"
+  width: 1/2
+
+loading:
+  label: zero.form.builder.options.loading
+  type: text
+  default: zero.form.builder.options.loading.default
+  width: 1/2
+loadingInfo:
+  label: zero.form.builder.options.loadingInfo
+  type: info
+  text: zero.form.builder.options.loading.default
+  width: 1/2
+
+optionsGap:
+  type: gap

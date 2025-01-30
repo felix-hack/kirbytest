@@ -1,0 +1,20 @@
+label: zero.fields.marginVertical
+type: select
+placeholder: "{{ t('zero.reusables.none') }}"
+options:
+  " uk-margin": "{{ t('zero.fields.marginVertical.margin') }}"
+  " uk-margin-top": "{{ t('zero.fields.marginVertical.margin.top') }}"
+  " uk-margin-bottom": "{{ t('zero.fields.marginVertical.margin.bottom') }}"
+  " uk-margin-small": "{{ t('zero.fields.marginVertical.margin.small') }}"
+  " uk-margin-small-top": "{{ t('zero.fields.marginVertical.margin.small.top') }}"
+  " uk-margin-small-bottom": "{{ t('zero.fields.marginVertical.margin.small.bottom') }}"
+  " uk-margin-medium": "{{ t('zero.fields.marginVertical.margin.medium') }}"
+  " uk-margin-medium-top": "{{ t('zero.fields.marginVertical.margin.medium.top') }}"
+  " uk-margin-medium-bottom": "{{ t('zero.fields.marginVertical.margin.medium.bottom') }}"
+  " uk-margin-large": "{{ t('zero.fields.marginVertical.margin.large') }}"
+  " uk-margin-large-top": "{{ t('zero.fields.marginVertical.margin.large.top') }}"
+  " uk-margin-large-bottom": "{{ t('zero.fields.marginVertical.margin.large.bottom') }}"
+  " uk-margin-xlarge": "{{ t('zero.fields.marginVertical.margin.xlarge') }}"
+  " uk-margin-xlarge-top": "{{ t('zero.fields.marginVertical.margin.xlarge.top') }}"
+  " uk-margin-xlarge-bottom": "{{ t('zero.fields.marginVertical.margin.xlarge.bottom') }}"
+width: 1/3

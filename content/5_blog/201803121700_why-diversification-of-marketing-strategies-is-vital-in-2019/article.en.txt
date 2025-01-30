@@ -1,0 +1,49 @@
+Title: Why Diversification of Marketing Strategies is Vital in 2019
+
+----
+
+Date: 2018-03-12 17:00:00
+
+----
+
+Author: 
+
+----
+
+Desc: We finished our first sensor sweep of the neutral zone. You did exactly what you had to do. You considered all your options, you tried every alternative.
+
+----
+
+Text: [{"content":{"text":"<p>Could someone survive inside a transporter buffer for 75 years? Fate. It protects fools, little children, and ships named “Enterprise.”</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"7cb731d2-f9d4-4ad0-90f8-d4c8021fe26e","isHidden":false,"type":"text"},{"content":{"text":"<p>Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once. We have a saboteur aboard. We know you’re dealing in stolen ore. But I wanna talk about the assassination attempt on <a href=\"#\" rel=\"noopener noreferrer nofollow\">Lieutenant Worf</a>. Could someone survive inside a transporter buffer for 75 years? Fate. It protects fools, little children, and ships named “Enterprise.”</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"e9f52373-7673-4efe-a602-643038db35b9","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"The beauty of life","headingsize":"","headingstyle":"","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"e0ae67f5-9964-43ee-ba60-068c3cbee2f9","isHidden":false,"type":"heading"},{"content":{"text":"<p>The Orbit invites comparisons. Described as congealed intestines, a melted roller coaster, a loop of string arrested in mid-fall, it seems we cannot talk about it without talking about other things. Instead of evaluation, we end up with similes. This tendency to describe what the structure is like betrays a sense of unease over what it is. The tower is, of course, strikingly redundant—an inept attempt to satisfy the vague sense that something is missing, another useless thingy to add to Stratford’s menagerie of future relics. But its uselessness is to the point: Boris Johnson and Anish Kapoor have said that the tower is ‘mythic,’ which both acknowledges its unreality and reveals that they want more than they know how to get.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"f1128589-b0da-4ce4-bf12-ca57726330cf","isHidden":false,"type":"text"},{"content":{"text":"<p>If this picture of things begins to unnerve rather than inspire, we might start to hedge our bets, we might start to feel adrift and crave the certainty of a centre, the magic of a tower. Once the word ‘global’ starts to lose its meaning, the passing of the games may leave us feeling bereft.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"0715655b-9615-494a-97e7-377524d9ed18","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://qoN7mosWzbJZOQID"],"src":"","ratio":"","alt":"","resizewidth":"","caption":"","captionclass":"false","width":"","widthmobile":"","align":"","float":"","borderradius":"uk-border-rounded","shadow":" uk-box-shadow-medium","linkoption":"","link":"","newtab":"false"},"id":"032ad1e4-4e78-4808-9954-46a5b47cfc80","isHidden":false,"type":"image"},{"content":{"text":"<p>I’m afraid I still don’t understand, sir. Flair is what marks the difference between artistry and mere competence. Computer, belay that order. Yesterday I did not know how to eat gagh. Mr. Worf, you sound like a man who’s <a href=\"#\" rel=\"noopener noreferrer nofollow\">asking his friend</a> if he can start dating his sister. Not if I weaken first. What? We’re not at all alike! I’ll be sure to note that in my log.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"b33e1a96-8db6-45c9-bc85-bfd2db6aba6a","isHidden":false,"type":"text"},{"content":{"text":"There is a way out of every box, a solution to every puzzle, it’s just a matter of finding it.","citation":""},"id":"caf6df22-578a-4b60-8d3a-33565a35fdfb","isHidden":false,"type":"quote"},{"content":{"text":"<p>What’s a knock-out like you doing in a computer-generated gin joint like this? But the probability of making a six is no greater than that of <a href=\"#\" rel=\"noopener noreferrer nofollow\">rolling a seven</a>. I guess it’s better to be lucky than good. Yesterday I did not know how to eat gagh.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"62153cbe-1a39-4718-8418-832bc696ccc0","isHidden":false,"type":"text"},{"content":{"text":"<ul><li><strong>Aliquam</strong> erat volutpat eleifend mi</li><li>Lacinia scelerisque lacinia quis</li><li>Consectetuer <em>adipiscing</em> elit et ultrices</li><li>Magnis dis parturient montes</li></ul>","liststyle":"","listcolor":"","listsize":"","listdivider":"","column":""},"id":"43853b5a-6e69-448c-89d4-0220f61761a2","isHidden":false,"type":"list"},{"content":{"text":"<p>What’s a knock-out like you doing in a computer-generated gin joint like this? Wouldn’t that bring about chaos? What? We’re not at all alike! Some days you get the bear, and some days the bear gets you. I’d like to think that I haven’t changed those things, sir.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"e3313722-25f2-4b8e-a0c5-3c2a20f9dc6e","isHidden":false,"type":"text"},{"content":{"text":"Frustratingly, nothing is known about the author of this highly entertaining compendium. His portrait (which appears only in the second edition) is supplied, but he offers no biographical information about himself."},"id":"22e20fda-626a-40ef-882c-4f86409bf19d","isHidden":false,"type":"info"},{"content":{"level":"h3","text":"Triumph of creation","headingsize":"","headingstyle":"","headingcolor":"","textalign":"","textaligntablet":"","textalignmobile":"","texttransform":"","textwrapping":""},"id":"c6307808-b559-4869-9b12-c37e831e5d9e","isHidden":false,"type":"heading"},{"content":{"text":"<p>The second part treats fireworks “for tryumph and recreation.” Its title-page is illustrated with a woodcut depicting a “green man’ wielding a fire club. With obscure and mythical origins, green men dressed in foliage and garlands traditionally led processions of fireworkers from medieval times. The customary greeting amongst the firework fraternity is still “stay green.”</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"e044422d-acc2-43b3-ab2a-4c55d616739a","isHidden":false,"type":"text"},{"content":{"text":"<ol><li><strong>Aliquam</strong> erat volutpat eleifend mi</li><li>Lacinia scelerisque lacinia quis</li><li>Consectetuer <em>adipiscing</em> elit et ultrices</li><li>Magnis dis parturient montes</li></ol>","liststyle":"","listcolor":"","listsize":"","listdivider":"","column":""},"id":"4770b1ad-597d-429e-9289-e1ec530939c2","isHidden":false,"type":"list"},{"content":{"text":"<p>There was a time when I could read the whole of <em>Usenet</em>—not just because I was a student looking for an excuse to avoid my assignments, but because <em>Usenet</em> was once tractable, readable by a single determined person. Today, I can’t even keep up with a single high-traffic message-board. I can’t read all my emails. I can’t read every item posted to every site I like. I certainly can’t plough through the entire edit-history of every <em>Wikipedia</em> entry I read. I’ve come to grips with this—with acquiring information on a probabilistic basis, instead of the old, deterministic, cover-to-cover approach I learned in the offline world.</p>","textalign":"","textaligntablet":"","textalignmobile":"","textsize":"","texttransform":"","textwrapping":"","textcolor":""},"id":"973ab8aa-e159-4694-a825-94694d1ef89e","isHidden":false,"type":"text"}]
+
+----
+
+Cover: - file://qoN7mosWzbJZOQID
+
+----
+
+Transparentnavbar: 
+
+----
+
+Navbarinverse: false
+
+----
+
+Related: 
+
+----
+
+Category: direction
+
+----
+
+Tags: marketing, strategy
+
+----
+
+Featured: no
+
+----
+
+Uuid: 7TPjve0PcJL9R4nE

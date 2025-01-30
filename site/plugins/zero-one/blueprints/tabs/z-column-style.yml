@@ -1,0 +1,230 @@
+label: zero.block.z.column.style
+fields:
+  # column style heading
+  columnStyleHeadline:
+    label: zero.block.z.column.style.columnStyleHeadline
+    type: headline
+    numbered: false
+    help: zero.block.z.column.style.columnStyleHeadline.help
+  # column style
+  columnStyle:
+    label: zero.block.z.column.style.columnStyle
+    type: toggles
+    default: none
+    options:
+      - value: none
+        text: "{{ t('zero.block.z.column.style.columnStyle.none') }}"
+        icon: protected
+      - value: card
+        text: "{{ t('zero.block.z.column.style.columnStyle.card') }}"
+        icon: copy
+      - value: tile
+        text: "{{ t('zero.block.z.column.style.columnStyle.tile') }}"
+        icon: grid-full
+      - value: background
+        text: "{{ t('zero.block.z.column.style.columnStyle.background') }}"
+        icon: palette
+  # column card heading
+  columnCardHeadline:
+    label: zero.block.z.column.style.columnCardHeadline
+    type: headline
+    numbered: false
+    help: zero.block.z.column.style.columnCardHeadline.help
+    when:
+      columnStyle: card
+  # card size
+  columnCardSize:
+    label: zero.block.z.column.style.columnCardSize
+    type: select
+    placeholder: "{{ t('zero.reusables.default') }}"
+    options: 
+      " uk-card-small": "{{ t('zero.reusables.small') }}"
+      " uk-card-large": "{{ t('zero.reusables.large') }}"
+    width: 1/3
+    when:
+      columnStyle: card
+  # card hover
+  columnCardHover:
+    label: zero.block.z.column.style.columnCardHover
+    type: toggle
+    default: false
+    width: 1/3
+    when:
+      columnStyle: card
+  # card color
+  columnCardColor:
+    label: zero.block.z.column.style.columnCardColor
+    type: select
+    default: " uk-card-default"
+    placeholder: "{{ t('zero.reusables.none') }}"
+    options:
+      " uk-card-default": "{{ t('zero.reusables.default') }}"
+      " uk-card-primary": "{{ t('zero.reusables.primary') }}"
+      " uk-card-secondary": "{{ t('zero.reusables.secondary') }}"
+    width: 1/3
+    when:
+      columnStyle: card
+
+  # column tile heading
+  columnTileHeadline:
+    label: zero.block.z.column.style.columnTileHeadline
+    type: headline
+    numbered: false
+    help: zero.block.z.column.style.columnTileHeadline.help
+    when:
+      columnStyle: tile
+
+  # column tile
+  columnTile:
+    label: zero.block.z.column.style.columnTile
+    type: select
+    placeholder: "{{ t('zero.reusables.none') }}"
+    options:
+      " uk-tile uk-tile-default": "{{ t('zero.reusables.default') }}"
+      " uk-tile uk-tile-muted": "{{ t('zero.reusables.muted') }}"
+      " uk-tile uk-tile-primary": "{{ t('zero.reusables.primary') }}"
+      " uk-tile uk-tile-secondary": "{{ t('zero.reusables.secondary') }}"
+    width: 1/3
+    when:
+      columnStyle: tile
+
+  # column background heading
+  columnBackgroundHeadline:
+    label: zero.block.z.column.style.columnBackgroundHeadline
+    type: headline
+    numbered: false
+    help: zero.block.z.column.style.columnBackgroundHeadline.help
+    when:
+      columnStyle: background
+  # column backgroud
+  columnBackground:
+    label: zero.block.z.column.style.columnBackground
+    type: select
+    placeholder: "{{ t('zero.reusables.none') }}"
+    options:
+      " uk-background-default": "{{ t('zero.reusables.default') }}"
+      " uk-background-muted": "{{ t('zero.reusables.muted') }}"
+      " uk-background-primary": "{{ t('zero.reusables.primary') }}"
+      " uk-background-secondary": "{{ t('zero.reusables.secondary') }}"
+      custom: "{{ t('zero.reusables.custom') }}"
+    width: 1/3
+    when:
+      columnStyle: background
+  # column text color
+  columnTextColor:
+    extends: fields/sectionTextColor
+    when:
+      columnStyle: background
+  # background style
+  backgroundStyle:
+    label: zero.block.z.column.style.backgroundStyle
+    type: toggles
+    default: color
+    options:
+      - value: color
+        text: "{{ t('zero.block.z.column.style.backgroundStyle.color') }}"
+        icon: pipette
+      - value: image
+        text: "{{ t('zero.block.z.column.style.backgroundStyle.image') }}"
+        icon: file-image
+      - value: video
+        text: "{{ t('zero.block.z.column.style.backgroundStyle.video') }}"
+        icon: file-video
+    when:
+      columnStyle: background
+      columnBackground: custom
+  # image file
+  backgroundImage:
+    extends: fields/backgroundImage
+    when:
+      columnStyle: background
+      columnBackground: custom
+      backgroundStyle: image
+  backgroundImagePosition:
+    extends: fields/backgroundImagePosition
+    when:
+      columnStyle: background
+      columnBackground: custom
+      backgroundStyle: image
+  backgroundImageSize:
+    extends: fields/backgroundImageSize
+    when:
+      columnStyle: background
+      columnBackground: custom
+      backgroundStyle: image
+  backgroundImageRepeat:
+    extends: fields/backgroundImageRepeat
+    when:
+      columnStyle: background
+      columnBackground: custom
+      backgroundStyle: image
+  backgroundParalax:
+    extends: fields/backgroundParalax
+    when:
+      columnStyle: background
+      columnBackground: custom
+      backgroundStyle: image
+  # video
+  mediaVideoSource:
+    label: zero.block.z.column.style.mediaVideoSource
+    type: radio
+    default: url
+    columns: 2
+    options:
+      url: URL
+      upload: "{{ t('zero.block.z.column.style.mediaVideoSource.upload') }}"
+    when:
+      columnStyle: background
+      columnBackground: custom
+      backgroundStyle: video
+  mediaVideo:
+    label: zero.block.z.column.style.mediaVideo
+    extends: fields/video
+    multiple: false
+    help: zero.block.z.column.style.mediaVideo.help
+    when:
+      columnStyle: background
+      columnBackground: custom
+      backgroundStyle: video
+      mediaVideoSource: upload
+  mediaVideoUrl:
+    label: zero.block.z.column.style.mediaVideoUrl
+    type: url
+    placeholder: "https://www.youtube.com/embed/[videocode]"
+    help: zero.block.z.column.style.mediaVideoUrl.help
+    when:
+      columnStyle: background
+      columnBackground: custom
+      backgroundStyle: video
+      mediaVideoSource: url
+  # color one
+  backgroundOverlayColor:
+    extends: fields/backgroundOverlayColor
+    when:
+      columnStyle: background
+      columnBackground: custom
+  # gradient switch
+  backgroundGradientOverlay:
+    extends: fields/backgroundGradientOverlay
+    when:
+      columnStyle: background
+      columnBackground: custom
+  # gradient transitions
+  backgroundGradientTransition:
+    extends: fields/backgroundGradientTransition
+    when:
+      columnStyle: background
+      columnBackground: custom
+      backgroundGradientOverlay: true
+  # color two
+  backgroundOverlayColor2:
+    extends: fields/backgroundOverlayColor
+    label: zero.block.z.column.style.backgroundOverlayColor2
+    when:
+      columnStyle: background
+      columnBackground: custom
+      backgroundGradientOverlay: true
+
+  # bottom gap
+  bottomCardGap:
+    type: gap

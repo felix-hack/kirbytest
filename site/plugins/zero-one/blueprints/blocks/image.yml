@@ -1,0 +1,178 @@
+name: zero.blocks.image
+icon: image
+preview: image
+
+tabs:
+  content:
+    label: zero.blocks.image.content
+    fields:
+      location:
+        label: field.blocks.image.location
+        type: radio
+        columns: 2
+        default: "kirby"
+        options:
+          kirby: Local
+          web: Web
+      image:
+        label: field.blocks.image.name
+        multiple: false
+        extends: fields/image
+        image:
+          back: black
+        when:
+          location: kirby
+        width: 2/3
+      src:
+        label: zero.blocks.image.src
+        type: url
+        width: 2/3
+        when:
+          location: web
+      ratio:
+        label: field.blocks.image.ratio
+        type: select
+        placeholder: Auto
+        options:
+          1/1: "1:1"
+          16/9: "16:9"
+          10/8: "10:8"
+          21/9: "21:9"
+          7/5: "7:5"
+          4/3: "4:3"
+          5/3: "5:3"
+          3/2: "3:2"
+          3/1: "3:1"
+          3/4: "3:4"
+          4/5: "4:5"
+          5/7: "5:7"
+        width: 1/3
+        when:
+          location: kirby
+      alt:
+        label: field.blocks.image.alt
+        type: text
+        icon: title
+        help: zero.blocks.image.alt.help
+        width: 2/3
+      resizeWidth:
+        label: zero.blocks.image.resizeWidth
+        type: number
+        min: 10
+        max: 1900
+        placeholder: 500
+        after: px
+        width: 1/3
+        when:
+          location: kirby
+      caption:
+        label: field.blocks.image.caption
+        type: writer
+        icon: text
+        help: zero.blocks.image.caption.help
+        inline: true
+        width: 2/3
+      captionClass:
+        label: zero.blocks.image.captionClass
+        type: toggle
+        help: zero.blocks.image.captionClass.help
+        width: 1/3
+
+  options:
+    label: zero.blocks.image.options
+    fields:
+      width:
+        label: zero.blocks.image.options.width
+        type: select
+        placeholder: Auto
+        options:
+          " uk-width-1-2@s": 1/2
+          " uk-width-1-3@s": 1/3
+          " uk-width-2-3@s": 2/3
+          " uk-width-1-4@s": 1/4
+          " uk-width-3-4@s": 3/4
+          " uk-width-1-5@s": 1/5
+          " uk-width-2-5@s": 2/5
+          " uk-width-3-5@s": 3/5
+          " uk-width-4-5@s": 4/5
+          " uk-width-1-6@s": 1/6
+          " uk-width-5-6@s": 5/6
+        width: 1/3
+      widthMobile:
+        label: zero.blocks.image.widthMobile
+        type: select
+        placeholder: Auto
+        options:
+          "uk-width-1-2": 1/2
+          "uk-width-1-3": 1/3
+          "uk-width-2-3": 2/3
+          "uk-width-1-4": 1/4
+          "uk-width-3-4": 3/4
+          "uk-width-1-5": 1/5
+          "uk-width-2-5": 2/5
+          "uk-width-3-5": 3/5
+          "uk-width-4-5": 4/5
+          "uk-width-1-6": 1/6
+          "uk-width-5-6": 5/6
+        width: 1/3
+      align:
+        label: zero.blocks.image.align
+        type: select
+        placeholder: "{{ t('zero.reusables.left') }}"
+        options:
+          " uk-margin-auto": "{{ t('zero.reusables.center') }}"
+          " uk-margin-auto-left": "{{ t('zero.reusables.right') }}"
+        width: 1/3
+      float:
+        label: zero.blocks.image.float
+        type: select
+        placeholder: "{{ t('zero.reusables.none') }}"
+        options:
+          " uk-float-left uk-margin-right": "{{ t('zero.reusables.left') }}"
+          " uk-float-right uk-margin-left": "{{ t('zero.reusables.right') }}"
+        help: zero.blocks.image.float.help
+        width: 1/3
+      borderRadius:
+        label: zero.blocks.image.borderRadius
+        type: select
+        placeholder: "{{ t('zero.reusables.default') }}"
+        options:
+          "uk-border-rounded": "{{ t('zero.blocks.image.borderRadius.rounded') }}"
+          "uk-border-circle": "{{ t('zero.blocks.image.borderRadius.circle') }}"
+          "uk-border-pill": "{{ t('zero.blocks.image.borderRadius.pill') }}"
+        width: 1/3
+      shadow:
+        label: zero.blocks.image.shadow
+        type: select
+        placeholder: "{{ t('zero.reusables.none') }}"
+        options:
+          " uk-box-shadow-small": "{{ t('zero.reusables.small') }}"
+          " uk-box-shadow-medium": "{{ t('zero.reusables.medium') }}"
+          " uk-box-shadow-large": "{{ t('zero.reusables.large') }}"
+          " uk-box-shadow-xlarge": "{{ t('zero.reusables.xlarge') }}"
+        width: 1/3
+      linkOption:
+        label: zero.blocks.image.linkOption
+        type: select
+        placeholder: "{{ t('zero.reusables.none') }}"
+        options:
+          lightbox: Lightbox
+          link: "{{ t('zero.reusables.link') }}"
+        width: 1/3
+      link:
+        label: field.blocks.image.link
+        type: text
+        icon: url
+        width: 2/3
+        when:
+          linkOption: link
+      newTab:
+        label: zero.blocks.image.newTab
+        type: toggle
+        width: 1/3
+        help: zero.blocks.image.newTab.help
+        when:
+          linkOption: link
+      
+      footerGap:
+        type: gap

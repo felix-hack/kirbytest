@@ -1,0 +1,15 @@
+name: field.blocks.line.name
+icon: divider
+preview: line
+wysiwyg: true
+
+fields:
+  lineStyle:
+    lable: zero.blocks.line.lineStyle
+    type: select
+    placeholder: "{{ t('zero.reusables.default') }}"
+    options:
+      "uk-divider-small": "{{ t('zero.reusables.small') }}"
+      "uk-divider-icon": "{{ t('zero.blocks.line.lineStyle.icon') }}"
+      "uk-divider-vertical": "{{ t('zero.blocks.line.lineStyle.vertical') }}"
+    width: 1/3

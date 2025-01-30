@@ -1,0 +1,47 @@
+# System files
+# ------------
+
+Icon
+.DS_Store
+.lock
+
+# Temporary files
+# ---------------
+
+/media/*
+!/media/index.html
+
+# Dev files
+# ---------------
+
+cleanup.php
+
+# -------------SECURITY-------------
+# NEVER publish these files via Git!
+# -------------SECURITY-------------
+
+# Cache Files
+# ---------------
+
+/site/cache/*
+!/site/cache/index.html
+
+# Accounts
+# ---------------
+
+/site/accounts/*
+!/site/accounts/index.html
+
+# Sessions
+# ---------------
+
+/site/sessions/*
+!/site/sessions/index.html
+
+# License
+# ---------------
+/site/config/.license
+
+# Config
+# ---------------
+/site/config/config.www.thezero.club.php

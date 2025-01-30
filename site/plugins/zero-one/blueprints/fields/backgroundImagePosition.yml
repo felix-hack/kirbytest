@@ -1,0 +1,14 @@
+label: zero.fields.backgroundImagePosition
+type: select
+default: " uk-background-center-center"
+options:
+  " uk-background-top-left": "{{ t('zero.fields.backgroundImagePosition.top.left') }}"
+  " uk-background-top-center": "{{ t('zero.fields.backgroundImagePosition.top.center') }}"
+  " uk-background-top-right": "{{ t('zero.fields.backgroundImagePosition.top.right') }}"
+  " uk-background-center-left": "{{ t('zero.fields.backgroundImagePosition.center.left') }}"
+  " uk-background-center-center": "{{ t('zero.fields.backgroundImagePosition.center.center') }}"
+  " uk-background-center-right": "{{ t('zero.fields.backgroundImagePosition.center.right') }}"
+  " uk-background-bottom-left": "{{ t('zero.fields.backgroundImagePosition.bottom.left') }}"
+  " uk-background-bottom-center": "{{ t('zero.fields.backgroundImagePosition.bottom.center') }}"
+  " uk-background-bottom-right": "{{ t('zero.fields.backgroundImagePosition.bottom.right') }}"
+width: 1/3

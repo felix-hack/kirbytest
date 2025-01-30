@@ -1,0 +1,325 @@
+Title: Blog
+
+----
+
+Categories: lifestyle, direction, productivity, entrepreneur
+
+----
+
+Dateformat: d.m.Y
+
+----
+
+Perpage: 6
+
+----
+
+Articletitlesize: 
+
+----
+
+Listingstyle: 
+
+----
+
+Sidebarblog: yes
+
+----
+
+Sidebarprofile: true
+
+----
+
+Sidebarcategories: true
+
+----
+
+Sidebararchive: true
+
+----
+
+Sidebartags: true
+
+----
+
+Sidebarsocialmedia: true
+
+----
+
+Layoutbuilderposition: false
+
+----
+
+Layout: 
+
+----
+
+Profileimage: - file://mrsxA0vnlY5xR121
+
+----
+
+Profileheading: We are an online consulting team.
+
+----
+
+Profiletext:
+
+Doing the Right Thing, at the Right Time, is the most important thing in life. 
+
+(link: contact text: Get in touch with us)
+
+----
+
+Coverwidtharticle: full
+
+----
+
+Shareswitch: true
+
+----
+
+Inverseimagetextcolor: false
+
+----
+
+Sidebararticle: yes
+
+----
+
+Sidebararticlelatestposts: true
+
+----
+
+Sidebararticlecategories: true
+
+----
+
+Sidebararticlearchive: true
+
+----
+
+Sidebararticletags: true
+
+----
+
+Sidebararticlesocialmedia: true
+
+----
+
+Commentsoptionselect: none
+
+----
+
+Commentscode: 
+
+----
+
+Headersection: true
+
+----
+
+Alttitle: The Blog
+
+----
+
+Intro: News, events and little bit about what we do, and what we opinionate about.
+
+----
+
+Pageheadersize: 
+
+----
+
+Pagetitlesize: 
+
+----
+
+Headerbackgroundtoggle: false
+
+----
+
+Header: 
+
+----
+
+Headerimageposition: 
+
+----
+
+Headerimagesize: 
+
+----
+
+Headerimagerepeat: 
+
+----
+
+Headertextcolor: 
+
+----
+
+Backgroundparalax: 
+
+----
+
+Shapedividertoggle: false
+
+----
+
+Shapedivider: 
+
+----
+
+Shapedividerposition: 
+
+----
+
+Customshapedivider: 
+
+----
+
+Shapedividerheight: 
+
+----
+
+Overridelogo: false
+
+----
+
+Logo: 
+
+----
+
+Logoinverted: 
+
+----
+
+Logomobile: 
+
+----
+
+Logomobileinverted: 
+
+----
+
+Logoheight: 
+
+----
+
+Mobilelogoheight: 
+
+----
+
+Logolinktype: 
+
+----
+
+Link: 
+
+----
+
+Internalpage: 
+
+----
+
+Anchor: 
+
+----
+
+Target: false
+
+----
+
+Hidenavbar: false
+
+----
+
+Disallowsubmenu: true
+
+----
+
+Newtab: false
+
+----
+
+Menuitemicon: 
+
+----
+
+Megamenu: false
+
+----
+
+Megamenuwidth: 
+
+----
+
+Megamenuitemwidth: 
+
+----
+
+Megamenubackground: false
+
+----
+
+Megamenubackgroundimage: 
+
+----
+
+Megamenubackgroundimageposition: 
+
+----
+
+Megamenubackgroundimagesize: 
+
+----
+
+Megamenubackgroundimagerepeat: 
+
+----
+
+Megamenubackgroundgradientoverlay: false
+
+----
+
+Megamenubackgroundgradienttransition: 
+
+----
+
+Transparentnavbar: 
+
+----
+
+Navbarinverse: false
+
+----
+
+Hidefooter: false
+
+----
+
+Sitemap: true
+
+----
+
+Metafile: 
+
+----
+
+Metatitle: News, events and little bit about what we do
+
+----
+
+Removesitetitle: false
+
+----
+
+Metadescription: News, events and little bit about what we do, and what we opinionate about.
+
+----
+
+Customcss: 
+
+----
+
+Uuid: hhadaPqzAQr5S4oz

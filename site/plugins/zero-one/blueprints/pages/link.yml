@@ -1,0 +1,194 @@
+title: zero.page.link
+icon: url
+
+options:
+  sitemap: hide
+
+columns:
+  # main
+  - width: 2/3
+    sections:
+      # content
+      content:
+        type: fields
+        fields:
+          help:
+            type: info
+            text: zero.page.link.content.help
+          redirect:
+            label: zero.page.link.redirect
+            type: pages
+            multiple: false
+            help: zero.page.link.redirect.help
+          link:
+            label: zero.page.link.link
+            type: url
+            help: zero.page.link.link.help
+
+      navbar:
+        type: fields
+        fields:
+          # navbar options
+          navbarSettings:
+            label: zero.page.link.navbarSettings
+            type: headline
+            numbered: false
+          disallowSubmenu:
+            label: zero.page.link.disallowSubmenu
+            type: toggle
+            width: 1/3
+          disallowSubmenuinfo:
+            label: Info
+            type: info
+            text: zero.page.link.disallowSubmenuinfo.text
+            width: 2/3
+          newTab:
+            label: zero.page.link.newTab
+            type: toggle
+            width: 1/3
+          newTabInfo:
+            label: zero.page.link.newTabInfo
+            type: info
+            text: zero.page.link.newTabInfo.text
+            width: 2/3
+          menuItemIcon:
+            extends: fields/icons
+            label: zero.page.link.menuItemIcon
+            placeholder: None
+            width: 1/3
+          menuItemIconInfo:
+            label: zero.page.link.menuItemIconInfo
+            type: info
+            text: zero.page.link.menuItemIconInfo.text
+            width: 2/3
+
+          lineMegaMenu:
+            type: line
+          megaMenu:
+            label: zero.page.link.megaMenu
+            type: toggle
+            width: 1/3
+          megaMenuInfo:
+            label: zero.page.link.megaMenuInfo
+            type: info
+            text: zero.page.link.megaMenuInfo.text
+            width: 2/3
+          megaMenuWidth:
+            label: zero.page.link.megaMenuWidth
+            type: select
+            placeholder: "{{ t('zero.reusables.inherit') }}"
+            options:
+              - value: '2'
+                text: 2 columns
+              - value: '3'
+                text: 3 columns
+              - value: '4'
+                text: 4 columns
+            width: 1/3
+            when:
+              megaMenu: true
+          megaMenuItemWidth:
+            label: zero.page.link.megaMenuItemWidth
+            type: select
+            placeholder: "{{ t('zero.reusables.inherit') }}"
+            options:
+              - value: '1'
+                text: "{{ t('zero.reusables.fullwidth') }}"
+              - value: '2'
+                text: '1/2'
+              - value: '3'
+                text: '1/3'
+              - value: '4'
+                text: '1/4'
+            width: 1/3
+            when:
+              megaMenu: true
+          # mega menu background
+          megaMenuBackground:
+            label: zero.page.link.megaMenuBackground
+            type: toggle
+            width: 1/3
+            when:
+              megaMenu: true
+          # image
+          megaMenuBackgroundImage:
+            extends: fields/backgroundImage
+            when:
+              megaMenu: true
+              megaMenuBackground: true
+          megaMenuBackgroundImagePosition:
+            label: zero.page.link.megaMenuBackgroundImagePosition
+            type: select
+            default: "uk-background-center-center"
+            options:
+              "uk-background-top-left": "{{ t('zero.page.link.top.left') }}"
+              "uk-background-top-center": "{{ t('zero.page.link.top.center') }}"
+              "uk-background-top-right": "{{ t('zero.page.link.top.right') }}"
+              "uk-background-center-left": "{{ t('zero.page.link.center.left') }}"
+              "uk-background-center-center": "{{ t('zero.page.link.center.center') }}"
+              "uk-background-center-right": "{{ t('zero.page.link.center.right') }}"
+              "uk-background-bottom-left": "{{ t('zero.page.link.bottom.left') }}"
+              "uk-background-bottom-center": "{{ t('zero.page.link.bottom.center') }}"
+              "uk-background-bottom-right": "{{ t('zero.page.link.bottom.right') }}"
+            width: 1/3
+            when:
+              megaMenu: true
+              megaMenuBackground: true
+          megaMenuBackgroundImageSize:
+            label: zero.page.link.megaMenuBackgroundImageSize
+            type: select
+            default: "uk-background-cover"
+            options:
+              "uk-background-cover": "{{ t('zero.page.link.megaMenuBackgroundImageSize.cover') }}"
+              "uk-background-contain": "{{ t('zero.page.link.megaMenuBackgroundImageSize.contain') }}"
+            width: 1/3
+            when:
+              megaMenu: true
+              megaMenuBackground: true
+          megaMenuBackgroundImageRepeat:
+            label: zero.page.link.megaMenuBackgroundImageRepeat
+            type: select
+            default: "no-repeat"
+            options:
+              "no-repeat": "{{ t('zero.page.link.no.repeat') }}"
+              "repeat": "{{ t('zero.page.link.repeat') }}"
+              "repeat-x": "{{ t('zero.page.link.repeat.x') }}"
+              "repeat-y": "{{ t('zero.page.link.repeat.y') }}"
+            width: 1/3
+            when:
+              megaMenu: true
+              megaMenuBackground: true
+          megaMenuBackgroundOverlayColor:
+            extends: fields/backgroundOverlayColor
+            when:
+              megaMenu: true
+              megaMenuBackground: true
+          megaMenuBackgroundGradientOverlay:
+            extends: fields/backgroundGradientOverlay
+            when:
+              megaMenu: true
+              megaMenuBackground: true
+          megaMenuBackgroundGradientTransition:
+            extends: fields/backgroundGradientTransition
+            when:
+              megaMenu: true
+              megaMenuBackground: true
+              megaMenuBackgroundGradientOverlay: true
+          megaMenuBackgroundOverlayColor2:
+            extends: fields/backgroundOverlayColor
+            label: zero.navigation.builder.OverlayColor2
+            when:
+              megaMenu: true
+              megaMenuBackground: true
+              megaMenuBackgroundGradientOverlay: true
+
+  # pages
+  - width: 1/3
+    sections:
+
+      # pages
+      published:
+        extends: sections/page-published
+
+      draft:
+        extends: sections/page-draft

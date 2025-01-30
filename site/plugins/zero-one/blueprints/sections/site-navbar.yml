@@ -1,0 +1,260 @@
+type: fields
+fields:
+  # right nav
+  navigation:
+    label: zero.site.settings.navbar.headline
+    type: headline
+  # navbar width
+  navbarWidth:
+    label: zero.site.settings.navbar.width
+    type: select
+    placeholder: "{{ t('zero.reusables.default') }}"
+    help: zero.site.settings.navbar.width.help
+    options:
+      large: "{{ t('zero.reusables.large') }}"
+      expand: "{{ t('zero.reusables.expand') }}"
+    width: 1/3
+
+  menuPosition:
+    label: zero.site.settings.navbar.menu.position
+    type: select
+    default: center
+    help: zero.site.settings.navbar.menu.position.help
+    options:
+      left: "{{ t('zero.reusables.left') }}"
+      center: "{{ t('zero.reusables.center') }}"
+      right: "{{ t('zero.reusables.right') }}"
+    width: 1/3
+
+  sticky:
+    label: zero.site.settings.navbar.sticky
+    type: select
+    options:
+      fixed: "{{ t('zero.reusables.fixed') }}"
+      scroll: "{{ t('zero.site.settings.navbar.sticky.options.onup') }}"
+    placeholder: "Off"
+    width: 1/3
+
+  languagenav:
+    label: zero.site.settings.navbar.languagenav
+    type: toggle
+    default: false
+    width: 1/3
+  languagenavStyle:
+    label: zero.site.settings.navbar.languagenavstyle
+    type: toggle
+    text:
+      - "{{ t('zero.site.settings.navbar.languagenavstyle.modal') }}"
+      - "{{ t('zero.site.settings.navbar.languagenavstyle.list') }}"
+    width: 1/3
+    when:
+      languagenav: true
+  languagenavMobile:
+    label: zero.site.settings.navbar.languagenav.mobile
+    type: toggle
+    text:
+      - "{{ t('zero.site.settings.navbar.languagenav.mobile.options.icon') }}"
+      - "{{ t('zero.site.settings.navbar.languagenav.mobile.options.menu') }}"
+    default: false
+    width: 1/3
+    when:
+      languagenav: true
+
+  lineRightnav:
+    type: line
+  rightnav:
+    label: zero.site.settings.navbar.right
+    type: select
+    placeholder: "{{ t('zero.site.settings.navbar.right.placeholder') }}"
+    help: zero.site.settings.navbar.right.help
+    options:
+      icons: "{{ t('zero.reusables.icons') }}"
+      button: "{{ t('zero.reusables.button') }}"
+    width: 1/3
+  rightnavInfo:
+    label: zero.site.settings.navbar.rightnavInfo
+    type: info
+    text: zero.site.settings.navbar.rightnavInfo.text
+    width: 2/3
+
+  lineMenuButton:
+    type: line
+  menuButtonInfo:
+    label: zero.site.settings.navbar.menuButtonInfo
+    type: info
+    text: zero.site.settings.navbar.menuButtonInfo.text
+  menubuttonObject:
+    label: zero.site.settings.navbar.menubuttonObject
+    type: object
+    empty: zero.site.settings.navbar.menubuttonObject.empty
+    fields:
+      link:
+        label: zero.site.settings.navbar.menubuttonObject.link
+        type: link
+        width: 2/3
+      buttonText:
+        label: zero.site.settings.navbar.menubuttonObject.buttonText
+        type: text
+        width: 1/2
+      target:
+        label: zero.site.settings.navbar.additionalIconObject.target
+        type: toggle
+        text: zero.site.settings.navbar.additionalIconObject.target.text
+        width: 1/2
+      buttonStyle:
+        label: zero.site.settings.navbar.menubuttonObject.style
+        type: select
+        placeholder: "{{ t('zero.reusables.primary') }}"
+        options:
+          "uk-button-default": "{{ t('zero.reusables.default') }}"
+          "uk-button-secondary": "{{ t('zero.reusables.secondary') }}"
+          "uk-button-text": "{{ t('zero.site.settings.navbar.menubuttonObject.style.text') }}"
+          "uk-button-link": "{{ t('zero.site.settings.navbar.menubuttonObject.style.link') }}"
+          "uk-button-danger": "{{ t('zero.reusables.danger') }}"
+        width: 1/2
+      class:
+        label: zero.site.settings.navbar.menubuttonObject.class
+        type: text
+        width: 1/2
+  
+  lineMenuIcons:
+    type: line
+  menuIconsInfo:
+    label: zero.site.settings.navbar.menuiconsinfo
+    type: info
+    text: zero.site.settings.navbar.menuiconsinfo.text
+  searchicon:
+    label: zero.site.settings.navbar.searchicon
+    type: toggle
+    default: true
+    width: 1/4
+  searchiconMobile:
+    label: zero.site.settings.navbar.searchicon
+    type: toggle
+    text:
+      - "{{ t('zero.site.settings.navbar.searchicon.navbar') }}"
+      - "{{ t('zero.site.settings.navbar.searchicon.offset') }}"
+    width: 1/4
+    when:
+      searchicon: true
+  searchProducts:
+    label: zero.site.settings.navbar.searchproducts
+    type: toggle
+    width: 1/4
+    when:
+      searchicon: true
+  additionalIconToggle:
+    label: zero.site.settings.navbar.additionalIconObject
+    type: toggle
+    width: 1/4
+  additionalIconObject:
+    label: zero.site.settings.navbar.additionalIconObject
+    type: object
+    empty: zero.site.settings.navbar.additionalIconObject.empty
+    fields:
+      link:
+        label: zero.site.settings.navbar.additionalIconObject.link
+        type: link
+        width: 2/3
+      icon:
+         extends: fields/icons
+         width: 1/2
+      target:
+        label: zero.site.settings.navbar.additionalIconObject.target
+        type: toggle
+        text: zero.site.settings.navbar.additionalIconObject.target.text
+        width: 1/2
+      title:
+        label: zero.site.settings.navbar.additionalIconObject.title
+        type: text
+        width: 2/3
+    when:
+      additionalIconToggle: true
+  moreicon:
+    label: zero.site.settings.navbar.moreicon
+    type: textarea
+    help: zero.site.settings.navbar.moreicon.help
+
+  lineMobile:
+    type: line
+  mobileNav:
+    label: zero.site.settings.navbar.mobileNav
+    type: toggle
+    default: false
+    help: zero.site.settings.navbar.mobileNav.help
+    width: 1/3
+  mobileNavAnimation:
+    label: zero.site.settings.navbar.mobileNavAnimation
+    type: radio
+    default: slide
+    columns: 3
+    help: zero.site.settings.navbar.mobileNavAnimation.help
+    options:
+      slide: "{{ t('zero.site.settings.navbar.mobileNavAnimation.slide') }}"
+      push: "{{ t('zero.site.settings.navbar.mobileNavAnimation.push') }}"
+      reveal: "{{ t('zero.site.settings.navbar.mobileNavAnimation.reveal') }}"
+    width: 2/3
+  mobileMenuInfoText:
+    label: zero.site.settings.navbar.mobileMenuInfoText
+    type: textarea
+    size: small
+
+  #topbar
+  lineTopbar:
+    type: line
+  topbar:
+    label: zero.site.settings.navbar.topbar
+    type: toggle
+    width: 1/3
+  topbarTablet:
+    label: zero.site.settings.navbar.topbarTablet
+    type: select
+    options:
+      left: "{{ t('zero.reusables.left') }}"
+      center: "{{ t('zero.reusables.center') }}"
+      right: "{{ t('zero.reusables.right') }}"
+    width: 1/3
+    when:
+      topbar: true
+  topbarMobile:
+    label: zero.site.settings.navbar.topbarMobile
+    type: select
+    options:
+      left: "{{ t('zero.reusables.left') }}"
+      center: "{{ t('zero.reusables.center') }}"
+      right: "{{ t('zero.reusables.right') }}"
+    width: 1/3
+    when:
+      topbar: true
+  topbarLeft:
+    label: zero.site.settings.navbar.topbarLeft
+    type: text
+    when:
+      topbar: true
+  topbarCenter:
+    label: zero.site.settings.navbar.topbarCenter
+    type: text
+    when:
+      topbar: true
+  topbarRight:
+    label: zero.site.settings.navbar.topbarRight
+    type: text
+    when:
+      topbar: true
+
+  #transparent
+  lineTransparent:
+    type: line
+  transparentNavbar:
+    label: zero.site.settings.navbar.transparentNavbar
+    type: toggle
+    width: 1/3
+  navbarInverse:
+    label: zero.site.settings.navbar.navbarInverse
+    type: toggle
+    width: 1/3
+    when:
+      transparentNavbar: true
+
+  navbarGap:
+    type: gap

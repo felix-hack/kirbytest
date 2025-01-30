@@ -1,0 +1,116 @@
+title: zero.page.article
+num: '{{ page.date.toDate("YmdHi") }}'
+icon: edit
+
+status:
+  draft:
+    label: zero.page.article.draft
+    text: zero.page.article.draft.text
+  unlisted:
+    label: zero.page.article.unlisted
+    text: zero.page.article.unlisted.text
+  listed:
+    label: zero.page.article.listed
+    text: zero.page.article.listed.text
+
+columns:
+  - width: 2/3
+    sections: 
+      articlePublish:
+        type: fields
+        fields:
+          date:
+            label: zero.page.article.date
+            type: date
+            time: true
+            default: now
+            required: true
+            help: zero.page.article.date.help
+            width: 1/2
+          author:
+            label: zero.page.article.author
+            type: users
+            width: 1/2
+            help: zero.page.article.author.help
+      articleContent:
+        type: fields
+        fields:
+          desc:
+            label: zero.page.article.desc
+            type: textarea
+            buttons: false
+            maxlength: 350
+            required: true
+            help: zero.page.article.desc.help
+          text:
+            label: zero.page.article.text
+            extends: fields/blockEditor
+
+  - width: 1/3
+    sections:
+
+      coverimg:
+        type: fields
+        fields:
+          cover:
+            label: zero.page.article.cover
+            extends: fields/image
+            multiple: false
+            layout: cards
+            size: full
+            image:
+              cover: true
+          transparentNavbar:
+            label: zero.page.article.transparentNavbar
+            type: select
+            placeholder: "{{ t('zero.page.options.transparentNavbar.placeholder') }}"
+            options:
+              transparent: "{{ t('zero.page.article.transparentNavbar.transparent') }}"
+              non-transparent: "{{ t('zero.page.article.transparentNavbar.no.transparent') }}"
+            help: zero.page.article.transparentNavbar.help
+          navbarInverse:
+            label: zero.page.article.navbarInverse
+            type: toggle
+            when:
+              transparentNavbar: transparent
+      files:
+        headline: zero.page.article.files
+        type: files
+        info: "{{ file.dimensions }}"
+        help: zero.page.article.files.help
+        image:
+          cover: true
+
+      relatedpages:
+        type: fields
+        fields:
+          related:
+            label: zero.page.article.related
+            type: pages
+            status: listed
+            query: page.siblings(false)
+            max: 5
+            empty: zero.page.article.related.empty
+            help: zero.page.article.related.help
+
+      metadata:
+        type: fields
+        fields:
+          category:
+            label: zero.page.article.category
+            type: select
+            max: 1
+            options: query
+            query: page.parent.categories.split
+            help: zero.page.article.category.help
+          tags: true
+            help: zero.page.article.tags.help
+          featured:
+            label: zero.page.article.featured
+            type: radio
+            default: no
+            columns: 2
+            options:
+              yes: "{{ t('zero.reusables.yes') }}"
+              no: "{{ t('zero.reusables.no') }}"
+            help: zero.page.article.featured.help

@@ -1,0 +1,9 @@
+label: zero.fields.backgroundImageRepeat
+type: select
+default: " no-repeat"
+options:
+  " no-repeat": "{{ t('zero.fields.backgroundImageRepeat.no.repeat') }}"
+  " repeat": "{{ t('zero.fields.backgroundImageRepeat.repeat') }}"
+  " repeat-x": "{{ t('zero.fields.backgroundImageRepeat.repeat.x') }}"
+  " repeat-y": "{{ t('zero.fields.backgroundImageRepeat.repeat.y') }}"
+width: 1/3

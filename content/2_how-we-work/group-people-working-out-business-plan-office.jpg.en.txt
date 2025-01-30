@@ -1,0 +1,13 @@
+Uuid: pCMRaRT1zHMj02nX
+
+----
+
+Template: image
+
+----
+
+Caption: 
+
+----
+
+Sitemap: true

@@ -1,0 +1,10 @@
+label: zero.fields.sectionColor
+type: select
+default: " uk-section-default"
+options:
+  " uk-section-default": "{{ t('zero.reusables.default') }}"
+  " uk-section-muted": "{{ t('zero.reusables.muted') }}"
+  " uk-section-primary": "{{ t('zero.reusables.primary') }}"
+  " uk-section-secondary": "{{ t('zero.reusables.secondary') }}"
+  image: "{{ t('zero.fields.sectionColor.image') }}"
+width: 1/3

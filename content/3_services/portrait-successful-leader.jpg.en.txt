@@ -1,0 +1,13 @@
+Uuid: aNaLENqyKnh9vzMW
+
+----
+
+Template: image
+
+----
+
+Caption: 
+
+----
+
+Sitemap: true

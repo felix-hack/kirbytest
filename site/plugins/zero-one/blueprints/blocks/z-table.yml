@@ -1,0 +1,130 @@
+name: zero.blocks.z.table
+icon: table
+
+preview: table
+
+tabs:
+  # content tab
+  content:
+    label: zero.blocks.z.table.content
+    fields:
+      tableInfo:
+        label: zero.blocks.z.table.tableInfo
+        type: info
+        text: zero.blocks.z.table.tableInfo.text
+      table:
+        label: zero.blocks.z.table.table
+        type: table
+        maxColumns: 50
+        minColumns: 1     
+
+  # table options tab
+  tableOptions:
+    label: zero.blocks.z.table.tableOptions
+    fields:
+      # table custom options
+      tableOptionsHeadline:
+        label: zero.blocks.z.table.tableOptionsHeadline
+        type: headline
+        numbered: false
+      divider:
+        label: zero.blocks.z.table.divider
+        type: select
+        placeholder: "{{ t('zero.reusables.none') }}"
+        options:
+          " uk-table-divider": "{{ t('zero.blocks.z.table.divider.divider') }}"
+          " uk-table-striped": "{{ t('zero.blocks.z.table.divider.striped') }}"
+        width: 1/3
+      size:
+        label: zero.blocks.z.table.size
+        type: select
+        placeholder: "{{ t('zero.reusables.default') }}"
+        options:
+          " uk-table-small": "{{ t('zero.reusables.small') }}"
+          " uk-table-large": "{{ t('zero.reusables.large') }}"
+        width: 1/3
+      hover:
+        label: zero.blocks.z.table.hover
+        type: toggle
+        default: false
+        width: 1/3
+      justify:
+        label: zero.blocks.z.table.justify
+        type: toggle
+        default: false
+        width: 1/3
+      responsive:
+        label: zero.blocks.z.table.responsive
+        type: select
+        placeholder: "{{ t('zero.reusables.default') }}"
+        options:
+          overflow: "{{ t('zero.blocks.z.table.responsive.overflow') }}"
+          stack: "{{ t('zero.blocks.z.table.responsive.stack') }}"
+        width: 1/3
+
+  # settings tab
+  settings:
+    label: zero.blocks.z.table.settings
+    fields:
+      # block advanced heading
+      blockAdvancedHeadline:
+        label: zero.blocks.z.table.blockAdvancedHeadline
+        type: headline
+        numbered: false
+      # block title
+      title:
+        label: zero.blocks.z.table.title
+        type: text
+        placeholder: "{{ t('zero.blocks.settings.title.placeholder') }}"
+        width: 1/3
+      # block class
+      blockClass:
+        label: zero.blocks.z.table.blockClass
+        type: text
+        placeholder: my-custom-class
+        before: '.'
+        width: 1/3
+      # block id
+      blockID:
+        label: zero.blocks.z.table.blockID
+        type: text
+        placeholder: my-custom-id
+        before: '#'
+        width: 1/3
+      marginVertical:
+        extends: fields/marginVertical
+      marginLeft:
+        extends: fields/marginLeft
+      marginRight:
+        extends: fields/marginRight
+      marginInfo:
+        label: zero.blocks.z.table.marginInfo
+        type: info
+        text: zero.blocks.z.card.marginInfo.text
+      
+      # animation headline
+      animationHeadline:
+        label: Animation
+        type: headline
+        help: zero.blocks.z.table.animationHeadline.help
+        numbered: false
+      animationNote:
+        label: zero.blocks.z.table.animationNote
+        type: info
+        text: zero.blocks.z.table.animationNote.text
+      # animation switch
+      animationSwitch:
+        label: Animation
+        type: toggle
+        width: 1/3
+      animationType:
+        extends: fields/animationType
+        when:
+          animationSwitch: true
+      animationDelay:
+        extends: fields/animationDelay
+        when:
+          animationSwitch: true
+
+      settingsBottomGap:
+        type: gap

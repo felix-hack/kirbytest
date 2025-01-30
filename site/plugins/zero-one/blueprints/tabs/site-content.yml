@@ -1,0 +1,73 @@
+label: zero.site.content
+icon: dashboard
+columns:
+  - width: 1/3
+    sections:
+      # draft pages
+      draft:
+        type: pages
+        headline: zero.site.content.draft.headline
+        status: draft
+        info: "{{ page.blueprint.title }}"
+        limit: 3
+        search: true
+        empty: zero.site.content.draft.empty
+        image:
+          query: false
+          back: black
+        help: zero.site.content.draft.empty.help
+        templates: # list of allowed templates
+          - layout
+          - default
+          - link
+          - contact
+          - blog
+          - work
+          - shop
+      # published pages
+      published:
+        type: pages
+        headline: zero.site.content.published.headline
+        status: published
+        info: "{{ page.blueprint.title }}"
+        limit: 12
+        search: true
+        empty: zero.site.content.published.empty
+        help: zero.site.content.published.empty.help
+        image:
+          query: false
+          back: black
+        templates: # list of allowed templates
+          - default
+          - layout
+          - link
+          - contact
+          - blog
+          - work
+          - shop
+          - error
+          - search
+          - home
+
+  - width: 2/3
+    sections:
+      # sections in the right column
+      websiteStats:
+        label: zero.site.content.websiteStats
+        type: stats
+        size: small
+        reports:
+          - label: "{{ t('zero.site.content.websiteStats.pages') }}"
+            value: "{{ site.index.count }}"
+            info: "{{ t('zero.site.content.websiteStats.pages.info') }}"
+            theme: positive
+          - label: "{{ t('zero.site.content.websiteStats.users') }}"
+            value: "{{ kirby.users.count }}"
+            info: "{{ t('zero.site.content.websiteStats.users.info') }}"
+            theme: positive
+          - label: Snipcart
+            value: "{{ site.snipcartSwitch.titlecase }}"
+            info: "{{ t('zero.site.content.websiteStats.snipcart.info') }}"
+      navigationbuilder:
+        extends: sections/navigation-builder
+      

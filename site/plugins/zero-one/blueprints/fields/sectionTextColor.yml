@@ -1,0 +1,7 @@
+label: zero.fields.sectionTextColor
+type: select
+default: " uk-light"
+options:
+  " uk-light": "{{ t('zero.reusables.light') }}"
+  " uk-dark": "{{ t('zero.reusables.dark') }}"
+width: 1/3

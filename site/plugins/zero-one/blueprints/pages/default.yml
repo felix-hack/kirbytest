@@ -1,0 +1,89 @@
+title: zero.page.default
+
+tabs:
+  # content tab
+  content:
+    label: zero.page.default.content
+    icon: text
+    columns:
+      # main
+      - width: 2/3
+        sections:
+          # custom top section
+          customTop:
+            extends: sections/custom-default-template-top
+          # content
+          content:
+            type: fields
+            fields:
+              pageWidth:
+                label: zero.page.default.pageWidth
+                type: radio
+                default: large
+                columns: 3
+                options:
+                  large: "{{ t('zero.reusables.large') }}"
+                  small: "{{ t('zero.reusables.small') }}"
+                  xsmall: "{{ t('zero.reusables.xsmall') }}"
+              text:
+                extends: fields/blockEditor
+
+          # custom bottom section
+          customBottom:
+            extends: sections/custom-default-template-bottom
+
+      # files & pages
+      - width: 1/3
+        sections:
+          # pages
+          published:
+            extends: sections/page-published
+
+          draft:
+            extends: sections/page-draft
+
+          customSidebarFields:
+            extends: sections/custom-default-template-sidebar
+
+  # sidebar tab
+  sidebar:
+    label: zero.page.default.sidebar
+    icon: text
+    columns:
+      # main
+      - width: 2/3
+        sections:
+
+          # sidebar content
+          sidebarContent:
+            type: fields
+            fields:
+              # width
+              enableSidebar:
+                label: zero.page.default.enableSidebar
+                type: toggle
+                default: false
+                width: 1/2
+              # sidebar text
+              sidebarText:
+                extends: fields/blockEditor
+                when:
+                  enableSidebar: true
+
+      # files
+      - width: 1/3
+        sections:
+            # a list of files
+            files:
+              type: files
+              headline: zero.page.default.headline
+              info: "{{ file.dimensions }}"
+
+  # header tab
+  header: tabs/page-options
+
+  # seo tab
+  seo: tabs/seo
+
+  # advanced tab
+  advanced: tabs/page-advanced
